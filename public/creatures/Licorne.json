@@ -1,0 +1,157 @@
+{
+  "name": [
+    {
+      "value": "Licorne"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>La licorne ressemble à un cheval aux proportions parfaites et à la robe immaculée et elle est pourvue d’une corne torsadée unique.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>La licorne est un animal féérique majestueux qui peuple les forêts sauvages et vierges. Il est très rare de l’apercevoir tant elle est discrète et prompt à s’éclipser. La corne de la licorne conserve ses propriétés magiques même si elle est sectionnée ce qui pousse souvent les créatures sans scrupules comme les orques et même les humains à la chasser. Les légendes disent que la licorne accepte parfois de servir de monture à une jeune fille au cœur pur.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Corne et sabots</strong> +7 <strong>DM</strong> 2d6+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Corne et sabots",
+          "test": "+7",
+          "dm": "2d6+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Célérité :</em> si la licorne ne transporte aucune charge supérieure à 50 kg, elle peut parcourir jusqu’à 30 mètres par actions de mouvement.</p>\r\n\r\n<p><em>Corne magique (L) :</em> si la licorne touche une créature à 0 PV de sa corne, celle-ci récupère 2d6 PV. Si la créature est empoisonnée, elle a immédiatement droit à un test de CON difficulté 10 pour neutraliser les effets du poison.</p>\r\n\r\n<p><em>Déplacement magique</em> (rang 3 de la Voie de la magie de combat) : 60 mètres, toutefois cette capacité ne peut être utilisée que dans les limites de la forêt natale de la licorne.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1172",
+      "alt": "Licorne",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "unicorn-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/unicorn-modified.png.webp?itok=fN46TYHa"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "name": [
+    {
+      "value": "Nymphe"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Une nymphe est un esprit de la nature incarné, une femme d’une beauté à couper le souffle, si éblouissante qu’elle en est littéralement aveuglante pour le commun des mortels. La nymphe vit dans un bosquet sacré ou un lieu naturel enchanteur auquel elle attache une grande importance. Ce lieu comprend généralement une étendue d’eau où elle aime se baigner et se réfugier en cas de danger.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "42"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dague</strong> +14 <strong>DM</strong> 1d4<br />\r\n<strong>Arc court</strong> +14<strong> DM</strong> 1d6<br />\r\n<strong>Attaque magique</strong> +14</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dague",
+          "test": "+14",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc court",
+          "test": "+14",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique",
+          "test": "+14",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "4",
+      "label": "Druide"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "9"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des animaux</strong> rang 5<br />\r\n<strong>Voie du protecteur</strong> rang 2<br />\r\n<strong>Voie des végétaux</strong> rang 5</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Beauté aveuglante :</em> tous les humanoïdes qui regardent une nymphe à moins de 20 mètres doivent réussir un test de CON difficulté 15 ou être <em>Aveuglé </em>pendant 24 heures. La nymphe peut désactiver ce pouvoir à volonté.</p>\r\n\r\n<p><em>Regard étourdissant :</em> la nymphe peut étourdir une cible à moins de 20 mètres d’un simple regard (action d’attaque). La cible doit réussir un test de CON difficulté 15 ou être <em>Étourdie</em> pendant 2d4 tours.</p>\r\n\r\n<p><em>Créature aquatique :</em> une nymphe ne subit aucune pénalité lorsqu’elle agit en milieu aquatique, elle respire aussi bien sous l’eau qu’à l’air libre.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "17": {
+      "id": "17",
+      "name": "Voie des animaux",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "82",
+          "label": "Langage des animaux",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).\r\n"
+        },
+        "2": {
+          "target_id": "84",
+          "label": "Nuée d’insectes",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "En réussissant un test d’attaque magique (portée 20 m), le Druide libère sur sa cible une nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [5 + Mod. de SAG] tours. La victime subit 1 point de DM par tour et un malus de -2 à toutes ses actions. Les DM de zone détruisent la nuée.\r\n"
+        },
+        "3": {
+          "target_id": "86",
+          "label": "Le guetteur",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide reçoit un oiseau de proie comme compagnon animal. Il possède un lien télépathique avec lui et peut percevoir par ses sens avec un bonus de +5 aux tests basés sur la perception. Aigle : DEF 15, PV [il les partage avec ceux de son maître]. Attaque de contact = [attaque magique du druide], DM 1d4.\r\n"
+        },
+        "4": {
+          "target_id": "87",
+          "label": "Masque du prédateur",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.\r\n"
+        },
+        "5": {
+          "target_id": "88",
+          "label": "Forme animale",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "22": {
+      "id": "22",
+      "name": "Voie du protecteur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "101",
+          "label": "Baies magiques",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide doit se trouver devant un buisson ou un arbre vivant. Son incantation fait pousser [1d6 + Mod. de SAG] fruits qu’il peut cueillir. Chaque fruit offre l’équivalent d’un repas et rend [1d6 + niveau du druide] PV à celui qui le consomme. Les effets de ces fruits ne fonctionnent qu’une fois par jour et par personnage.\r\n"
+        },
+        "2": {
+          "target_id": "104",
+          "label": "Forêt vivante",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "23": {
+      "id": "23",
+      "name": "Voie des végétaux",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "108",
+          "label": "Peau d’écorce",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.\r\n"
+        },
+        "2": {
+          "target_id": "109",
+          "label": "Prison végétale",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide peut commander à la végétation de pousser et bloquer ses ennemis (mais pas ses alliés) dans une zone de 10 m de diamètre (portée 20 m) pendant [5 + Mod. de SAG] tours. Entravées, les cibles subissent un malus de -2 en attaque et en DEF, et ne peuvent pas se déplacer. Chaque tour, une créature peut se libérer avec un test de FOR difficulté [10 + Mod. de SAG].\r\n"
+        },
+        "3": {
+          "target_id": "110",
+          "label": "Animation d’un arbre",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours. Arbre animé : Init 7, DEF 13, PV [rang x 10], attaque de contact = [niveau du druide], DM 1d6+3, Déplacement 10 m par action de mouvement. Réduction de DM de 10 sauf contre les armes tranchantes et le feu.\r\n"
+        },
+        "4": {
+          "target_id": "111",
+          "label": "Gland de pouvoir",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Druide peut lancer un gland sur une cible (portée 10 m). En cas d’attaque magique réussie, la victime se transforme en statue de bois pendant [2d6 + Mod. de SAG] tours. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 mais elle gagne une réduction des DM de 10. Le sort s’achève dès que la cible perd plus de 10 PV.\r\n"
+        },
+        "5": {
+          "target_id": "112",
+          "label": "Porte végétale",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par jour, le Druide peut pénétrer dans le tronc d’un gros arbre et sortir de celui d’un autre arbre appartenant à la même forêt et situé à une distance maximum de [Mod. de SAG] x 10 km.\r\n"
+        }
+      },
+      "rank": 5
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "82",
+      "label": "Langage des animaux",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "84",
+      "label": "Nuée d’insectes",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "En réussissant un test d’attaque magique (portée 20 m), le Druide libère sur sa cible une nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [5 + Mod. de SAG] tours. La victime subit 1 point de DM par tour et un malus de -2 à toutes ses actions. Les DM de zone détruisent la nuée.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "86",
+      "label": "Le guetteur",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide reçoit un oiseau de proie comme compagnon animal. Il possède un lien télépathique avec lui et peut percevoir par ses sens avec un bonus de +5 aux tests basés sur la perception. Aigle : DEF 15, PV [il les partage avec ceux de son maître]. Attaque de contact = [attaque magique du druide], DM 1d4.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "87",
+      "label": "Masque du prédateur",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "88",
+      "label": "Forme animale",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "101",
+      "label": "Baies magiques",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide doit se trouver devant un buisson ou un arbre vivant. Son incantation fait pousser [1d6 + Mod. de SAG] fruits qu’il peut cueillir. Chaque fruit offre l’équivalent d’un repas et rend [1d6 + niveau du druide] PV à celui qui le consomme. Les effets de ces fruits ne fonctionnent qu’une fois par jour et par personnage.\r\n",
+      "paths": "Voie du protecteur"
+    },
+    {
+      "target_id": "104",
+      "label": "Forêt vivante",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n",
+      "paths": "Voie du protecteur"
+    },
+    {
+      "target_id": "108",
+      "label": "Peau d’écorce",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "109",
+      "label": "Prison végétale",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide peut commander à la végétation de pousser et bloquer ses ennemis (mais pas ses alliés) dans une zone de 10 m de diamètre (portée 20 m) pendant [5 + Mod. de SAG] tours. Entravées, les cibles subissent un malus de -2 en attaque et en DEF, et ne peuvent pas se déplacer. Chaque tour, une créature peut se libérer avec un test de FOR difficulté [10 + Mod. de SAG].\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "110",
+      "label": "Animation d’un arbre",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours. Arbre animé : Init 7, DEF 13, PV [rang x 10], attaque de contact = [niveau du druide], DM 1d6+3, Déplacement 10 m par action de mouvement. Réduction de DM de 10 sauf contre les armes tranchantes et le feu.\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "111",
+      "label": "Gland de pouvoir",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Druide peut lancer un gland sur une cible (portée 10 m). En cas d’attaque magique réussie, la victime se transforme en statue de bois pendant [2d6 + Mod. de SAG] tours. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 mais elle gagne une réduction des DM de 10. Le sort s’achève dès que la cible perd plus de 10 PV.\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "112",
+      "label": "Porte végétale",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par jour, le Druide peut pénétrer dans le tronc d’un gros arbre et sortir de celui d’un autre arbre appartenant à la même forêt et situé à une distance maximum de [Mod. de SAG] x 10 km.\r\n",
+      "paths": "Voie des végétaux"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1177",
+      "alt": "Nymphe",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "nymph-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/nymph-modified.png.webp?itok=4qO3Reh0"
+    }
+  ]
+}

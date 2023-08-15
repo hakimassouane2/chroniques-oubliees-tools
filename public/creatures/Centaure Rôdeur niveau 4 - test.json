@@ -1,0 +1,334 @@
+{
+  "name": [
+    {
+      "value": "Centaure Rôdeur niveau 4 - test"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "5",
+      "label": "Centaures"
+    }
+  ],
+  "environment": [
+    {
+      "value": "plain",
+      "label": "Plaine"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "+3"
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "80"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Sabots</strong> +8 <strong>DM</strong> 1d6+5<br />\r\n<strong>Epée longue</strong> +9 <strong>DM</strong> 1d8+3<br />\r\n<strong>Arc long</strong> +8 <strong>DM</strong> 1d8+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Sabots",
+          "test": "+8",
+          "dm": "1d6+5",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Epée longue",
+          "test": "+9",
+          "dm": "1d8+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc long",
+          "test": "+8",
+          "dm": "1d8+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "9",
+      "label": "Rôdeur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "4"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du cogneur</strong> rang 1<br />\r\n<strong>Voie de l’archer</strong> rang 3<br />\r\n<strong>Voie de l’escarmouche</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Attaque double (L) :</em> le centaure peut faire une attaque de sabot plus une attaque avec son épée dans le même tour.</p>\r\n\r\n<p><em>Hybride :</em> étant un mélange de deux créatures, le centaure possède des Caractéristiques particulières. Sa FOR de +6 fait référence à la puissance globale de la créature mais son buste humain lui octroie seulement un bonus de +3 en combat. Il est considéré comme une créature humanoïde pour tout ce qui concerne les attaques mentales mais pas pour les physiques. Il en va de même pour la CON en cas de progression dans un Profil de personnage.</p>\r\n\r\n<p><em>Traquenard (L) :</em> +2 attaque et +2d6 s'il a l'Initiative</p>\r\n\r\n<p><em>Attaque éclair (L) :</em> au contact, +2 attaque et DM</p>\r\n\r\n<p><em>Tir rapide (L) :</em> 2 attaques à distance</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><em>Nous avons considéré que le niveau de Rôdeur n’influait pas sur l’attaque de sabot dans le calcul du bonus de cette attaque.</em></p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "43": {
+      "id": "43",
+      "name": "Voie de l’archer",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "193",
+          "label": "Sens affûtés",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "194",
+          "label": "Tir aveugle",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur peut attaquer à distance un ennemi qu'il ne voit pas (par exemple invisible ou plongé dans le noir total), mais dont il connaît l'existence et la direction approximative, comme s'il le voyait, donc sans le malus causé par le fait qu'il ne la voit pas.\r\n"
+        },
+        "3": {
+          "target_id": "195",
+          "label": "Tir rapide",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur peut faire 2 attaques à distance pendant ce tour.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "46": {
+      "id": "46",
+      "name": "Voie de l’escarmouche",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "213",
+          "label": "Chasseur émérite",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Rôdeur obtient un bonus de +2 en attaque et aux DM lorsqu’il combat des animaux et un bonus de +2 par Rang dans cette Voie pour pister ou retrouver des traces.\r\n"
+        },
+        "2": {
+          "target_id": "214",
+          "label": "Traquenard",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur gagne un bonus de +2 en attaque et +2d6 aux DM sur sa première attaque contre une créature s’il possède un meilleur score d’Initiative.\r\n"
+        },
+        "3": {
+          "target_id": "215",
+          "label": "Attaque éclair",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur peut effectuer une attaque au contact très percutante. Il ajoute son Mod. de DEX en attaque et aux DM pour cette offensive.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "193",
+      "label": "Sens affûtés",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "194",
+      "label": "Tir aveugle",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur peut attaquer à distance un ennemi qu'il ne voit pas (par exemple invisible ou plongé dans le noir total), mais dont il connaît l'existence et la direction approximative, comme s'il le voyait, donc sans le malus causé par le fait qu'il ne la voit pas.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "195",
+      "label": "Tir rapide",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur peut faire 2 attaques à distance pendant ce tour.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "213",
+      "label": "Chasseur émérite",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Rôdeur obtient un bonus de +2 en attaque et aux DM lorsqu’il combat des animaux et un bonus de +2 par Rang dans cette Voie pour pister ou retrouver des traces.\r\n",
+      "paths": "Voie de l’escarmouche"
+    },
+    {
+      "target_id": "214",
+      "label": "Traquenard",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur gagne un bonus de +2 en attaque et +2d6 aux DM sur sa première attaque contre une créature s’il possède un meilleur score d’Initiative.\r\n",
+      "paths": "Voie de l’escarmouche"
+    },
+    {
+      "target_id": "215",
+      "label": "Attaque éclair",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur peut effectuer une attaque au contact très percutante. Il ajoute son Mod. de DEX en attaque et aux DM pour cette offensive.\r\n",
+      "paths": "Voie de l’escarmouche"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "400",
+      "alt": "",
+      "title": "",
+      "width": "1180",
+      "height": "1360",
+      "label": "centaure-rodeur-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-08/centaure-rodeur-modified.png.webp?itok=2E-Lvcs9"
+    }
+  ]
+}

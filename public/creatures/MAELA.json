@@ -1,0 +1,303 @@
+{
+  "name": [
+    {
+      "value": "MAELA"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "18",
+      "label": "Génies"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "9"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Bâton ferré 1d6-1</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bâton ferré 1d6-1",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "3"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Médaillon de bonne santé 1fois par jour 1d4+4pv</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "63": {
+      "id": "63",
+      "name": "Voie de la magie destructrice",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "296",
+          "label": "Projectile magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n"
+        },
+        "2": {
+          "target_id": "297",
+          "label": "Rayon affaiblissant",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n"
+        },
+        "3": {
+          "target_id": "298",
+          "label": "Flèche enflammée",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "65": {
+      "id": "65",
+      "name": "Voie de la magie protectrice",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "306",
+          "label": "Armure de mage",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "66": {
+      "id": "66",
+      "name": "Voie de la magie universelle",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "311",
+          "label": "Lumière",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien désigne un objet, lequel produit dès lors de la lumière dans un rayon de 20 mètres. Cette source de lumière n’émet pas de chaleur et s’éteint après 10 minutes ou lorsque le Magicien le décide. Ce sort permet d’annuler un sort de Ténèbres lancé par un nécromancien de niveau inférieur.\r\n"
+        },
+        "2": {
+          "target_id": "312",
+          "label": "Détection de la magie",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "306",
+      "label": "Armure de mage",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).\r\n",
+      "paths": "Voie de la magie protectrice"
+    },
+    {
+      "target_id": "296",
+      "label": "Projectile magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "297",
+      "label": "Rayon affaiblissant",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "298",
+      "label": "Flèche enflammée",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "311",
+      "label": "Lumière",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien désigne un objet, lequel produit dès lors de la lumière dans un rayon de 20 mètres. Cette source de lumière n’émet pas de chaleur et s’éteint après 10 minutes ou lorsque le Magicien le décide. Ce sort permet d’annuler un sort de Ténèbres lancé par un nécromancien de niveau inférieur.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "312",
+      "label": "Détection de la magie",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.\r\n",
+      "paths": "Voie de la magie universelle"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "416",
+      "alt": "",
+      "title": "",
+      "width": "740",
+      "height": "1060",
+      "label": "efrit-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-08/efrit-modified.png.webp?itok=zHtGb_WV"
+    }
+  ]
+}

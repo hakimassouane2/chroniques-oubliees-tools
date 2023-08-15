@@ -1,0 +1,175 @@
+{
+  "name": [
+    {
+      "value": "Godefroy I Tranche-Gobelin, Comte défunt de Goncquiers"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>C'est Godefroid I qui, comme son titre de \"Tranche-Gobelin\" le laisse supposer, a rasé, avec sa garde personnelle, la ville gobeline qui s'était installée, il y a quelques générations de cela, le long de la Menguarre, causant plusieurs raids tous les ans et rendant la traversée de la rivière plus compliquée. Après avoir tué toute la population à la peau pâle, il fit creuser d'imposantes fosses communes et ordonna la destruction de la ville pour empêcher qu'une nouvelle troupe de peaux-pâles ne s'y installe. De plus, il fit détruire la digue qui avait été construite là quelques générations plutôt afin d'inonder la zone et de s'assurer que plus personne ne s'y installe. Une crypte lui fut construite juste au nord de l'ancienne ville gobeline, alors renommée \"Pâleruine\", où il fut inhumé au côté de sa lame de prédilection.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "16",
+      "label": "Fantômes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Vol : le fantôme peut se déplacer en vol de 20 m par action de mouvement.\r\n\r\nAffaiblissement : à chaque fois qu’une créature subit les DM du contact corrupteur du fantôme, elle doit réussir un test de CON difficulté 12 ou être Affaiblie pendant 1d6 minutes.\r\n\r\nIntangible : un fantôme peut passer à travers les murs et les objets comme s’ils n’existaient pas. Il ne peut pas traverser les objets magiques ou les créatures."
+    }
+  ],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Contact corrupteur</strong>&nbsp;+6&nbsp;<strong>DM</strong>&nbsp;1d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Contact corrupteur",
+          "test": "+6",
+          "dm": "1d6+6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>La lame de Godefroid I Tranche-Gobelin est déposée juste au-dessus de sa tombe. Il s'agit d'une épée-bâtarde +2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": []
+}

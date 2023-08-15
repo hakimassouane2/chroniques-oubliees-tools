@@ -1,0 +1,263 @@
+{
+  "name": [
+    {
+      "value": "Nécromancien"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "45",
+      "label": "Zombis"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "40"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Main spectrale : +10 , 1D6+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Main spectrale :",
+          "test": "+10",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "10",
+      "label": "Nécromancien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "6"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "53": {
+      "id": "53",
+      "name": "Voie du démon",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "244",
+          "label": "Malédiction",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Effectuez un test d’attaque magique contre une cible à moins de 20 mètres. En cas de succès, la victime réalise tous ses tests avec deux d20 et garde le résultat le plus faible. Le sort prend fin dès qu’elle aura raté trois tests (il n’y a sinon aucune limite de temps). Si la cible possède une capacité lui permettant de lancer deux dés et de garder le meilleur, elle ne lance plus qu’un seul dé.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "54": {
+      "id": "54",
+      "name": "Voie de la mort",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "251",
+          "label": "Baiser du vampire",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "55": {
+      "id": "55",
+      "name": "Voie de l’outre-tombe",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "254",
+          "label": "Peur",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien effectue un test d’attaque magique contre une cible (portée 20 m). Celle-ci doit réussir un test de FOR ou de SAG (au choix) difficulté [10 + Mod. d’INT] ou fuir pendant [1d4 + rang] tours (le MJ peut garder cette durée secrète). Une créature ne peut subir les effets de ce sort qu’une fois par combat.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "57": {
+      "id": "57",
+      "name": "Voie du sang",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "259",
+          "label": "Saignements",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien doit réussir un test d’attaque magique (portée 10 m). Du sang s’écoule de la bouche, du nez, des oreilles et même des yeux de la victime, qui subit 1d6 DM par tour pendant [rang] tours.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "254",
+      "label": "Peur",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien effectue un test d’attaque magique contre une cible (portée 20 m). Celle-ci doit réussir un test de FOR ou de SAG (au choix) difficulté [10 + Mod. d’INT] ou fuir pendant [1d4 + rang] tours (le MJ peut garder cette durée secrète). Une créature ne peut subir les effets de ce sort qu’une fois par combat.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "259",
+      "label": "Saignements",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien doit réussir un test d’attaque magique (portée 10 m). Du sang s’écoule de la bouche, du nez, des oreilles et même des yeux de la victime, qui subit 1d6 DM par tour pendant [rang] tours.\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "244",
+      "label": "Malédiction",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Effectuez un test d’attaque magique contre une cible à moins de 20 mètres. En cas de succès, la victime réalise tous ses tests avec deux d20 et garde le résultat le plus faible. Le sort prend fin dès qu’elle aura raté trois tests (il n’y a sinon aucune limite de temps). Si la cible possède une capacité lui permettant de lancer deux dés et de garder le meilleur, elle ne lance plus qu’un seul dé.\r\n",
+      "paths": "Voie du démon"
+    },
+    {
+      "target_id": "251",
+      "label": "Baiser du vampire",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).\r\n",
+      "paths": "Voie de la mort"
+    }
+  ],
+  "picture": []
+}

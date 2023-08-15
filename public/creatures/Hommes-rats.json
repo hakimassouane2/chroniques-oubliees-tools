@@ -1,0 +1,163 @@
+{
+  "name": [
+    {
+      "value": "Hommes-rats"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "10"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "2"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Griffes </strong>0 (+2) <strong>DM</strong> 1d4-1</p>\r\n\r\n<p>La moitié des Hommes-rats attaquent le PJ qui leur paraît le plus puissant. Les autres attaquent chacun un PJ.</p>\r\n\r\n<p>Les Hommes-rats qui tombent à 1PV entre en frénésie : +2 en attaque.</p>\r\n\r\n<p>Ils combattent jusqu'à la mort.</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffes 0 (+2)",
+          "test": null,
+          "dm": "1d4-1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "La moitié des Hommes-rats attaquent le PJ qui leur paraît le plus puissant. Les autres attaquent chacun un PJ.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Les Hommes-rats qui tombent à 1PV entre en frénésie :",
+          "test": "+2",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Ils combattent jusqu'à la mort.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

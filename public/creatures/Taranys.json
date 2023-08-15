@@ -1,0 +1,373 @@
+{
+  "name": [
+    {
+      "value": "Taranys"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Taranys est plutot grand pour un etre de sa race, il est reconaissable de part sa chevelure blanche et de ses yeux jaune. Bien qu'il soit de nature svelte et musclé ce ne sont que les apparences car en réalité ce n'est que de l'esthétique !</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Taranys est un jeune druide elfique venant des bois de myriviel il n’aime pas grand-chose si ce n’est l’argent qu’il depense pour acheter des babioles, taranys n’est pas un grnad feroce et apprecie les choses simple de la vie cependant si on a le malhuer de toucher à un animal sous son regard il peut se porter plutot violent. Son reve est de découvir toutes les especes d’aniamaux possible et de les adopter une a une afin de communier avec elle.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "15",
+      "label": "Elfes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [
+    {
+      "value": "Magie"
+    }
+  ],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "47"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dague </strong>+6&nbsp;<strong>DM </strong>1d4</p>\r\n\r\n<p><strong>Arc cour&nbsp;</strong>+10&nbsp;<strong>DM </strong>1d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dague",
+          "test": "+6",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc cour",
+          "test": "+10",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "4",
+      "label": "Druide"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "7"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des animaux</strong> rang 5</p>\r\n\r\n<p><strong>Voie de la nature</strong>&nbsp;rang 2</p>\r\n\r\n<p><strong>Voie du protecteur</strong> rang 3</p>\r\n\r\n<p><strong>Voie du changeur de forme </strong>rang 1</p>\r\n\r\n<ul>\r\n\t<li><strong>Transformation rapide :</strong> Le druide n’a besoin que d’une action de mouvement pour changer de forme.</li>\r\n</ul>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Lumière des étoiles</strong> : l'obscurité de la nuit sous la lumière des étoiles n'est que de la pénombre, où seuls les petits détails lui échappent.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "17": {
+      "id": "17",
+      "name": "Voie des animaux",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "82",
+          "label": "Langage des animaux",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).\r\n"
+        },
+        "2": {
+          "target_id": "84",
+          "label": "Nuée d’insectes",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "En réussissant un test d’attaque magique (portée 20 m), le Druide libère sur sa cible une nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [5 + Mod. de SAG] tours. La victime subit 1 point de DM par tour et un malus de -2 à toutes ses actions. Les DM de zone détruisent la nuée.\r\n"
+        },
+        "3": {
+          "target_id": "86",
+          "label": "Le guetteur",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide reçoit un oiseau de proie comme compagnon animal. Il possède un lien télépathique avec lui et peut percevoir par ses sens avec un bonus de +5 aux tests basés sur la perception. Aigle : DEF 15, PV [il les partage avec ceux de son maître]. Attaque de contact = [attaque magique du druide], DM 1d4.\r\n"
+        },
+        "4": {
+          "target_id": "87",
+          "label": "Masque du prédateur",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.\r\n"
+        },
+        "5": {
+          "target_id": "88",
+          "label": "Forme animale",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "20": {
+      "id": "20",
+      "name": "Voie de la nature",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "97",
+          "label": "Maître de la survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide obtient un bonus de +2 par rang dans la voie à tous les tests basés sur la survie en milieu naturel (survie, vigilance, discrétion, etc.).\r\n"
+        },
+        "2": {
+          "target_id": "98",
+          "label": "Marche sylvestre",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Non seulement le Druide ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, il obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "22": {
+      "id": "22",
+      "name": "Voie du protecteur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "101",
+          "label": "Baies magiques",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide doit se trouver devant un buisson ou un arbre vivant. Son incantation fait pousser [1d6 + Mod. de SAG] fruits qu’il peut cueillir. Chaque fruit offre l’équivalent d’un repas et rend [1d6 + niveau du druide] PV à celui qui le consomme. Les effets de ces fruits ne fonctionnent qu’une fois par jour et par personnage.\r\n"
+        },
+        "2": {
+          "target_id": "104",
+          "label": "Forêt vivante",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n"
+        },
+        "3": {
+          "target_id": "105",
+          "label": "Régénération",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La cible touchée par le Druide guérit 3 PV par tour pendant [niveau du Druide + Mod. de SAG] tours. Ce sort ne peut pas affecter une créature plus d’une fois par jour.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "82",
+      "label": "Langage des animaux",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "84",
+      "label": "Nuée d’insectes",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "En réussissant un test d’attaque magique (portée 20 m), le Druide libère sur sa cible une nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [5 + Mod. de SAG] tours. La victime subit 1 point de DM par tour et un malus de -2 à toutes ses actions. Les DM de zone détruisent la nuée.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "86",
+      "label": "Le guetteur",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide reçoit un oiseau de proie comme compagnon animal. Il possède un lien télépathique avec lui et peut percevoir par ses sens avec un bonus de +5 aux tests basés sur la perception. Aigle : DEF 15, PV [il les partage avec ceux de son maître]. Attaque de contact = [attaque magique du druide], DM 1d4.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "87",
+      "label": "Masque du prédateur",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "88",
+      "label": "Forme animale",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "97",
+      "label": "Maître de la survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide obtient un bonus de +2 par rang dans la voie à tous les tests basés sur la survie en milieu naturel (survie, vigilance, discrétion, etc.).\r\n",
+      "paths": "Voie de la nature"
+    },
+    {
+      "target_id": "98",
+      "label": "Marche sylvestre",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Non seulement le Druide ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, il obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.\r\n",
+      "paths": "Voie de la nature"
+    },
+    {
+      "target_id": "101",
+      "label": "Baies magiques",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide doit se trouver devant un buisson ou un arbre vivant. Son incantation fait pousser [1d6 + Mod. de SAG] fruits qu’il peut cueillir. Chaque fruit offre l’équivalent d’un repas et rend [1d6 + niveau du druide] PV à celui qui le consomme. Les effets de ces fruits ne fonctionnent qu’une fois par jour et par personnage.\r\n",
+      "paths": "Voie du protecteur"
+    },
+    {
+      "target_id": "104",
+      "label": "Forêt vivante",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n",
+      "paths": "Voie du protecteur"
+    },
+    {
+      "target_id": "105",
+      "label": "Régénération",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La cible touchée par le Druide guérit 3 PV par tour pendant [niveau du Druide + Mod. de SAG] tours. Ce sort ne peut pas affecter une créature plus d’une fois par jour.\r\n",
+      "paths": "Voie du protecteur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1159",
+      "alt": "",
+      "title": "",
+      "width": "208",
+      "height": "243",
+      "label": "Taranys.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/Taranys.png.webp?itok=0IPQjAMo"
+    }
+  ]
+}

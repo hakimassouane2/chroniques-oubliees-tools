@@ -1,0 +1,175 @@
+{
+  "name": [
+    {
+      "value": "Julius Mortemire"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "12"
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [
+    {
+      "value": "16"
+    }
+  ],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [
+    {
+      "value": "12"
+    }
+  ],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [
+    {
+      "value": "11"
+    }
+  ],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [
+    {
+      "value": "15"
+    }
+  ],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "29"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Rapière</strong> +5 <strong>DM</strong> 1d6+1</p>\r\n\r\n<p><strong>Dague (5m)</strong> +5 <strong>DM </strong>1d4+1</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Rapière",
+          "test": "+5",
+          "dm": "1d6+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague (5m)",
+          "test": "+5",
+          "dm": "1d4+1",
+          "special": null,
+          "reach": "5"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Attaque mortelle (L) :</strong></p>\r\n\r\n<p>Une attaque doit être effectuée de dos ou par surprise. Julius obtient un bonus de +5 en ATT et ajoute +éd6 aux DM. Julius obtient aussi un bonus de +5 aux tests de discrétion.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Equipement :</strong></p>\r\n\r\n<p>Armure de cuir clouté</p>\r\n\r\n<p>Rondache</p>\r\n\r\n<p>Epée large</p>\r\n\r\n<p>Dague</p>\r\n\r\n<p>Corde et grappin</p>\r\n\r\n<p>Bourse avec 10 PA et 34 PC</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1789",
+      "alt": "",
+      "title": "",
+      "width": "634",
+      "height": "698",
+      "label": "Capture d'écran 2023-05-06 125628.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Capture%20d%27%C3%A9cran%202023-05-06%20125628.png.webp?itok=u2l-Df7w"
+    }
+  ]
+}

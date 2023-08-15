@@ -1,0 +1,290 @@
+{
+  "name": [
+    {
+      "value": "Horosk le fils de troll"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Horosk est née d’un viol d’un trol sur une Nordheimer. Il devient l’un des bras droit du chef d’une tribu Nordheimer en dominant ses adversaires. Quant la guilde est venu faire la proposition d'attaquer Harstad, il fut ravit de cette nouvel et parti avec plus de&nbsp;bateau que prévu.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "berserk",
+      "label": "Berserk"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "Ses muscles sont saillant et sont corps est immense et difforme "
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [
+    {
+      "value": "de part ça difformité, il n'est pas bien habile "
+    }
+  ],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [
+    {
+      "value": "Son imonde peau et dur mais élastique et sont corps et enduré aux dur tempérament de Nordheim"
+    }
+  ],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [
+    {
+      "value": "Il est stupide mais garde une intelligence humaine"
+    }
+  ],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [
+    {
+      "value": "De part ça sauvagerie il reste sur ses gardes"
+    }
+  ],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [
+    {
+      "value": "Cette créature au trait immonde et difforme n'est pas agréable à regardé mais ses difformités physiques et ça grandeur surhumaine le rend de plus déplaisant"
+    }
+  ],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "85"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Massue </strong>+11&nbsp;<strong>DM </strong> 3d8+6</p>\r\n\r\n<p><strong>Lancé de rocher</strong> +11 (10 m) <strong>DM </strong>+3d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Massue",
+          "test": "+11",
+          "dm": null,
+          "special": "3d8+6",
+          "reach": null
+        },
+        {
+          "name": "Lancé de rocher",
+          "test": "+11",
+          "dm": "+3",
+          "special": "d6+6",
+          "reach": "10"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        },
+        "2": {
+          "target_id": "415",
+          "label": "Balayage",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "93": {
+      "id": "93",
+      "name": "Voie du champion",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "420",
+          "label": "Imparable",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "420",
+      "label": "Imparable",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "415",
+      "label": "Balayage",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1366",
+      "alt": "",
+      "title": "",
+      "width": "340",
+      "height": "653",
+      "label": "image_2023-03-19_182450579.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/image_2023-03-19_182450579.png.webp?itok=YzSu4UBl"
+    }
+  ]
+}

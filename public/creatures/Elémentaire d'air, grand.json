@@ -1,0 +1,231 @@
+{
+  "name": [
+    {
+      "value": "Elémentaire d'air, grand"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "12",
+      "label": "Elémentaires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "2 + 5/magie"
+    }
+  ],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Coup</strong> +10 <strong>DM</strong> 2d6+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Coup",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures magiques</strong> rang 1 (RD 5 / magie)<br />\r\n<strong>Voie du colosse</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Immunité :</em> les élémentaires d’air sont immunisés aux DM d’électricité.</p>\r\n\r\n<p><em>Mode d’attaque :</em> l’élémentaire d’air projette des objets sur l’adversaire (cailloux, meubles, armes), les plus gros projettent l’adversaire lui-même. L’asphyxie est un autre mode d’attaque de ce type d’élémentaire.</p>\r\n\r\n<p><em>Avantages</em> (pris en compte dans le profil) : l’élémentaire d’air obtient un bonus de +3 en Initiative et à tous les tests de DEX. Il peut se déplacer en vol de 30 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "991",
+      "alt": "",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "elemental_air_big-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_air_big-modified.png.webp?itok=hy5GXzJ9"
+    }
+  ]
+}

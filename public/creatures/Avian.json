@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "value": "Avian"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "2",
+      "label": "Aigles"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "25"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Insensible au Froid\r\n-2 Test distance"
+    }
+  ],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Griffe et Bec : +3, 1D6 DM</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffe et Bec :",
+          "test": "+3",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "869",
+      "alt": "",
+      "title": "",
+      "width": "401",
+      "height": "528",
+      "label": "pngaaa.com-6135022.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/pngaaa.com-6135022.png.webp?itok=c3BjkpBs"
+    }
+  ]
+}

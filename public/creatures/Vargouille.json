@@ -1,0 +1,144 @@
+{
+  "name": [
+    {
+      "value": "Vargouille"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "13"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

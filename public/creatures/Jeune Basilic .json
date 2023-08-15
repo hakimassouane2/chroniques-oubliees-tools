@@ -1,0 +1,156 @@
+{
+  "name": [
+    {
+      "value": "Jeune Basilic "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Le basilic est un reptile à 8 pattes d’environ 150 kg particulièrement hideux.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Toutefois, peu de personnes peuvent se vanter de connaître son apparence exacte car son regard pétrifiant rend son observation directe particulièrement mortelle. Un basilic voit dans le noir.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +4&nbsp;<strong>DM</strong> 1d6+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Regard pétrifiant :</em> celui qui regarde le Basilic et croise son regard est aveuglé. Un personnage qui n’est pas conscient du danger doit réussir un test de CON difficulté 16 à chaque tour de combat ou être immédiatement transformé en pierre.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Combattre un basilic :</strong><br />\r\nUn personnage qui combat le basilic sans tactique particulière, si ce n’est éviter de croiser son regard doit réussir un test de CON difficulté 12 à chaque tour ou être pétrifié. Toutefois, deux types de précautions peuvent être prises pour combattre le monstre :</p>\r\n\r\n<p><em>Détourner le regard :</em> le personnage fixe ses pieds et évite à tout prix le regard pétrifiant, il obtient une pénalité de -2 en attaque, en DEF et aux DM. Il peut tout de même rater son coup et rencontrer le regard du Basilic mais la difficulté du test de CON à réussir à chaque tour est seulement de 6.</p>\r\n\r\n<p><em>Fermer les yeux :</em> le personnage subit une pénalité de -5 en attaque, en défense et aux DM. Sur 1 au d20 en attaque (échec critique), il aperçoit la créature à travers ses paupières et doit réussir un test de CON difficulté 12 ou se retrouver pétrifié !</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

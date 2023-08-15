@@ -1,0 +1,269 @@
+{
+  "name": [
+    {
+      "value": "Gorille géant"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le gorille géant est un animal mythique qui vit au plus profond de jungles inexplorées ou au cœur d’îles vierges et isolées tel le célèbre King-kong. Il mesure environ 5 mètres de haut et fait preuve d’une force démesurée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "22",
+      "label": "Gorilles"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "24"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "4"
+    }
+  ],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Poings et morsure</strong> +17 <strong>DM</strong> 3d6+13</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Poings et morsure",
+          "test": "+17",
+          "dm": "3d6+13",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du cogneur</strong> rang 2<br />\r\n<strong>Voie du colosse</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Passage par les arbres :</em> le gorille géant se déplace aussi vite dans les arbres qu’au sol s’il est dans une forêt ou poussent des arbres dignes de lui.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        },
+        "2": {
+          "target_id": "415",
+          "label": "Balayage",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        },
+        "2": {
+          "target_id": "418",
+          "label": "Enrager",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "418",
+      "label": "Enrager",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "415",
+      "label": "Balayage",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1027",
+      "alt": "Gorille géant",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "gorilla_giant-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gorilla_giant-modified.png.webp?itok=XPbasJta"
+    }
+  ]
+}

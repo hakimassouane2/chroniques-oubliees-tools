@@ -1,0 +1,165 @@
+{
+  "name": [
+    {
+      "value": "Vip Aire"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "42",
+      "label": "Serpents"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "120"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "3"
+    }
+  ],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

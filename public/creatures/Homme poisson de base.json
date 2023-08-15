@@ -1,0 +1,134 @@
+{
+  "name": [
+    {
+      "value": "Homme poisson de base"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "aquatic",
+      "label": "Aquatique"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0.5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "14"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Griffes&nbsp;</strong>+3 <strong>DM</strong>&nbsp;1d6+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffes",
+          "test": "+3",
+          "dm": "1d6+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

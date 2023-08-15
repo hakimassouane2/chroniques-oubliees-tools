@@ -1,0 +1,164 @@
+{
+  "name": [
+    {
+      "value": "Thorondor, roi des Aigles des montagnes"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>hauteur 3m / envergure 6m</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>roi des aigles géants des montagnes</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "2",
+      "label": "Aigles"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "15"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "10"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "7"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "7"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "20"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "20"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Serres</strong>&nbsp;1d10 + 6 L' aigle fonce sur sa proie et la griffe avec ces serres acérés.</p>\r\n\r\n<p><strong>Chute mortelle&nbsp;</strong>1d20 + 10 L' aigle attrape sa proie, s'envole à 30m de haut et la lâche.</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Serres 1d10 + 6 L' aigle fonce sur sa proie et la griffe avec ces serres acérés.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Chute mortelle 1d20 + 10 L' aigle attrape sa proie, s'envole à 30m de haut et la lâche.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2603",
+      "alt": "",
+      "title": "",
+      "width": "472",
+      "height": "391",
+      "label": "rvgzth.PNG",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/rvgzth.PNG.webp?itok=-oNxL-Ax"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "name": [
+    {
+      "value": "Annita de Caurel"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Belle jeune femme aux cheveux blonds ondulés.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ayant commencé sa carrière comme mage à Illistar, elle s’est rapidement convertie au culte d’Abalath, dieu&nbsp;des Secrets et des Complots suite à&nbsp;sa rencontre avec Amarange. L’envie&nbsp;et la convoitise sont les deux traits&nbsp;principaux d’Annita. Depuis, elle&nbsp;est devenue bien plus puissante et&nbsp;s’estime responsable des affaires&nbsp;du culte dans la région de Monastir,&nbsp;considérant Sifmo comme un&nbsp;homme d’action et non comme un&nbsp;vrai chef. Annita est la petite protégée&nbsp;d’Amarange et gare à ceux qui&nbsp;lui font du mal ou qui lui causent du&nbsp;tort, car il est certain qu’Amarange<br />\r\nfera tout ce qui est en son pouvoir&nbsp;pour la venger.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "19"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "24"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dague</strong> +3 <strong>DM</strong> 1d4+1<br />\r\n<strong>Foudre (L)</strong> +5 <strong>DM</strong> 4d6 <em>(DEX&nbsp;difficulté 12 pour ½ DM)</em></p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dague",
+          "test": "+3",
+          "dm": "1d4+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Foudre (L)",
+          "test": "+5",
+          "dm": "4d6",
+          "special": "(DEX difficulté 12 pour ½ DM)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Moral :</strong></p>\r\n\r\n<p>Si la situation tourne mal, Annita&nbsp;utilise forme éthérée pour s’enfuir…</p>\r\n\r\n<p><strong>Équipement :</strong></p>\r\n\r\n<p>Anneau de&nbsp;protection +2</p>\r\n\r\n<p>Tube en os&nbsp;contenant un parchemin de&nbsp;nécromancien où sont inscrits les&nbsp;quatre premiers rangs de la Voie de&nbsp;la sombre magie (Nécromancien)</p>\r\n\r\n<p>Bourse (3 rubis de 500 pa chaque,&nbsp;3 po et 12 pa)</p>\r\n\r\n<p>Symbole béni&nbsp;d’Abalath</p>\r\n\r\n<p>Livre de sorts</p>\r\n\r\n<p>Besace&nbsp;contenant des composants et une&nbsp;bouteille d’encre pour écrire les&nbsp;parchemins (200 pa).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "36": {
+      "id": "36",
+      "name": "Voie de l'air",
+      "type": "character",
+      "capabilities": {
+        "5": {
+          "target_id": "173",
+          "label": "Forme éthérée",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "173",
+      "label": "Forme éthérée",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.\r\n",
+      "paths": "Voie de l'air"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1790",
+      "alt": "",
+      "title": "",
+      "width": "830",
+      "height": "1295",
+      "label": "Capture d'écran 2023-05-06 131405.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Capture%20d%27%C3%A9cran%202023-05-06%20131405.png.webp?itok=YkPJ6Iw3"
+    }
+  ]
+}

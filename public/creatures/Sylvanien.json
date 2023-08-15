@@ -1,0 +1,156 @@
+{
+  "name": [
+    {
+      "value": "Sylvanien"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un sylvanien ou treant est un arbre vivant, une créature très ancienne qui ne vit que dans les plus vieilles forêts et les plus reculées. Souvent contemplatif, il ne s’anime que lentement et avec pondération et le plus souvent pour défendre sa forêt mais lorsqu’il a pris une décision malheur à ses ennemis. Il possède une bouche et deux yeux qui s’ouvrent à la surface de l’écorce et il sait parler la langue de la forêt, le sylvanien, et parfois quelques mots du langage des hommes.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "vegetative",
+      "label": "Végétative"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "13"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "13"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "10 / feu ou hache"
+    }
+  ],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Branches</strong> +17 <strong>DM</strong> 3d6+13</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Branches",
+          "test": "+17",
+          "dm": "3d6+13",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Résistance aux DM :</em> le Sylvanien retranche 10 points à tous les DM sauf s’il s’agit de feu ou de haches.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1183",
+      "alt": "Sylvanien",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "treant-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/treant-modified.png.webp?itok=RMKTM2yU"
+    }
+  ]
+}

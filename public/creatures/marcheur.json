@@ -1,0 +1,157 @@
+{
+  "name": [
+    {
+      "value": "marcheur"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Faisant jusqu'à 4m de long et 2 de haut, le marcheur est une immense créature qui se déplace lentement, couvert souvent d'algues et de vases s'étant déposé sur lui durant son sommeil sous l'eau, ses grands yeux ronds peuvent sembler terrifiants mais en réalité sa vue est assez limité, sa seul force est sa grande mâchoire, pourvus de dents plates, sa puissance est telle qu'il peut broyer un rocher de petite taille ou bien l'armure d'un paladin trop aventureux...</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le Marcheur est une créature des marais qui vit autant dans que hors de l'eau, il se nourris principalement des végétaux et insectes du marais mais, bien que cohabitant parfaitement avec toutes les autres créatures du marais, il deviens très agressif face à toute créature inconnue dans son territoire, obtenir sa confiance est très long et du fait de sa lenteur, la plupart des rangers qui le croisent l'évitent ou s'en font un casse croute, profitant de sa chaire tendre et de sa grande taille offrant des vivres pour plusieurs jours une fois sa viande fumée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "16",
+      "label": "Fantômes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "8"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "12"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "7"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Morsure: DM 2d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure:",
+          "test": null,
+          "dm": "2d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Ce qui semble le plus étonnant avec cette créature est son absence de signes vitaux, elle n'a pas de coeur, seul son esprit enfermé dans son crâne représente une activité vitale bien qu'il semble se nourrir comme tout être vivant, il n'est autre qu'une forme d'esprit des marais, en protégeant l'équilibre, il est souvent confondu avec un relief de terrain lorsqu'il ne bouge pas.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2075",
+      "alt": "",
+      "title": "",
+      "width": "474",
+      "height": "305",
+      "label": "th.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-06/th.jpg.webp?itok=Gas-henk"
+    }
+  ]
+}

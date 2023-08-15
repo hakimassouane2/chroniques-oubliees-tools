@@ -1,0 +1,184 @@
+{
+  "name": [
+    {
+      "value": "Poisson mutant "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "aquatic",
+      "label": "Aquatique"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0.5"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "very_small",
+      "label": "Très petite"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "4"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Croc</strong>&nbsp;+3 <strong>DM</strong>&nbsp;1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Croc",
+          "test": "+3",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1555",
+      "alt": "",
+      "title": "",
+      "width": "442",
+      "height": "579",
+      "label": "image_2023-04-08_134828924.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/image_2023-04-08_134828924.png.webp?itok=vEBpwTsg"
+    }
+  ]
+}

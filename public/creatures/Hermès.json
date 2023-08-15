@@ -1,0 +1,143 @@
+{
+  "name": [
+    {
+      "value": "Hermès"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Hermès est un Aasimar unique en son genre. Issu d'une famille d'anges déchus, il a grandi dans un environnement où les principes divins n'avaient pas beaucoup d'importance. Au lieu de cela, il a été élevé dans une atmosphère de richesse, de pouvoir et d'égoïsme. Hermès à toujours été différent de ses frères et sœurs aasimars. Alors qu'ils cherchaient à se rapprocher de leur héritage divin, Hermès était beaucoup plus intéressé par l'accumulation de richesses et de pouvoir. Son intelligence, sa ruse et son ascendance divine lui ont permis de développer de puissantes capacités psychiques. Il s'est servi de ses pouvoirs pour acquière une immense fortune et est devenu un homme plutôt influents dans le royaume. Hermès est un personnage imposant, avec un ego aussi grand que sa fortune. Il est convaincu de sa supériorité sur les autres et n'hésite pas à les rappeler. En somme, Hermès est indéniablement un personnage fascinant, qu'on aime ou qu'on déteste.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "10"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "57"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "11"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1733",
+      "alt": "",
+      "title": "",
+      "width": "563",
+      "height": "865",
+      "label": "Hermes.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Hermes.jpg.webp?itok=wUb6kfFc"
+    }
+  ]
+}

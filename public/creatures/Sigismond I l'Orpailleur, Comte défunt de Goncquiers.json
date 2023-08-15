@@ -1,0 +1,159 @@
+{
+  "name": [
+    {
+      "value": "Sigismond I l'Orpailleur, Comte défunt de Goncquiers"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "16",
+      "label": "Fantômes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "24"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Contact intangible</strong>&nbsp;+6&nbsp;<strong>DM</strong>&nbsp;1d6 + Affaiblissement</p>\r\n\r\n<p><strong>Pioche de l'Orpailleur</strong> +6&nbsp;<strong>DM</strong>&nbsp;1d8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Contact intangible",
+          "test": "+6",
+          "dm": "1d6",
+          "special": "+ Affaiblissement",
+          "reach": null
+        },
+        {
+          "name": "Pioche de l'Orpailleur",
+          "test": "+6",
+          "dm": "1d8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Affaiblissement :</em>&nbsp;à chaque fois qu’une ombre inflige des DM, la victime doit réussir un test de CON difficulté 15 ou être&nbsp;<em>Affaiblie</em>&nbsp;pour 1d6 minutes.</p>\r\n\r\n<p><em>Création de rejeton :</em>&nbsp;une créature tuée par une ombre devient elle-même une ombre 1d4 tours après son décès.</p>\r\n\r\n<p><em>Fuligineux :</em>&nbsp;les ombres peuvent déformer leur corps à volonté pour passer dans le moindre interstice comme sous une porte ou par le trou d’une serrure.</p>\r\n\r\n<p><em>Magie :</em>&nbsp;une ombre retranche 10 points (RD10) aux DM qui lui sont infligés par des armes ordinaires. Contre un groupe de personnage équipé d’armes magiques, les ombres ont seulement un NC de 2.</p>\r\n\r\n<p><em>Pioche de l'Orpailleur :</em>&nbsp;si la pioche est employée afin d'extraire de l'or du sol, ajoutez 1d3+1 minerais à la veine d'or extraite.</p>\r\n\r\n<p><em>À l'origine de l'Ombre :</em>&nbsp;À chaque fois qu'elle meurt, et ce tant que sa pioche n'est pas ôtée de sa sépulture, L'ombre de Sigismond I l'Orpailleur se régénère et s'en prend de nouveau.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

@@ -1,0 +1,387 @@
+{
+  "name": [
+    {
+      "value": "Bourrin"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "89"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>149-Volendrung</strong> +13&nbsp;<strong>DM</strong> 2d8</p>\r\n\r\n<p><strong>Javelot&nbsp;</strong>+8&nbsp;<strong>DM</strong>&nbsp;1d6</p>\r\n\r\n<p><strong>Dague</strong> +13&nbsp;<strong>DM</strong>&nbsp;1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "149-Volendrung",
+          "test": "+13",
+          "dm": "2d8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Javelot",
+          "test": "+8",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+13",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la rage </strong>rang 3</p>\r\n\r\n<p><strong>Voie de la brute</strong> rang 3</p>\r\n\r\n<p><strong>Voie du pagne</strong> rang 5</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Enorme</strong>&nbsp;: Le demi-ogre peut utiliser une épée bâtarde ou une épée à 2 mains à une seule main, il inflige alors 1d12 DM. Il peut utiliser des armes à 2 mains à sa mesure qui infligent 2d8 DM.</p>\r\n\r\n<p><strong>Vision dans le noir</strong>&nbsp;: Dans le noir total, le personnage voit comme dans la pénombre jusqu'à 30 m.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "4": {
+      "id": "4",
+      "name": "Voie du champ de bataille",
+      "type": "character",
+      "capabilities": {
+        "5": {
+          "target_id": "20",
+          "label": "Constitution héroïque",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le personnage augmente son score de CON de +2 et il peut désormais lancer deux d20 à chaque fois qu’un test de CON lui est demandé et conserver le meilleur résultat.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "9": {
+      "id": "9",
+      "name": "Voie de la brute",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "44",
+          "label": "Argument de taille",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare ajoute son Mod. de FOR à son score de PV maximum ainsi qu’à ses tests de CHA et à ceux de ses alliés au contact pour les tests de négociation, de persuasion ou d’intimidation. Allez savoir pourquoi, sa simple présence donne de la force aux arguments de ses alliés…\r\n"
+        },
+        "2": {
+          "target_id": "45",
+          "label": "Tour de force",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare peut temporairement décupler ses ressources physiques pour faire usage d’une force prodigieuse. Il peut ainsi soulever une charge incroyable, briser une épée, tordre des barreaux ou défoncer une porte d’un seul coup de poing. Il obtient un bonus de +10 à son test de FOR, mais cela lui coûte 1d4 PV.\r\n"
+        },
+        "3": {
+          "target_id": "47",
+          "label": "Attaque brutale",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Barbare réalise une attaque au contact avec une pénalité de -2 en attaque et +1d6 au DM. Au Rang 5 de la voie, il peut choisir une pénalité de -5 pour obtenir +2d6 aux DM.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "11": {
+      "id": "11",
+      "name": "Voie du pagne",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "51",
+          "label": "Vigueur",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare est un athlète capable de prouesses physiques extraordinaires, il obtient un bonus de +2 par Rang dans la voie aux tests de course, de saut ou d’escalade.\r\n"
+        },
+        "2": {
+          "target_id": "52",
+          "label": "Peau de pierre",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare est particulièrement endurci, il reçoit un bonus de DEF égal à son Mod. de CON.\r\n"
+        },
+        "3": {
+          "target_id": "53",
+          "label": "Tatouages",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare possède un tatouage magique qui améliore ses performances physiques. Au choix : taureau (+5 aux tests de FOR), ours (+5 aux tests de CON), panthère (+5 aux tests de DEX) ou chouette (+5 aux tests de SAG).\r\n"
+        },
+        "4": {
+          "target_id": "54",
+          "label": "Peau d’acier",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare ne sent plus la douleur et ignore les égratignures, il réduit tous les DM subits de 3 points. Il subit toujours au moins 1 point de DM de chaque attaque reçue.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "15": {
+      "id": "15",
+      "name": "Voie de la rage",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "70",
+          "label": "Cri de guerre",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Barbare pousse un hurlement qui effraie ses adversaires. Tout ennemi dont la FOR et les PV maximum sont inférieurs à ceux du Barbare subit un malus de -2 à ses tests d’attaque au contact contre le personnage pour le reste du combat. Cette capacité ne nécessite plus qu’une action de mouvement à partir du rang 4.\r\n"
+        },
+        "2": {
+          "target_id": "71",
+          "label": "Défier la mort",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque le Barbare subit des DM d’une attaque qui devrait l’amener à 0 PV, il peut réaliser un test de CON difficulté 10. En cas de réussite, il conserve 1 PV. La difficulté augmente de 10 à chaque blessure supplémentaire reçue par la suite. S’il est enragé il obtient un bonus de +10 à ces tests.\r\n"
+        },
+        "3": {
+          "target_id": "72",
+          "label": "Rage du berserk",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Barbare entre dans une rage berserk pour le reste du combat, ce qui le rend particulièrement dangereux. Il obtient un bonus de +2 en attaque et +1d6 aux DM sur toutes ses attaques au contact, mais perd 4 en DEF et ne peut fuir ou attaquer à distance. S’il veut stopper la rage avant d’avoir éliminé tous les ennemis sur le terrain, le Barbare doit réussir un test de SAG difficulté 13 (un seul essai par tour).\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "70",
+      "label": "Cri de guerre",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Barbare pousse un hurlement qui effraie ses adversaires. Tout ennemi dont la FOR et les PV maximum sont inférieurs à ceux du Barbare subit un malus de -2 à ses tests d’attaque au contact contre le personnage pour le reste du combat. Cette capacité ne nécessite plus qu’une action de mouvement à partir du rang 4.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "71",
+      "label": "Défier la mort",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque le Barbare subit des DM d’une attaque qui devrait l’amener à 0 PV, il peut réaliser un test de CON difficulté 10. En cas de réussite, il conserve 1 PV. La difficulté augmente de 10 à chaque blessure supplémentaire reçue par la suite. S’il est enragé il obtient un bonus de +10 à ces tests.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "72",
+      "label": "Rage du berserk",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Barbare entre dans une rage berserk pour le reste du combat, ce qui le rend particulièrement dangereux. Il obtient un bonus de +2 en attaque et +1d6 aux DM sur toutes ses attaques au contact, mais perd 4 en DEF et ne peut fuir ou attaquer à distance. S’il veut stopper la rage avant d’avoir éliminé tous les ennemis sur le terrain, le Barbare doit réussir un test de SAG difficulté 13 (un seul essai par tour).\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "44",
+      "label": "Argument de taille",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare ajoute son Mod. de FOR à son score de PV maximum ainsi qu’à ses tests de CHA et à ceux de ses alliés au contact pour les tests de négociation, de persuasion ou d’intimidation. Allez savoir pourquoi, sa simple présence donne de la force aux arguments de ses alliés…\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "45",
+      "label": "Tour de force",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare peut temporairement décupler ses ressources physiques pour faire usage d’une force prodigieuse. Il peut ainsi soulever une charge incroyable, briser une épée, tordre des barreaux ou défoncer une porte d’un seul coup de poing. Il obtient un bonus de +10 à son test de FOR, mais cela lui coûte 1d4 PV.\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "47",
+      "label": "Attaque brutale",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Barbare réalise une attaque au contact avec une pénalité de -2 en attaque et +1d6 au DM. Au Rang 5 de la voie, il peut choisir une pénalité de -5 pour obtenir +2d6 aux DM.\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "51",
+      "label": "Vigueur",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare est un athlète capable de prouesses physiques extraordinaires, il obtient un bonus de +2 par Rang dans la voie aux tests de course, de saut ou d’escalade.\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "52",
+      "label": "Peau de pierre",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare est particulièrement endurci, il reçoit un bonus de DEF égal à son Mod. de CON.\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "53",
+      "label": "Tatouages",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare possède un tatouage magique qui améliore ses performances physiques. Au choix : taureau (+5 aux tests de FOR), ours (+5 aux tests de CON), panthère (+5 aux tests de DEX) ou chouette (+5 aux tests de SAG).\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "54",
+      "label": "Peau d’acier",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare ne sent plus la douleur et ignore les égratignures, il réduit tous les DM subits de 3 points. Il subit toujours au moins 1 point de DM de chaque attaque reçue.\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "20",
+      "label": "Constitution héroïque",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le personnage augmente son score de CON de +2 et il peut désormais lancer deux d20 à chaque fois qu’un test de CON lui est demandé et conserver le meilleur résultat.\r\n",
+      "paths": "Voie du champ de bataille, Voie du pagne, Voie de la nature, Voie de la survie, Voie de la résistance"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2167",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "858",
+      "label": "Bourrin.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-06/Bourrin.jpg.webp?itok=I2MQEjJl"
+    }
+  ]
+}

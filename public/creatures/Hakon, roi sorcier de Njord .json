@@ -1,0 +1,419 @@
+{
+  "name": [
+    {
+      "value": "Hakon, roi sorcier de Njord "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Lame du démon</strong>&nbsp;+20 <strong>DM</strong> 2d6+8<br />\r\n<strong>Attaque magique</strong> +18&nbsp;<strong>DM&nbsp;</strong>4d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Lame du démon",
+          "test": "+20",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique",
+          "test": "+18",
+          "dm": "4d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "10",
+      "label": "Nécromancien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "10"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de l’outre-tombe</strong> rang 5<br />\r\n<strong>Voie de la mort</strong> rang 5<br />\r\n<strong>Voie du sang</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Invocation infernale:&nbsp;</em>(L) une fois par jour, Hakon peut invoquer un portail duquel sortent au prochain tour 3 chevaliers infernaux (ou des démons de puissance équivalente). Ceux ci agissent au prochain tour (ils sortent puis peuvent agir normalement).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "54": {
+      "id": "54",
+      "name": "Voie de la mort",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "249",
+          "label": "Siphon des âmes",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "1",
+          "description": "Chaque fois qu’une créature meurt à moins de 20 m du Nécromancien, il récupère 1d6 PV.\r\n"
+        },
+        "2": {
+          "target_id": "250",
+          "label": "Masque mortuaire",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.\r\n"
+        },
+        "3": {
+          "target_id": "251",
+          "label": "Baiser du vampire",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).\r\n"
+        },
+        "4": {
+          "target_id": "252",
+          "label": "Briser les cœurs",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien fait mine de broyer le coeur de sa victime. Il doit réussir une attaque magique (portée 20 m) et inflige [5d6 + Mod. d’INT] DM. La victime divise les DM par deux si elle réussit un test de CON difficulté [10 + Mod. d’INT].\r\n"
+        },
+        "5": {
+          "target_id": "253",
+          "label": "Mot de mort",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien doit réussir un test d’attaque magique contre le score max de PV de sa cible (portée 10 m). La victime doit réussir un test de CON difficulté [ 10 + Mod. d’INT] ou tomber à 0 PV.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "55": {
+      "id": "55",
+      "name": "Voie de l’outre-tombe",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "254",
+          "label": "Peur",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien effectue un test d’attaque magique contre une cible (portée 20 m). Celle-ci doit réussir un test de FOR ou de SAG (au choix) difficulté [10 + Mod. d’INT] ou fuir pendant [1d4 + rang] tours (le MJ peut garder cette durée secrète). Une créature ne peut subir les effets de ce sort qu’une fois par combat.\r\n"
+        },
+        "2": {
+          "target_id": "255",
+          "label": "Animation des morts",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien anime le cadavre d’un humanoïde de taille moyenne, décédé depuis moins d’une heure. Le zombi comprend les ordres « Attaquer », « Suivre », « Garder » et « Pas bouger ». Zombie : Init 8, DEF 10, PV 12, Att +3, DM 1d6+1, se déplace à 50% de la vitesse normale. Le zombi se dégrade et perd 1PV par minute. Le Nécromancien peut contrôler un zombi par rang. Un zombi détruit tombe en poussière.\r\n"
+        },
+        "3": {
+          "target_id": "256",
+          "label": "Putréfaction",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "En réussissant un test d’attaque magique (portée 10 m), le Nécromancien fait pourrir les chairs de sa victime, infligeant [1d6 + Mod. d’INT] DM. La victime subit un malus de -2 à tous ses tests pour le reste du combat, à moins de réussir un test de CON difficulté [12 + Mod. d’INT].\r\n"
+        },
+        "4": {
+          "target_id": "257",
+          "label": "Ensevelissement",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, si le Nécromancien réussit un test d’attaque magique (portée 20 m), le sol s’ouvre sous les pieds d’une cible de taille moyenne et l’enterre vivante. Tant qu’elle est ensevelie, elle subit 2d6 DM par tour, ne peut agir ni être la cible d’attaques extérieures. À son tour, elle peut tenter de sortir de terre en réussissant un test de FOR ou de DEX (au choix) difficulté [13 + Mod. d’INT]. Si elle tombe à 0 PV, elle reste enterrée et décède au tour suivant. Chaque personne qui creuse pour l’aider lui octroie un bonus de +2 sur son test.\r\n"
+        },
+        "5": {
+          "target_id": "258",
+          "label": "Armée des morts",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par jour, le Nécromancien peut invoquer d’innombrables squelettes émergeant du sol pour attaquer ses ennemis pendant [niveau du nécromancien] tours. Les cibles situées dans un rayon de 20 m autour du Nécromancien subissent automatiquement 3d6 DM par tour, à moins qu’elles n’utilisent une action limitée pour s’opposer aux squelettes (ce qui réduit les DM à 1d6). Les squelettes restent autour du Nécromancien et se déplacent en même temps que lui dans une zone de 20 m de rayon. Tous les déplacements dans cette zone (même ceux des alliés) sont divisés par deux.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "57": {
+      "id": "57",
+      "name": "Voie du sang",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "259",
+          "label": "Saignements",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien doit réussir un test d’attaque magique (portée 10 m). Du sang s’écoule de la bouche, du nez, des oreilles et même des yeux de la victime, qui subit 1d6 DM par tour pendant [rang] tours.\r\n"
+        },
+        "2": {
+          "target_id": "260",
+          "label": "Sang mordant",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. d’INT] tours, le sang du Nécromancien se transforme en un acide qui gicle lorsqu’il subit une blessure. Chaque fois qu’un ennemi au contact le blesse, ce dernier subit 1d6 DM d’acide.\r\n"
+        },
+        "3": {
+          "target_id": "262",
+          "label": "Exsangue",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "1",
+          "description": "Lorsque le nécromant tombe à 0 PV, il peut continuer à agir mais avec un malus de -2 à tous ses tests. Une nouvelle attaque réussie infligeant au moins 1 point de DM finira par l’achever !\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "254",
+      "label": "Peur",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien effectue un test d’attaque magique contre une cible (portée 20 m). Celle-ci doit réussir un test de FOR ou de SAG (au choix) difficulté [10 + Mod. d’INT] ou fuir pendant [1d4 + rang] tours (le MJ peut garder cette durée secrète). Une créature ne peut subir les effets de ce sort qu’une fois par combat.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "255",
+      "label": "Animation des morts",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien anime le cadavre d’un humanoïde de taille moyenne, décédé depuis moins d’une heure. Le zombi comprend les ordres « Attaquer », « Suivre », « Garder » et « Pas bouger ». Zombie : Init 8, DEF 10, PV 12, Att +3, DM 1d6+1, se déplace à 50% de la vitesse normale. Le zombi se dégrade et perd 1PV par minute. Le Nécromancien peut contrôler un zombi par rang. Un zombi détruit tombe en poussière.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "256",
+      "label": "Putréfaction",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "En réussissant un test d’attaque magique (portée 10 m), le Nécromancien fait pourrir les chairs de sa victime, infligeant [1d6 + Mod. d’INT] DM. La victime subit un malus de -2 à tous ses tests pour le reste du combat, à moins de réussir un test de CON difficulté [12 + Mod. d’INT].\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "257",
+      "label": "Ensevelissement",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, si le Nécromancien réussit un test d’attaque magique (portée 20 m), le sol s’ouvre sous les pieds d’une cible de taille moyenne et l’enterre vivante. Tant qu’elle est ensevelie, elle subit 2d6 DM par tour, ne peut agir ni être la cible d’attaques extérieures. À son tour, elle peut tenter de sortir de terre en réussissant un test de FOR ou de DEX (au choix) difficulté [13 + Mod. d’INT]. Si elle tombe à 0 PV, elle reste enterrée et décède au tour suivant. Chaque personne qui creuse pour l’aider lui octroie un bonus de +2 sur son test.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "258",
+      "label": "Armée des morts",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par jour, le Nécromancien peut invoquer d’innombrables squelettes émergeant du sol pour attaquer ses ennemis pendant [niveau du nécromancien] tours. Les cibles situées dans un rayon de 20 m autour du Nécromancien subissent automatiquement 3d6 DM par tour, à moins qu’elles n’utilisent une action limitée pour s’opposer aux squelettes (ce qui réduit les DM à 1d6). Les squelettes restent autour du Nécromancien et se déplacent en même temps que lui dans une zone de 20 m de rayon. Tous les déplacements dans cette zone (même ceux des alliés) sont divisés par deux.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "249",
+      "label": "Siphon des âmes",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "1",
+      "description": "Chaque fois qu’une créature meurt à moins de 20 m du Nécromancien, il récupère 1d6 PV.\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "250",
+      "label": "Masque mortuaire",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "251",
+      "label": "Baiser du vampire",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "252",
+      "label": "Briser les cœurs",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien fait mine de broyer le coeur de sa victime. Il doit réussir une attaque magique (portée 20 m) et inflige [5d6 + Mod. d’INT] DM. La victime divise les DM par deux si elle réussit un test de CON difficulté [10 + Mod. d’INT].\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "253",
+      "label": "Mot de mort",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien doit réussir un test d’attaque magique contre le score max de PV de sa cible (portée 10 m). La victime doit réussir un test de CON difficulté [ 10 + Mod. d’INT] ou tomber à 0 PV.\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "259",
+      "label": "Saignements",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien doit réussir un test d’attaque magique (portée 10 m). Du sang s’écoule de la bouche, du nez, des oreilles et même des yeux de la victime, qui subit 1d6 DM par tour pendant [rang] tours.\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "260",
+      "label": "Sang mordant",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. d’INT] tours, le sang du Nécromancien se transforme en un acide qui gicle lorsqu’il subit une blessure. Chaque fois qu’un ennemi au contact le blesse, ce dernier subit 1d6 DM d’acide.\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "262",
+      "label": "Exsangue",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "1",
+      "description": "Lorsque le nécromant tombe à 0 PV, il peut continuer à agir mais avec un malus de -2 à tous ses tests. Une nouvelle attaque réussie infligeant au moins 1 point de DM finira par l’achever !\r\n",
+      "paths": "Voie du sang"
+    }
+  ],
+  "picture": []
+}

@@ -1,0 +1,188 @@
+{
+  "name": [
+    {
+      "value": "Doppleganger"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un doppleganger est une créature humanoïde grisâtre dépourvue de traits et capable de prendre l’apparence des autres créatures. Ce sont des êtres calculateurs et fourbes qui préfèrent la ruse au combat.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "29"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Coup</strong> +4 <strong>DM</strong> 1d6+3<br />\r\n<strong>Par arme</strong> +4 <strong>DM</strong> 1d8+3<br />\r\n<strong>Lecture des pensées</strong> +4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Coup",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Par arme",
+          "test": "+4",
+          "dm": "1d8+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Lecture des pensées",
+          "test": "+4",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Détection des pensées (L) :</em> le doppleganger peut détecter les pensées d’une créature distante de moins de 20 mètres en réussissant un test d’attaque magique opposé (SAG). En cas de réussite, il lit les pensées superficielles de la créature mais ne peut pas sonder un esprit à la recherche d’un renseignement particulier.</p>\r\n\r\n<p><em>Imitation (L) :</em> le doppleganger peut prendre la forme de tout humanoïde de taille petite ou moyenne qu’il a observé pendant au moins un tour. Il n’imite pas l’équipement de la créature et doit revêtir celui de sa victime s’il veut prendre sa place.</p>\r\n\r\n<p><em>Imitation majeure (L) :</em> certains Doppleganger ont toutefois développé un talent supplémentaire pour l’illusion afin d’imiter rapidement l’équipement de leur victime. Dans ce cas, le doppleganger imite parfaitement sa cible, équipement compris pendant 2d6 minutes. Ce talent est utilisé uniquement dans le cas où un doppleganger est pris de court, le NC de la créature augmente de +1.</p>\r\n\r\n<p><em>Polyvalent :</em> un doppleganger sait utiliser toutes les armes et les armures, sa nature magique lui permet aussi d’utiliser parchemins et autres objets magique comme s’il était capable de lancer des sorts jusqu’au rang 5.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1187",
+      "alt": "Doppleganger",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "doppleganger-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/doppleganger-modified.png.webp?itok=vCDCbb_e"
+    }
+  ]
+}

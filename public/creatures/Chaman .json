@@ -1,0 +1,144 @@
+{
+  "name": [
+    {
+      "value": "Chaman "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "29"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "11"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Masse</strong> +4 DM 1d6+3</p>\r\n\r\n<p><strong>Attaque</strong> <strong>Magique</strong> (Marteau Spirituel - 30m) (L) +7 DM 2d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Masse",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque Magique (Marteau Spirituel - 30m) (L)",
+          "test": "+7",
+          "dm": "2d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

@@ -1,0 +1,162 @@
+{
+  "name": [
+    {
+      "value": "Ours hibou zombi"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>L’ours hibou zombi voit son NC réduit par rapport à la créature originale : la Voie du cogneur a été supprimée car elle ne correspondait pas à la lenteur du zombi. C’est une formidable machine à tuer, résistante et dangereuse, heureusement, il ne se déplace que très lentement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "45",
+      "label": "Zombis"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "80"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Bec et griffes</strong> +14 <strong>DM</strong> 3d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bec et griffes",
+          "test": "+14",
+          "dm": "3d6+6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Réduction des DM :</em> retrancher 5 points à tous les DM infligés au zombi par des armes saufs s’il s’agit d’armes tranchantes comme les épées ou les haches.</p>\r\n\r\n<p><em>Sans esprit :</em> aucune âme n’habite la carcasse morte, le zombi est immunisé à tous les sorts qui affectent l’esprit (INT, SAG et CHA).</p>\r\n\r\n<p><em>Lenteur :</em> le zombi voit sa DEX réduite à 8 et il ne se déplace que de 10 mètres par action de mouvement.</p>\r\n\r\n<p><em>Insensible à la douleur :</em> la DEF du zombi est réduite de 4 points par rapport à une créature de son type mais ses PV augmentent de 100% et il gagne +2 en attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1141",
+      "alt": "Ours hibou zombi",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "zombie_owlbear-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/zombie_owlbear-modified.png.webp?itok=UNMHdF_G"
+    }
+  ]
+}

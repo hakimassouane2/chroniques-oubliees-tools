@@ -1,0 +1,184 @@
+{
+  "name": [
+    {
+      "value": "Mage"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Attaque magique</strong>&nbsp;+8&nbsp;<strong>DM&nbsp;</strong>1d6+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque magique",
+          "test": "+8",
+          "dm": "1d6+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Contrôle des flammes</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "63": {
+      "id": "63",
+      "name": "Voie de la magie destructrice",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "298",
+          "label": "Flèche enflammée",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "298",
+      "label": "Flèche enflammée",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n",
+      "paths": "Voie de la magie destructrice"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "874",
+      "alt": "",
+      "title": "",
+      "width": "807",
+      "height": "990",
+      "label": "236x-24.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/236x-24.jpg.webp?itok=E6SPK_nB"
+    }
+  ]
+}

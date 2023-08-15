@@ -1,0 +1,162 @@
+{
+  "name": [
+    {
+      "value": "Natsu"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "12",
+      "label": "Elémentaires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "13"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "RD5/Magie et eau"
+    }
+  ],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Coup </strong>+3 -&gt; 1d4 <strong>DM</strong></p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Coup",
+          "test": "+3",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Cyclone (L) : une fois par combat, un élémentaire peut se transformer en tourbillon de matière élémentaire. Pendant (1d4+1) tours, il peut se déplacer à travers les créatures et les objets à la vitesse de 30 mètres par tour. Toute créature sur son passage doit faire un test de DEX ou de FOR au choix de difficulté 10. En cas d’échec, la cible subit automatiquement 1d6 DM. Lorsqu’il est sous forme de cyclone, l’élémentaire gagne un bonus de +5 en DEF.</p>\r\n\r\n<p>Immunité : les élémentaires de feu sont immunisés aux DM de feu.</p>\r\n\r\n<p>Avantage : l’élémentaire de feu inflige 1d6 DM à toute créature qui l’attaque au contact</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1357",
+      "alt": "",
+      "title": "",
+      "width": "390",
+      "height": "219",
+      "label": "WhatsApp Image 2023-03-18 à 21.30.42.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/WhatsApp%20Image%202023-03-18%20%C3%A0%2021.30.42.jpg.webp?itok=5zEMeKou"
+    }
+  ]
+}

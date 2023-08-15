@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "value": "Champimage"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "11"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "8"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "30"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Champiclier : Ajoute un bouclier de +2 DEF à un allié pendant 1 rotation complète. (Réussite obligatoire).<br />\r\n<br />\r\nSphère magique : 1d3 (8+ pour réussir) 1d20 de lancé.</p>\r\n",
+      "format": "simple_html",
+      "data": {
+        "0": {
+          "name": "Champiclier : Ajoute un bouclier de",
+          "test": "+2",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "2": {
+          "name": "Sphère magique : 1d3 (8+ pour réussir) 1d20 de lancé.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      }
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

@@ -1,0 +1,425 @@
+{
+  "name": [
+    {
+      "value": "Wunjir Briseurdos"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Wunjir Briseurdos est un nain musclé dont le ventre remplis de biére va de paire avec sa longue barbe rousse lui arrivant au niveau du nombril. La barbe partant des joues est tréssé et comporte 2 anneaux pour la tenir. Il a une courte moustache et de long cheuveux arrivant au millieu du dos. Il a également les yeux bleu,</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Wunjir Briseurdos est un nain provenant du royaume barbare. Un royaume où la violence prend forme de jeux d'arène. La competition entre les villes et village fait rage, des villes s'éteigne t'endisque d'autre s'éttendes. Multi champion d'un grand maitre demis orque, il déssidat de fuir la tyrannie de sont maitre. Il fut forcé de fuir le royaume pour ne pas être torturé et executé. Wunjir Briseurdos est un nain plutôt optimiste, peux patient et violent. Cependant une bonne pinte d'hydromel sera calmé ses excès de rage.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "34",
+      "label": "Nains"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "103"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "3 DM"
+    }
+  ],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>105-Marteau de terre</strong>+11&nbsp;<strong>DM </strong>2d6+2</p>\r\n\r\n<p><strong>106-SmaugHead</strong>&nbsp; +11&nbsp;<strong>DM </strong>1d8</p>\r\n\r\n<p><strong>Vivelame</strong> +11&nbsp;<strong>DM </strong>1d10</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "105-Marteau de terre+11",
+          "test": null,
+          "dm": "2d6+2",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "106-SmaugHead",
+          "test": "+11",
+          "dm": "1d8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Vivelame",
+          "test": "+11",
+          "dm": "1d10",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du pagne</strong> rang 4</p>\r\n\r\n<p><strong>Voie de la rage</strong> rang 3</p>\r\n\r\n<p><strong>Voie de la brute</strong> rang 4</p>\r\n\r\n<p><strong>Voie du pourfendeur</strong> rang 2</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Vision dans le noir</strong> : dans le noir total, le Nain voit comme dans la pénombre jusqu'à 30 m.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "9": {
+      "id": "9",
+      "name": "Voie de la brute",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "44",
+          "label": "Argument de taille",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare ajoute son Mod. de FOR à son score de PV maximum ainsi qu’à ses tests de CHA et à ceux de ses alliés au contact pour les tests de négociation, de persuasion ou d’intimidation. Allez savoir pourquoi, sa simple présence donne de la force aux arguments de ses alliés…\r\n"
+        },
+        "2": {
+          "target_id": "45",
+          "label": "Tour de force",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare peut temporairement décupler ses ressources physiques pour faire usage d’une force prodigieuse. Il peut ainsi soulever une charge incroyable, briser une épée, tordre des barreaux ou défoncer une porte d’un seul coup de poing. Il obtient un bonus de +10 à son test de FOR, mais cela lui coûte 1d4 PV.\r\n"
+        },
+        "3": {
+          "target_id": "47",
+          "label": "Attaque brutale",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Barbare réalise une attaque au contact avec une pénalité de -2 en attaque et +1d6 au DM. Au Rang 5 de la voie, il peut choisir une pénalité de -5 pour obtenir +2d6 aux DM.\r\n"
+        },
+        "4": {
+          "target_id": "48",
+          "label": "Briseur d’os",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Les coups critiques du Barbare sont terribles et provoquent des handicaps durables. Le Barbare obtient un critique sur 19 et 20 au résultat du d20 en attaque au contact. Lorsqu’il obtient un critique, en plus des DM doublés, il inflige une pénalité de -2 à tous les tests d’attaque, de FOR et de DEX de sa victime. Cette pénalité affecte la cible jusqu’à ce qu’elle soit complètement guérie.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "11": {
+      "id": "11",
+      "name": "Voie du pagne",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "51",
+          "label": "Vigueur",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare est un athlète capable de prouesses physiques extraordinaires, il obtient un bonus de +2 par Rang dans la voie aux tests de course, de saut ou d’escalade.\r\n"
+        },
+        "2": {
+          "target_id": "52",
+          "label": "Peau de pierre",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare est particulièrement endurci, il reçoit un bonus de DEF égal à son Mod. de CON.\r\n"
+        },
+        "3": {
+          "target_id": "53",
+          "label": "Tatouages",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare possède un tatouage magique qui améliore ses performances physiques. Au choix : taureau (+5 aux tests de FOR), ours (+5 aux tests de CON), panthère (+5 aux tests de DEX) ou chouette (+5 aux tests de SAG).\r\n"
+        },
+        "4": {
+          "target_id": "54",
+          "label": "Peau d’acier",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare ne sent plus la douleur et ignore les égratignures, il réduit tous les DM subits de 3 points. Il subit toujours au moins 1 point de DM de chaque attaque reçue.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "12": {
+      "id": "12",
+      "name": "Voie du pourfendeur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "55",
+          "label": "Réflexes félins",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare obtient un bonus de +1 par Rang dans cette voie à son score d’Initiative et à tous les tests de DEX destinés à esquiver (Boule de feu, souffle, pièges, etc.).\r\n"
+        },
+        "2": {
+          "target_id": "56",
+          "label": "Charge",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Barbare se déplace en ligne droite d’au moins 5 mètres (20 mètres au maximum) et effectue une attaque au contact avec un bonus de +2 en attaque et +1d6 aux DM.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "15": {
+      "id": "15",
+      "name": "Voie de la rage",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "70",
+          "label": "Cri de guerre",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Barbare pousse un hurlement qui effraie ses adversaires. Tout ennemi dont la FOR et les PV maximum sont inférieurs à ceux du Barbare subit un malus de -2 à ses tests d’attaque au contact contre le personnage pour le reste du combat. Cette capacité ne nécessite plus qu’une action de mouvement à partir du rang 4.\r\n"
+        },
+        "2": {
+          "target_id": "71",
+          "label": "Défier la mort",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque le Barbare subit des DM d’une attaque qui devrait l’amener à 0 PV, il peut réaliser un test de CON difficulté 10. En cas de réussite, il conserve 1 PV. La difficulté augmente de 10 à chaque blessure supplémentaire reçue par la suite. S’il est enragé il obtient un bonus de +10 à ces tests.\r\n"
+        },
+        "3": {
+          "target_id": "72",
+          "label": "Rage du berserk",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Barbare entre dans une rage berserk pour le reste du combat, ce qui le rend particulièrement dangereux. Il obtient un bonus de +2 en attaque et +1d6 aux DM sur toutes ses attaques au contact, mais perd 4 en DEF et ne peut fuir ou attaquer à distance. S’il veut stopper la rage avant d’avoir éliminé tous les ennemis sur le terrain, le Barbare doit réussir un test de SAG difficulté 13 (un seul essai par tour).\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "51",
+      "label": "Vigueur",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare est un athlète capable de prouesses physiques extraordinaires, il obtient un bonus de +2 par Rang dans la voie aux tests de course, de saut ou d’escalade.\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "52",
+      "label": "Peau de pierre",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare est particulièrement endurci, il reçoit un bonus de DEF égal à son Mod. de CON.\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "53",
+      "label": "Tatouages",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare possède un tatouage magique qui améliore ses performances physiques. Au choix : taureau (+5 aux tests de FOR), ours (+5 aux tests de CON), panthère (+5 aux tests de DEX) ou chouette (+5 aux tests de SAG).\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "54",
+      "label": "Peau d’acier",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare ne sent plus la douleur et ignore les égratignures, il réduit tous les DM subits de 3 points. Il subit toujours au moins 1 point de DM de chaque attaque reçue.\r\n",
+      "paths": "Voie du pagne"
+    },
+    {
+      "target_id": "70",
+      "label": "Cri de guerre",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Barbare pousse un hurlement qui effraie ses adversaires. Tout ennemi dont la FOR et les PV maximum sont inférieurs à ceux du Barbare subit un malus de -2 à ses tests d’attaque au contact contre le personnage pour le reste du combat. Cette capacité ne nécessite plus qu’une action de mouvement à partir du rang 4.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "71",
+      "label": "Défier la mort",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque le Barbare subit des DM d’une attaque qui devrait l’amener à 0 PV, il peut réaliser un test de CON difficulté 10. En cas de réussite, il conserve 1 PV. La difficulté augmente de 10 à chaque blessure supplémentaire reçue par la suite. S’il est enragé il obtient un bonus de +10 à ces tests.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "72",
+      "label": "Rage du berserk",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Barbare entre dans une rage berserk pour le reste du combat, ce qui le rend particulièrement dangereux. Il obtient un bonus de +2 en attaque et +1d6 aux DM sur toutes ses attaques au contact, mais perd 4 en DEF et ne peut fuir ou attaquer à distance. S’il veut stopper la rage avant d’avoir éliminé tous les ennemis sur le terrain, le Barbare doit réussir un test de SAG difficulté 13 (un seul essai par tour).\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "44",
+      "label": "Argument de taille",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare ajoute son Mod. de FOR à son score de PV maximum ainsi qu’à ses tests de CHA et à ceux de ses alliés au contact pour les tests de négociation, de persuasion ou d’intimidation. Allez savoir pourquoi, sa simple présence donne de la force aux arguments de ses alliés…\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "45",
+      "label": "Tour de force",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare peut temporairement décupler ses ressources physiques pour faire usage d’une force prodigieuse. Il peut ainsi soulever une charge incroyable, briser une épée, tordre des barreaux ou défoncer une porte d’un seul coup de poing. Il obtient un bonus de +10 à son test de FOR, mais cela lui coûte 1d4 PV.\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "47",
+      "label": "Attaque brutale",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Barbare réalise une attaque au contact avec une pénalité de -2 en attaque et +1d6 au DM. Au Rang 5 de la voie, il peut choisir une pénalité de -5 pour obtenir +2d6 aux DM.\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "48",
+      "label": "Briseur d’os",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Les coups critiques du Barbare sont terribles et provoquent des handicaps durables. Le Barbare obtient un critique sur 19 et 20 au résultat du d20 en attaque au contact. Lorsqu’il obtient un critique, en plus des DM doublés, il inflige une pénalité de -2 à tous les tests d’attaque, de FOR et de DEX de sa victime. Cette pénalité affecte la cible jusqu’à ce qu’elle soit complètement guérie.\r\n",
+      "paths": "Voie de la brute"
+    },
+    {
+      "target_id": "55",
+      "label": "Réflexes félins",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare obtient un bonus de +1 par Rang dans cette voie à son score d’Initiative et à tous les tests de DEX destinés à esquiver (Boule de feu, souffle, pièges, etc.).\r\n",
+      "paths": "Voie du pourfendeur"
+    },
+    {
+      "target_id": "56",
+      "label": "Charge",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Barbare se déplace en ligne droite d’au moins 5 mètres (20 mètres au maximum) et effectue une attaque au contact avec un bonus de +2 en attaque et +1d6 aux DM.\r\n",
+      "paths": "Voie du pourfendeur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1160",
+      "alt": "",
+      "title": "",
+      "width": "511",
+      "height": "513",
+      "label": "Wunjir.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/Wunjir.png.webp?itok=tRPrxBhB"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "name": [
+    {
+      "value": "Nemedir (Finadaleon)"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "instruction militaire"
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [
+    {
+      "value": "jeune et très agile"
+    }
+  ],
+  "con_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "con_comment": [
+    {
+      "value": "frêle en tant qu'elfe"
+    }
+  ],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [
+    {
+      "value": "bonne éducation très encadrées"
+    }
+  ],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [
+    {
+      "value": "insolent avec les inconnus et les menaces mais beaux "
+    }
+  ],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "19"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "23"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Glaive : 1d4 DM</p>\r\n\r\n<p>Arc long (30 m) : 1d8 DM</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Glaive : 1d4 DM",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc long (30 m) : 1d8 DM",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "9",
+      "label": "Rôdeur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "2"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Voie de l'archer (2)</p>\r\n\r\n<p>Voie du traqueur (2)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "43": {
+      "id": "43",
+      "name": "Voie de l’archer",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "193",
+          "label": "Sens affûtés",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "194",
+          "label": "Tir aveugle",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur peut attaquer à distance un ennemi qu'il ne voit pas (par exemple invisible ou plongé dans le noir total), mais dont il connaît l'existence et la direction approximative, comme s'il le voyait, donc sans le malus causé par le fait qu'il ne la voit pas.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "48": {
+      "id": "48",
+      "name": "Voie du traqueur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "221",
+          "label": "Pas de loup",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Quand il essaie de passer inaperçu en forêt, le Rôdeur bénéficie d’un bonus de +2 par Rang à son test de DEX.\r\n"
+        },
+        "2": {
+          "target_id": "222",
+          "label": "Ennemi juré",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Après avoir tué une créature, le Rôdeur peut décider que tous ceux de sa race sont devenus des ennemis jurés. Contre ces créatures, il bénéficie d’un bonus égal à son Mod. de SAG pour ses attaques et il inflige +1d6 de DM. Le Rôdeur peut changer d’ennemi juré une fois au cours de chaque niveau.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "83": {
+      "id": "83",
+      "name": "Voie du PNJ récurrent",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "390",
+          "label": "Instinct de survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "193",
+      "label": "Sens affûtés",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "194",
+      "label": "Tir aveugle",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur peut attaquer à distance un ennemi qu'il ne voit pas (par exemple invisible ou plongé dans le noir total), mais dont il connaît l'existence et la direction approximative, comme s'il le voyait, donc sans le malus causé par le fait qu'il ne la voit pas.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "221",
+      "label": "Pas de loup",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Quand il essaie de passer inaperçu en forêt, le Rôdeur bénéficie d’un bonus de +2 par Rang à son test de DEX.\r\n",
+      "paths": "Voie du traqueur"
+    },
+    {
+      "target_id": "222",
+      "label": "Ennemi juré",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Après avoir tué une créature, le Rôdeur peut décider que tous ceux de sa race sont devenus des ennemis jurés. Contre ces créatures, il bénéficie d’un bonus égal à son Mod. de SAG pour ses attaques et il inflige +1d6 de DM. Le Rôdeur peut changer d’ennemi juré une fois au cours de chaque niveau.\r\n",
+      "paths": "Voie du traqueur"
+    },
+    {
+      "target_id": "390",
+      "label": "Instinct de survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    }
+  ],
+  "picture": []
+}

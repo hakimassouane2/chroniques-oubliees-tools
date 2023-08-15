@@ -1,0 +1,261 @@
+{
+  "name": [
+    {
+      "value": "Empereur dragon"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "11",
+      "label": "Dragons"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "8"
+    }
+  ],
+  "level": [
+    {
+      "value": "20"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "16"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "16"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "32"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "320"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Chef d'armée - rang 1</p>\r\n\r\n<p>Créature élémentaire - rang 1</p>\r\n\r\n<p>Tueur - rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "72": {
+      "id": "72",
+      "name": "Voie du tueur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "339",
+          "label": "Attaque mortelle",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n"
+        },
+        "2": {
+          "target_id": "340",
+          "label": "Disparition",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature devient invisible (passage dans les ombres, cape magique, sort, etc.) et peut se déplacer de 20 mètres. Elle réapparaît à son prochain tour et si elle emporte un test opposé de discrétion (DEX) contre la SAG de sa cible, elle peut effectuer une Attaque mortelle.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "411",
+          "label": "Souffle enflammé",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "94": {
+      "id": "94",
+      "name": "Voie du chef d’armée",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "423",
+          "label": "Sergent",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, le sergent peut donner une action supplémentaire à n’importe quel allié sous ses ordres à porté de vue (attaque ou mouvement). Une fois par combat, une attaque qui aurait dû amener le sergent à 0 PV est ignorée.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "423",
+      "label": "Sergent",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, le sergent peut donner une action supplémentaire à n’importe quel allié sous ses ordres à porté de vue (attaque ou mouvement). Une fois par combat, une attaque qui aurait dû amener le sergent à 0 PV est ignorée.\r\n",
+      "paths": "Voie du chef d’armée"
+    },
+    {
+      "target_id": "411",
+      "label": "Souffle enflammé",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "339",
+      "label": "Attaque mortelle",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n",
+      "paths": "Voie du tueur"
+    },
+    {
+      "target_id": "340",
+      "label": "Disparition",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature devient invisible (passage dans les ombres, cape magique, sort, etc.) et peut se déplacer de 20 mètres. Elle réapparaît à son prochain tour et si elle emporte un test opposé de discrétion (DEX) contre la SAG de sa cible, elle peut effectuer une Attaque mortelle.\r\n",
+      "paths": "Voie du tueur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "748",
+      "alt": "Un immense dragon argenté aux yeux rouges.",
+      "title": "",
+      "width": "444",
+      "height": "356",
+      "label": "Kaiser.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/Kaiser.png.webp?itok=ynEjVJvT"
+    }
+  ]
+}

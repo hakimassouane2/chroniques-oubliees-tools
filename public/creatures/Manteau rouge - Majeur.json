@@ -1,0 +1,239 @@
+{
+  "name": [
+    {
+      "value": "Manteau rouge - Majeur"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Vêtu d'un grand manteau rouge à capuchon, il est impossible de discerner leur trait. Ils ne le retirent jamais, et se suicide si on les y force avec un système intégrée à la capuche qui détruit leur visage. Un liseré d'or sur leur capuchon les distinguent de leur inférieur.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "20"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Sabre à lame courbe</strong>&nbsp;+11&nbsp;<strong>DM</strong> 1d10 +4 (+4d6)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Sabre à lame courbe",
+          "test": "+11",
+          "dm": "1d10",
+          "special": "+4 (+4d6)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du tueur</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Poison :</em> vous pouvez équiper l'assassin de poison, cela augmente leur NC de +1. Lors de la première attaque réussie par l’assassin, la cible doit faire un test de CON difficulté [10+NC] ou subir [NC x 1d6] DM et être <em>Affaiblie</em> pour le reste du combat. En cas de réussite, elle subit seulement la moitié des DM et elle n’est pas Affaiblie.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "39": {
+      "id": "39",
+      "name": "Voie des illusions",
+      "type": "character",
+      "capabilities": {
+        "4": {
+          "target_id": "187",
+          "label": "Dédoublement",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "72": {
+      "id": "72",
+      "name": "Voie du tueur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "339",
+          "label": "Attaque mortelle",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n"
+        },
+        "2": {
+          "target_id": "340",
+          "label": "Disparition",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature devient invisible (passage dans les ombres, cape magique, sort, etc.) et peut se déplacer de 20 mètres. Elle réapparaît à son prochain tour et si elle emporte un test opposé de discrétion (DEX) contre la SAG de sa cible, elle peut effectuer une Attaque mortelle.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "339",
+      "label": "Attaque mortelle",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n",
+      "paths": "Voie du tueur"
+    },
+    {
+      "target_id": "340",
+      "label": "Disparition",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature devient invisible (passage dans les ombres, cape magique, sort, etc.) et peut se déplacer de 20 mètres. Elle réapparaît à son prochain tour et si elle emporte un test opposé de discrétion (DEX) contre la SAG de sa cible, elle peut effectuer une Attaque mortelle.\r\n",
+      "paths": "Voie du tueur"
+    },
+    {
+      "target_id": "187",
+      "label": "Dédoublement",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.\r\n",
+      "paths": "Voie des illusions"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1826",
+      "alt": "",
+      "title": "",
+      "width": "225",
+      "height": "225",
+      "label": "images (1).jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/images%20%281%29.jpg.webp?itok=3PQBI3cz"
+    }
+  ]
+}

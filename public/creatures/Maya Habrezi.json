@@ -1,0 +1,427 @@
+{
+  "name": [
+    {
+      "value": "Maya Habrezi"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Maya est un jeune moine d'une 20 aine d'année. Elle porte des vetements amples qui lui permettent de se déplacer aisément et de faire de l'escalade. Cela lui permet aussi de se battre de manière efficace. Elle a de long cheveux et porte une étrange cicatrice sous son oeil droit.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Maya a grandi dans un petit temple situé au sommet de la Montagne de Feu. Le temple est dédié à Atula \"Nuée ardente\", l'esprit des volcans. Ce lieu est connu pour sa forte tradition de méditation et de pratique martiale. Pendant son adolescence, Maya a été envoyée par son maître voyager et apprendre davantage sur les différentes cultures et pratiques spirituelles du monde. Elle a passé plusieurs années à voyager, étudiant dans des temples et auprès de maîtres d'arts martiaux renommés. Finalement, elle est retournée à son temple natal pour y servir en tant que moine à part entière. Cependant, lors de ses voyages, elle a été confrontée à la criminalité et à la misère, et ces visions l'ont profondément affectée. Elle s'est jurée de combattre ces injustices. Maya est prête à saisir n'importe quelle opportunité pour mettre fin aux actes criminels. Avec sa formation en arts martiaux et sa sagesse spirituelle, Maya est capable de défier le crime.&nbsp;Elle est fervente d'escalade, d'art du déplacement anssi que des art martiaux.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [
+    {
+      "value": "Magie"
+    }
+  ],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "54"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "DM élémentaire /2\r\nInsensible aux DM de poison et de maladie"
+    }
+  ],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Bâton ferré </strong>+10 <strong>DM </strong>1d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bâton ferré",
+          "test": "+10",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "14",
+      "label": "Moine"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "8"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du vent </strong>rang 3</p>\r\n\r\n<p><strong>Voie de la maitrise</strong> rang 3</p>\r\n\r\n<p><strong>Voie de l'énergie vitale </strong>rang 4</p>\r\n\r\n<p><strong>Voie de la méditation</strong> rang 2</p>\r\n\r\n<p><strong>Voie de l'humain</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Instinct de survie</strong> : lorsqu'une attaque devrait amener le personnage à 0 PV, les DM qu’elle inflige sont divisés par 2 (minimum 1).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "67": {
+      "id": "67",
+      "name": "Voie de l’énergie vitale",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "315",
+          "label": "Mains d’énergie",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Par un effort de concentration, le Moine peut rendre ses mains intangibles, à ce tour, il peut faire une attaque simple avec un bonus +2 en attaque, +5 si la cible porte une armure. De plus, toutes les attaques à mains nues du Moine sont considérées comme magiques (même lorsqu’il n’utilise pas Mains d’énergie).\r\n"
+        },
+        "2": {
+          "target_id": "316",
+          "label": "Pression mortelle",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Moine frappe les points par lesquels circule l’énergie vitale d’une créature vivante. En touchant un point précis, il libère ensuite des effets dévastateurs. Lorsqu’il combat à mains nues, le joueur peut choisir de ne pas infliger immédiatement les DM de ses attaques. À tout moment dans l’heure qui suit, il peut annoncer une « Pression Mortelle ». Il doit alors réussir un test d’attaque contre la cible, ce qui libère instantanément la totalité des DM infligés jusqu’alors +1d6 DM supplémentaires.\r\n"
+        },
+        "3": {
+          "target_id": "317",
+          "label": "Invulnérable",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine ne reçoit que la moitié des DM de toutes les sources «élémentaires» : feu, froid, foudre, acide... Il ne subit aucun DM des poisons ou des maladies.\r\n"
+        },
+        "4": {
+          "target_id": "318",
+          "label": "Projection du ki",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Moine projette une vague de force avec son corps et son esprit à une distance maximum de 20 mètres. Un test d’attaque magique réussi (Mod. de SAG) lui permet d’infliger [2d6 + Mod. de SAG] de DM.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "68": {
+      "id": "68",
+      "name": "Voie de la maîtrise",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "320",
+          "label": "Esquive du singe",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang dans cette Voie, le Moine gagne +1 en DEF et à tous ses tests de DEX pour effectuer des acrobaties.\r\n"
+        },
+        "2": {
+          "target_id": "321",
+          "label": "Morsure du serpent",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine obtient des DM critiques (multipliés par 2) sur un résultat de 19 à 20 au d20 du test d’attaque à mains nues ou avec une arme de contact, et sur des résultats de 18 à 20 avec une rapière ou une Vivelame.\r\n"
+        },
+        "3": {
+          "target_id": "322",
+          "label": "Griffes du tigre",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Les DM des attaques à mains nues du Moine sont désormais des jets sans limite : s’il obtient les DM maximum sur son dé, le joueur le relance et ajoute le nouveau résultat à ses DM. Tant que le dé donne le meilleur résultat possible, il est relancé et son score comptabilisé. Les dés en bonus (Puissance du Ki par exemple) ne sont jamais relancés, seulement ceux des DM à mains nues.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "69": {
+      "id": "69",
+      "name": "Voie de la méditation",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "325",
+          "label": "Pacifisme",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Tant que le Moine n’a réalisé aucune action offensive dans un combat, il bénéficie d’un bonus en DEF de +5.\r\n"
+        },
+        "2": {
+          "target_id": "326",
+          "label": "Transe de guérison",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois après chaque combat, le Moine peut méditer pendant 10 minutes et récupérer ainsi [niveau + Mod de SAG] PV.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "71": {
+      "id": "71",
+      "name": "Voie du vent",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "334",
+          "label": "Pas du vent",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine peut se déplacer avant et après avoir attaqué (mais il couvre toujours une distance normale). De plus, il gagne +1 par rang dans la Voie en Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "335",
+          "label": "Course du vent",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine se déplace à une vitesse surhumaine. Il couvre une distance de 40 mètres par action de mouvement (la distance normale est de 20 mètres) et se relever est pour lui une action gratuite.\r\n"
+        },
+        "3": {
+          "target_id": "336",
+          "label": "Course des airs",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine défie les lois de la pesanteur et peut se déplacer sur des surfaces qui ne devraient pas supporter son poids. Il peut se déplacer sur l’eau, la neige, le feuillage des arbres ou courir sur un mur vertical. Il doit commencer et terminer son déplacement sur une surface normale.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "78": {
+      "id": "78",
+      "name": "Voie de l'humain",
+      "type": "race",
+      "capabilities": {
+        "1": {
+          "target_id": "367",
+          "label": "Adaptable",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Après avoir raté un test de Carac., le personnage obtient un bonus de +5 au test s'il a la possibilité de retenter la même action au tour suivant. L'action réalisée doit habituellement permettre au PJ plusieurs essais, cette capacité n'octroie en aucun cas du temps ou des essais supplémentaires.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "334",
+      "label": "Pas du vent",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine peut se déplacer avant et après avoir attaqué (mais il couvre toujours une distance normale). De plus, il gagne +1 par rang dans la Voie en Initiative.\r\n",
+      "paths": "Voie du vent"
+    },
+    {
+      "target_id": "335",
+      "label": "Course du vent",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine se déplace à une vitesse surhumaine. Il couvre une distance de 40 mètres par action de mouvement (la distance normale est de 20 mètres) et se relever est pour lui une action gratuite.\r\n",
+      "paths": "Voie du vent"
+    },
+    {
+      "target_id": "336",
+      "label": "Course des airs",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine défie les lois de la pesanteur et peut se déplacer sur des surfaces qui ne devraient pas supporter son poids. Il peut se déplacer sur l’eau, la neige, le feuillage des arbres ou courir sur un mur vertical. Il doit commencer et terminer son déplacement sur une surface normale.\r\n",
+      "paths": "Voie du vent"
+    },
+    {
+      "target_id": "320",
+      "label": "Esquive du singe",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang dans cette Voie, le Moine gagne +1 en DEF et à tous ses tests de DEX pour effectuer des acrobaties.\r\n",
+      "paths": "Voie de la maîtrise"
+    },
+    {
+      "target_id": "321",
+      "label": "Morsure du serpent",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine obtient des DM critiques (multipliés par 2) sur un résultat de 19 à 20 au d20 du test d’attaque à mains nues ou avec une arme de contact, et sur des résultats de 18 à 20 avec une rapière ou une Vivelame.\r\n",
+      "paths": "Voie de la maîtrise"
+    },
+    {
+      "target_id": "322",
+      "label": "Griffes du tigre",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Les DM des attaques à mains nues du Moine sont désormais des jets sans limite : s’il obtient les DM maximum sur son dé, le joueur le relance et ajoute le nouveau résultat à ses DM. Tant que le dé donne le meilleur résultat possible, il est relancé et son score comptabilisé. Les dés en bonus (Puissance du Ki par exemple) ne sont jamais relancés, seulement ceux des DM à mains nues.\r\n",
+      "paths": "Voie de la maîtrise"
+    },
+    {
+      "target_id": "315",
+      "label": "Mains d’énergie",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Par un effort de concentration, le Moine peut rendre ses mains intangibles, à ce tour, il peut faire une attaque simple avec un bonus +2 en attaque, +5 si la cible porte une armure. De plus, toutes les attaques à mains nues du Moine sont considérées comme magiques (même lorsqu’il n’utilise pas Mains d’énergie).\r\n",
+      "paths": "Voie de l’énergie vitale"
+    },
+    {
+      "target_id": "316",
+      "label": "Pression mortelle",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Moine frappe les points par lesquels circule l’énergie vitale d’une créature vivante. En touchant un point précis, il libère ensuite des effets dévastateurs. Lorsqu’il combat à mains nues, le joueur peut choisir de ne pas infliger immédiatement les DM de ses attaques. À tout moment dans l’heure qui suit, il peut annoncer une « Pression Mortelle ». Il doit alors réussir un test d’attaque contre la cible, ce qui libère instantanément la totalité des DM infligés jusqu’alors +1d6 DM supplémentaires.\r\n",
+      "paths": "Voie de l’énergie vitale"
+    },
+    {
+      "target_id": "317",
+      "label": "Invulnérable",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine ne reçoit que la moitié des DM de toutes les sources «élémentaires» : feu, froid, foudre, acide... Il ne subit aucun DM des poisons ou des maladies.\r\n",
+      "paths": "Voie de l’énergie vitale"
+    },
+    {
+      "target_id": "318",
+      "label": "Projection du ki",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Moine projette une vague de force avec son corps et son esprit à une distance maximum de 20 mètres. Un test d’attaque magique réussi (Mod. de SAG) lui permet d’infliger [2d6 + Mod. de SAG] de DM.\r\n",
+      "paths": "Voie de l’énergie vitale"
+    },
+    {
+      "target_id": "325",
+      "label": "Pacifisme",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Tant que le Moine n’a réalisé aucune action offensive dans un combat, il bénéficie d’un bonus en DEF de +5.\r\n",
+      "paths": "Voie de la méditation"
+    },
+    {
+      "target_id": "326",
+      "label": "Transe de guérison",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois après chaque combat, le Moine peut méditer pendant 10 minutes et récupérer ainsi [niveau + Mod de SAG] PV.\r\n",
+      "paths": "Voie de la méditation"
+    },
+    {
+      "target_id": "367",
+      "label": "Adaptable",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Après avoir raté un test de Carac., le personnage obtient un bonus de +5 au test s'il a la possibilité de retenter la même action au tour suivant. L'action réalisée doit habituellement permettre au PJ plusieurs essais, cette capacité n'octroie en aucun cas du temps ou des essais supplémentaires.\r\n",
+      "paths": "Voie de l'humain"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1400",
+      "alt": "",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "Maya-Habrezi.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/Maya-Habrezi.png.webp?itok=Wh4dMoUW"
+    }
+  ]
+}

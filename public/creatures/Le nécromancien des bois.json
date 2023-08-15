@@ -1,0 +1,377 @@
+{
+  "name": [
+    {
+      "value": "Le nécromancien des bois"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ce nécromancien est une une liche de la forêt. C'est un lanceur de sort qui a utilisé une puissante magie pour vaincre la mort et devenir mort-vivant. Son corps se flétrit et ses yeux deviennent deux puits ténébreux au fond desquels brûle un feu impie.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "13"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "21"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "150"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Griffes </strong>+16 <strong>DM</strong> 2d6+3<br />\r\n<strong>Désintégration </strong>+17 <strong>DM</strong> 5d6+4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffes",
+          "test": "+16",
+          "dm": "2d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Désintégration",
+          "test": "+17",
+          "dm": "5d6+4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du PNJ récurrent</strong> rang 2<br />\r\n<strong>Voie des créatures magiques</strong> rang 3 (PV doublés)<br />\r\n&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Immortel :</em> le processus de transformation en liche nécessite la fabrication d’un réceptacle magique où le mort-vivant conserve son énergie vitale. Si ce phylactère n’est pas détruit lorsqu’elle est tuée, la liche reprend forme 24h après sa mort apparente.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "55": {
+      "id": "55",
+      "name": "Voie de l’outre-tombe",
+      "type": "character",
+      "capabilities": {
+        "2": {
+          "target_id": "255",
+          "label": "Animation des morts",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien anime le cadavre d’un humanoïde de taille moyenne, décédé depuis moins d’une heure. Le zombi comprend les ordres « Attaquer », « Suivre », « Garder » et « Pas bouger ». Zombie : Init 8, DEF 10, PV 12, Att +3, DM 1d6+1, se déplace à 50% de la vitesse normale. Le zombi se dégrade et perd 1PV par minute. Le Nécromancien peut contrôler un zombi par rang. Un zombi détruit tombe en poussière.\r\n"
+        },
+        "5": {
+          "target_id": "258",
+          "label": "Armée des morts",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par jour, le Nécromancien peut invoquer d’innombrables squelettes émergeant du sol pour attaquer ses ennemis pendant [niveau du nécromancien] tours. Les cibles situées dans un rayon de 20 m autour du Nécromancien subissent automatiquement 3d6 DM par tour, à moins qu’elles n’utilisent une action limitée pour s’opposer aux squelettes (ce qui réduit les DM à 1d6). Les squelettes restent autour du Nécromancien et se déplacent en même temps que lui dans une zone de 20 m de rayon. Tous les déplacements dans cette zone (même ceux des alliés) sont divisés par deux.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "62": {
+      "id": "62",
+      "name": "Voie de la magie des arcanes",
+      "type": "character",
+      "capabilities": {
+        "2": {
+          "target_id": "292",
+          "label": "Forme gazeuse",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.\r\n"
+        },
+        "4": {
+          "target_id": "294",
+          "label": "Téléportation",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.\r\n"
+        },
+        "5": {
+          "target_id": "295",
+          "label": "Désintégration",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière. Un test d’attaque magique réussi permet de toucher une créature et d’infliger [5d6 + Mod. d’INT] DM. Si le magicien vise un objet porté par une créature, le jet d’attaque subit un malus de -5. Les objets magiques sont insensibles à ce sort, les objets normaux sont réduits en poussière. Aucun objet de plus de 50 kg ne peut être affecté par ce sort : inutile donc de tenter de creuser un tunnel par ce biais. En revanche, vous pourrez ainsi désintégrer une porte (ou même une pierre dans un mur).\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "83": {
+      "id": "83",
+      "name": "Voie du PNJ récurrent",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "390",
+          "label": "Instinct de survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+        },
+        "2": {
+          "target_id": "391",
+          "label": "Chair à canon",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, le PNJ peut décider qu’une attaque qui le visait touche à la place un de ses sous-fifres situé à moins de 3 m et venu s’interposer (ou derrière lequel il s’est mis à couvert). Le PNJ gagne un bonus de +5 en DEF tant que des sous-fifres sont positionnés à moins de 3 mètres de lui.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        },
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        },
+        "3": {
+          "target_id": "410",
+          "label": "Immortel",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle tombe à 0 PV, la créature n’est pas définitivement détruite, elle est juste chassée et pourra se reconstituer en 24 heures. Parfois elle est simplement bannie dans un autre plan (démon ou élémentaire), d’autre fois, elle s’enfuit sous la forme d’un nuage de ténèbres (vampire). Il faut généralement un rituel spécial pour venir à bout de la créature.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "390",
+      "label": "Instinct de survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "391",
+      "label": "Chair à canon",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, le PNJ peut décider qu’une attaque qui le visait touche à la place un de ses sous-fifres situé à moins de 3 m et venu s’interposer (ou derrière lequel il s’est mis à couvert). Le PNJ gagne un bonus de +5 en DEF tant que des sous-fifres sont positionnés à moins de 3 mètres de lui.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "410",
+      "label": "Immortel",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle tombe à 0 PV, la créature n’est pas définitivement détruite, elle est juste chassée et pourra se reconstituer en 24 heures. Parfois elle est simplement bannie dans un autre plan (démon ou élémentaire), d’autre fois, elle s’enfuit sous la forme d’un nuage de ténèbres (vampire). Il faut généralement un rituel spécial pour venir à bout de la créature.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "292",
+      "label": "Forme gazeuse",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie des arcanes"
+    },
+    {
+      "target_id": "255",
+      "label": "Animation des morts",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien anime le cadavre d’un humanoïde de taille moyenne, décédé depuis moins d’une heure. Le zombi comprend les ordres « Attaquer », « Suivre », « Garder » et « Pas bouger ». Zombie : Init 8, DEF 10, PV 12, Att +3, DM 1d6+1, se déplace à 50% de la vitesse normale. Le zombi se dégrade et perd 1PV par minute. Le Nécromancien peut contrôler un zombi par rang. Un zombi détruit tombe en poussière.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "258",
+      "label": "Armée des morts",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par jour, le Nécromancien peut invoquer d’innombrables squelettes émergeant du sol pour attaquer ses ennemis pendant [niveau du nécromancien] tours. Les cibles situées dans un rayon de 20 m autour du Nécromancien subissent automatiquement 3d6 DM par tour, à moins qu’elles n’utilisent une action limitée pour s’opposer aux squelettes (ce qui réduit les DM à 1d6). Les squelettes restent autour du Nécromancien et se déplacent en même temps que lui dans une zone de 20 m de rayon. Tous les déplacements dans cette zone (même ceux des alliés) sont divisés par deux.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    },
+    {
+      "target_id": "294",
+      "label": "Téléportation",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.\r\n",
+      "paths": "Voie de la magie des arcanes"
+    },
+    {
+      "target_id": "295",
+      "label": "Désintégration",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière. Un test d’attaque magique réussi permet de toucher une créature et d’infliger [5d6 + Mod. d’INT] DM. Si le magicien vise un objet porté par une créature, le jet d’attaque subit un malus de -5. Les objets magiques sont insensibles à ce sort, les objets normaux sont réduits en poussière. Aucun objet de plus de 50 kg ne peut être affecté par ce sort : inutile donc de tenter de creuser un tunnel par ce biais. En revanche, vous pourrez ainsi désintégrer une porte (ou même une pierre dans un mur).\r\n",
+      "paths": "Voie de la magie des arcanes"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "876",
+      "alt": "",
+      "title": "",
+      "width": "563",
+      "height": "751",
+      "label": "Le nécromencien de la forêt_0.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/Le%20n%C3%A9cromencien%20de%20la%20for%C3%AAt_0.jpg.webp?itok=JgfIbBK4"
+    }
+  ]
+}

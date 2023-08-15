@@ -1,0 +1,161 @@
+{
+  "name": [
+    {
+      "value": "Aigle"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "2",
+      "label": "Aigles"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "0"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "3"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong><em>Serres&nbsp;</em></strong>+4&nbsp; <strong>DM</strong> 1d4 + 2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Serres",
+          "test": "+4",
+          "dm": "1d4",
+          "special": "+ 2",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong><em>Vue aiguisée</em></strong>. L'aigle a un avantage aux jets de Sagesse (Perception) faisant appel à la vue.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2798",
+      "alt": "",
+      "title": "",
+      "width": "1000",
+      "height": "501",
+      "label": "eagle.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-08/eagle.jpg.webp?itok=ilPx2MeY"
+    }
+  ]
+}

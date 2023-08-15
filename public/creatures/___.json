@@ -1,0 +1,172 @@
+{
+  "name": [
+    {
+      "value": "___"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "12"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "120"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5"
+    }
+  ],
+  "init": [
+    {
+      "value": "20"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>projectile magique Att + 12 DM 3d6+3</p>\r\n\r\n<p>(L) destruction de l'energie (=rayon affaiblissant)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "projectile magique Att + 12",
+          "test": null,
+          "dm": "3d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "(L) destruction de l'energie (=rayon affaiblissant)",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

@@ -1,0 +1,223 @@
+{
+  "name": [
+    {
+      "value": "Tigre à dents de sabre"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ce Profil correspond a une vision fantastique du tigre préhistorique aussi appelé tigre à dents de sabre ou encore smilodon. Il mesure environ 2 mètres au garrot pour 4 mètres de long (sans la queue) et un poids avoisinant la tonne.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "29",
+      "label": "Tigres"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "90"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "23"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +14 <strong>DM</strong> 2d6+12</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+14",
+          "dm": "2d6+12",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du prédateur</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        },
+        "2": {
+          "target_id": "388",
+          "label": "Dévorer",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    },
+    {
+      "target_id": "388",
+      "label": "Dévorer",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1131",
+      "alt": "Tigre à dents de sabre",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "tiger_saber_toothed-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/tiger_saber_toothed-modified.png.webp?itok=fh4VTEr1"
+    }
+  ]
+}

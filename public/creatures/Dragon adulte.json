@@ -1,0 +1,297 @@
+{
+  "name": [
+    {
+      "value": "Dragon adulte"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "11",
+      "label": "Dragons"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "14"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "12"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "12"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "28"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "180"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "2"
+    }
+  ],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +22 <strong>DM</strong> 4d6+16<br />\r\n<strong>Souffle (L) DM</strong> 6d6+30 (20x15m)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+22",
+          "dm": "4d6+16",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Souffle (L)",
+          "test": null,
+          "dm": "6d6+30",
+          "special": "(20x15m)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures élémentaires</strong> rang 1<br />\r\n<strong>Voie des créatures volantes</strong> rang 3<br />\r\n<strong>Voie du colosse</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "88": {
+      "id": "88",
+      "name": "Voie des créatures volantes",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "405",
+          "label": "Vol rapide",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n"
+        },
+        "2": {
+          "target_id": "406",
+          "label": "Agripper",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur un résultat de 15-20 au d20 en attaque, la créature agrippe sa proie et ne la lâche plus. Elle obtient un bonus de +5 en attaque et +1d6 aux DM contre la cible qu’elle agrippe et celle-ci est Immobilisée si elle est de taille inférieure. La victime peut essayer de se libérer au prix d’une action de mouvement en réussissant un test de FOR opposé.\r\n"
+        },
+        "3": {
+          "target_id": "407",
+          "label": "Emporter dans les airs",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature peut emporter dans les airs une victime agrippée de taille inférieure à la sienne au prix d’une action de mouvement. Au premier tour, si la victime se libère (test de FOR opposé), elle subit, 5d6 DM de chute. Au tour suivant, si la créature décide de prendre de l’altitude, les DM passent à 10d6.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "411",
+          "label": "Souffle enflammé",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "411",
+      "label": "Souffle enflammé",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "405",
+      "label": "Vol rapide",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n",
+      "paths": "Voie des créatures volantes"
+    },
+    {
+      "target_id": "406",
+      "label": "Agripper",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur un résultat de 15-20 au d20 en attaque, la créature agrippe sa proie et ne la lâche plus. Elle obtient un bonus de +5 en attaque et +1d6 aux DM contre la cible qu’elle agrippe et celle-ci est Immobilisée si elle est de taille inférieure. La victime peut essayer de se libérer au prix d’une action de mouvement en réussissant un test de FOR opposé.\r\n",
+      "paths": "Voie des créatures volantes"
+    },
+    {
+      "target_id": "407",
+      "label": "Emporter dans les airs",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature peut emporter dans les airs une victime agrippée de taille inférieure à la sienne au prix d’une action de mouvement. Au premier tour, si la victime se libère (test de FOR opposé), elle subit, 5d6 DM de chute. Au tour suivant, si la créature décide de prendre de l’altitude, les DM passent à 10d6.\r\n",
+      "paths": "Voie des créatures volantes"
+    },
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "926",
+      "alt": "Dragon adulte",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "dragon-adult-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dragon-adult-modified.png.webp?itok=aJeUywIu"
+    }
+  ]
+}

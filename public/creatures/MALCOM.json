@@ -1,0 +1,171 @@
+{
+  "name": [
+    {
+      "value": "MALCOM"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le tigre du Bengale n’est pas beaucoup plus gros qu’un lion. Le tigre de Sibérie, la plus grande espèce, peut peser jusqu’à plus de 350 kg pour 1 mètre 20 au garrot.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "29",
+      "label": "Tigres"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "12"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsures et griffes</strong>&nbsp;+3&nbsp;<strong>DM</strong> 2d6+1</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsures et griffes",
+          "test": "+3",
+          "dm": "2d6+1",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "463",
+      "alt": "",
+      "title": "",
+      "width": "800",
+      "height": "571",
+      "label": "LunarNewYear_Tiger_medium-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-08/LunarNewYear_Tiger_medium-modified.png.webp?itok=1gxgRc5R"
+    }
+  ]
+}

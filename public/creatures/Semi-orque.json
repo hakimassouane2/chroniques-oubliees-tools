@@ -1,0 +1,146 @@
+{
+  "name": [
+    {
+      "value": "Semi-orque"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Peau verdâtre, yeux marrons, canines inférieures proéminentes, cheveux sombres et épais coiffés en dreadlocks mi-longues, 1.98m, 120kg.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Né de père humain et de mère orque, guerrier errant de nature optimiste.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0.5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "9"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée</strong> +2 <strong>DM</strong> 1d8+1</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée",
+          "test": "+2",
+          "dm": "1d8+1",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "12",
+      "label": "Guerrier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

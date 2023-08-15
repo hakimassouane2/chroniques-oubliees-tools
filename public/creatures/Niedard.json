@@ -1,0 +1,200 @@
+{
+  "name": [
+    {
+      "value": "Niedard"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>De la forme d'un fauve de 1m au garot, le Neidard est de couleur métalique rosée et argenté, pourvu de griffes accérées, d'une mâchoire puissante et d'une queue terminé par un ossement pointu et tranchant, il chasse toutes les créatures qui passent sur son chemin, cherchant obstinément à détruire toute vie n'étant pas originaire de la zone, bien qu'il se nourrisse également de créatures de celle-ci, mais étant capable de les côtoyer lorsqu'il n'est pas en chasse.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>morsure: 1d6</p>\r\n\r\n<p>fouet tranchant: 2d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "morsure: 1d6",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "fouet tranchant: 2d4",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "3",
+      "label": "Barbare"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "12": {
+      "id": "12",
+      "name": "Voie du pourfendeur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "55",
+          "label": "Réflexes félins",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barbare obtient un bonus de +1 par Rang dans cette voie à son score d’Initiative et à tous les tests de DEX destinés à esquiver (Boule de feu, souffle, pièges, etc.).\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "55",
+      "label": "Réflexes félins",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barbare obtient un bonus de +1 par Rang dans cette voie à son score d’Initiative et à tous les tests de DEX destinés à esquiver (Boule de feu, souffle, pièges, etc.).\r\n",
+      "paths": "Voie du pourfendeur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2307",
+      "alt": "",
+      "title": "",
+      "width": "894",
+      "height": "894",
+      "label": "17407b52285d6718316860de87009a36.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/17407b52285d6718316860de87009a36.jpg.webp?itok=ZXedw0J2"
+    }
+  ]
+}

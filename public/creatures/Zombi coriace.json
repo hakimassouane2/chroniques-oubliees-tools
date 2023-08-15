@@ -1,0 +1,151 @@
+{
+  "name": [
+    {
+      "value": "Zombi coriace"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "45",
+      "label": "Zombis"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "28"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / tranchant"
+    }
+  ],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Attaque</strong> +6&nbsp;<strong>DM</strong> 1d6+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque",
+          "test": "+6",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Réduction des DM :</em> retrancher 5 points à tous les DM infligés au zombi par des armes saufs s’il s’agit d’armes tranchantes comme les épées ou les haches.</p>\r\n\r\n<p><em>Sans esprit :</em> aucune âme n’habite la carcasse morte, le zombi est immunisé à tous les sorts qui affectent l’esprit (INT, SAG et CHA).</p>\r\n\r\n<p><em>Lenteur :</em> le zombi voit sa DEX réduite à 8 et il ne se déplace que de 10 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

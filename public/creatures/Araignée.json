@@ -1,0 +1,156 @@
+{
+  "name": [
+    {
+      "value": " Araignée"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "0"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "tiny",
+      "label": "Minuscule"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "1"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong><em>Morsure</em></strong>.&nbsp;+4 DM&nbsp;1+&nbsp;poison</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure.",
+          "test": "+4",
+          "dm": "1",
+          "special": "+ poison",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>&nbsp;<em>poison</em></strong>&nbsp;la cible doit réussir un jet de sauvegarde de Constitution DD 9 ou subir&nbsp;1d4 dégâts de poison.</p>\r\n\r\n<p><strong><em>Pattes d'araignée</em></strong>. L'araignée peut escalader des surfaces difficiles et être au plafond la tête en bas sans avoir besoin d'effectuer un jet de caractéristique.</p>\r\n\r\n<p><strong><em>Sens de la toile</em></strong>. Lorsqu'elle est en contact avec une toile, l'araignée connait l'emplacement exact de toutes les créatures qui sont en contact avec cette toile.</p>\r\n\r\n<p><strong><em>Déplacement sur la toile</em></strong>. L'araignée ignore les restrictions de mouvement causées par une toile d'araignée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2799",
+      "alt": "",
+      "title": "",
+      "width": "1000",
+      "height": "745",
+      "label": "spider.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-08/spider.jpg.webp?itok=8hLENALU"
+    }
+  ]
+}

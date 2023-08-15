@@ -1,0 +1,173 @@
+{
+  "name": [
+    {
+      "value": "Nain sombre"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Les cousins maléfiques, les nains sombres, aussi appelés Duergars, ont la peau grise et vivent profondément sous terre. Ils ont pour habitude de réduire en esclavage tous les êtres intelligents qu’ils peuvent capturer à l’exception de leurs cousins les nains, qu’ils préfèrent souvent exécuter.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "34",
+      "label": "Nains"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Marteau</strong> +4 <strong>DM</strong> 1d6+3<br />\r\n<strong>Arbalète légère</strong> +1 (30m) <strong>DM</strong> 2d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Marteau",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arbalète légère",
+          "test": "+1",
+          "dm": "2d4",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Les nains sombres peuvent utiliser les capacités de Magicien suivante (seulement sur eux-mêmes) : <em>Invisibilité</em> et <em>Agrandissement</em>.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1077",
+      "alt": "Nain sombre",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "duergar-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/duergar-modified.png.webp?itok=JWb-5Krb"
+    }
+  ]
+}

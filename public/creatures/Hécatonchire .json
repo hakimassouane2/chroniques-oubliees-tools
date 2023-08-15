@@ -1,0 +1,219 @@
+{
+  "name": [
+    {
+      "value": "Hécatonchire "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>L'Hécatonchire est une créature de la mythologie grecque. Ils sont&nbsp;<strong>nés d'Ouranos et de Gaïa, les entités parents des dieux.</strong>&nbsp;Les Hécatonchires se nomment Cottos, Gyès et&nbsp;Briarée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>L'Hécatonchire possède 100 bras et, dans certaines légendes, 50 têtes. Il peut apparaître plus ou moins humanoïde. Ils expriment leurs émotions assez facilement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "17",
+      "label": "Géants"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "13"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "18"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "18"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "24"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "210"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "4 / Magie"
+    }
+  ],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>épées&nbsp;</strong>(20 attaques) +24 ;&nbsp;<strong>DM</strong> 4d6+15</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "épées (20 attaques)",
+          "test": "+24",
+          "dm": "4d6+15",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>voie du colosse</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>attaque multiple (L) :&nbsp;</em>l'hécatonchire peut porter jusqu’à 20 attaques au prix d’une action limitée sur 20 cibles différentes face à elle.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        },
+        "2": {
+          "target_id": "415",
+          "label": "Balayage",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "415",
+      "label": "Balayage",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "720",
+      "alt": "",
+      "title": "",
+      "width": "753",
+      "height": "1000",
+      "label": "Titan hecatonchire.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/Titan%20hecatonchire.jpg.webp?itok=YUsvavOw"
+    }
+  ]
+}

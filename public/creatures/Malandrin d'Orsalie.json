@@ -1,0 +1,123 @@
+{
+  "name": [
+    {
+      "value": "Malandrin d'Orsalie"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "3",
+      "label": "Bandits"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "8"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Épée longue abîmée +3 DM&nbsp;1d6 +1 ou bâton ferré +3 DM 1d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée longue abîmée",
+          "test": "+3",
+          "dm": "1d6",
+          "special": "+1 ou bâton ferré +3",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

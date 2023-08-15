@@ -1,0 +1,260 @@
+{
+  "name": [
+    {
+      "value": "Oni"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "36",
+      "label": "Ogres"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "6"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "60"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Hachoir +14 DM 2d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Hachoir",
+          "test": "+14",
+          "dm": "2d6+6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "2",
+      "label": "Barde"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "5"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong><em>Changer de forme.</em></strong>&nbsp;</p>\r\n\r\n<p>L'oni se métamorphose magiquement en un humanoïde petit ou moyen, en un grand géant, ou reprend sa véritable forme.&nbsp;Outre sa taille, ses statistiques sont les mêmes dans chaque formulaire.&nbsp;Le seul équipement transformé est son glaive, qui se rétrécit pour pouvoir être manié sous forme humanoïde.&nbsp;Si l'oni meurt, il reprend sa vraie forme et son glaive reprend sa taille normale.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "10": {
+      "id": "10",
+      "name": "Voie de la séduction",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "41",
+          "label": "Charmant",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barde obtient un bonus de +2 par rang atteint dans cette voie pour tous ses tests de CHA visant à séduire, baratiner ou mentir.\r\n"
+        },
+        "2": {
+          "target_id": "42",
+          "label": "Dentelles et rapière",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Barde ne met pas d’armure, cela ne sied point en société. Sa seule armure est la dentelle, sa seule défense, la rapière. Lorsqu’il ne porte aucune armure et combat avec une rapière ou une épée, le Barde obtient un bonus de +1 en DEF contre les attaques au contact par Rang possédé dans cette Voie.\r\n"
+        },
+        "3": {
+          "target_id": "43",
+          "label": "Arme secrète",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Barde peut utiliser un subterfuge de séducteur pour surprendre et déstabiliser un adversaire du sexe opposé. Ce peut être un baiser fougueux soudainement délivré au cœur d’une mêlée, un sein qui s’échappe d’un bustier par mégarde, une main qui s’égare par le plus grand des hasards… Il doit réussir un test de CHA de difficulté égale à l’INT de son adversaire. En cas de succès celui-ci subit un malus de -10 en attaque et en DEF pendant 1 tour.\r\n"
+        },
+        "4": {
+          "target_id": "46",
+          "label": "Suggestion",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par jour, le Barde peut suggérer une action à une créature en réussissant un test d’attaque magique avec pour difficulté les PV maximum de celle-ci. En cas de réussite la créature fera tout son possible pour satisfaire sa demande pendant 24 heures. Elle évitera les actions suicidaires (ce qui lui donnerait immédiatement un test d’INT difficulté 10 pour échapper au sort).\r\n"
+        },
+        "5": {
+          "target_id": "49",
+          "label": "Charisme héroïque",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le personnage augmente sa valeur de CHA de +2. Il peut de plus lancer deux d20 à chaque fois qu’un test de CHA lui est demandé et conserver le meilleur résultat.\r\n"
+        }
+      },
+      "rank": 5
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "41",
+      "label": "Charmant",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barde obtient un bonus de +2 par rang atteint dans cette voie pour tous ses tests de CHA visant à séduire, baratiner ou mentir.\r\n",
+      "paths": "Voie de la séduction"
+    },
+    {
+      "target_id": "42",
+      "label": "Dentelles et rapière",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Barde ne met pas d’armure, cela ne sied point en société. Sa seule armure est la dentelle, sa seule défense, la rapière. Lorsqu’il ne porte aucune armure et combat avec une rapière ou une épée, le Barde obtient un bonus de +1 en DEF contre les attaques au contact par Rang possédé dans cette Voie.\r\n",
+      "paths": "Voie de la séduction"
+    },
+    {
+      "target_id": "43",
+      "label": "Arme secrète",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Barde peut utiliser un subterfuge de séducteur pour surprendre et déstabiliser un adversaire du sexe opposé. Ce peut être un baiser fougueux soudainement délivré au cœur d’une mêlée, un sein qui s’échappe d’un bustier par mégarde, une main qui s’égare par le plus grand des hasards… Il doit réussir un test de CHA de difficulté égale à l’INT de son adversaire. En cas de succès celui-ci subit un malus de -10 en attaque et en DEF pendant 1 tour.\r\n",
+      "paths": "Voie de la séduction"
+    },
+    {
+      "target_id": "46",
+      "label": "Suggestion",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par jour, le Barde peut suggérer une action à une créature en réussissant un test d’attaque magique avec pour difficulté les PV maximum de celle-ci. En cas de réussite la créature fera tout son possible pour satisfaire sa demande pendant 24 heures. Elle évitera les actions suicidaires (ce qui lui donnerait immédiatement un test d’INT difficulté 10 pour échapper au sort).\r\n",
+      "paths": "Voie de la séduction"
+    },
+    {
+      "target_id": "49",
+      "label": "Charisme héroïque",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le personnage augmente sa valeur de CHA de +2. Il peut de plus lancer deux d20 à chaque fois qu’un test de CHA lui est demandé et conserver le meilleur résultat.\r\n",
+      "paths": "Voie de la séduction, Voie du héros, Voie de la foi, Voie de l’aventurier, Voie de l'invocation"
+    }
+  ],
+  "picture": []
+}

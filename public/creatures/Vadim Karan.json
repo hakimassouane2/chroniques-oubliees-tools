@@ -1,0 +1,374 @@
+{
+  "name": [
+    {
+      "value": "Vadim Karan"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "80"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "9"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Hache d'arme</strong>&nbsp;+12&nbsp;<strong>DM </strong>2d10+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Hache d'arme",
+          "test": "+12",
+          "dm": "2d10+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "5",
+      "label": "Chevalier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "10"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Voie du meneur d'homme 3</p>\r\n\r\n<p>Voie de la noblesse 3</p>\r\n\r\n<p>Voie du cavalier 1</p>\r\n\r\n<p>Voie de chef d'armé 3</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "16": {
+      "id": "16",
+      "name": "Voie du cavalier",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "75",
+          "label": "Fidèle monture",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Chevalier possède un puissant destrier, c’est un cheval de guerre bien dressé qui comprend les ordres simples. À cheval, il peut ajouter un déplacement de 10 m avant ou après une action normale (par exemple faire 10 m et une action limitée). La monture n’attaque que si elle est elle-même attaquée au contact par une créature. Fidèle monture : FOR +4, DEX +0, CON +4, INT -2, SAG +0, CHA +0, Init 10, DEF 13, PV 15, Ruade +5, DM 1d6+4\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "24": {
+      "id": "24",
+      "name": "Voie du meneur d'homme",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "113",
+          "label": "Sans peur",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Chevalier est immunisé aux attaques de peur et il offre un bonus de [2 + Mod. de CHA] à tous ses alliés contre ce type d’effet.\r\n"
+        },
+        "2": {
+          "target_id": "114",
+          "label": "Intercepter",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, le Chevalier peut encaisser un coup à la place d’un allié à ses cotés. Il utilise sa DEF plutôt que celle de la cible initiale et retranche aux DM son rang dans la voie.\r\n"
+        },
+        "3": {
+          "target_id": "115",
+          "label": "Exemplaire",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, le Chevalier permet à un allié qui combat le même adversaire que lui de relancer le d20 d’un test d’attaque, s’il s’agissait d’un d’échec.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "25": {
+      "id": "25",
+      "name": "Voie de la noblesse",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "118",
+          "label": "Éduqué",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Chevalier sait lire et écrire, il gagne +1 par rang dans la voie à tous les tests d’INT et de CHA.\r\n"
+        },
+        "2": {
+          "target_id": "119",
+          "label": "Autorité naturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le chevalier obtient un bonus égal à [1 + Mod. de CHA] en Initiative et en DEF. De plus, il bénéficie d’un bonus de +5 aux tests de CHA réalisés pour donner des ordres ou intimider.\r\n"
+        },
+        "3": {
+          "target_id": "120",
+          "label": "Écuyer",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Chevalier dispose d’un écuyer à son service (Initiative 14, Défense 14, PV 13, Att +3, DM 1d8+1). Il est absolument loyal à son maître et lui sert de serviteur, il s’occupe de sa monture et de son équipement, prépare le campement, panse les blessures, etc. Grâce à l’écuyer, les armes du Chevalier sont parfaitement affûtées et infligent des critiques sur 19 ou 20. De plus, le Chevalier, sa monture et jusqu’à [1 + Mod. de CHA] alliés récupèrent 2d6 PV supplémentaires chaque nuit s’ils profitent des services de l’écuyer. Tous les frais sont pris en charge par la capacité. Si l’écuyer vient à mourir, le Chevalier en prendra un autre à son service au niveau suivant.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "94": {
+      "id": "94",
+      "name": "Voie du chef d’armée",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "423",
+          "label": "Sergent",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, le sergent peut donner une action supplémentaire à n’importe quel allié sous ses ordres à porté de vue (attaque ou mouvement). Une fois par combat, une attaque qui aurait dû amener le sergent à 0 PV est ignorée.\r\n"
+        },
+        "2": {
+          "target_id": "424",
+          "label": "Capitaine",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le capitaine donne un bonus de +2 en Initiative, en attaque et aux DM à toutes les créatures sous ses ordres à portée de vue. De plus il bénéficie d’une attaque supplémentaire à chaque tour lorsqu’il utilise une action limitée.\r\n"
+        },
+        "3": {
+          "target_id": "425",
+          "label": "Commandant",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le commandant offre un bonus de +3 en Initiative, en attaque, aux DM et en DEF à toutes les créatures sous ses ordres à portée de vue. Tant qu’au moins 4 créatures sous ses ordres sont à moins de 10 mètres du commandant, il ne subit que la moitié des DM qui lui sont infligés.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "113",
+      "label": "Sans peur",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Chevalier est immunisé aux attaques de peur et il offre un bonus de [2 + Mod. de CHA] à tous ses alliés contre ce type d’effet.\r\n",
+      "paths": "Voie du meneur d'homme"
+    },
+    {
+      "target_id": "114",
+      "label": "Intercepter",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, le Chevalier peut encaisser un coup à la place d’un allié à ses cotés. Il utilise sa DEF plutôt que celle de la cible initiale et retranche aux DM son rang dans la voie.\r\n",
+      "paths": "Voie du meneur d'homme"
+    },
+    {
+      "target_id": "115",
+      "label": "Exemplaire",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, le Chevalier permet à un allié qui combat le même adversaire que lui de relancer le d20 d’un test d’attaque, s’il s’agissait d’un d’échec.\r\n",
+      "paths": "Voie du meneur d'homme"
+    },
+    {
+      "target_id": "118",
+      "label": "Éduqué",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Chevalier sait lire et écrire, il gagne +1 par rang dans la voie à tous les tests d’INT et de CHA.\r\n",
+      "paths": "Voie de la noblesse"
+    },
+    {
+      "target_id": "119",
+      "label": "Autorité naturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le chevalier obtient un bonus égal à [1 + Mod. de CHA] en Initiative et en DEF. De plus, il bénéficie d’un bonus de +5 aux tests de CHA réalisés pour donner des ordres ou intimider.\r\n",
+      "paths": "Voie de la noblesse"
+    },
+    {
+      "target_id": "120",
+      "label": "Écuyer",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Chevalier dispose d’un écuyer à son service (Initiative 14, Défense 14, PV 13, Att +3, DM 1d8+1). Il est absolument loyal à son maître et lui sert de serviteur, il s’occupe de sa monture et de son équipement, prépare le campement, panse les blessures, etc. Grâce à l’écuyer, les armes du Chevalier sont parfaitement affûtées et infligent des critiques sur 19 ou 20. De plus, le Chevalier, sa monture et jusqu’à [1 + Mod. de CHA] alliés récupèrent 2d6 PV supplémentaires chaque nuit s’ils profitent des services de l’écuyer. Tous les frais sont pris en charge par la capacité. Si l’écuyer vient à mourir, le Chevalier en prendra un autre à son service au niveau suivant.\r\n",
+      "paths": "Voie de la noblesse"
+    },
+    {
+      "target_id": "75",
+      "label": "Fidèle monture",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Chevalier possède un puissant destrier, c’est un cheval de guerre bien dressé qui comprend les ordres simples. À cheval, il peut ajouter un déplacement de 10 m avant ou après une action normale (par exemple faire 10 m et une action limitée). La monture n’attaque que si elle est elle-même attaquée au contact par une créature. Fidèle monture : FOR +4, DEX +0, CON +4, INT -2, SAG +0, CHA +0, Init 10, DEF 13, PV 15, Ruade +5, DM 1d6+4\r\n",
+      "paths": "Voie du cavalier"
+    },
+    {
+      "target_id": "423",
+      "label": "Sergent",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, le sergent peut donner une action supplémentaire à n’importe quel allié sous ses ordres à porté de vue (attaque ou mouvement). Une fois par combat, une attaque qui aurait dû amener le sergent à 0 PV est ignorée.\r\n",
+      "paths": "Voie du chef d’armée"
+    },
+    {
+      "target_id": "424",
+      "label": "Capitaine",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le capitaine donne un bonus de +2 en Initiative, en attaque et aux DM à toutes les créatures sous ses ordres à portée de vue. De plus il bénéficie d’une attaque supplémentaire à chaque tour lorsqu’il utilise une action limitée.\r\n",
+      "paths": "Voie du chef d’armée"
+    },
+    {
+      "target_id": "425",
+      "label": "Commandant",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le commandant offre un bonus de +3 en Initiative, en attaque, aux DM et en DEF à toutes les créatures sous ses ordres à portée de vue. Tant qu’au moins 4 créatures sous ses ordres sont à moins de 10 mètres du commandant, il ne subit que la moitié des DM qui lui sont infligés.\r\n",
+      "paths": "Voie du chef d’armée"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1365",
+      "alt": "",
+      "title": "",
+      "width": "378",
+      "height": "609",
+      "label": "image_2023-03-19_181758463.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/image_2023-03-19_181758463.png.webp?itok=glrj5cJD"
+    }
+  ]
+}

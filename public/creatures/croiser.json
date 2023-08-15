@@ -1,0 +1,226 @@
+{
+  "name": [
+    {
+      "value": "croiser"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "6"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "36"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée longue</strong> +4 <strong>DM</strong> 1d8+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée longue",
+          "test": "+4",
+          "dm": "1d8+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "30": {
+      "id": "30",
+      "name": "Voie de la spiritualité",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "141",
+          "label": "Vêtements sacrés",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La tenue religieuse traditionnelle du Prêtre remplace une armure et a été bénie à cet effet : il obtient un bonus en DEF égal à +1 pour chaque Rang dans cette Voie (lorsqu’il ne porte aucune armure).\r\n"
+        },
+        "2": {
+          "target_id": "142",
+          "label": "Protection contre le mal",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut lancer ce sort sur lui ou sur tout allié (portée : contact) pour la durée d’un combat. La cible obtient alors un bonus de +2 en DEF et pour tous les tests de résistance contre les attaques des mort-vivants, des démons, des élémentaires et des créatures conjurées (appelées d’un autre plan par magie).\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "86": {
+      "id": "86",
+      "name": "Voie de la magie de guérison",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "399",
+          "label": "Soigner",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature est capable de soigner 50% des PV totaux de chaque créature qu’elle touche une fois par jour.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "141",
+      "label": "Vêtements sacrés",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La tenue religieuse traditionnelle du Prêtre remplace une armure et a été bénie à cet effet : il obtient un bonus en DEF égal à +1 pour chaque Rang dans cette Voie (lorsqu’il ne porte aucune armure).\r\n",
+      "paths": "Voie de la spiritualité"
+    },
+    {
+      "target_id": "142",
+      "label": "Protection contre le mal",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut lancer ce sort sur lui ou sur tout allié (portée : contact) pour la durée d’un combat. La cible obtient alors un bonus de +2 en DEF et pour tous les tests de résistance contre les attaques des mort-vivants, des démons, des élémentaires et des créatures conjurées (appelées d’un autre plan par magie).\r\n",
+      "paths": "Voie de la spiritualité"
+    },
+    {
+      "target_id": "399",
+      "label": "Soigner",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature est capable de soigner 50% des PV totaux de chaque créature qu’elle touche une fois par jour.\r\n",
+      "paths": "Voie de la magie de guérison"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "297",
+      "alt": "",
+      "title": "",
+      "width": "400",
+      "height": "600",
+      "label": "soldat_0.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-07/soldat_0.png.webp?itok=20d_iJxs"
+    }
+  ]
+}

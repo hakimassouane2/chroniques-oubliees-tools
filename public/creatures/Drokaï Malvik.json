@@ -1,0 +1,375 @@
+{
+  "name": [
+    {
+      "value": "Drokaï Malvik"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Enfant d'un humain et d'une thieflinne, Drokai fut abandonné par sa mère. Il a grandi seul dans les rues de la basse ville. Il apprit à voler et à se battre pour survivre au sein d'une troupe de bandits locale. Au fil des années, il s'est découvert des compétences innées pour magie. Depuis, il passe désormais le plus clair de son temps à s'instruire sur les arts occultes et renouer avec son héritage démoniaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [
+    {
+      "value": "Magie"
+    }
+  ],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "38"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Bâton ferré </strong>+10 <strong>DM</strong> 1d6</p>\r\n\r\n<p><strong>Dague&nbsp;</strong>+10 <strong>DM</strong><strong> </strong>1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bâton ferré",
+          "test": "+10",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+10",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "8"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie destructrice</strong> rang 4</p>\r\n\r\n<p><strong>Voie du sang</strong> rang 4</p>\r\n\r\n<p><strong>Voie de la magie protectrice</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Résistance aux éléments</strong> : Les tieflins retranchent 5 points (RD 5) à tous les DM de feu, de froid et d'électricité subis.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "57": {
+      "id": "57",
+      "name": "Voie du sang",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "259",
+          "label": "Saignements",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien doit réussir un test d’attaque magique (portée 10 m). Du sang s’écoule de la bouche, du nez, des oreilles et même des yeux de la victime, qui subit 1d6 DM par tour pendant [rang] tours.\r\n"
+        },
+        "2": {
+          "target_id": "260",
+          "label": "Sang mordant",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. d’INT] tours, le sang du Nécromancien se transforme en un acide qui gicle lorsqu’il subit une blessure. Chaque fois qu’un ennemi au contact le blesse, ce dernier subit 1d6 DM d’acide.\r\n"
+        },
+        "3": {
+          "target_id": "262",
+          "label": "Exsangue",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "1",
+          "description": "Lorsque le nécromant tombe à 0 PV, il peut continuer à agir mais avec un malus de -2 à tous ses tests. Une nouvelle attaque réussie infligeant au moins 1 point de DM finira par l’achever !\r\n"
+        },
+        "4": {
+          "target_id": "264",
+          "label": "Hémorragie",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Si le Nécromancien réussit un test d’attaque magique (portée 10 m), la victime saigne à la moindre blessure. Tous les DM des armes blanches infligées à la cible augmentent de 1d6 pendant [5 + Mod. d’INT] tours.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "63": {
+      "id": "63",
+      "name": "Voie de la magie destructrice",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "296",
+          "label": "Projectile magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n"
+        },
+        "2": {
+          "target_id": "297",
+          "label": "Rayon affaiblissant",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n"
+        },
+        "3": {
+          "target_id": "298",
+          "label": "Flèche enflammée",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n"
+        },
+        "4": {
+          "target_id": "299",
+          "label": "Boule de feu",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 30 mètres. Il fait un test d’attaque magique et le compare à la DEF de tous les personnages (y compris le Magicien et ses compagnons) se trouvant dans un rayon de 6 mètres autour de la cible. Chaque victime pour laquelle le test est un succès encaisse [4d6 + Mod. d’INT] de DM et doit effectuer un test de DEX difficulté 10 + Mod. d’INT du Magicien pour ne subir que la moitié des DM. Quand le test d’attaque est un échec, la cible subit automatiquement la moitié des DM (pas besoin de faire le test de DEX).\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "65": {
+      "id": "65",
+      "name": "Voie de la magie protectrice",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "306",
+          "label": "Armure de mage",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).\r\n"
+        },
+        "2": {
+          "target_id": "307",
+          "label": "Chute ralentie",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien affecte une cible à moins de 10 mètres avec ce sort. La cible peut chuter de 6 mètres par rang dans la Voie sans subir de dégâts. Si la chute est supérieure à cette hauteur, elle est réduite d’autant.\r\n"
+        },
+        "3": {
+          "target_id": "308",
+          "label": "Flou",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [1d4 + Mod. d’INT] tours, le corps du Magicien devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "296",
+      "label": "Projectile magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "297",
+      "label": "Rayon affaiblissant",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "298",
+      "label": "Flèche enflammée",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "299",
+      "label": "Boule de feu",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 30 mètres. Il fait un test d’attaque magique et le compare à la DEF de tous les personnages (y compris le Magicien et ses compagnons) se trouvant dans un rayon de 6 mètres autour de la cible. Chaque victime pour laquelle le test est un succès encaisse [4d6 + Mod. d’INT] de DM et doit effectuer un test de DEX difficulté 10 + Mod. d’INT du Magicien pour ne subir que la moitié des DM. Quand le test d’attaque est un échec, la cible subit automatiquement la moitié des DM (pas besoin de faire le test de DEX).\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "259",
+      "label": "Saignements",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien doit réussir un test d’attaque magique (portée 10 m). Du sang s’écoule de la bouche, du nez, des oreilles et même des yeux de la victime, qui subit 1d6 DM par tour pendant [rang] tours.\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "260",
+      "label": "Sang mordant",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. d’INT] tours, le sang du Nécromancien se transforme en un acide qui gicle lorsqu’il subit une blessure. Chaque fois qu’un ennemi au contact le blesse, ce dernier subit 1d6 DM d’acide.\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "262",
+      "label": "Exsangue",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "1",
+      "description": "Lorsque le nécromant tombe à 0 PV, il peut continuer à agir mais avec un malus de -2 à tous ses tests. Une nouvelle attaque réussie infligeant au moins 1 point de DM finira par l’achever !\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "264",
+      "label": "Hémorragie",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Si le Nécromancien réussit un test d’attaque magique (portée 10 m), la victime saigne à la moindre blessure. Tous les DM des armes blanches infligées à la cible augmentent de 1d6 pendant [5 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie du sang"
+    },
+    {
+      "target_id": "306",
+      "label": "Armure de mage",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien fait apparaître un nuage magique argenté qui le protège contre les attaques adverses. Il bénéficie d’un bonus de +4 à la DEF pour le reste du combat. Si le sort est cumulé à une armure physique, le bonus est divisé par 2 (+2 DEF).\r\n",
+      "paths": "Voie de la magie protectrice"
+    },
+    {
+      "target_id": "307",
+      "label": "Chute ralentie",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien affecte une cible à moins de 10 mètres avec ce sort. La cible peut chuter de 6 mètres par rang dans la Voie sans subir de dégâts. Si la chute est supérieure à cette hauteur, elle est réduite d’autant.\r\n",
+      "paths": "Voie de la magie protectrice"
+    },
+    {
+      "target_id": "308",
+      "label": "Flou",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [1d4 + Mod. d’INT] tours, le corps du Magicien devient flou et tous les DM des attaques de contact ou à distance qu’il encaisse sont divisés par 2.\r\n",
+      "paths": "Voie de la magie protectrice"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1666",
+      "alt": "",
+      "title": "",
+      "width": "235",
+      "height": "338",
+      "label": "Drokaï Malvik.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Droka%C3%AF%20Malvik.png.webp?itok=50qlOdtg"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "name": [
+    {
+      "value": "Chasseur"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Physiquement, un gnome est généralement petit et mince, mesurant entre 90 cm et 1,20 mètre. Leur teint de peau est souvent pâle et leur corps est souvent bien proportionné. Leurs cheveux sont généralement d'une couleur vive, comme le rouge ou le vert, et leur barbe est souvent longue et bouclée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "9"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "7"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "0"
+    }
+  ],
+  "init": [
+    {
+      "value": "11"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Javelot : <strong>1D6 </strong>lancé jusqu'à 20m</p>\r\n\r\n<p>Arc : <strong>1D8</strong> 50m</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Javelot : 1D6 lancé jusqu'à 20m",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc : 1D8 50m",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "9",
+      "label": "Rôdeur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Nature nourricière</strong></p>\r\n\r\n<p>Si le Rôdeur passe 1 heure en forêt, il trouve de quoi nourrir deux personnes (pour une journée) pour chaque rang qu’il possède dans cette voie. En passant 1d6 heure(s) et en réussissant un test de SAG difficulté 10, le Rôdeur trouve des plantes médicinales qui lui permettent de soigner 1d6 PV par Rang. Ces plantes doivent être utilisées immédiatement. Ces soins peuvent toutefois être répartis sur plusieurs patients : le joueur alloue les d6 correspondant aux plantes médicinales à sa guise.</p>\r\n\r\n<p><strong>Chasseur émérite</strong></p>\r\n\r\n<p>Le Rôdeur obtient un bonus de +2 en attaque et aux DM lorsqu’il combat des animaux et un bonus de +2 par Rang dans cette Voie pour pister ou retrouver des traces.</p>\r\n\r\n<p><strong>Tir rapide (L)</strong></p>\r\n\r\n<p>Le Rôdeur peut faire 2 attaques à distance pendant ce tour.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<ol>\r\n\t<li><strong>Camouflage dans les rochers.</strong> Le gnome a l'avantage aux jets de Dextérité (Discrétion) effectués pour se cacher sur un terrain rocailleux.</li>\r\n</ol>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>En général, les gnomes sont considérés comme des membres utiles et appréciés de leur communauté, grâce à leur nature amicale et leur esprit inventif. Ils sont souvent impliqués dans des projets communautaires et sont souvent sollicités pour résoudre des problèmes ou trouver des solutions à des situations difficiles.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1796",
+      "alt": "",
+      "title": "",
+      "width": "650",
+      "height": "975",
+      "label": "gnome_chasseur.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/gnome_chasseur.png.webp?itok=ZuF5I_a6"
+    }
+  ]
+}

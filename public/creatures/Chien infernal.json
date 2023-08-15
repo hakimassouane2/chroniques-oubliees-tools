@@ -1,0 +1,193 @@
+{
+  "name": [
+    {
+      "value": "Chien infernal"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Cet énorme chien vient des plans maléfiques, il rôde en meute les nuits de terreur et parcourt les cieux comme s’il courait sur la terre ferme en poussant des hurlements effroyables. Il ne sort jamais le jour.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "7",
+      "label": "Chiens"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "11"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +4 <strong>DM</strong> 1d6+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la meute</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Hurlements (L) :</em> lorsqu’il pousse son hurlement toutes les créatures à moins de 50 mètres du chien infernal doivent réussir un test de SAG difficulté 10 ou fuir pendant 2d4 tours. Si plusieurs chiens hurlent en même temps la difficulté du test passe à [10 + nombre de chiens] pour un maximum de 20 de difficulté. Une créature qui a résisté à cet effet, y est immunisée pendant 24 heures.</p>\r\n\r\n<p><em>Vol :</em> le chien infernal est capable de courir dans les airs comme sur terre.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "84": {
+      "id": "84",
+      "name": "Voie de la meute",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "393",
+          "label": "Interchangeables",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Tant que la créature et ses alliées sont plus nombreuses que la cible, elles se relaient pour esquiver ses attaques et elles obtiennent un bonus de +5 en DEF. Si plusieurs créatures semblables sont au contact du PJ, le MJ a toute latitude pour infliger les DM d’une attaque sur la créature de son choix, le personnage ne sait jamais laquelle il blesse.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "393",
+      "label": "Interchangeables",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Tant que la créature et ses alliées sont plus nombreuses que la cible, elles se relaient pour esquiver ses attaques et elles obtiennent un bonus de +5 en DEF. Si plusieurs créatures semblables sont au contact du PJ, le MJ a toute latitude pour infliger les DM d’une attaque sur la créature de son choix, le personnage ne sait jamais laquelle il blesse.\r\n",
+      "paths": "Voie de la meute"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "918",
+      "alt": "Chien infernal",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "hellhound-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hellhound-modified.png.webp?itok=YsQadME-"
+    }
+  ]
+}

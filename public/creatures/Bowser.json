@@ -1,0 +1,156 @@
+{
+  "name": [
+    {
+      "value": "Bowser"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "13"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "19"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Poing</strong> +17 <strong>DM</strong> 3d6+13</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Poing",
+          "test": "+17",
+          "dm": "3d6+13",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "8"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du drakonide</strong> rang 2</p>\r\n\r\n<ul>\r\n\t<li><strong>1. Souffle</strong> : Une souffle de feu inflige 2d6 DM par Rang dans une zone conique de 10 m de long sur 5 m de large. Toutes les créatures affectées peuvent diviser les DM par 2 si elles réussissent un test de DEX difficulté 12. Après avoir utilisé son souffle, le drakonide doit attendre 1d4 tours avant de pouvoir l'utiliser à nouveau.</li>\r\n\t<li><strong>2. Intimidant</strong>&nbsp;: Le drakonide reçoit un bonus de +5 à tous les tests d'intimidation.</li>\r\n</ul>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1669",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "769",
+      "label": "Bowser.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Bowser.jpg.webp?itok=gmcBvmz6"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name": [
+    {
+      "value": "Sifmo, dit le Fou"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Sifmo est un nain d’une centaine&nbsp;d’années qui est toujours vêtu de<br />\r\nnoir, ce qui fait ressortir les mèches&nbsp;blanches de sa barbe et de ses cheveux,&nbsp;qui lui ont valu son surnom&nbsp;de Blaireau&nbsp; Fou.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Sifmo est bien connu&nbsp;par les voyous des environs de Monastir&nbsp;et aucun d’entre eux ne veut&nbsp;avoir affaire avec lui car&nbsp; n dit que&nbsp;ses colères sont aussi brusques que&nbsp;létales. Sifmo est une terreur parmi&nbsp;les petites frappes de la région et&nbsp;c’est précisément pour cette raison&nbsp;qu’Amarange l’a recruté il y a trois&nbsp;ans. Maintenant, Sifmo est le patron&nbsp;des&nbsp; faux-monnayeurs de Monastir et&nbsp;le second dans l’organisation après&nbsp;Amarange lui-même. Personne n’ose&nbsp;lui tenir&nbsp; tête, hormis peut être Annita&nbsp;de Caurel. L’intérêt de Sifmo dans&nbsp;cette organisation est simple : amasser&nbsp;de l’or et&nbsp; encore plus d’or...</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "34",
+      "label": "Nains"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "22"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Hachette</strong> +7 <strong>DM</strong> 1d6+4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Hachette",
+          "test": "+7",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Attaque mortelle (L) :</strong></p>\r\n\r\n<p>Une attaque&nbsp;similaire à l’attaque sournoise du&nbsp;voleur, qui doit être exécutée de&nbsp;dos ou par surprise (ou en cas&nbsp;d’encerclement de la cible). La&nbsp;créature obtient un bonus de +5 en&nbsp;attaque et ajoute +2d6 aux DM. La&nbsp;créature&nbsp; obtient aussi un bonus de&nbsp;+5 aux tests de discrétion.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Moral : </strong>dès qu’il lui reste moins&nbsp;de 15 PV, Sifmo s’enfuit si la voie&nbsp;est libre, sinon il consomme sa&nbsp;potion de forme gazeuse.</p>\r\n\r\n<p><strong>Équipement :</strong></p>\r\n\r\n<p>Armure de cuir +2&nbsp;taille naine</p>\r\n\r\n<p>Outils de voleur</p>\r\n\r\n<p>Bourse avec 130 pa, 30 po</p>\r\n\r\n<p>Potion&nbsp;de Forme gazeuse (Voie de la&nbsp;magie des arcanes,&nbsp;rang 2 magicien)</p>\r\n\r\n<p>Hachette +2</p>\r\n\r\n<p>Deux dagues</p>\r\n\r\n<p>Besace&nbsp;contenant divers&nbsp;sacs en toile, vêtements&nbsp;sombres</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1792",
+      "alt": "",
+      "title": "",
+      "width": "1155",
+      "height": "916",
+      "label": "Capture d'écran 2023-05-06 131429.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Capture%20d%27%C3%A9cran%202023-05-06%20131429.png.webp?itok=M0VlIOjA"
+    }
+  ]
+}

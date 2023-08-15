@@ -1,0 +1,246 @@
+{
+  "name": [
+    {
+      "value": "Crabe géant "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Les grabes géants possèdent une petite pince et une autre pince, bien plus grosse qui leur permettent de broyer leurs cibles une fois attrapé avec la petite.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "aquatic",
+      "label": "Aquatique"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "resistant",
+      "label": "Résistant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5/marteaux, masses et armes lourdes "
+    }
+  ],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Pince +2 DM 1d6+2</p>\r\n\r\n<p>Pince énorme +6 DM 2d6+10</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Pince",
+          "test": "+2",
+          "dm": "1d6+2",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Pince énorme",
+          "test": "+6",
+          "dm": "2d6+10",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Voie du cogneur - rang 2</p>\r\n\r\n<p>Voie des créatures magiques - rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Combo broyeur : chaque fois que la créature inflige des DM avec son arme, elle peut ensuite faire une attaque avec son autre arme sur la même cible. Si la créature n'est plus avec la cible de l'attaque (à cause par exemple d'une charge) alors la cible est emporté avec elle.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        },
+        "2": {
+          "target_id": "418",
+          "label": "Enrager",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "418",
+      "label": "Enrager",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2339",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "523",
+      "label": "81ebac83318afdc1c8d6116739a8f59a.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/81ebac83318afdc1c8d6116739a8f59a.jpg.webp?itok=Hir6DiMe"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "name": [
+    {
+      "value": "Manahim, chef brigand"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "15",
+      "label": "Elfes"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "21"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Epée courte</strong> +6 <strong>DM</strong> 1d6+5</p>\r\n\r\n<p><strong>Arc</strong> (30m) +5 <strong>DM </strong>1d6+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Epée courte",
+          "test": "+6",
+          "dm": "1d6+5",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc (30m)",
+          "test": "+5",
+          "dm": "1d6+2",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

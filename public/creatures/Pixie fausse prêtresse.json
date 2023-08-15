@@ -1,0 +1,351 @@
+{
+  "name": [
+    {
+      "value": "Pixie fausse prêtresse"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "39",
+      "label": "Pixies"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "10"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "7"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Flèches</strong> +10 <strong>DM</strong> 1d4<br />\r\n<strong>Attaque magique</strong> +8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Flèches",
+          "test": "+10",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique",
+          "test": "+8",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "8",
+      "label": "Ensorceleur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "2"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de l’envoûteur</strong> rang 4<br />\r\n<strong>Voie des illusions</strong> rang 4<br />\r\n<strong>Voie du prédateur</strong> rang 1<br />\r\nNote : le bonus d’Embuscade de la Voie du prédateur s’applique au tir à l’arc. L’effet <em>Renversé</em> est ignoré.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Flèche de sommeil (L) :</em> le pixie peut tirer une flèche qui ne provoque aucun DM mais plonge la cible dans un profond sommeil. La victime doit réussir un test de SAG difficulté 13 ou s’endormir immédiatement pour 1d6 minutes. Le sommeil est si profond qu’il faut au moins infliger 1 point de DM à la victime pour la réveiller.</p>\r\n\r\n<p><em>Vol :</em> la créature est capable de voler de 20 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "38": {
+      "id": "38",
+      "name": "Voie de l'envoûteur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "179",
+          "label": "Injonction",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur donne un ordre simple (mais pas dangereux pour elle) que la victime doit pouvoir comprendre. Il doit réussir un test d’attaque magique opposé avec la cible (contre attaque au contact si la créature n'en a pas) à une portée de 20 mètres. En cas d’échec, la cible exécutera l’ordre pendant son prochain tour.\r\n"
+        },
+        "2": {
+          "target_id": "180",
+          "label": "Sommeil",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Plonge dans l'inconscience des créatures vivantes pendant [5 + Mod. de CHA] minutes. Affecte un nombre de PV égal au test d'attaque magique de l'Ensorceleur dans une zone de 10 m de diamètre (portée 20 m). Toutes les cibles doivent être d'un Niveau inférieur ou égal à la moitié du Niveau du personnage. Il est possible de les réveiller en les giflant (action d’attaque).\r\n"
+        },
+        "3": {
+          "target_id": "181",
+          "label": "Confusion",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "En réussissant un test d’Attaque magique (portée 20 m), l’Ensorceleur désoriente sa cible pendant [3 + Mod. de CHA] tours. Chaque tour, lancer 1d6 : 1-3 la victime n’agit pas, 4-6 elle attaque la créature la plus proche (au hasard). Chaque fin de tour, elle fait un test de SAG difficulté [10 + Mod. de CHA] pour mettre fin au sort.\r\n"
+        },
+        "4": {
+          "target_id": "182",
+          "label": "Amitié",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Si l’Ensorceleur réussit un test d’Attaque magique (portée 10 m) contre le score max de PV d’une cible humanoïde, celle-ci se comporte comme un ami de longue date tant qu’elle n’est pas attaquée. Elle peut résister au sort avec un test de SAG difficulté [12 + Mod. de CHA], renouvelable une fois par jour.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "39": {
+      "id": "39",
+      "name": "Voie des illusions",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "184",
+          "label": "Image décalée",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. de CHA] tours, lorsqu’une attaque le touche, l’Ensorceleur lance 1d6 : sur 5-6, il ne subit pas les DM.\r\n"
+        },
+        "2": {
+          "target_id": "185",
+          "label": "Mirage",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée). Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie (portée 500 m). Divisez ces paramètres par 10 si l’illusion est animée. Interagir avec l’illusion la fait disparaître.\r\n"
+        },
+        "3": {
+          "target_id": "186",
+          "label": "Imitation",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L'ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou - 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.\r\n"
+        },
+        "4": {
+          "target_id": "187",
+          "label": "Dédoublement",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "179",
+      "label": "Injonction",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur donne un ordre simple (mais pas dangereux pour elle) que la victime doit pouvoir comprendre. Il doit réussir un test d’attaque magique opposé avec la cible (contre attaque au contact si la créature n'en a pas) à une portée de 20 mètres. En cas d’échec, la cible exécutera l’ordre pendant son prochain tour.\r\n",
+      "paths": "Voie de l'envoûteur"
+    },
+    {
+      "target_id": "180",
+      "label": "Sommeil",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Plonge dans l'inconscience des créatures vivantes pendant [5 + Mod. de CHA] minutes. Affecte un nombre de PV égal au test d'attaque magique de l'Ensorceleur dans une zone de 10 m de diamètre (portée 20 m). Toutes les cibles doivent être d'un Niveau inférieur ou égal à la moitié du Niveau du personnage. Il est possible de les réveiller en les giflant (action d’attaque).\r\n",
+      "paths": "Voie de l'envoûteur"
+    },
+    {
+      "target_id": "181",
+      "label": "Confusion",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "En réussissant un test d’Attaque magique (portée 20 m), l’Ensorceleur désoriente sa cible pendant [3 + Mod. de CHA] tours. Chaque tour, lancer 1d6 : 1-3 la victime n’agit pas, 4-6 elle attaque la créature la plus proche (au hasard). Chaque fin de tour, elle fait un test de SAG difficulté [10 + Mod. de CHA] pour mettre fin au sort.\r\n",
+      "paths": "Voie de l'envoûteur"
+    },
+    {
+      "target_id": "182",
+      "label": "Amitié",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Si l’Ensorceleur réussit un test d’Attaque magique (portée 10 m) contre le score max de PV d’une cible humanoïde, celle-ci se comporte comme un ami de longue date tant qu’elle n’est pas attaquée. Elle peut résister au sort avec un test de SAG difficulté [12 + Mod. de CHA], renouvelable une fois par jour.\r\n",
+      "paths": "Voie de l'envoûteur"
+    },
+    {
+      "target_id": "184",
+      "label": "Image décalée",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. de CHA] tours, lorsqu’une attaque le touche, l’Ensorceleur lance 1d6 : sur 5-6, il ne subit pas les DM.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "185",
+      "label": "Mirage",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée). Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie (portée 500 m). Divisez ces paramètres par 10 si l’illusion est animée. Interagir avec l’illusion la fait disparaître.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "186",
+      "label": "Imitation",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L'ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou - 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "187",
+      "label": "Dédoublement",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": []
+}

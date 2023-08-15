@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "value": "Pieuvre géante"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Il s’agit d’une pieuvre monstrueuse dont chacun des 8 tentacules atteint près de 5 mètres de long, capable de s’attaquer à un bateau de petite taille.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "aquatic",
+      "label": "Aquatique"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "90"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Tentacules (x4)</strong> +15 <strong>DM</strong> 2d6+4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Tentacules (x4)",
+          "test": "+15",
+          "dm": "2d6+4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Agripper</em> (Voie des créatures volantes rang 2)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1180",
+      "alt": "Pieuvre géante",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "giant_octupus-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/giant_octupus-modified.png.webp?itok=QVi1Hh7s"
+    }
+  ]
+}

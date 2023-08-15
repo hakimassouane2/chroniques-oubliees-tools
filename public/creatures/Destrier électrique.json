@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "value": "Destrier électrique"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Les chevaux de foudre sont extrêmement rare. Ils sont farouche mais si on parvient à en dompter un, il vous sera fidèle à vie.&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "6",
+      "label": "Chevaux"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Sabots</strong> +7 <strong>DM</strong> 1d6+6 +1d6 électrique</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Sabots",
+          "test": "+7",
+          "dm": "1d6+6",
+          "special": "+1d6 électrique",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Capacité(s) spéciales</p>\r\n\r\n<p><em>Souffle :</em>&nbsp;une fois par combat, le cheval de foudre peut produire un éclair de 10 mètres de long. Toutes les créatures sur la trajectoire, doivent faire un test de DEX difficulté 15. Les cibles subissent 4d6 DM d’électricité, moitié en cas de réussite.</p>\r\n\r\n<p><em>Immunité à l’électricité.&nbsp;</em></p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Galop des cieux :</em> le destrier noir peut se déplacer dans les airs comme sur terre. Il couvre une distance de 30 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Monture épique</strong> La capacité épique du même nom permet de choisir cette créature pour monture. Si le personnage est un Chevalier ayant acquis la capacité Monture fantastique de la Voie du cavalier, il augmente les PV de celle-ci de 2 par niveau du personnage.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2122",
+      "alt": "",
+      "title": "",
+      "width": "379",
+      "height": "453",
+      "label": "1687864067719.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-06/1687864067719.jpg.webp?itok=wCqbmd-q"
+    }
+  ]
+}

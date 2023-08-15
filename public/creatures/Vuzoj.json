@@ -1,0 +1,322 @@
+{
+  "name": [
+    {
+      "value": "Vuzoj"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Venant des profondeur de la Terre, il est remonté a la surface pour echaper a cet enfer. Il à vagabondé pendant plusieures dizaines d'années entre les bidonvilles et les villes pauvres, survivant grâce au vol, a l'asassinat, mais surtout grâces a la revente d'informations. Depuis Vuzoj est devenu un espion très talentueux, cependant il n'hésite pas a se retourner contre ses employeur en cas de différent.</p>\r\n\r\n<p>Vuzoj est un elfe noir qui n'est plus très jeune, mais est toujours aussi habile. Il porte des vetements amples sombres. Il est surnois et aime attaquer par surprise.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "14",
+      "label": "Elfes noirs (Drows)"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "33"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Rapière</strong> +8 <strong>DM</strong> 1d6</p>\r\n\r\n<p><strong>Dague</strong> +11 <strong>DM</strong> 1d4</p>\r\n\r\n<p><strong>158-Holster du lanceur de carte</strong> +11 <strong>DM</strong> 2d8 (+1d6 si AS)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Rapière",
+          "test": "+8",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+11",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "158-Holster du lanceur de carte",
+          "test": "+11",
+          "dm": "2d8",
+          "special": "(+1d6 si AS)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "8"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de l’assassin&nbsp;</strong>rang 4</p>\r\n\r\n<p><strong>Voie de l’aventurier</strong> rang 2</p>\r\n\r\n<p><strong>Voie du roublard</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Vision dans le noir</strong> : Dans le noir total, le personnage voit comme dans la pénombre jusqu'à 30 m.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "31": {
+      "id": "31",
+      "name": "Voie de l’assassin",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "146",
+          "label": "Discrétion",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Quand il essaie de passer inaperçu, le Voleur bénéficie d’un bonus de +2 à son test de DEX pour chaque rang acquis dans cette voie.\r\n"
+        },
+        "2": {
+          "target_id": "147",
+          "label": "Attaque sournoise",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Quand il attaque un adversaire Surpris ou dans le dos*, le Voleur inflige 2d6 de DM supplémentaires (notez que les dés bonus ne sont pas multipliés en cas de critique). Les DM infligés par cette capacité augmentent de +1d6 à chaque fois que le personnage atteint le rang 4 dans une Voie du voleur.\r\n\r\n* Attaquer de dos : lorsque le Voleur attaque la même créature qu’un allié, on considère qu’il peut attaquer celle-ci de dos à 2 conditions :\r\n&nbsp;1. Le Voleur et l’allié peuvent se placer de part et d’autre de la cible.\r\n&nbsp;2. La cible n’a pas attaqué le Voleur à son dernier tour (dans le cas contraire, on considère qu’elle lui fait face).\r\n"
+        },
+        "3": {
+          "target_id": "148",
+          "label": "Ombre mouvante",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "En réussissant un test de DEX difficulté 10, le Voleur peut disparaître dans les ombres à son tour et ne réapparaître qu’au tour suivant durant sa phase d’Initiative. Aucun adversaire ne peut l’attaquer pendant qu’il a disparu dans les ombres, mais il peut subir des DM de zone. Le Voleur réapparait à une distance maximum de 10 m de sa position initiale, si le Voleur a l’Initiative, il peut réaliser une Attaque sournoise.\r\n"
+        },
+        "4": {
+          "target_id": "149",
+          "label": "Surprise",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Voleur n’est jamais surpris. Il peut réaliser une Attaque sournoise en utilisant une action d’attaque plutôt qu’une action limitée contre un adversaire Surpris.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "32": {
+      "id": "32",
+      "name": "Voie de l’aventurier",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "151",
+          "label": "Sprint",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Voleur peut effectuer un déplacement supplémentaire gratuit de 20 mètres à n’importe quel moment du tour.\r\n"
+        },
+        "2": {
+          "target_id": "152",
+          "label": "Provocation",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Voleur maîtrise l’art de se rendre désagréable, voire insupportable. Par un test opposé de CHA contre l’INT de la victime, il peut forcer celle-ci à l’attaquer pendant ce tour. Le Voleur peut immédiatement riposter par une attaque gratuite ou, si la cible l’a raté, par une attaque sournoise !\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "34": {
+      "id": "34",
+      "name": "Voie du roublard",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "159",
+          "label": "Doigts agiles",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang acquis dans cette Voie, le Voleur reçoit un bonus de +2 pour tous ses tests de DEX liés à la précision : crocheter une serrure, désamorcer un piège, pickpocket...\r\n"
+        },
+        "2": {
+          "target_id": "160",
+          "label": "Détecter les pièges",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "En réussissant un test d’INT difficulté 10, le Voleur peut détecter (et ensuite contourner sans danger) les pièges (avant qu’ils ne se déclenchent bien entendu). Les pièges magiques demandent un test d’INT de difficulté 15.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "146",
+      "label": "Discrétion",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Quand il essaie de passer inaperçu, le Voleur bénéficie d’un bonus de +2 à son test de DEX pour chaque rang acquis dans cette voie.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "147",
+      "label": "Attaque sournoise",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Quand il attaque un adversaire Surpris ou dans le dos*, le Voleur inflige 2d6 de DM supplémentaires (notez que les dés bonus ne sont pas multipliés en cas de critique). Les DM infligés par cette capacité augmentent de +1d6 à chaque fois que le personnage atteint le rang 4 dans une Voie du voleur.\r\n\r\n* Attaquer de dos : lorsque le Voleur attaque la même créature qu’un allié, on considère qu’il peut attaquer celle-ci de dos à 2 conditions :\r\n&nbsp;1. Le Voleur et l’allié peuvent se placer de part et d’autre de la cible.\r\n&nbsp;2. La cible n’a pas attaqué le Voleur à son dernier tour (dans le cas contraire, on considère qu’elle lui fait face).\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "148",
+      "label": "Ombre mouvante",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "En réussissant un test de DEX difficulté 10, le Voleur peut disparaître dans les ombres à son tour et ne réapparaître qu’au tour suivant durant sa phase d’Initiative. Aucun adversaire ne peut l’attaquer pendant qu’il a disparu dans les ombres, mais il peut subir des DM de zone. Le Voleur réapparait à une distance maximum de 10 m de sa position initiale, si le Voleur a l’Initiative, il peut réaliser une Attaque sournoise.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "149",
+      "label": "Surprise",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Voleur n’est jamais surpris. Il peut réaliser une Attaque sournoise en utilisant une action d’attaque plutôt qu’une action limitée contre un adversaire Surpris.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "151",
+      "label": "Sprint",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Voleur peut effectuer un déplacement supplémentaire gratuit de 20 mètres à n’importe quel moment du tour.\r\n",
+      "paths": "Voie de l’aventurier"
+    },
+    {
+      "target_id": "152",
+      "label": "Provocation",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Voleur maîtrise l’art de se rendre désagréable, voire insupportable. Par un test opposé de CHA contre l’INT de la victime, il peut forcer celle-ci à l’attaquer pendant ce tour. Le Voleur peut immédiatement riposter par une attaque gratuite ou, si la cible l’a raté, par une attaque sournoise !\r\n",
+      "paths": "Voie de l’aventurier"
+    },
+    {
+      "target_id": "159",
+      "label": "Doigts agiles",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang acquis dans cette Voie, le Voleur reçoit un bonus de +2 pour tous ses tests de DEX liés à la précision : crocheter une serrure, désamorcer un piège, pickpocket...\r\n",
+      "paths": "Voie du roublard"
+    },
+    {
+      "target_id": "160",
+      "label": "Détecter les pièges",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "En réussissant un test d’INT difficulté 10, le Voleur peut détecter (et ensuite contourner sans danger) les pièges (avant qu’ils ne se déclenchent bien entendu). Les pièges magiques demandent un test d’INT de difficulté 15.\r\n",
+      "paths": "Voie du roublard"
+    }
+  ],
+  "picture": []
+}

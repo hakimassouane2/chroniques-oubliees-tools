@@ -1,0 +1,240 @@
+{
+  "name": [
+    {
+      "value": "Tyrannosaure"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Même s’il fait « seulement » le poids d’un gros éléphant ou un peu plus (7 à 10 tonnes), le tyrannosaure est un prédateur bien plus dangereux. Il est à la fois rapide et agile pour son poids et pourvu d’une mâchoire absolument terrifiante.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "10",
+      "label": "Dinosaures"
+    }
+  ],
+  "environment": [
+    {
+      "value": "plain",
+      "label": "Plaine"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "11"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "11"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "24"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "130"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +19 <strong>DM</strong> 3d6+15</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+19",
+          "dm": "3d6+15",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du prédateur</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Rapide :</em> le tyrannosaure se déplace de 30 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        },
+        "2": {
+          "target_id": "388",
+          "label": "Dévorer",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n"
+        },
+        "3": {
+          "target_id": "389",
+          "label": "Gober",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle utilise sa capacité Dévorer, la créature peut avaler toute entière une cible d’au moins 1 taille en dessous de la sienne. La victime doit faire un test de FOR opposé, en cas d’échec elle passe directement dans l’estomac du monstre. Un personnage avalé subit 3d6 DM d’asphyxie et d’acide chaque tour. Il peut attaquer avec une arme pas plus grande qu’une dague en réussissant un test de FOR difficulté 15 à chaque tour. L’attaque se fait avec une pénalité de -5 en attaque et les DM sont divisés par 2.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    },
+    {
+      "target_id": "388",
+      "label": "Dévorer",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n",
+      "paths": "Voie du prédateur"
+    },
+    {
+      "target_id": "389",
+      "label": "Gober",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle utilise sa capacité Dévorer, la créature peut avaler toute entière une cible d’au moins 1 taille en dessous de la sienne. La victime doit faire un test de FOR opposé, en cas d’échec elle passe directement dans l’estomac du monstre. Un personnage avalé subit 3d6 DM d’asphyxie et d’acide chaque tour. Il peut attaquer avec une arme pas plus grande qu’une dague en réussissant un test de FOR difficulté 15 à chaque tour. L’attaque se fait avec une pénalité de -5 en attaque et les DM sont divisés par 2.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "970",
+      "alt": "Tyrannosaure",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "tyrannosaure-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/tyrannosaure-modified.png.webp?itok=TUZLMex_"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "name": [
+    {
+      "value": "Rorarha Ozron"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "14",
+      "label": "Elfes noirs (Drows)"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "cha_comment": [
+    {
+      "value": "Magie"
+    }
+  ],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "11"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "22"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Bâton </strong>+11 <strong>DM</strong> 1d6</p>\r\n\r\n<p><strong>Dague </strong>+11 <strong>DM</strong> 1d4&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bâton",
+          "test": "+11",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+11",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de l'entité </strong>rang 5</p>\r\n\r\n<ol>\r\n\t<li><strong>Invocation d'une entité (L)* :&nbsp;</strong> L’invocateur appelle une créature d’un autre plan qui entre alors à son service. Personne d’autre que l’invocateur ne peut renvoyer l’entité sur son plan d’origine. Lorsque l’entité est réduite à 0 PV, elle disparaît immédiatement. En dehors de son plan, l’entité ne guérit pas naturellement, mais elle peut bénéficier de sorts de soins. L’entité est totalement dévouée à son invocateur. L’entité arbore quelque part sur son corps une rune lumineuse qui la maintient sur le plan de l’invocateur. Entité : FO+4 DEX+0 CON+2 INT+2 SAG+0 CHA+0 DEF 12 Att +15 DM 2d6+4 PV 45</li>\r\n\t<li><strong>Lien magique</strong> : L’invocateur peut communiquer par télépathie avec son entité, quelle que soit la distance qui les sépare. Lorsque l’entité subit des DM, l’invocateur peut choisir de sacrifier ses propres PV pour protéger son entité. Inversement, si l’invocateur subit des DM, il peut les transférer à son entité, mais dans ce cas, les DM subis par celle-ci sont doublés. Enfin, grâce au lien avec l’invocateur, la créature peut toucher et attaquer des cibles protégées normalement du contact des créatures invoquées.</li>\r\n\t<li><strong>Amélioration </strong>: L’invocateur siphonne l’énergie des plans pour améliorer les capacités de son entité. Armes puissantes : +1d6 aux DM au contact et Puissant : +2 Mod. de FOR</li>\r\n\t<li><strong>Protecteur&nbsp;</strong>:<strong>&nbsp;</strong>Quand un allié se trouve au contact de l’entité, il obtient un bonus de +2 en DEF. Si l’allié est l’invocateur, ce bonus passe à +4. De plus, une fois par tour, l’entité peut subir une attaque à la place d’un allié à son contact.</li>\r\n\t<li><strong>Lien magique amélioré</strong> :&nbsp; Le lien entre l’invocateur et l’entité est tel qu’ils peuvent se téléporter ou échanger leurs places. Au prix d’une action de mouvement, l’invocateur peut utiliser une action de son choix : téléporter son entité à son contact, se téléporter au contact de son entité ou enfin, échanger sa place avec son entité.</li>\r\n</ol>\r\n\r\n<p><strong>Voie des mutations </strong>rang 4</p>\r\n\r\n<ol>\r\n\t<li><strong>Mutation offensive (L)*</strong> : L’invocateur échange une partie de son corps avec celle d'une créature monstrueuse d'un autre plan pendant 10 tours. Il obtient ainsi un appendice monstrueux de son choix : une gueule démesurée, un bras monstrueux doté de griffes ou de pinces, une queue munie d’un formidable piquant, etc. Il lui faut une action limitée pour attaquer avec cet appendice et il reçoit un bonus de +3 au Mod. de FOR sur cette attaque. L’attaque inflige 1d6+ 2 DM . À partir du rang 4, l’invocateur apprend à mieux maîtriser le membre étranger et il lui suffit d’une action d’attaque pour attaquer.</li>\r\n\t<li><strong>Mutation protectrice (L)*</strong> : L’invocateur obtient les caractéristiques d’une créature d’un autre monde, adaptée à la survie dans un environnement dangereux, pendant 10] minutes. À chaque utilisation du sort, il choisit une mutation de son choix dans la liste suivante. Il est impossible de bénéficier de deux mutations protectrices en même temps.\r\n\t<ul>\r\n\t\t<li>Cuirasse : +1 en DEF par rang</li>\r\n\t\t<li>Écailles rouges : DM de feu ou d'acide divisés par 2</li>\r\n\t\t<li>Fourrure violette : DM de froid ou de foudre divisés par 2</li>\r\n\t\t<li>Ouïes : respiration aquatique</li>\r\n\t\t<li>Sang noir : immunisé au poison ou aux maladies</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Surpuissance physique (L)*</strong>&nbsp; : L’invocateur obtient une des mutations suivantes au choix pendant 10 minutes. Il est impossible de bénéficier de deux effets de surpuissance en même temps.\r\n\t<ul>\r\n\t\t<li>Muscles hypertrophiés : +2 au Mod. de FOR</li>\r\n\t\t<li>Silhouette filiforme : +4 au Mod. de DEX</li>\r\n\t\t<li>Silhouette massive : + 5 aux tests de CON et réduction des DM de 3 (RD 3)</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><strong>Adaptation motrice (L)* </strong>:&nbsp; L’invocateur obtient une des mutations suivantes au choix pendant 10 minutes. Il est impossible de bénéficier de deux effets d’adaptation en même temps.\r\n\t<ul>\r\n\t\t<li>Ailes : vol à sa vitesse normale de déplacement</li>\r\n\t\t<li>Pattes démesurées : se déplace de 30 mètres par action de mouvement</li>\r\n\t\t<li>Queue de poisson : nage de 30 mètres par action de mouvement.</li>\r\n\t</ul>\r\n\t</li>\r\n</ol>\r\n\r\n<p><strong>Voie de la conjuration</strong> rang 3</p>\r\n\r\n<ol>\r\n\t<li><strong>Conjuration de prédateur (L)*</strong>&nbsp; : Une fois par combat, l’invocateur peut conjurer un animal qui combat pour lui pendant 10 tours. Le type d’animal conjuré dépend du niveau de l’invocateur. L’animal apparaît au contact de l’invocateur et peut s’éloigner jusqu’à une distance de 50 mètres.</li>\r\n\t<li><strong>Conjuration renforcée</strong>&nbsp;: L’invocateur ajoute à son niveau le rang atteint dans la Voie pour déterminer le niveau des prédateurs conjurés.</li>\r\n\t<li><strong>Conjuration d'armée (L)* </strong>:&nbsp; Une fois par jour, l’invocateur peut conjurer une petite armée pour une durée maximum de 10 heures. Les créatures apparaissent dans une zone carrée de 20 mètres de coté, centrée sur l’invocateur. Elles peuvent ensuite se déplacer en formation, en occupant la même surface jusqu’à une portée de 200 mètres. Les créatures attaquent les adversaires que l’invocateur leur désigne (20 mètres par tour). L’armée inflige automatiquement 1d6 DM par tour à chaque cible dans la zone. Une cible peut choisir de combattre l’armée par une action limitée : cela lui permet de ne subir que la moitié des DM prévus et d’infliger à son tour à l’armée des DM égaux à son niveau plus 1. Lorsque l’armée a subi un montant total de DM égal a 90, le sort prend fin.</li>\r\n</ol>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Vision dans le noir </strong>: dans le noir total, le Nain voit comme dans la pénombre jusqu'à 30 m.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1525",
+      "alt": "",
+      "title": "",
+      "width": "1517",
+      "height": "1070",
+      "label": "Rorarh Ozron.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Rorarh%20Ozron.jpg.webp?itok=TWcQhPwR"
+    }
+  ]
+}

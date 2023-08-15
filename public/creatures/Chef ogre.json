@@ -1,0 +1,235 @@
+{
+  "name": [
+    {
+      "value": "Chef ogre"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "36",
+      "label": "Ogres"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Hachoir</strong> +12 <strong>DM</strong> 2d6+10</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Hachoir",
+          "test": "+12",
+          "dm": "2d6+10",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du champion</strong> rang 1<br />\r\n<strong>Voie du cogneur</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        },
+        "2": {
+          "target_id": "418",
+          "label": "Enrager",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "93": {
+      "id": "93",
+      "name": "Voie du champion",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "420",
+          "label": "Imparable",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "420",
+      "label": "Imparable",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "418",
+      "label": "Enrager",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n",
+      "paths": "Voie du cogneur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1087",
+      "alt": "Chef ogre",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "ogre_chief-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ogre_chief-modified.png.webp?itok=KB5HG64C"
+    }
+  ]
+}

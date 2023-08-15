@@ -1,0 +1,175 @@
+{
+  "name": [
+    {
+      "value": "Urmagh"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Demi-orque de 123 kg pour 1,73 m.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Il n'est qu'une brute craintive et soumise. C'est un esprit simple perverti par l'éducation qu'a pu recevoir un escalve orque né dans le Protectorat de Fer.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "37",
+      "label": "Orques"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "45"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Epée bâtarde</strong> +4 <strong>DM</strong> 1d8+4</p>\r\n\r\n<p><strong>Dague</strong> +4 <strong>DM</strong> 1d4+4</p>\r\n\r\n<p><strong>Lance</strong> +0 <strong>DM</strong> 1d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Epée bâtarde",
+          "test": "+4",
+          "dm": "1d8+4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+4",
+          "dm": "1d4+4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Lance",
+          "test": "+0",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Equipement :</strong></p>\r\n\r\n<p>Armure de cuir cloutée</p>\r\n\r\n<p>Epée bâtarde</p>\r\n\r\n<p>Dague</p>\r\n\r\n<p>Lance</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1788",
+      "alt": "",
+      "title": "",
+      "width": "334",
+      "height": "637",
+      "label": "Capture d'écran 2023-05-06 125648.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Capture%20d%27%C3%A9cran%202023-05-06%20125648.png.webp?itok=TRyUM-d2"
+    }
+  ]
+}

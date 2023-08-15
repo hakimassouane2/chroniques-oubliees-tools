@@ -1,0 +1,173 @@
+{
+  "name": [
+    {
+      "value": "Randall"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p><em>seulement voilà randall est un lycanthrope d'une famille naturelle qui a vu mourir presque toute les générations a cause de chasse au monstre. Il arrive à bien le cacher car Randall maîtrise parfaitement sa transformation et est un des dernier de sa génération.&nbsp;</em></p>\r\n\r\n<p><em>lors de la pleine nuit Randall se transforme obligatoirement et gagne en force tout en étant capable de garder maîtrisé sur celle ci.&nbsp;</em></p>\r\n\r\n<p><em>Quand Randall se transforme il mesure 2 metres et a un pelage blanc de mâle alpha</em></p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Randall est un humain tout ce qui est de plus normal. 1.75 metre pour 70 kg.&nbsp;</p>\r\n\r\n<p>Il est près à tout pour un bon repas.</p>\r\n\r\n<p>De plus il essaye toujours de ce faire quelques amis au bar avant de repartir.&nbsp;</p>\r\n\r\n<p>Blond aux yeux bleu il a tout pour séduire sa future concubine&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "31",
+      "label": "Lycanthropes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [
+    {
+      "value": "Vaut mieux-être con pour mieux duper"
+    }
+  ],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Équipement du voyageur, seulement +1 Ca.\r\nCA= 10+sagesse+bouclier+armure"
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>En tant qu'humain Randall utilise une hache de combat nain. Il a un jour croisé Fulgrim qui lui a confié cette arme (sûrement pour satisfaire Moradin). En arme de jet il possède des couteau de lancé classique</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "En tant qu'humain Randall utilise une hache de combat nain. Il a un jour croisé Fulgrim qui lui a confié cette arme (sûrement pour satisfaire Moradin). En arme de jet il possède des couteau de lancé classique",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "3",
+      "label": "Barbare"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>La famille de Randall a été décimée. Il cherche à retrouvé ses frères et soeur disparu.</p>\r\n\r\n<p>Cependant l'être qu'il cherche vraiment est sa soeur jumelle Tetra avec laquelle il a comme un lien télépathique qui lui permet de la ressentir</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

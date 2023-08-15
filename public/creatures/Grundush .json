@@ -1,0 +1,181 @@
+{
+  "name": [
+    {
+      "value": "Grundush "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dague</strong> + 4 = <strong>DM </strong>1d4+3 + CON 10 ou <em>affaibli </em>1 tour</p>\r\n\r\n<p><strong>Attaque magique d'acide +7</strong> = DM 2d6+3</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dague + 4 =",
+          "test": null,
+          "dm": "1d4+3",
+          "special": "+ CON 10 ou affaibli 1 tour",
+          "reach": null
+        },
+        {
+          "name": "Attaque magique d'acide",
+          "test": "+7",
+          "dm": "2d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "55": {
+      "id": "55",
+      "name": "Voie de l’outre-tombe",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "254",
+          "label": "Peur",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien effectue un test d’attaque magique contre une cible (portée 20 m). Celle-ci doit réussir un test de FOR ou de SAG (au choix) difficulté [10 + Mod. d’INT] ou fuir pendant [1d4 + rang] tours (le MJ peut garder cette durée secrète). Une créature ne peut subir les effets de ce sort qu’une fois par combat.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "254",
+      "label": "Peur",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien effectue un test d’attaque magique contre une cible (portée 20 m). Celle-ci doit réussir un test de FOR ou de SAG (au choix) difficulté [10 + Mod. d’INT] ou fuir pendant [1d4 + rang] tours (le MJ peut garder cette durée secrète). Une créature ne peut subir les effets de ce sort qu’une fois par combat.\r\n",
+      "paths": "Voie de l’outre-tombe"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1808",
+      "alt": "",
+      "title": "",
+      "width": "550",
+      "height": "750",
+      "label": "d4d2788f5f8e6cd3a4fe7627c3956252.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/d4d2788f5f8e6cd3a4fe7627c3956252.jpg.webp?itok=yoGgAe2S"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "name": [
+    {
+      "value": "Ozïka"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Apparence</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>&nbsp;</p>\r\n\r\n<p>Description</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Il attaque avec ses kounaï et ses shuriken il utilise une très grande quantité de magie dans ses attaques</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Il attaque avec ses kounaï et ses shuriken il utilise une très grande quantité de magie dans ses attaques",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "4"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Voie du Chakra&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Comment quoi quoicoube</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "77": {
+      "id": "77",
+      "name": "Voie du halfelin",
+      "type": "race",
+      "capabilities": {
+        "5": {
+          "target_id": "366",
+          "label": "Vif et alerte",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le halfelin augmente ses valeurs de DEX et de CON de +2.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "366",
+      "label": "Vif et alerte",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le halfelin augmente ses valeurs de DEX et de CON de +2.\r\n",
+      "paths": "Voie du halfelin"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1561",
+      "alt": "",
+      "title": "",
+      "width": "1236",
+      "height": "1440",
+      "label": "20221207_124925.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/20221207_124925.jpg.webp?itok=2Cjg2K5C"
+    }
+  ]
+}

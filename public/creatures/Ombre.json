@@ -1,0 +1,205 @@
+{
+  "name": [
+    {
+      "value": "Ombre"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Une ombre est un mort-vivant étrange, les restes maudits des âmes de morts très anciens qui hantent les ruines antiques. Une ombre est intangible et seulement vaguement humanoïde, rampant au sol telle une forme fuligineuse pour se dresser soudain en une silhouette fantomatique et obscure mue par le seul désir impie d’aspirer la vitalité de sa victime.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "26"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "10 / magie"
+    }
+  ],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Contact intangible</strong> +5 <strong>DM</strong> 1d6 + Affaiblissement</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Contact intangible",
+          "test": "+5",
+          "dm": "1d6",
+          "special": "+ Affaiblissement",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures magiques</strong> rang 2 (RD 10 / magie, Vitalité surnaturelle)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Affaiblissement :</em> à chaque fois qu’une ombre inflige des DM, la victime doit réussir un test de CON difficulté 15 ou être <em>Affaiblie</em> pour 1d6 minutes.</p>\r\n\r\n<p><em>Création de rejeton :</em> une créature tuée par une ombre devient elle-même une ombre 1d4 tours après son décès.</p>\r\n\r\n<p><em>Fuligineux :</em> les ombres peuvent déformer leur corps à volonté pour passer dans le moindre interstice comme sous une porte ou par le trou d’une serrure.</p>\r\n\r\n<p><em>Magie :</em> une ombre retranche 10 points (RD10) aux DM qui lui sont infligés par des armes ordinaires. Contre un groupe de personnage équipé d’armes magiques, les ombres ont seulement un NC de 2.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        },
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1189",
+      "alt": "Ombre",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "shadow-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/shadow-modified.png.webp?itok=Z6kdquL1"
+    }
+  ]
+}

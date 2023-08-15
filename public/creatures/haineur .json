@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "value": "haineur "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Une créature à la peau blanche avec des canines plus longues que la moyenne et étant grand. Il aime porter une cape.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Une créature de la nuit, tuant pour vivre grâce à sa haine d'ou son nom.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "44",
+      "label": "Vampires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "resistant",
+      "label": "Résistant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "32"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "\\2 dommage magique\r\n\r\n"
+    }
+  ],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "8",
+      "label": "Ensorceleur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "3"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Téléportation (L) *</p>\r\n\r\n<p>Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.</p>\r\n\r\n<p>Le Magicien projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière. Un test d’attaque magique réussi permet de toucher une créature et d’infliger [5d6 + Mod. d’INT] DM. Si le magicien vise un objet porté par une créature, le jet d’attaque subit un malus de -5. Les objets magiques sont insensibles à ce sort, les objets normaux sont réduits en poussière. Aucun objet de plus de 50 kg ne peut être affecté par ce sort : inutile donc de tenter de creuser un tunnel par ce biais. En revanche, vous pourrez ainsi désintégrer une porte (ou même une pierre dans un mur).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Si l’Ensorceleur réussit un test d’Attaque magique (portée 10 m) contre le score max de PV d’une cible humanoïde, celle-ci se comporte comme un ami de longue date tant qu’elle n’est pas attaquée. Elle peut résister au sort avec un test de SAG difficulté [12 + Mod. de CHA], renouvelable une fois par combat.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

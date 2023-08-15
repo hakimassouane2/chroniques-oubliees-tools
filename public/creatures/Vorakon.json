@@ -1,0 +1,157 @@
+{
+  "name": [
+    {
+      "value": "Vorakon"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>La créature est immense et terrifiante, mesurant plus de 20 mètres de haut. Sa peau est d'un noir brillant et couverte d'écailles qui semblent presque en fusion, comme si elles étaient en constante évolution. Ses yeux sont d'un rouge vif, perçants et brillants comme des braises ardentes. De ses énormes naseaux sortent des bouffées de fumée noire, alors que sa gueule béante laisse échapper des flammes infernales qui semblent capables de tout détruire sur leur passage. Les griffes de la créature sont longues et acérées comme des lames, tandis que sa queue massive est capable de renverser des bâtiments entiers d'un seul coup. Rien ne semble pouvoir arrêter cette bête démoniaque une fois qu'elle est en mouvement, et sa simple présence suffit à faire trembler les plus courageux.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "10"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "19"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "12"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "22"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "15"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "10"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "26"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "500"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Feu, glace et arc"
+    }
+  ],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

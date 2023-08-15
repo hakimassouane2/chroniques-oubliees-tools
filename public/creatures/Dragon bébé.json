@@ -1,0 +1,190 @@
+{
+  "name": [
+    {
+      "value": "Dragon bébé"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "11",
+      "label": "Dragons"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "20"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +3&nbsp;<strong>DM</strong>&nbsp;1d4+1<br />\r\n<strong>Souffle (L)</strong>&nbsp;<strong>DM</strong>&nbsp;1d6+1 (2x1m)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+3",
+          "dm": "1d4+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Souffle (L)",
+          "test": null,
+          "dm": "1d6+1",
+          "special": "(2x1m)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures élémentaires</strong> rang 1<br />\r\n&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "411",
+          "label": "Souffle enflammé",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "411",
+      "label": "Souffle enflammé",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    }
+  ],
+  "picture": []
+}

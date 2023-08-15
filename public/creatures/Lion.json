@@ -1,0 +1,206 @@
+{
+  "name": [
+    {
+      "value": "Lion"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ce Profil correspond à un jeune lion ou à une lionne d’environ 150 kg.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "28",
+      "label": "Lions"
+    }
+  ],
+  "environment": [
+    {
+      "value": "plain",
+      "label": "Plaine"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "23"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +7 <strong>DM</strong> 2d6+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+7",
+          "dm": "2d6+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du prédateur</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        },
+        "2": {
+          "target_id": "388",
+          "label": "Dévorer",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    },
+    {
+      "target_id": "388",
+      "label": "Dévorer",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1050",
+      "alt": "Lion",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "lion-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/lion-modified.png.webp?itok=LvjfE-4j"
+    }
+  ]
+}

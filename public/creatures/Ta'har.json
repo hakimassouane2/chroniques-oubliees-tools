@@ -1,0 +1,129 @@
+{
+  "name": [
+    {
+      "value": "Ta'har"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "23",
+      "label": "Hobgobelins"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "10"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "10"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

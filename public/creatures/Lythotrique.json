@@ -1,0 +1,141 @@
+{
+  "name": [
+    {
+      "value": "Lythotrique"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Gros rocher de 8-9M marchant sur 40 pates de 10cm.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Etre vivant dans les plaine et ne faisant rien. se transforme en une pierre magique de 2m² a sa mort.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "plain",
+      "label": "Plaine"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "resistant",
+      "label": "Résistant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "vegetative",
+      "label": "Végétative"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "40"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "450"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "ne prend que 1 dégât maximum par attaque "
+    }
+  ],
+  "init": [
+    {
+      "value": "1"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>N'attaque pas</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "N'attaque pas",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2186",
+      "alt": "",
+      "title": "",
+      "width": "526",
+      "height": "322",
+      "label": "image_2023-07-02_172914764.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/image_2023-07-02_172914764.png.webp?itok=00HOn_kY"
+    }
+  ]
+}

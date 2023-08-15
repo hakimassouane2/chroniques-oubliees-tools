@@ -1,0 +1,379 @@
+{
+  "name": [
+    {
+      "value": "Cirion"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "15",
+      "label": "Elfes"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "43"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "23"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Arc court</strong> +13&nbsp; <strong>DM </strong>1d6+2</p>\r\n\r\n<p><strong>Epée longue</strong> +11 <strong>DM </strong>1d8</p>\r\n\r\n<p><strong>Dague</strong> +11 <strong>DM </strong>1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Arc court",
+          "test": "+13",
+          "dm": "1d6+2",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Epée longue",
+          "test": "+11",
+          "dm": "1d8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+11",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de l'archer </strong>rang 5</p>\r\n\r\n<p><strong>Voie de la précision </strong>rang 5 (modifier)</p>\r\n\r\n<p><strong>Voie de l'elfe sylvain</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "8": {
+      "id": "8",
+      "name": "Voie de la précision",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "35",
+          "label": "Joli coup !",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "L’Arquebusier ignore les pénalités normalement appliquées lorsque la cible est à couvert (généralement -2 à -5).\r\n"
+        },
+        "2": {
+          "target_id": "36",
+          "label": "Tir précis",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "L’Arquebusier ajoute un bonus de +1 aux DM des armes de tir jusqu’à une portée de [5 x Mod. de DEX]. Ce bonus passe à +2 au Rang 4 de la voie.\r\n"
+        },
+        "3": {
+          "target_id": "37",
+          "label": "Défaut dans la cuirasse",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "L’Arquebusier passe un tour complet à analyser le point faible de son adversaire et à viser. Au tour suivant, il réalisera ses attaques à distance sur cette cible contre une DEF de [10 + Mod. de DEX de la cible]. Au lieu de cela, le joueur peut choisir d’ignorer la réduction des DM (RD) d’une créature (dans ce cas la DEF n’est pas modifiée).\r\n"
+        },
+        "4": {
+          "target_id": "39",
+          "label": "Tir parabolique",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "L’Arquebusier est capable de réaliser un tir à longue distance sans pénalité : il double la portée des armes à distance. Il peut aussi tirer jusqu’au triple de la portée indiquée avec une pénalité de -5 en attaque et aux DM. Cette capacité ne modifie pas la portée de Tir précis.\r\n"
+        },
+        "5": {
+          "target_id": "40",
+          "label": "Tir mortel",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour une attaque à distance, l’Arquebusier peut choisir d’utiliser un d12 pour son attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque). Si l’attaque est réussie, il ajoute +2d6 aux DM.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "43": {
+      "id": "43",
+      "name": "Voie de l’archer",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "193",
+          "label": "Sens affûtés",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "194",
+          "label": "Tir aveugle",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur peut attaquer à distance un ennemi qu'il ne voit pas (par exemple invisible ou plongé dans le noir total), mais dont il connaît l'existence et la direction approximative, comme s'il le voyait, donc sans le malus causé par le fait qu'il ne la voit pas.\r\n"
+        },
+        "3": {
+          "target_id": "195",
+          "label": "Tir rapide",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur peut faire 2 attaques à distance pendant ce tour.\r\n"
+        },
+        "4": {
+          "target_id": "196",
+          "label": "Flèche de mort",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Rôdeur lance deux d20 pour son attaque et conserve le meilleur résultat. Les dégâts de la flèche sont doublés.\r\n"
+        },
+        "5": {
+          "target_id": "197",
+          "label": "Dans le mille",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour une attaque à distance, le Rôdeur peut choisir d’utiliser 1d12 en attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque à distance). Si l’attaque est réussie, il ajoute 2d6 aux DM. Cette Capacité peut être utilisée avec Tir Rapide ou Flèche de mort (le bonus de 2d6 aux DM n’est pas doublé) par exemple.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "74": {
+      "id": "74",
+      "name": "Voie de l'elfe sylvain",
+      "type": "race",
+      "capabilities": {
+        "1": {
+          "target_id": "347",
+          "label": "Grâce elfique",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "L’elfe gagne un bonus de +5 en Initiative et à tous les tests de DEX.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "193",
+      "label": "Sens affûtés",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "194",
+      "label": "Tir aveugle",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur peut attaquer à distance un ennemi qu'il ne voit pas (par exemple invisible ou plongé dans le noir total), mais dont il connaît l'existence et la direction approximative, comme s'il le voyait, donc sans le malus causé par le fait qu'il ne la voit pas.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "195",
+      "label": "Tir rapide",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur peut faire 2 attaques à distance pendant ce tour.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "196",
+      "label": "Flèche de mort",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Rôdeur lance deux d20 pour son attaque et conserve le meilleur résultat. Les dégâts de la flèche sont doublés.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "197",
+      "label": "Dans le mille",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour une attaque à distance, le Rôdeur peut choisir d’utiliser 1d12 en attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque à distance). Si l’attaque est réussie, il ajoute 2d6 aux DM. Cette Capacité peut être utilisée avec Tir Rapide ou Flèche de mort (le bonus de 2d6 aux DM n’est pas doublé) par exemple.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "35",
+      "label": "Joli coup !",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "L’Arquebusier ignore les pénalités normalement appliquées lorsque la cible est à couvert (généralement -2 à -5).\r\n",
+      "paths": "Voie de la précision"
+    },
+    {
+      "target_id": "36",
+      "label": "Tir précis",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "L’Arquebusier ajoute un bonus de +1 aux DM des armes de tir jusqu’à une portée de [5 x Mod. de DEX]. Ce bonus passe à +2 au Rang 4 de la voie.\r\n",
+      "paths": "Voie de la précision"
+    },
+    {
+      "target_id": "37",
+      "label": "Défaut dans la cuirasse",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "L’Arquebusier passe un tour complet à analyser le point faible de son adversaire et à viser. Au tour suivant, il réalisera ses attaques à distance sur cette cible contre une DEF de [10 + Mod. de DEX de la cible]. Au lieu de cela, le joueur peut choisir d’ignorer la réduction des DM (RD) d’une créature (dans ce cas la DEF n’est pas modifiée).\r\n",
+      "paths": "Voie de la précision"
+    },
+    {
+      "target_id": "39",
+      "label": "Tir parabolique",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "L’Arquebusier est capable de réaliser un tir à longue distance sans pénalité : il double la portée des armes à distance. Il peut aussi tirer jusqu’au triple de la portée indiquée avec une pénalité de -5 en attaque et aux DM. Cette capacité ne modifie pas la portée de Tir précis.\r\n",
+      "paths": "Voie de la précision"
+    },
+    {
+      "target_id": "40",
+      "label": "Tir mortel",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour une attaque à distance, l’Arquebusier peut choisir d’utiliser un d12 pour son attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque). Si l’attaque est réussie, il ajoute +2d6 aux DM.\r\n",
+      "paths": "Voie de la précision"
+    },
+    {
+      "target_id": "347",
+      "label": "Grâce elfique",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "L’elfe gagne un bonus de +5 en Initiative et à tous les tests de DEX.\r\n",
+      "paths": "Voie de l'elfe sylvain"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1519",
+      "alt": "",
+      "title": "",
+      "width": "236",
+      "height": "347",
+      "label": "Cirion_0.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Cirion_0.jpg.webp?itok=fGmWAUfI"
+    }
+  ]
+}

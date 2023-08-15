@@ -1,0 +1,197 @@
+{
+  "name": [
+    {
+      "value": "Assassin mineur"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "26"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée courte</strong> +7 <strong>DM</strong> 1d6+2 (+2d6)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée courte",
+          "test": "+7",
+          "dm": "1d6+2",
+          "special": "(+2d6)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du tueur</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Poison :</em> vous pouvez équiper l'assassin de poison, cela augmente leur NC de +1. Lors de la première attaque réussie par l’assassin, la cible doit faire un test de CON difficulté [10+NC] ou subir [NC x 1d6] DM et être <em>Affaiblie</em> pour le reste du combat. En cas de réussite, elle subit seulement la moitié des DM et elle n’est pas Affaiblie.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "72": {
+      "id": "72",
+      "name": "Voie du tueur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "339",
+          "label": "Attaque mortelle",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "339",
+      "label": "Attaque mortelle",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n",
+      "paths": "Voie du tueur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "957",
+      "alt": "Assassin mineur",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "assassin-minor-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/assassin-minor-modified.png.webp?itok=SaUzi-2p"
+    }
+  ]
+}

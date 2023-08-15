@@ -1,0 +1,198 @@
+{
+  "name": [
+    {
+      "value": "Champion homme-lézard"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "24",
+      "label": "Hommes-lézards"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "11"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Massues</strong> (2 attaques) +6 <strong>DM</strong> 1d8+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Massues (2 attaques)",
+          "test": "+6",
+          "dm": "1d8+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du champion</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "93": {
+      "id": "93",
+      "name": "Voie du champion",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "420",
+          "label": "Imparable",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "420",
+      "label": "Imparable",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n",
+      "paths": "Voie du champion"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1031",
+      "alt": "Champion homme-lézard",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "lizardfolk_champion-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/lizardfolk_champion-modified.png.webp?itok=LKAlIW3u"
+    }
+  ]
+}

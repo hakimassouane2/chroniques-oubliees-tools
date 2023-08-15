@@ -1,0 +1,388 @@
+{
+  "name": [
+    {
+      "value": "Legolas"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Legolas est un jeune homme mince et soigné. Son élégance va de paire avec ses long cheveux blanc ses yeux violet perçant. C'est une personne svelte qui arbore fièrement une tenue violette foncé.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Née à syndoryl, orphelin depuis la naissance, Legolas n'a jamais connu ses parents. Il a été recueilli et élevé par les sans abris de la ville. Il apprend des son plus jeune âge a voler, escroquer et se fondre dans la masse. A 15 ans il devient le chef des SDF et créer une guilde appelé la sinistre rébellion. Après 2 ans à rassembler des troupes il tente un coup d'état contre le prince de syndoryl. Malheureusement il fut trahit et balancer au garde royal qui s'attendait donc à leurs venu. ce fut un fiasco total et est été obligé de faire la ville sous la peine de l'exécution public. Depuis ce jour il devin fugitif et Era de ville en ville sans jamais rester tros longtemps.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "15",
+      "label": "Elfes"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "34"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>126-Arc de Primeval</strong> + 14&nbsp;<strong>DM </strong>1d8+6</p>\r\n\r\n<p><strong>22-La Foi Inébranlable </strong>+12&nbsp;<strong>DM </strong>2d8&nbsp;<strong>SPÉCIAL</strong>&nbsp;Dm magique</p>\r\n\r\n<p><strong>156-L'anneau hermine </strong>+12<strong>&nbsp;DM </strong>2d8+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "126-Arc de Primeval + 14",
+          "test": null,
+          "dm": "1d8+6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "22-La Foi Inébranlable",
+          "test": "+12",
+          "dm": "2d8",
+          "special": "SPÉCIAL",
+          "reach": null
+        },
+        {
+          "name": "156-L'anneau hermine",
+          "test": "+12",
+          "dm": "2d8+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "7",
+      "label": "Voleur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "8"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de l'assassin</strong> rang 5</p>\r\n\r\n<p><strong>Voie du roublard</strong> rang 2</p>\r\n\r\n<p><strong>Voie du spadassin</strong> rang 4</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Lumière des étoiles</strong> : l'obscurité de la nuit sous la lumière des étoiles n'est que de la pénombre, où seuls les petits détails lui échappent.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "31": {
+      "id": "31",
+      "name": "Voie de l’assassin",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "146",
+          "label": "Discrétion",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Quand il essaie de passer inaperçu, le Voleur bénéficie d’un bonus de +2 à son test de DEX pour chaque rang acquis dans cette voie.\r\n"
+        },
+        "2": {
+          "target_id": "147",
+          "label": "Attaque sournoise",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Quand il attaque un adversaire Surpris ou dans le dos*, le Voleur inflige 2d6 de DM supplémentaires (notez que les dés bonus ne sont pas multipliés en cas de critique). Les DM infligés par cette capacité augmentent de +1d6 à chaque fois que le personnage atteint le rang 4 dans une Voie du voleur.\r\n\r\n* Attaquer de dos : lorsque le Voleur attaque la même créature qu’un allié, on considère qu’il peut attaquer celle-ci de dos à 2 conditions :\r\n&nbsp;1. Le Voleur et l’allié peuvent se placer de part et d’autre de la cible.\r\n&nbsp;2. La cible n’a pas attaqué le Voleur à son dernier tour (dans le cas contraire, on considère qu’elle lui fait face).\r\n"
+        },
+        "3": {
+          "target_id": "148",
+          "label": "Ombre mouvante",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "En réussissant un test de DEX difficulté 10, le Voleur peut disparaître dans les ombres à son tour et ne réapparaître qu’au tour suivant durant sa phase d’Initiative. Aucun adversaire ne peut l’attaquer pendant qu’il a disparu dans les ombres, mais il peut subir des DM de zone. Le Voleur réapparait à une distance maximum de 10 m de sa position initiale, si le Voleur a l’Initiative, il peut réaliser une Attaque sournoise.\r\n"
+        },
+        "4": {
+          "target_id": "149",
+          "label": "Surprise",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Voleur n’est jamais surpris. Il peut réaliser une Attaque sournoise en utilisant une action d’attaque plutôt qu’une action limitée contre un adversaire Surpris.\r\n"
+        },
+        "5": {
+          "target_id": "150",
+          "label": "Ouverture mortelle",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Voleur obtient une réussite critique automatique contre la cible de son choix. Il profite donc d’une réussite automatique, des dégâts multipliés par 2 prévus dans ce cas, et même des d6 d’Attaque sournoise, eux aussi multipliés.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "34": {
+      "id": "34",
+      "name": "Voie du roublard",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "159",
+          "label": "Doigts agiles",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang acquis dans cette Voie, le Voleur reçoit un bonus de +2 pour tous ses tests de DEX liés à la précision : crocheter une serrure, désamorcer un piège, pickpocket...\r\n"
+        },
+        "2": {
+          "target_id": "160",
+          "label": "Détecter les pièges",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "En réussissant un test d’INT difficulté 10, le Voleur peut détecter (et ensuite contourner sans danger) les pièges (avant qu’ils ne se déclenchent bien entendu). Les pièges magiques demandent un test d’INT de difficulté 15.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "35": {
+      "id": "35",
+      "name": "Voie du spadassin",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "164",
+          "label": "Attaque en finesse",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Voleur peut utiliser son score d’Attaque à distance pour une attaque au contact lorsqu’il utilise une arme légère comme une dague ou une rapière. S’il le souhaite, il peut dans ce cas remplacer le Mod. de FOR aux DM par son Mod. d’INT.\r\n"
+        },
+        "2": {
+          "target_id": "165",
+          "label": "Esquive fatale",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par combat, le duelliste peut esquiver une attaque qui devait le toucher et s’arranger pour que celle-ci affecte un autre adversaire à son contact. Comparez le test d’attaque à la DEF de la nouvelle cible pour savoir si celle-ci subit des DM.\r\n"
+        },
+        "3": {
+          "target_id": "166",
+          "label": "Frappe chirurgicale",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Par sa science de l’escrime (et de la fourberie), le Voleur augmente de manière permanente ses chances de faire des coups critiques. Il retranche désormais son Mod. d’INT au score nécessaire pour obtenir un critique en attaque au contact. Par exemple, Alonzo (INT 14/+2) obtient à présent un critique sur 17 ou plus au d20 lorsqu’il emploie la rapière (19 – Mod. d’INT).\r\n"
+        },
+        "4": {
+          "target_id": "167",
+          "label": "Ambidextrie",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Voleur peut à présent utiliser une arme dans chaque main sans pénalité. Avec sa main gauche, il peut effectuer une attaque au contact gratuite supplémentaire à chaque tour. Cette deuxième attaque n’empêche pas l’utilisation d’une capacité limitée, mais elle ne peut pas en être l’origine.\r\n"
+        }
+      },
+      "rank": 4
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "146",
+      "label": "Discrétion",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Quand il essaie de passer inaperçu, le Voleur bénéficie d’un bonus de +2 à son test de DEX pour chaque rang acquis dans cette voie.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "147",
+      "label": "Attaque sournoise",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Quand il attaque un adversaire Surpris ou dans le dos*, le Voleur inflige 2d6 de DM supplémentaires (notez que les dés bonus ne sont pas multipliés en cas de critique). Les DM infligés par cette capacité augmentent de +1d6 à chaque fois que le personnage atteint le rang 4 dans une Voie du voleur.\r\n\r\n* Attaquer de dos : lorsque le Voleur attaque la même créature qu’un allié, on considère qu’il peut attaquer celle-ci de dos à 2 conditions :\r\n&nbsp;1. Le Voleur et l’allié peuvent se placer de part et d’autre de la cible.\r\n&nbsp;2. La cible n’a pas attaqué le Voleur à son dernier tour (dans le cas contraire, on considère qu’elle lui fait face).\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "148",
+      "label": "Ombre mouvante",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "En réussissant un test de DEX difficulté 10, le Voleur peut disparaître dans les ombres à son tour et ne réapparaître qu’au tour suivant durant sa phase d’Initiative. Aucun adversaire ne peut l’attaquer pendant qu’il a disparu dans les ombres, mais il peut subir des DM de zone. Le Voleur réapparait à une distance maximum de 10 m de sa position initiale, si le Voleur a l’Initiative, il peut réaliser une Attaque sournoise.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "149",
+      "label": "Surprise",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Voleur n’est jamais surpris. Il peut réaliser une Attaque sournoise en utilisant une action d’attaque plutôt qu’une action limitée contre un adversaire Surpris.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "150",
+      "label": "Ouverture mortelle",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Voleur obtient une réussite critique automatique contre la cible de son choix. Il profite donc d’une réussite automatique, des dégâts multipliés par 2 prévus dans ce cas, et même des d6 d’Attaque sournoise, eux aussi multipliés.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "159",
+      "label": "Doigts agiles",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang acquis dans cette Voie, le Voleur reçoit un bonus de +2 pour tous ses tests de DEX liés à la précision : crocheter une serrure, désamorcer un piège, pickpocket...\r\n",
+      "paths": "Voie du roublard"
+    },
+    {
+      "target_id": "160",
+      "label": "Détecter les pièges",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "En réussissant un test d’INT difficulté 10, le Voleur peut détecter (et ensuite contourner sans danger) les pièges (avant qu’ils ne se déclenchent bien entendu). Les pièges magiques demandent un test d’INT de difficulté 15.\r\n",
+      "paths": "Voie du roublard"
+    },
+    {
+      "target_id": "164",
+      "label": "Attaque en finesse",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Voleur peut utiliser son score d’Attaque à distance pour une attaque au contact lorsqu’il utilise une arme légère comme une dague ou une rapière. S’il le souhaite, il peut dans ce cas remplacer le Mod. de FOR aux DM par son Mod. d’INT.\r\n",
+      "paths": "Voie du spadassin"
+    },
+    {
+      "target_id": "165",
+      "label": "Esquive fatale",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par combat, le duelliste peut esquiver une attaque qui devait le toucher et s’arranger pour que celle-ci affecte un autre adversaire à son contact. Comparez le test d’attaque à la DEF de la nouvelle cible pour savoir si celle-ci subit des DM.\r\n",
+      "paths": "Voie du spadassin"
+    },
+    {
+      "target_id": "166",
+      "label": "Frappe chirurgicale",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Par sa science de l’escrime (et de la fourberie), le Voleur augmente de manière permanente ses chances de faire des coups critiques. Il retranche désormais son Mod. d’INT au score nécessaire pour obtenir un critique en attaque au contact. Par exemple, Alonzo (INT 14/+2) obtient à présent un critique sur 17 ou plus au d20 lorsqu’il emploie la rapière (19 – Mod. d’INT).\r\n",
+      "paths": "Voie du spadassin"
+    },
+    {
+      "target_id": "167",
+      "label": "Ambidextrie",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Voleur peut à présent utiliser une arme dans chaque main sans pénalité. Avec sa main gauche, il peut effectuer une attaque au contact gratuite supplémentaire à chaque tour. Cette deuxième attaque n’empêche pas l’utilisation d’une capacité limitée, mais elle ne peut pas en être l’origine.\r\n",
+      "paths": "Voie du spadassin"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1158",
+      "alt": "",
+      "title": "",
+      "width": "1400",
+      "height": "2161",
+      "label": "perso_assassin.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/perso_assassin.jpg.webp?itok=zBp5zAq3"
+    }
+  ]
+}

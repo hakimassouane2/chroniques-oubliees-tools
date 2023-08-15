@@ -1,0 +1,261 @@
+{
+  "name": [
+    {
+      "value": "Quasit"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>À ne pas confondre avec son frère ennemi le Diablotin, le Quasit possède lui aussi des ailes de chauve-souris, des cornes et une queue reptilienne. Toutefois, les experts sauront le reconnaître grâce à ses cornes enroulées comme celles d’un bélier.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "very_small",
+      "label": "Très petite"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "11"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / armes saintes"
+    }
+  ],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Griffes et morsure</strong> +7 <strong>DM</strong> 1d4-1 + venin</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffes et morsure",
+          "test": "+7",
+          "dm": "1d4-1",
+          "special": "+ venin",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "3"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie universelle</strong> rang 3<br />\r\n<strong>Voie de la magie des arcanes</strong> rang 3<br />\r\n<strong>Voie des créatures magiques</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Venin :</em> une créature blessée par le Quasit doit réussir un test de CON difficulté 12 ou être <em>affaiblie</em> (utiliser 1d12) pendant 1d6 minutes.</p>\r\n\r\n<p><em>Transformation (L) :</em> le Quasit peut se transformer en n’importe quel animal de taille très petite (chien, chat, rat, corbeau, etc.).</p>\r\n\r\n<p><em>Vol :</em> un Quasit peut se déplacer en vol de 20 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "66": {
+      "id": "66",
+      "name": "Voie de la magie universelle",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "311",
+          "label": "Lumière",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien désigne un objet, lequel produit dès lors de la lumière dans un rayon de 20 mètres. Cette source de lumière n’émet pas de chaleur et s’éteint après 10 minutes ou lorsque le Magicien le décide. Ce sort permet d’annuler un sort de Ténèbres lancé par un nécromancien de niveau inférieur.\r\n"
+        },
+        "2": {
+          "target_id": "312",
+          "label": "Détection de la magie",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.\r\n"
+        },
+        "3": {
+          "target_id": "313",
+          "label": "Invisibilité",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "311",
+      "label": "Lumière",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien désigne un objet, lequel produit dès lors de la lumière dans un rayon de 20 mètres. Cette source de lumière n’émet pas de chaleur et s’éteint après 10 minutes ou lorsque le Magicien le décide. Ce sort permet d’annuler un sort de Ténèbres lancé par un nécromancien de niveau inférieur.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "312",
+      "label": "Détection de la magie",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "313",
+      "label": "Invisibilité",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "930",
+      "alt": "",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "quasit-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/quasit-modified.png.webp?itok=Z7yXtJN6"
+    }
+  ]
+}

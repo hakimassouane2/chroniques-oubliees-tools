@@ -1,0 +1,188 @@
+{
+  "name": [
+    {
+      "value": "Mushronne"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "-5 Lorsque le Champiclier est appliquer sur lui (Cumulable) "
+    }
+  ],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Capacité : Champistelite (Action limité) - Ajoute +1 DEF, +1 FOR, pendant 3 tours. (Réussite obligatoire)<br />\r\nCapacité : Spores Toxiques (Action gratuite) - Ajoute sur le terrain pendant 2 tours, (Un environnement de poison), causant 1d4 PV.<br />\r\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1d15+2 (10ou+ pour réussir).<br />\r\n<br />\r\nCoup de sabre +3 au lancé - (1d6+2) 14+ pour réussir.<br />\r\nCoup de poing +1 au lancé - (1d4+2) 12+ pour réussir.</p>\r\n",
+      "format": "simple_html",
+      "data": {
+        "0": {
+          "name": "Capacité : Champistelite (Action limité) - Ajoute +1 DEF,",
+          "test": "+1",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "1": {
+          "name": "Capacité : Spores Toxiques (Action gratuite) - Ajoute sur le terrain pendant 2 tours, (Un environnement de poison), causant 1d4 PV.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "2": {
+          "name": "1d15+2 (10ou+ pour réussir).",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "4": {
+          "name": "Coup de sabre",
+          "test": "+3",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "5": {
+          "name": "Coup de poing",
+          "test": "+1",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      }
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

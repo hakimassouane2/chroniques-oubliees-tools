@@ -1,0 +1,340 @@
+{
+  "name": [
+    {
+      "value": "VallFinn"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "17",
+      "label": "Géants"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "15"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "78"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "15": {
+      "id": "15",
+      "name": "Voie de la rage",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "70",
+          "label": "Cri de guerre",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Barbare pousse un hurlement qui effraie ses adversaires. Tout ennemi dont la FOR et les PV maximum sont inférieurs à ceux du Barbare subit un malus de -2 à ses tests d’attaque au contact contre le personnage pour le reste du combat. Cette capacité ne nécessite plus qu’une action de mouvement à partir du rang 4.\r\n"
+        },
+        "2": {
+          "target_id": "71",
+          "label": "Défier la mort",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque le Barbare subit des DM d’une attaque qui devrait l’amener à 0 PV, il peut réaliser un test de CON difficulté 10. En cas de réussite, il conserve 1 PV. La difficulté augmente de 10 à chaque blessure supplémentaire reçue par la suite. S’il est enragé il obtient un bonus de +10 à ces tests.\r\n"
+        },
+        "3": {
+          "target_id": "72",
+          "label": "Rage du berserk",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Barbare entre dans une rage berserk pour le reste du combat, ce qui le rend particulièrement dangereux. Il obtient un bonus de +2 en attaque et +1d6 aux DM sur toutes ses attaques au contact, mais perd 4 en DEF et ne peut fuir ou attaquer à distance. S’il veut stopper la rage avant d’avoir éliminé tous les ennemis sur le terrain, le Barbare doit réussir un test de SAG difficulté 13 (un seul essai par tour).\r\n"
+        },
+        "4": {
+          "target_id": "73",
+          "label": "Même pas mal",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’il subit un coup critique, cela a pour effet de décupler la rage du barbare. Il peut immédiatement entrer en Rage ou en Furie (action gratuite), et gagne un bonus de +1d6 aux DM de ses attaques au contact pour les 3 prochains tours. Le joueur note les DM supplémentaires de l’attaque critique à part : le Barbare ne perdra ces PV qu’à la fin de la rage.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "62": {
+      "id": "62",
+      "name": "Voie de la magie des arcanes",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "291",
+          "label": "Agrandissement",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.\r\n"
+        },
+        "2": {
+          "target_id": "292",
+          "label": "Forme gazeuse",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "411",
+          "label": "Souffle enflammé",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        },
+        "2": {
+          "target_id": "415",
+          "label": "Balayage",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "70",
+      "label": "Cri de guerre",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Barbare pousse un hurlement qui effraie ses adversaires. Tout ennemi dont la FOR et les PV maximum sont inférieurs à ceux du Barbare subit un malus de -2 à ses tests d’attaque au contact contre le personnage pour le reste du combat. Cette capacité ne nécessite plus qu’une action de mouvement à partir du rang 4.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "71",
+      "label": "Défier la mort",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque le Barbare subit des DM d’une attaque qui devrait l’amener à 0 PV, il peut réaliser un test de CON difficulté 10. En cas de réussite, il conserve 1 PV. La difficulté augmente de 10 à chaque blessure supplémentaire reçue par la suite. S’il est enragé il obtient un bonus de +10 à ces tests.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "72",
+      "label": "Rage du berserk",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Barbare entre dans une rage berserk pour le reste du combat, ce qui le rend particulièrement dangereux. Il obtient un bonus de +2 en attaque et +1d6 aux DM sur toutes ses attaques au contact, mais perd 4 en DEF et ne peut fuir ou attaquer à distance. S’il veut stopper la rage avant d’avoir éliminé tous les ennemis sur le terrain, le Barbare doit réussir un test de SAG difficulté 13 (un seul essai par tour).\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "73",
+      "label": "Même pas mal",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’il subit un coup critique, cela a pour effet de décupler la rage du barbare. Il peut immédiatement entrer en Rage ou en Furie (action gratuite), et gagne un bonus de +1d6 aux DM de ses attaques au contact pour les 3 prochains tours. Le joueur note les DM supplémentaires de l’attaque critique à part : le Barbare ne perdra ces PV qu’à la fin de la rage.\r\n",
+      "paths": "Voie de la rage"
+    },
+    {
+      "target_id": "291",
+      "label": "Agrandissement",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.\r\n",
+      "paths": "Voie de la magie des arcanes"
+    },
+    {
+      "target_id": "292",
+      "label": "Forme gazeuse",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie des arcanes"
+    },
+    {
+      "target_id": "411",
+      "label": "Souffle enflammé",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "415",
+      "label": "Balayage",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": []
+}

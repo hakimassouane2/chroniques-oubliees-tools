@@ -1,0 +1,180 @@
+{
+  "name": [
+    {
+      "value": "Araignée géante "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p><strong>Tactique:&nbsp;</strong>elle utilise son pouvoir de toile sur la plus grosse cible.&nbsp;</p>\r\n\r\n<p><strong>Moral:</strong>&nbsp;quand il ne lui reste plus que 5 PV ou moins, l'araignée s'avoue vaincu et tente de fuir (dans une galerie&nbsp; inaccessible pour les PJ) au tour de combat suivant.&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "26",
+      "label": "Insectes géants"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "18"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>_Morsure</strong> +6 <strong>DM</strong> 1d4+1</p>\r\n\r\n<p><strong>_Toile solide (L)&nbsp;</strong>(3m) +5&nbsp;<strong>DM&nbsp;</strong>(voir dessous)</p>\r\n\r\n<p>toile solide (L): sur un test d'attaque a distance réussi, l'araignée emprisonne sa cible dans une toile gluante et solide. La victime est paralysée (aucune action possible) et pour se libérer doit réussir un test de FOR difficulté 15 (action limitée).&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "_Morsure",
+          "test": "+6",
+          "dm": "1d4+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "_Toile solide (L) (3m)",
+          "test": "+5",
+          "dm": null,
+          "special": "(voir dessous)",
+          "reach": "3"
+        },
+        {
+          "name": "toile solide (L): sur un test d'attaque a distance réussi, l'araignée emprisonne sa cible dans une toile gluante et solide. La victime est paralysée (aucune action possible) et pour se libérer doit réussir un test de FOR difficulté 15 (action limitée).",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2459",
+      "alt": "",
+      "title": "",
+      "width": "469",
+      "height": "369",
+      "label": "Araignée géante.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Araign%C3%A9e%20g%C3%A9ante.jpg.webp?itok=ADN_o728"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "name": [
+    {
+      "value": "Roi des voleurs hybride"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Vous pouvez facilement augmenter la puissance du chef bandit en lui ajoutant des niveaux de Boss ou des rangs dans la Voie du chef d’armée ou la Voie du PNJ récurrent.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "3",
+      "label": "Bandits"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [
+    {
+      "value": "-2"
+    }
+  ],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "49"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 sauf argent"
+    }
+  ],
+  "init": [
+    {
+      "value": "22"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>2 attaques critique 19 Épée longue</strong> +10&nbsp;<strong>DM</strong> 1d8+4<br />\r\n<strong>Morsure</strong> +8&nbsp;<strong>DM</strong> 1d6+3</p>\r\n\r\n<p>Arbalète +8 dm 1d6+poison</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "2 attaques critique 19 Épée longue",
+          "test": "+10",
+          "dm": "1d8+4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Morsure",
+          "test": "+8",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arbalète",
+          "test": "+8",
+          "dm": "1d6",
+          "special": "+poison",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

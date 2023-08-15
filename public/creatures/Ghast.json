@@ -1,0 +1,170 @@
+{
+  "name": [
+    {
+      "value": "Ghast"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Son corps cadavérique est décharné et même partiellement décomposé, des griffes noires et des dents acérées lui poussent tandis qu’un appétit insatiable pour la chair humaine le submerge. Son corps est recourbé et des croutes gelatineuses protègent son thorax.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le Ghast est une aberration très proche de la goule mais diffère de par sa stature plus massive et son agilité peu commune. Il est en outre équipé de griffes épaisses semblables à des pieux.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "0.5"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "27"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +5&nbsp;<strong>DM</strong> 1d6+4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+5",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Paralysie :</em> une créature blessée par la morsure d’une goule doit réussir un test de CON difficulté 10 ou être <em>paralysée p</em>endant 1d6 tours. Les elfes sont immunisés à cette capacité.</p>\r\n\r\n<p><em>Fièvre des goules :</em> à la fin du combat, si le personnage a été blessé au moins une fois par la morsure d’une goule, il doit réussir un test de CON difficulté 15 ou contracter la maladie. Chaque jour, il subit 1d4 DM retranchés directement à son score de PV maximum (il ne peut plus dépasser ce nouveau score) et doit faire un nouveau test de CON difficulté 15 pour vaincre la maladie. Lorsqu’il arrive à 0 PV, il meurt et se transforme en goule. S’il guérit, les PV perdus peuvent être récupérés normalement.</p>\r\n\r\n<p>Berzerker : une fois à 10 PV ou moins, le ghats effectue 2 attaques de griffes pour une action limitée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2585",
+      "alt": "",
+      "title": "",
+      "width": "337",
+      "height": "435",
+      "label": "Capture2.PNG",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Capture2.PNG.webp?itok=Z0fuaAS6"
+    }
+  ]
+}

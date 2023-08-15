@@ -1,0 +1,244 @@
+{
+  "name": [
+    {
+      "value": "Golem de chair"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Créature à la fois pitoyable et effrayante, le golem est une créature imposante mesurant presque 2,50 mètres constituée de l’assemblage grossier de divers cadavres.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un golem de chair ressemble approximativement au monstre de Frankenstein. Il fait preuve d’une force inhumaine.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "21",
+      "label": "Golems"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / Armes magiques"
+    }
+  ],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Poings</strong> (2 attaques) +12 <strong>DM</strong> 1d6+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Poings (2 attaques)",
+          "test": "+12",
+          "dm": "1d6+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures magiques</strong> rang 1 (RD 5 / Armes magiques)<br />\r\n<strong>Voie du cogneur</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Résistance :</em> le golem divise par 2 tous les DM élémentaires (feu, froid, électricité, acide).</p>\r\n\r\n<p><em>Absorber l’électricité :</em> non seulement le golem de chair est immunisé à l’électricité mais en plus les DM de ce type lui permettent de guérir de ses blessures. Il régénère 1 PV pour 3 points de DM d’électricité qui lui sont infligés.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        },
+        "2": {
+          "target_id": "418",
+          "label": "Enrager",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "418",
+      "label": "Enrager",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n",
+      "paths": "Voie du cogneur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1020",
+      "alt": "Golem de chair",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "golem_flesh-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/golem_flesh-modified.png.webp?itok=xMwcCsK_"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "name": [
+    {
+      "value": "L"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "14",
+      "label": "Elfes noirs (Drows)"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "3"
+    }
+  ],
+  "init": [
+    {
+      "value": "23"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>deck de cartes :</p>\r\n\r\n<p>Trèfle : permet de créer un des 4 éléments&nbsp;</p>\r\n\r\n<p>Carreau : manipuler les objets à distance</p>\r\n\r\n<p>Coeur : manipule les émotions&nbsp;</p>\r\n\r\n<p>Pic : manipuler les forces de la mort&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>magie combinatoire : piocher deux cartes pour combiner des effets. Limitations par combat 4.</p>\r\n",
+      "format": "simple_html",
+      "data": {
+        "0": {
+          "name": "deck de cartes :",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "1": {
+          "name": "Trèfle : permet de créer un des 4 éléments",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "2": {
+          "name": "Carreau : manipuler les objets à distance",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "3": {
+          "name": "Coeur : manipule les émotions",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "4": {
+          "name": "Pic : manipuler les forces de la mort",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "6": {
+          "name": "magie combinatoire : piocher deux cartes pour combiner des effets. Limitations par combat 4.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      }
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "4"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

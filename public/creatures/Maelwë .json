@@ -1,0 +1,402 @@
+{
+  "name": [
+    {
+      "value": "Maelwë "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Maelwë est une très jolie femme haut elfe avec de long cheveux blond, une peau blanche comme la neige, Le temps n'a pas d'emprise sur son visage éternellement jeune, sa peau claire ne présente la moindre imperfection due à la morsure des années ou des combats. En revanche, l'air grave et mystérieux qu'elle arbore suffit à savoir qu'elle a laissé ses jeunes années derrière elle depuis fort longtemps. Elle arbore une tunique de paladin composé d'une cape et des reflets bleutés. dans son dos se trouve un bouclier avec le symbole de l'ordre de tyr. De plus l'on raconte que lorsque qu'elle combat elle pourrait déployer de large ailes d'ange et sa tête serait orner d'une auréole de lumière</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Trop long</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "15",
+      "label": "Elfes"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [
+    {
+      "value": "Désavantage"
+    }
+  ],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [
+    {
+      "value": "Magie"
+    }
+  ],
+  "cha_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "34"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Masse </strong>+9 <strong>DM </strong>+1d6</p>\r\n\r\n<p><strong>96-Espadon du la justice</strong> +11 <strong>DM </strong>2d6+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Masse",
+          "test": "+9",
+          "dm": "+1",
+          "special": "d6",
+          "reach": null
+        },
+        {
+          "name": "96-Espadon du la justice",
+          "test": "+11",
+          "dm": "2d6+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "6",
+      "label": "Prêtre"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "9"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la foi</strong> rang&nbsp; 5</p>\r\n\r\n<p><strong>Voie de la guerre sainte</strong> rang 4</p>\r\n\r\n<p><strong>Voie des soins</strong> rang 2</p>\r\n\r\n<p><strong>Voie de l'archange</strong>&nbsp; rang 1</p>\r\n\r\n<ul>\r\n\t<li><strong>Forme d’Ange (L) *</strong> : Le prêtre prend la forme d’un ange pour [5 + Mod. SAG] tours. Lorsqu’il est en forme d’ange, le prêtre bénéficie automatiquement du sort Ailes célestes pour la même durée.</li>\r\n</ul>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Lumière des étoiles</strong> : pour un Haut-elfe, l’obscurité de la nuit sous la lumière des étoiles n’est que de la pénombre, où seuls les petits détails lui échappent.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "10": {
+      "id": "10",
+      "name": "Voie de la séduction",
+      "type": "character",
+      "capabilities": {
+        "5": {
+          "target_id": "49",
+          "label": "Charisme héroïque",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le personnage augmente sa valeur de CHA de +2. Il peut de plus lancer deux d20 à chaque fois qu’un test de CHA lui est demandé et conserver le meilleur résultat.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "26": {
+      "id": "26",
+      "name": "Voie de la foi",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "123",
+          "label": "Parole divine",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque rang dans cette Voie, le Prêtre obtient un bonus de +2 aux tests de CHA visant à convaincre ou convertir son auditoire.\r\n"
+        },
+        "2": {
+          "target_id": "124",
+          "label": "Arme d’argent",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul le Prêtre peut utiliser. Cette arme inflige [1d6 + Mod. de SAG] de DM. Contre les démons et les mort-vivants, elle offre un bonus de +2 en attaque et ajoute +1d6 aux DM.\r\n"
+        },
+        "3": {
+          "target_id": "125",
+          "label": "Ailes célestes",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.\r\n"
+        },
+        "4": {
+          "target_id": "126",
+          "label": "Foudres divines",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La foudre frappe toutes les créatures désignées dans un rayon de 10 mètres autour du Prêtre et leur inflige [1d6 + Mod. de SAG] de DM. Le Prêtre compare son test d’attaque magique à la DEF de chaque cible.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "27": {
+      "id": "27",
+      "name": "Voie de la guerre sainte",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "127",
+          "label": "Arme bénie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Prêtre bénit son arme sacrée. S’il obtient un résultat de « 1 » sur son dé de DM, il relance le dé et garde le second résultat. Les DM de l’arme sont considérés comme magiques.\r\n"
+        },
+        "2": {
+          "target_id": "128",
+          "label": "Bouclier de la foi",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Prêtre porte le symbole de sa foi sur son bouclier, ce qui lui confère un bonus supplémentaire de +1 en DEF. Ce bonus passe à +2 au Rang 4 de la Voie.\r\n"
+        },
+        "3": {
+          "target_id": "129",
+          "label": "Marteau spirituel",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre effectue une attaque magique avec une portée de 30 mètres. Un projectile d’énergie prenant la forme de l’arme du Prêtre va percuter la cible, lui infligeant [1d8 + Mod. de SAG] de DM.\r\n"
+        },
+        "4": {
+          "target_id": "130",
+          "label": "Châtiment divin",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Prêtre effectue une attaque de contact avec un bonus en attaque et aux dégâts égal à son Mod. de SAG.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "29": {
+      "id": "29",
+      "name": "Voie des soins",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "136",
+          "label": "Soins légers",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n"
+        },
+        "2": {
+          "target_id": "137",
+          "label": "Soins modérés",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "123",
+      "label": "Parole divine",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque rang dans cette Voie, le Prêtre obtient un bonus de +2 aux tests de CHA visant à convaincre ou convertir son auditoire.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "124",
+      "label": "Arme d’argent",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul le Prêtre peut utiliser. Cette arme inflige [1d6 + Mod. de SAG] de DM. Contre les démons et les mort-vivants, elle offre un bonus de +2 en attaque et ajoute +1d6 aux DM.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "125",
+      "label": "Ailes célestes",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "126",
+      "label": "Foudres divines",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La foudre frappe toutes les créatures désignées dans un rayon de 10 mètres autour du Prêtre et leur inflige [1d6 + Mod. de SAG] de DM. Le Prêtre compare son test d’attaque magique à la DEF de chaque cible.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "49",
+      "label": "Charisme héroïque",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le personnage augmente sa valeur de CHA de +2. Il peut de plus lancer deux d20 à chaque fois qu’un test de CHA lui est demandé et conserver le meilleur résultat.\r\n",
+      "paths": "Voie de la séduction, Voie du héros, Voie de la foi, Voie de l’aventurier, Voie de l'invocation"
+    },
+    {
+      "target_id": "127",
+      "label": "Arme bénie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Prêtre bénit son arme sacrée. S’il obtient un résultat de « 1 » sur son dé de DM, il relance le dé et garde le second résultat. Les DM de l’arme sont considérés comme magiques.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "128",
+      "label": "Bouclier de la foi",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Prêtre porte le symbole de sa foi sur son bouclier, ce qui lui confère un bonus supplémentaire de +1 en DEF. Ce bonus passe à +2 au Rang 4 de la Voie.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "129",
+      "label": "Marteau spirituel",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre effectue une attaque magique avec une portée de 30 mètres. Un projectile d’énergie prenant la forme de l’arme du Prêtre va percuter la cible, lui infligeant [1d8 + Mod. de SAG] de DM.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "130",
+      "label": "Châtiment divin",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Prêtre effectue une attaque de contact avec un bonus en attaque et aux dégâts égal à son Mod. de SAG.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "136",
+      "label": "Soins légers",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n",
+      "paths": "Voie des soins"
+    },
+    {
+      "target_id": "137",
+      "label": "Soins modérés",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n",
+      "paths": "Voie des soins"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1229",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "650",
+      "label": "Maelwë.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/Maelw%C3%AB.jpg.webp?itok=GL93V6VL"
+    }
+  ]
+}

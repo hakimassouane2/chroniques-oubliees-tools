@@ -1,0 +1,165 @@
+{
+  "name": [
+    {
+      "value": "Lyrius Maltor"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Grand, maigre</p>\r\n\r\n<p>Bien habillé.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "3",
+      "label": "Bandits"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>attaque magique + 8 dm 1D6</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "attaque magique + 8",
+          "test": null,
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Magie des Glaces</strong><br />\r\n1-Fils des glaces (L)<br />\r\nVous et un compagnon supplémentaire par niveau dans la voie divisez les dégâts de froid par deux. Vous ne pouvez réaliser d’autre action limitée tant que vous maintenez ce pouvoir actif.<br />\r\n2- Verglas (L)<br />\r\nUn verglas glissant recouvre le sol sur une surface de 10m de diamètre pour 10 tours. Dans cette zone rester debout demande à son tour un test de Dextérité de difficulté 10, s’y déplacer ou combattre un test de Difficulté 15. Un échec signifie que la créature est au sol, ramper en dehors de la zone demande un tour complet, se relever nécessite de réussir un nouveau test de Dextérité 15 et prend un tour.<br />\r\n3- Cône de Froid (L)<br />\r\nLe cône de affecte toute les créatures dans un cône approximatif de 60° face au magicien sur une distance de 10m. Un test d’Attaque magique est nécessaire pour chaque cible, les victimes subissent 2d6+Mod Int DM.<br />\r\n4- Présence Glaciale (L)<br />\r\nLe magicien transforme sont corps en glace vivante, il gagne 5 en Défense, il est immunisé au froid et divise les DM de feu par 2. Les créatures qui le touchent ou l’attaquent avec des armes naturelles subissent 1d6 DM. Lorsqu’il marche il gèle le sol et peu se déplacer sur l’eau en la transformant en glace.<br />\r\nLe sort a une durée de 5 tours.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Cone de Froid&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Boule de glace (boule de feu)&nbsp; atta magique comparée à défense : 6m autour de la cible DM 4d6+modINT</p>\r\n\r\n<p>DEX 10 + MOD INT Pour diviser par 2 - + effet verglas autour.<br />\r\nSi test d'attaque échec = la moitié des dégats&nbsp;<br />\r\n<br />\r\n<br />\r\nlévitation : Le magicien peut léviter à une vitesse de 10m mvt pendant 5 + modINT, seulement déplacement vertical</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

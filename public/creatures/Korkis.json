@@ -1,0 +1,378 @@
+{
+  "name": [
+    {
+      "value": "Korkis"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "wis_comment": [
+    {
+      "value": "Maige"
+    }
+  ],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "41"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Baton</strong> +7 <strong>DM</strong><strong> </strong>1d6</p>\r\n\r\n<p><strong>Dague</strong> +7 <strong>DM</strong> 1d4</p>\r\n\r\n<p><strong>Arc court</strong> +9 <strong>DM</strong> 1d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Baton",
+          "test": "+7",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+7",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc court",
+          "test": "+9",
+          "dm": "1d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des animaux</strong> rang 5</p>\r\n\r\n<p><strong>Voie de la magie élémentaire</strong>&nbsp;rang 3</p>\r\n\r\n<p><strong>Voie du protecteur</strong>&nbsp;rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Instinct de survie :</strong>&nbsp;lorsqu’une attaque devrait amener le personnage à 0 PV, les DM qu’elle inflige sont divisés par 2 (minimum 1).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "17": {
+      "id": "17",
+      "name": "Voie des animaux",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "82",
+          "label": "Langage des animaux",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).\r\n"
+        },
+        "2": {
+          "target_id": "84",
+          "label": "Nuée d’insectes",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "En réussissant un test d’attaque magique (portée 20 m), le Druide libère sur sa cible une nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [5 + Mod. de SAG] tours. La victime subit 1 point de DM par tour et un malus de -2 à toutes ses actions. Les DM de zone détruisent la nuée.\r\n"
+        },
+        "3": {
+          "target_id": "86",
+          "label": "Le guetteur",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Druide reçoit un oiseau de proie comme compagnon animal. Il possède un lien télépathique avec lui et peut percevoir par ses sens avec un bonus de +5 aux tests basés sur la perception. Aigle : DEF 15, PV [il les partage avec ceux de son maître]. Attaque de contact = [attaque magique du druide], DM 1d4.\r\n"
+        },
+        "4": {
+          "target_id": "87",
+          "label": "Masque du prédateur",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.\r\n"
+        },
+        "5": {
+          "target_id": "88",
+          "label": "Forme animale",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "22": {
+      "id": "22",
+      "name": "Voie du protecteur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "101",
+          "label": "Baies magiques",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide doit se trouver devant un buisson ou un arbre vivant. Son incantation fait pousser [1d6 + Mod. de SAG] fruits qu’il peut cueillir. Chaque fruit offre l’équivalent d’un repas et rend [1d6 + niveau du druide] PV à celui qui le consomme. Les effets de ces fruits ne fonctionnent qu’une fois par jour et par personnage.\r\n"
+        },
+        "2": {
+          "target_id": "104",
+          "label": "Forêt vivante",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n"
+        },
+        "3": {
+          "target_id": "105",
+          "label": "Régénération",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La cible touchée par le Druide guérit 3 PV par tour pendant [niveau du Druide + Mod. de SAG] tours. Ce sort ne peut pas affecter une créature plus d’une fois par jour.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "64": {
+      "id": "64",
+      "name": "Voie de la magie élémentaire",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "301",
+          "label": "Asphyxie",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Si le magicien réussit son test d’attaque magique (avec une portée de 20 m), la créature ciblée est privée d’air. La victime étouffe progressivement et subit 1d6 DM par tour pendant [1+Mod. d’INT] tours.\r\n"
+        },
+        "2": {
+          "target_id": "302",
+          "label": "Protection contre les éléments",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. d’INT] tours, le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.\r\n"
+        },
+        "3": {
+          "target_id": "303",
+          "label": "Arme enflammée",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "82",
+      "label": "Langage des animaux",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide peut communiquer avec les animaux qui, en général, se comportent avec lui de manière amicale. Il gagne un bonus de +2 par rang à tous les tests destinés à influencer un animal. La communication reste primitive et limitée à l’intelligence de l’animal et à son point de vue (prédateur, proie, etc.).\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "84",
+      "label": "Nuée d’insectes",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "En réussissant un test d’attaque magique (portée 20 m), le Druide libère sur sa cible une nuée d’insectes volants qui piquent, aveuglent et la suivent pendant [5 + Mod. de SAG] tours. La victime subit 1 point de DM par tour et un malus de -2 à toutes ses actions. Les DM de zone détruisent la nuée.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "86",
+      "label": "Le guetteur",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Druide reçoit un oiseau de proie comme compagnon animal. Il possède un lien télépathique avec lui et peut percevoir par ses sens avec un bonus de +5 aux tests basés sur la perception. Aigle : DEF 15, PV [il les partage avec ceux de son maître]. Attaque de contact = [attaque magique du druide], DM 1d4.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "87",
+      "label": "Masque du prédateur",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Lorsqu’il est sous l’effet de ce sort, le Druide prend les traits d’un fauve ou d’un loup. Il gagne son Mod. de SAG en Initiative, en attaque et aux DM et peut voir dans la nuit (comme un elfe) pendant [5 + Mod. de SAG] tours.\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "88",
+      "label": "Forme animale",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide peut prendre la forme d’un animal d’une taille inférieure ou égale à la sienne. Il conserve ses PV, il acquiert les Carac. et les capacités naturelles de la forme choisie (le vol pour un oiseau, la respiration aquatique pour le poisson, etc.). Le Druide peut reprendre sa forme humaine lorsqu’il le désire (L).\r\n",
+      "paths": "Voie des animaux"
+    },
+    {
+      "target_id": "301",
+      "label": "Asphyxie",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Si le magicien réussit son test d’attaque magique (avec une portée de 20 m), la créature ciblée est privée d’air. La victime étouffe progressivement et subit 1d6 DM par tour pendant [1+Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie élémentaire"
+    },
+    {
+      "target_id": "302",
+      "label": "Protection contre les éléments",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. d’INT] tours, le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.\r\n",
+      "paths": "Voie de la magie élémentaire"
+    },
+    {
+      "target_id": "303",
+      "label": "Arme enflammée",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.\r\n",
+      "paths": "Voie de la magie élémentaire"
+    },
+    {
+      "target_id": "101",
+      "label": "Baies magiques",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide doit se trouver devant un buisson ou un arbre vivant. Son incantation fait pousser [1d6 + Mod. de SAG] fruits qu’il peut cueillir. Chaque fruit offre l’équivalent d’un repas et rend [1d6 + niveau du druide] PV à celui qui le consomme. Les effets de ces fruits ne fonctionnent qu’une fois par jour et par personnage.\r\n",
+      "paths": "Voie du protecteur"
+    },
+    {
+      "target_id": "104",
+      "label": "Forêt vivante",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n",
+      "paths": "Voie du protecteur"
+    },
+    {
+      "target_id": "105",
+      "label": "Régénération",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La cible touchée par le Druide guérit 3 PV par tour pendant [niveau du Druide + Mod. de SAG] tours. Ce sort ne peut pas affecter une créature plus d’une fois par jour.\r\n",
+      "paths": "Voie du protecteur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2166",
+      "alt": "",
+      "title": "",
+      "width": "207",
+      "height": "580",
+      "label": "@itsLNK-Troupe-1024x724.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-06/%40itsLNK-Troupe-1024x724.png.webp?itok=1rUvkVfk"
+    }
+  ]
+}

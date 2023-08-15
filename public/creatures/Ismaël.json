@@ -1,0 +1,142 @@
+{
+  "name": [
+    {
+      "value": "Ismaël"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Taille moyenne, yeux marrons et la peau foncée de ses ancêtres du Sud.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ancien vétéran des guerres de Faucongris, Ismaël a vite trouvé sa reconversion. C'est maintenant un des hommes les plus prometteur de la bande de faux-monnayeurs et l'amant d'Annita de Caurel. Il est dévoué à Annita et à elle seule contrairement à ce que pense Sifmo.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "19"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "23"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dague</strong> +4 <strong>DM </strong>1d4+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dague",
+          "test": "+4",
+          "dm": "1d4+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Attaque mortelle (L) :</strong></p>\r\n\r\n<p>Une attaque doit être effectuée de dos ou par surprise. Julius obtient un bonus de +5 en ATT et ajoute +éd6 aux DM. Julius obtient aussi un bonus de +5 aux tests de discrétion.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Equipement :</strong></p>\r\n\r\n<p>Armure de cuir clouté</p>\r\n\r\n<p>Dague +1</p>\r\n\r\n<p>Bourse contenant 53 PA et 59 PC</p>\r\n\r\n<p>Vêtements sombres</p>\r\n\r\n<p>Outils de voleur</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

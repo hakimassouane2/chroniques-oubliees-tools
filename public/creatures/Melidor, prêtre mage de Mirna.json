@@ -1,0 +1,241 @@
+{
+  "name": [
+    {
+      "value": "Melidor, prêtre mage de Mirna"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "plain",
+      "label": "Plaine"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "18"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Baton&nbsp;</strong>+2 <strong>DM</strong> 1d6-1<br />\r\n<strong>Attaque magique</strong> +5 <strong>DM</strong>&nbsp;1d6+3 (30 m)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Baton",
+          "test": "+2",
+          "dm": "1d6-1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique",
+          "test": "+5",
+          "dm": "1d6+3",
+          "special": "(30 m)",
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "6",
+      "label": "Prêtre"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "3"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong> rang 1</p>\r\n\r\n<p><strong>Voie des soins </strong>rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "29": {
+      "id": "29",
+      "name": "Voie des soins",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "136",
+          "label": "Soins légers",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n"
+        },
+        "2": {
+          "target_id": "137",
+          "label": "Soins modérés",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "136",
+      "label": "Soins légers",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n",
+      "paths": "Voie des soins"
+    },
+    {
+      "target_id": "137",
+      "label": "Soins modérés",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n",
+      "paths": "Voie des soins"
+    }
+  ],
+  "picture": []
+}

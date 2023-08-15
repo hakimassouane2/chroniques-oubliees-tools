@@ -1,0 +1,164 @@
+{
+  "name": [
+    {
+      "value": "Gobelin"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p><strong>Bourse:</strong> 1d20 Pc</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "20",
+      "label": "Gobelins"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "3"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Masse&nbsp;</strong>+2&nbsp; <strong>DM</strong> 1d6-1</p>\r\n\r\n<p><strong>Arbalète </strong>+2 <strong>DM </strong>1d6 (10Mètres)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Masse",
+          "test": "+2",
+          "dm": "1d6-1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arbalète",
+          "test": "+2",
+          "dm": "1d6",
+          "special": "(10Mètres)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Attaque en meute:</strong></p>\r\n\r\n<p>2 Gobelins attaquant la même cible bénéficient d'un bonus de +2 à leurs attaques.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "691",
+      "alt": "",
+      "title": "",
+      "width": "800",
+      "height": "1000",
+      "label": "Gobelin.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/Gobelin.jpg.webp?itok=q7mes-2W"
+    }
+  ]
+}

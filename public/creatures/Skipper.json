@@ -1,0 +1,296 @@
+{
+  "name": [
+    {
+      "value": "Skipper"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "27",
+      "label": "Kobolds"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "6"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "26"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Baton</strong> +7 <strong>DM</strong> 1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Baton",
+          "test": "+7",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du poing</strong> rang 5</p>\r\n\r\n<p><strong>Voie de la méditation</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Résistance</strong>&nbsp;: Les frouïns obtiennent un bonus de +5 pour résister aux maladies et aux poisons. Ils peuvent manger des aliments avariés sans tomber malade et n’ont besoin que de trois fois moins de nourriture qu’un humain.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "69": {
+      "id": "69",
+      "name": "Voie de la méditation",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "325",
+          "label": "Pacifisme",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Tant que le Moine n’a réalisé aucune action offensive dans un combat, il bénéficie d’un bonus en DEF de +5.\r\n"
+        },
+        "2": {
+          "target_id": "326",
+          "label": "Transe de guérison",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois après chaque combat, le Moine peut méditer pendant 10 minutes et récupérer ainsi [niveau + Mod de SAG] PV.\r\n"
+        },
+        "3": {
+          "target_id": "327",
+          "label": "Maîtrise du ki",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine utilise son intuition et son empathie avec le monde pour augmenter son efficacité en combat. Il ajoute son Mod. de SAG à son Initiative et sa DEF.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "70": {
+      "id": "70",
+      "name": "Voie du poing",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "329",
+          "label": "Poings de fer",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’il combat à mains nues, le Moine peut (s’il le souhaite) utiliser son score d’attaque à distance au lieu de celui d’attaque au contact. Au rang 1 de cette voie, il inflige [1d6 + Mod. de FOR] DM létaux. Ces DM passent à 1d8 au Rang 3 et à 1d10 au rang 5.\r\n"
+        },
+        "2": {
+          "target_id": "330",
+          "label": "Parade de projectiles",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine peut dévier un projectile (flèche, javelot,...) une fois par tour de combat (sauf si le test d’attaque est un critique ou si l’attaque vient d’une arme à poudre)...\r\n"
+        },
+        "3": {
+          "target_id": "331",
+          "label": "Peau de fer",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine gagne un bonus de +2 en DEF.\r\n"
+        },
+        "4": {
+          "target_id": "332",
+          "label": "Déluge de coups",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "A son tour, le Moine peut effectuer 2 attaques à mains nues sur des cibles de son choix ou 2 attaques avec une arme. Alternativement, il peut choisir de faire 3 attaques en utilisant un d12 en attaque pour chacune d’elle (au lieu d’un d20).\r\n"
+        },
+        "5": {
+          "target_id": "333",
+          "label": "Puissance du ki",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine peut choisir d’utiliser 1d12 en attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque). Si l’attaque est réussie, il ajoute 2d6 aux DM. Cette capacité peut être utilisée avec Déluge de coups ou Projection du ki par exemple.\r\n"
+        }
+      },
+      "rank": 5
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "329",
+      "label": "Poings de fer",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’il combat à mains nues, le Moine peut (s’il le souhaite) utiliser son score d’attaque à distance au lieu de celui d’attaque au contact. Au rang 1 de cette voie, il inflige [1d6 + Mod. de FOR] DM létaux. Ces DM passent à 1d8 au Rang 3 et à 1d10 au rang 5.\r\n",
+      "paths": "Voie du poing"
+    },
+    {
+      "target_id": "330",
+      "label": "Parade de projectiles",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine peut dévier un projectile (flèche, javelot,...) une fois par tour de combat (sauf si le test d’attaque est un critique ou si l’attaque vient d’une arme à poudre)...\r\n",
+      "paths": "Voie du poing"
+    },
+    {
+      "target_id": "331",
+      "label": "Peau de fer",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine gagne un bonus de +2 en DEF.\r\n",
+      "paths": "Voie du poing"
+    },
+    {
+      "target_id": "332",
+      "label": "Déluge de coups",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "A son tour, le Moine peut effectuer 2 attaques à mains nues sur des cibles de son choix ou 2 attaques avec une arme. Alternativement, il peut choisir de faire 3 attaques en utilisant un d12 en attaque pour chacune d’elle (au lieu d’un d20).\r\n",
+      "paths": "Voie du poing"
+    },
+    {
+      "target_id": "333",
+      "label": "Puissance du ki",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine peut choisir d’utiliser 1d12 en attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque). Si l’attaque est réussie, il ajoute 2d6 aux DM. Cette capacité peut être utilisée avec Déluge de coups ou Projection du ki par exemple.\r\n",
+      "paths": "Voie du poing"
+    },
+    {
+      "target_id": "325",
+      "label": "Pacifisme",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Tant que le Moine n’a réalisé aucune action offensive dans un combat, il bénéficie d’un bonus en DEF de +5.\r\n",
+      "paths": "Voie de la méditation"
+    },
+    {
+      "target_id": "326",
+      "label": "Transe de guérison",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois après chaque combat, le Moine peut méditer pendant 10 minutes et récupérer ainsi [niveau + Mod de SAG] PV.\r\n",
+      "paths": "Voie de la méditation"
+    },
+    {
+      "target_id": "327",
+      "label": "Maîtrise du ki",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine utilise son intuition et son empathie avec le monde pour augmenter son efficacité en combat. Il ajoute son Mod. de SAG à son Initiative et sa DEF.\r\n",
+      "paths": "Voie de la méditation"
+    }
+  ],
+  "picture": []
+}

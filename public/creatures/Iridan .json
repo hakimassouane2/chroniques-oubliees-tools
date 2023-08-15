@@ -1,0 +1,213 @@
+{
+  "name": [
+    {
+      "value": "Iridan "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "15",
+      "label": "Elfes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>lance des poignards : +6 1d6+5DM</p>\r\n\r\n<p>Attaque magique +7 DM 1d6+4<br />\r\n<br />\r\nAttaque corps à corps dague +5 DM 1d6+4</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Chant des sirènes : SAG 13 pour tout le monde, - 10 DEF, crit automatique. Boucher les oreilles = +5<br />\r\nSéduisant : INT ou SAG 15 - pendant les deux premiers tours impossible de lui faire du mal.<br />\r\nEsquive acrobatique : 1/tour - test attaque distance contre test attaque réussi de l'adversaire - esquive&nbsp;<br />\r\nSuggestion : test attaque magique contre PV de la créature, si sous Séduisant : avantage -&gt; lui suggère une action</p>\r\n\r\n<p><br />\r\n&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": {
+        "0": {
+          "name": "lance des poignards :",
+          "test": "+6",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "1": {
+          "name": "Attaque magique",
+          "test": "+7",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        },
+        "3": {
+          "name": "Attaque corps à corps dague",
+          "test": "+5",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        },
+        "5": {
+          "name": "Chant des sirènes : SAG 13 pour tout le monde, - 10 DEF, crit automatique. Boucher les oreilles =",
+          "test": "+5",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "6": {
+          "name": "Séduisant : INT ou SAG 15 - pendant les deux premiers tours impossible de lui faire du mal.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "7": {
+          "name": "Esquive acrobatique : 1/tour - test attaque distance contre test attaque réussi de l'adversaire - esquive",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "8": {
+          "name": "Suggestion : test attaque magique contre PV de la créature, si sous Séduisant : avantage -&gt; lui suggère une action",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      }
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2575",
+      "alt": "",
+      "title": "",
+      "width": "654",
+      "height": "934",
+      "label": "Capture d’écran 2023-07-29 à 12.17.11.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Capture%20d%E2%80%99e%CC%81cran%202023-07-29%20a%CC%80%2012.17.11.png.webp?itok=MfZXAF8T"
+    }
+  ]
+}

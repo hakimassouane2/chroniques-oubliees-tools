@@ -1,0 +1,170 @@
+{
+  "name": [
+    {
+      "value": "Drowner"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Il ressemble à un cadavre décomposé et gonfler par l'eau. Sa peau est lisse et blanche il a des dents pointu comme un poisson il se sert des ses griffes pour attaquer et ses nageoire au bras lui permette de se déplacer plus vite sous l'eau.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ancien humain noyé, le Drowner ne connais pas le repos et son insatiable faim ne peut être stopper que par la mort.</p>\r\n\r\n<p>Il vie dans les rivières et les lacs. Il aime attendre que ça victime s'approche du bord pour l'entrainer au fond de l'eau et la noyer.</p>\r\n\r\n<p>Quelqu'un d'observateur remarquera les remous qu'il fait dans l'eau et les bulles remontant à la surface.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "45",
+      "label": "Zombis"
+    }
+  ],
+  "environment": [
+    {
+      "value": "aquatic",
+      "label": "Aquatique"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "20"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Coupe de griffe +3, DM 1d6+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Coupe de griffe",
+          "test": "+3",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Il cherche à noyé sa cible en premier, sinon il attaque de ses griffes et dents.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "746",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "833",
+      "label": "c7871405a9405a58347348167999b80d.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/c7871405a9405a58347348167999b80d.jpg.webp?itok=exSJqblE"
+    }
+  ]
+}

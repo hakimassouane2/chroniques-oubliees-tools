@@ -1,0 +1,265 @@
+{
+  "name": [
+    {
+      "value": "Manteau rouge - Supérieur"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Les manteau rouge supérieur sont les lieutenant direct de Ioro. Ce sont des vampire elfique récent qui le suivent aveuglément. Ils ne partent sur le terrain que rarement, et dévastent tout sur leur passage. Ils portent un manteau noir mais sont constamment entouré d'une lueur rouge sang.&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "44",
+      "label": "Vampires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "21"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "95"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "15 / argent"
+    }
+  ],
+  "init": [
+    {
+      "value": "22"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Griffes ou crocs</strong> +14&nbsp;<strong>DM</strong> 2d6+7</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffes ou crocs",
+          "test": "+14",
+          "dm": "2d6+7",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures magiques</strong> rang 3 (RD 15 sauf armes en argent et feu. Immortel : lorsqu’il tombe à 0 PV, il passe automatiquement en forme gazeuse et se dirige vers son cercueil, là seulement, il peut être achevé).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Absorption d’énergie :</em> toute créature blessée par un vampire reçoit 1 point de sang et le vampire récupère 5 PV. Lorsque le nombre de points de sang d’une victime dépasse son niveau, elle sombre immédiatement dans l’inconscience et se transforme en vampirien au bout de 2d6 heures.</p>\r\n\r\n<p><em>Transformation en chauve-souris (L) :</em> sous cette forme, la DEF du vampire passe à 20, il ne peut plus attaquer mais se déplace de 40 m par action de mouvement.</p>\r\n\r\n<p><em>Amulette : une amulette contenant une goutte de sang de Nirra lui permet de ne pas subir de dégât du soleil.</em></p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "53": {
+      "id": "53",
+      "name": "Voie du démon",
+      "type": "character",
+      "capabilities": {
+        "5": {
+          "target_id": "248",
+          "label": "Invocation d’un démon",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, en sacrifiant 1d6 PV, le Nécromancien invoque un démon à son service pour [5 + Mod. d’INT] tours. Ce démon possède l’apparence d’un Balor en plus petit (environ 2m30). Le démon divise par deux tous les DM non magiques subis, les sorts et les armes magiques lui infligent des DM normaux. Il est capable de voler à une vitesse équivalente à un déplacement normal. Lorsque le Nécromancien atteint le niveau 10, le démon devient capable d’attaquer deux fois par tour, au prix d’une action limitée. Démon : FOR +5*, DEX +2, CON +4*, INT +2, SAG +2, CHA +0, Init 16, DEF 17, PV [niveau x 5], Attaque au contact = [niveau du nécromancien], DM 1d8+5\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        },
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        },
+        "3": {
+          "target_id": "410",
+          "label": "Immortel",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle tombe à 0 PV, la créature n’est pas définitivement détruite, elle est juste chassée et pourra se reconstituer en 24 heures. Parfois elle est simplement bannie dans un autre plan (démon ou élémentaire), d’autre fois, elle s’enfuit sous la forme d’un nuage de ténèbres (vampire). Il faut généralement un rituel spécial pour venir à bout de la créature.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "410",
+      "label": "Immortel",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle tombe à 0 PV, la créature n’est pas définitivement détruite, elle est juste chassée et pourra se reconstituer en 24 heures. Parfois elle est simplement bannie dans un autre plan (démon ou élémentaire), d’autre fois, elle s’enfuit sous la forme d’un nuage de ténèbres (vampire). Il faut généralement un rituel spécial pour venir à bout de la créature.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "248",
+      "label": "Invocation d’un démon",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, en sacrifiant 1d6 PV, le Nécromancien invoque un démon à son service pour [5 + Mod. d’INT] tours. Ce démon possède l’apparence d’un Balor en plus petit (environ 2m30). Le démon divise par deux tous les DM non magiques subis, les sorts et les armes magiques lui infligent des DM normaux. Il est capable de voler à une vitesse équivalente à un déplacement normal. Lorsque le Nécromancien atteint le niveau 10, le démon devient capable d’attaquer deux fois par tour, au prix d’une action limitée. Démon : FOR +5*, DEX +2, CON +4*, INT +2, SAG +2, CHA +0, Init 16, DEF 17, PV [niveau x 5], Attaque au contact = [niveau du nécromancien], DM 1d8+5\r\n",
+      "paths": "Voie du démon"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1827",
+      "alt": "",
+      "title": "",
+      "width": "221",
+      "height": "228",
+      "label": "images (2).jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/images%20%282%29.jpg.webp?itok=i20xf7yv"
+    }
+  ]
+}

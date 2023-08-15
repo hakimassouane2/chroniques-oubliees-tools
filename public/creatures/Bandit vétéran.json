@@ -1,0 +1,163 @@
+{
+  "name": [
+    {
+      "value": "Bandit vétéran"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un bandit vétéran peut servir de chef à un groupe de petites frappes (augmentez son CHA à +2). Si vous voulez des bandits plus dangereux, ajoutez-leur un ou plusieurs rangs dans la Voie de la meute (le rang 2, Attaque en traître est un incontournable).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "3",
+      "label": "Bandits"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée longue</strong> +4 <strong>DM</strong> 1d8+3<br />\r\n<strong>Arc</strong> (30m) +1 <strong>DM</strong> 1d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée longue",
+          "test": "+4",
+          "dm": "1d8+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc (30m)",
+          "test": "+1",
+          "dm": "1d6",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "7",
+      "label": "Voleur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>1. Interchangeables</strong></p>\r\n\r\n<p>Tant que la créature et ses alliées sont plus nombreuses que la cible, elles se relaient pour esquiver ses attaques et elles obtiennent un bonus de +5 en DEF. Si plusieurs créatures semblables sont au contact du PJ, le MJ a toute latitude pour infliger les DM d’une attaque sur la créature de son choix, le personnage ne sait jamais laquelle il blesse.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

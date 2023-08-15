@@ -1,0 +1,255 @@
+{
+  "name": [
+    {
+      "value": "Dieu de la mort affaibli"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Une Marilith mesure près de 6 mètres de long et son buste féminin culmine à plus de deux mètres cinquante. Chacune de ses paires de bras manipule une arme à 2 mains ou 2 armes plus petites...</p>\r\n\r\n<p>...mais le résultat final est le même et correspond aux DM indiqués. Les Marilith sont des démons très puissants, de majestueuses femme-serpents dotées de trois paires de bras, ce qui en fait de véritables machines à tuer. Elles aiment démontrer leur science du combat et écraser leurs adversaires de leur supériorité en corps à corps.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "11"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "140"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "10 / armes saintes"
+    }
+  ],
+  "init": [
+    {
+      "value": "20"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épées (x3)</strong> +12 <strong>DM</strong> 2d6+10</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épées (x3)",
+          "test": "+12",
+          "dm": "2d6+10",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du champion</strong> au rang 2<br />\r\n<strong>Voie des créatures magiques </strong>rang 2 (rang 2 : PV doublés, pas de régénération)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Attaques multiples :</em> une Marilith peut attaquer 3 fois au prix d’une action d’attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Développement</strong><br />\r\nLes Marilith ont souvent des pouvoirs d’Ensorceleur (Voie des illusions).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        },
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "93": {
+      "id": "93",
+      "name": "Voie du champion",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "420",
+          "label": "Imparable",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n"
+        },
+        "2": {
+          "target_id": "421",
+          "label": "Riposte",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le champion peut effectuer une attaque en action gratuite contre chaque adversaire qui l’attaque à l’exception de celui qu’il a lui-même choisit d’attaquer à son tour.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "420",
+      "label": "Imparable",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "421",
+      "label": "Riposte",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le champion peut effectuer une attaque en action gratuite contre chaque adversaire qui l’attaque à l’exception de celui qu’il a lui-même choisit d’attaquer à son tour.\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": []
+}

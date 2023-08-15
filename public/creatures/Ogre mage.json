@@ -1,0 +1,344 @@
+{
+  "name": [
+    {
+      "value": "Ogre mage"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>L’ogre mage est une variante magique de son cousin, une créature d’inspiration asiatique (Oni), à la peau colorée de vert ou de bleu, dotée d’une ou deux cornes. C’est un puissant magicien qui, malgré sa stature, préfère utiliser ses pouvoirs plutôt que de prendre des risques en corps à corps.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "36",
+      "label": "Ogres"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "78"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Cimeterre à 2 mains</strong> +16 <strong>DM</strong> 2d6+6<br />\r\n<strong>Attaque magique</strong> +14 (basée sur le CHA)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Cimeterre à 2 mains",
+          "test": "+16",
+          "dm": "2d6+6",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique",
+          "test": "+14",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "8"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voies de la magie universelle</strong> rang 4 (Magicien)<br />\r\n<strong>Voie de l’air</strong> rang 5 (Ensorceleur)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Vitalité surnaturelle</em> (Voie des créatures magiques rang 2) : l’ogre-mage récupère 5 PV à la fin de chaque tour. Les DM de feu et d’acide annulent cette régénération.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "36": {
+      "id": "36",
+      "name": "Voie de l'air",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "169",
+          "label": "Murmures dans le vent",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Il peut entendre sa réponse immédiatement. La portée est de 100 m par Rang dans la voie et le personnage doit connaître la cible ou la voir.\r\n"
+        },
+        "2": {
+          "target_id": "170",
+          "label": "Sous tension",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui le blesse ou le touche reçoit une décharge infligeant 1d6 DM. Il peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.\r\n"
+        },
+        "3": {
+          "target_id": "171",
+          "label": "Télékinésie",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire (par exemple lui-même) dont le poids n’excède pas 50 kg par Rang, à une portée de 20 m et pendant [5+Mod. de CHA] tours. L’objet peut être déplacé de 10 m par tour au prix d'une action de mouvement. Il est possible de faire tomber un objet sur une cible surprise (DM 1d6 tous les 50 kg).\r\n"
+        },
+        "4": {
+          "target_id": "172",
+          "label": "Foudre",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur produit un éclair sur une ligne de 10 mètres. Toutes les créatures sur la trajectoire sont soumises à un test d’attaque magique et subissent [4d6 + Mod. de CHA] DM en cas de réussite. Les victimes peuvent tenter un test de DEX difficulté [12 + Mod. de DEX] pour ne subir que la moitié des DM.\r\n"
+        },
+        "5": {
+          "target_id": "173",
+          "label": "Forme éthérée",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "66": {
+      "id": "66",
+      "name": "Voie de la magie universelle",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "311",
+          "label": "Lumière",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien désigne un objet, lequel produit dès lors de la lumière dans un rayon de 20 mètres. Cette source de lumière n’émet pas de chaleur et s’éteint après 10 minutes ou lorsque le Magicien le décide. Ce sort permet d’annuler un sort de Ténèbres lancé par un nécromancien de niveau inférieur.\r\n"
+        },
+        "2": {
+          "target_id": "312",
+          "label": "Détection de la magie",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.\r\n"
+        },
+        "3": {
+          "target_id": "313",
+          "label": "Invisibilité",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n"
+        },
+        "4": {
+          "target_id": "314",
+          "label": "Vol",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.\r\n"
+        }
+      },
+      "rank": 4
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "311",
+      "label": "Lumière",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien désigne un objet, lequel produit dès lors de la lumière dans un rayon de 20 mètres. Cette source de lumière n’émet pas de chaleur et s’éteint après 10 minutes ou lorsque le Magicien le décide. Ce sort permet d’annuler un sort de Ténèbres lancé par un nécromancien de niveau inférieur.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "312",
+      "label": "Détection de la magie",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien se concentre et détecte la présence de toute inscription et de tout objet magique situé dans la pièce où il se trouve (ou dans les 15 mètres autour de lui). Ce sort permet aussi d’analyser les propriétés d’un objet magique au prix de 2 heures d’étude et de 100 pa de poudre d’argent.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "313",
+      "label": "Invisibilité",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "314",
+      "label": "Vol",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "169",
+      "label": "Murmures dans le vent",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur chuchote un message d’une dizaine de mots qui voyage jusqu’à son destinataire. Il peut entendre sa réponse immédiatement. La portée est de 100 m par Rang dans la voie et le personnage doit connaître la cible ou la voir.\r\n",
+      "paths": "Voie de l'air"
+    },
+    {
+      "target_id": "170",
+      "label": "Sous tension",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur se charge d’énergie électrique pour [5 + Mod. de CHA] tours. Toute créature qui le blesse ou le touche reçoit une décharge infligeant 1d6 DM. Il peut également délivrer une décharge électrique (attaque magique, portée 10 m) infligeant [1d6 + Mod. de CHA] DM.\r\n",
+      "paths": "Voie de l'air"
+    },
+    {
+      "target_id": "171",
+      "label": "Télékinésie",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire (par exemple lui-même) dont le poids n’excède pas 50 kg par Rang, à une portée de 20 m et pendant [5+Mod. de CHA] tours. L’objet peut être déplacé de 10 m par tour au prix d'une action de mouvement. Il est possible de faire tomber un objet sur une cible surprise (DM 1d6 tous les 50 kg).\r\n",
+      "paths": "Voie de l'air"
+    },
+    {
+      "target_id": "172",
+      "label": "Foudre",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur produit un éclair sur une ligne de 10 mètres. Toutes les créatures sur la trajectoire sont soumises à un test d’attaque magique et subissent [4d6 + Mod. de CHA] DM en cas de réussite. Les victimes peuvent tenter un test de DEX difficulté [12 + Mod. de DEX] pour ne subir que la moitié des DM.\r\n",
+      "paths": "Voie de l'air"
+    },
+    {
+      "target_id": "173",
+      "label": "Forme éthérée",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.\r\n",
+      "paths": "Voie de l'air"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1088",
+      "alt": "Ogre mage",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "ogre_mage-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ogre_mage-modified.png.webp?itok=89C9PkPh"
+    }
+  ]
+}

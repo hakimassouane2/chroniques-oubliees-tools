@@ -1,0 +1,148 @@
+{
+  "name": [
+    {
+      "value": "Cube gélatineux"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Le cube gélatineux est une sorte d’organisme très primitif transparent ressemblant à un glaçon géant doté de la consistance d’un apéricube !</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Il attaque en avançant sur sa proie pour l’absorber et la digérer. Il mesure environ 3 mètres d’arête pour un poids avoisinant les 10 tonnes. L’acide du cube gélatineux ne dissout que les matières organiques. Les matières minérales et les métaux sont par la suite évacués de son corps afin de préserver sa transparence et sa discrétion.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "7"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "7"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "60"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "2"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Absorption</strong> +8 <strong>DM</strong> 2d6+7 + Spécial</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Absorption",
+          "test": "+8",
+          "dm": "2d6+7",
+          "special": "+ Spécial",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Camouflage :</em> le cube gélatineux compte sur sa transparence pour capturer les proies. Une créature doit faire un test de SAG difficulté 12 lorsqu’elle s’approche du cube gélatineux pour la première fois ou être surprise.</p>\r\n\r\n<p><em>Enveloppement :</em> lorsqu’il réussit une attaque au contact, le cube gélatineux peut faire un test opposé de FOR avec sa proie (celle-ci peut résister si elle souhaite par un test de DEX). Si le cube gélatineux l’emporte, la cible est absorbée dans le corps du monstre où elle subit chaque tour automatiquement des DM. Une fois à l’intérieur, la créature peut tenter de s’échapper à chaque tour par un test de FOR difficulté 15 au prix d’une action limitée (elle ne peut faire aucune autre action).</p>\r\n\r\n<p><em>Lenteur :</em> le cube gélatineux ne se déplace que de 10 mètres par action de mouvement.</p>\r\n\r\n<p><em>Paralysie :</em> toute créature blessée par le cube gélatineux doit réussir un test de CON difficulté 15 ou être <em>paralysée</em> pendant 2d6 tours.</p>\r\n\r\n<p><em>Réduction des DM :</em> le cube gélatineux réduit tous les DM de type contondant ou perçant de 5 points. Il est immunisé au DM d’électricité et d’acide.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1191",
+      "alt": "Cube gélatineux",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "gelatinous_cube-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gelatinous_cube-modified.png.webp?itok=Ckv_49Y_"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "name": [
+    {
+      "value": "Arvind \"Cerberus\""
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Arvind a toujours été un vagabond, il aime voyager et survivre en nature, grimper des montagnes, explorer des grottes lugubre, camper à la belle étoile, tout cela est la vie idéale pour lui.<br />\r\nLors d'une nuit de pleine lune il fit la rencontre d'un loup-garou, rencontre à laquelle il survécut miraculeusement mais durant laquelle il fut infecté.<br />\r\nAvec le temps Arvind réussit à contrôler sa transformation, il peut désormais se transformer à volonté en restant maitre de ses actions dans une certaine mesure, même si cela met son mental à rude épreuve surtout lorsque le sang coule ou durant les nuits de pleine lune.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "69"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Couteau de chasse : +11 à l'attaque, 1d6+5 dégâts</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Couteau de chasse :",
+          "test": "+11",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "5"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Instinct de survie (passif humain) : Lorsqu’une attaque devrait amener le personnage à 0 PV, les DM qu’elle inflige sont divisés par 2 (minimum 1).</p>\r\n\r\n<p>Transformation en loup-garou infecté : Sous cette forme Arvind conserve ses capacités mais gagne en plus la capacité \"Embuscade\", il obtient +2 FOR et CON, -2 INT et SAG. Sa FOR, DEX et SAG deviennent des caractéristiques supérieur, il ne peut plus utiliser son couteau mais gagne à la place une attaque naturelle (+15 attaque, 1d6+8 dgts) sur laquelle il peut utiliser sa capacité \"arme enflammé\".</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Notes : Lorsqu'il utilise une action limité Arvind peut tout de même faire un déplacement grâce à \"Instinct de survie\", de plus lorsqu'il est sous l'effet de \"Hâte\" il peut bénéficier de cette action supplémentaire même en plus d'une action limité, contrairement à la description du sort.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "58": {
+      "id": "58",
+      "name": "Voie de la sombre magie",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "269",
+          "label": "Ténèbres",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.\r\n"
+        },
+        "2": {
+          "target_id": "270",
+          "label": "Pattes d’araignée",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "62": {
+      "id": "62",
+      "name": "Voie de la magie des arcanes",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "293",
+          "label": "Hâte",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "64": {
+      "id": "64",
+      "name": "Voie de la magie élémentaire",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "303",
+          "label": "Arme enflammée",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "66": {
+      "id": "66",
+      "name": "Voie de la magie universelle",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "313",
+          "label": "Invisibilité",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "78": {
+      "id": "78",
+      "name": "Voie de l'humain",
+      "type": "race",
+      "capabilities": {
+        "4": {
+          "target_id": "370",
+          "label": "Increvable",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, lorsqu’une attaque fait tomber le personnage à 0 PV, ce dernier peut effectuer un test d’attaque (du même type) opposé à celui de l’adversaire. En cas de réussite, le personnage esquive ou résiste à cette attaque et ne subit aucun DM.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "83": {
+      "id": "83",
+      "name": "Voie du PNJ récurrent",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "390",
+          "label": "Instinct de survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "390",
+      "label": "Instinct de survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "370",
+      "label": "Increvable",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, lorsqu’une attaque fait tomber le personnage à 0 PV, ce dernier peut effectuer un test d’attaque (du même type) opposé à celui de l’adversaire. En cas de réussite, le personnage esquive ou résiste à cette attaque et ne subit aucun DM.\r\n",
+      "paths": "Voie de l'humain"
+    },
+    {
+      "target_id": "293",
+      "label": "Hâte",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.\r\n",
+      "paths": "Voie de la magie des arcanes"
+    },
+    {
+      "target_id": "303",
+      "label": "Arme enflammée",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.\r\n",
+      "paths": "Voie de la magie élémentaire"
+    },
+    {
+      "target_id": "313",
+      "label": "Invisibilité",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n",
+      "paths": "Voie de la magie universelle"
+    },
+    {
+      "target_id": "269",
+      "label": "Ténèbres",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.\r\n",
+      "paths": "Voie de la sombre magie"
+    },
+    {
+      "target_id": "270",
+      "label": "Pattes d’araignée",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.\r\n",
+      "paths": "Voie de la sombre magie"
+    },
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2608",
+      "alt": "",
+      "title": "",
+      "width": "827",
+      "height": "1219",
+      "label": "Arvind_0.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Arvind_0.jpg.webp?itok=SUxTUl7e"
+    }
+  ]
+}

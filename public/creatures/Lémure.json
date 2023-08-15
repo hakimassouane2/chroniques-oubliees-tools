@@ -1,0 +1,161 @@
+{
+  "name": [
+    {
+      "value": "Lémure"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Les lémure est une mase informe et répuniente&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un lémure prend forme lorsque l'âme&nbsp; d'un mortel corrompu par le mal et condamnée aux neuf Enfers pour l'éternité. Situés tous an bas de la hiérarchie infernale.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "0"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "7"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "13"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "7"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong><em>Poing&nbsp;&nbsp;</em></strong>+3 DM 1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Poing",
+          "test": "+3",
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2797",
+      "alt": "",
+      "title": "",
+      "width": "727",
+      "height": "1000",
+      "label": "lemure.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-08/lemure.jpg.webp?itok=CJ8Z6qPa"
+    }
+  ]
+}

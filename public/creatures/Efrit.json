@@ -1,0 +1,259 @@
+{
+  "name": [
+    {
+      "value": "Efrit"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "18",
+      "label": "Génies"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Cimeterre enflammé</strong> +14 <strong>DM</strong> 2d6+10 + 1d6 feu<br />\r\n<strong>Boule de feu</strong> +15 <strong>DM</strong> 4d6+12</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Cimeterre enflammé",
+          "test": "+14",
+          "dm": "2d6+10",
+          "special": "+ 1d6 feu",
+          "reach": null
+        },
+        {
+          "name": "Boule de feu",
+          "test": "+15",
+          "dm": "4d6+12",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Corps enflammé</em> (Voie des créatures élémentaires rang 2)</p>\r\n\r\n<p><em>Immunisé au feu :</em> l'efrit est immunisé aux DM de feu.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        },
+        "2": {
+          "target_id": "403",
+          "label": "Armure magique",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n"
+        },
+        "3": {
+          "target_id": "404",
+          "label": "Déplacement magique",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "2": {
+          "target_id": "412",
+          "label": "Corps enflammé",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle inflige +1d6 DM de feu par attaque de contact réussie. Une créature qui l’attaque au contact subit 1d6 DM pour chaque attaque réussie. Si une victime est saisie ou agrippée par la créature, elle subit à chaque tour +1d6 de feu supplémentaire. Lorsqu’elle est au contact d’une source de feu importante, la créature régénère 5 PV par tour.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "412",
+      "label": "Corps enflammé",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle inflige +1d6 DM de feu par attaque de contact réussie. Une créature qui l’attaque au contact subit 1d6 DM pour chaque attaque réussie. Si une victime est saisie ou agrippée par la créature, elle subit à chaque tour +1d6 de feu supplémentaire. Lorsqu’elle est au contact d’une source de feu importante, la créature régénère 5 PV par tour.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "403",
+      "label": "Armure magique",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "404",
+      "label": "Déplacement magique",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n",
+      "paths": "Voie de la magie de combat"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1017",
+      "alt": "Efrit",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "efreeti-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/efreeti-modified.png.webp?itok=E1W8LiPh"
+    }
+  ]
+}

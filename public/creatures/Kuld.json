@@ -1,0 +1,151 @@
+{
+  "name": [
+    {
+      "value": "Kuld"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "3",
+      "label": "Bandits"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "berserk",
+      "label": "Berserk"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "10"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "10"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "66": {
+      "id": "66",
+      "name": "Voie de la magie universelle",
+      "type": "character",
+      "capabilities": {
+        "4": {
+          "target_id": "314",
+          "label": "Vol",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "314",
+      "label": "Vol",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien peut voler pendant [1d6 + Mod. d’INT] minutes. Sa vitesse de déplacement est la même qu’au sol.\r\n",
+      "paths": "Voie de la magie universelle"
+    }
+  ],
+  "picture": []
+}

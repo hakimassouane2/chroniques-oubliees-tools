@@ -1,0 +1,157 @@
+{
+  "name": [
+    {
+      "value": "Elwa"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Il a rencontré de nombreuse personne et aidé la plus part si ce n est toute. Sauf une personne Randall. Alors que cette homme a perdu toute sa famille et devrais sombré dans le désespoir, celui-ci lutte pour vivre et retrouver sa sœur est devenu pour lui sa priorité. Elwa veux s'inspirer de cette homme qui lui a redonné confiance envers le genre humain. Elwa a même un nouvelle objectif ressuscite un maximum d'humain le massacre de la famille de Randall l a fortement bouleversé et veut reconstruire le monde détruit selon lui et arreter la folie humaine qui crée sans cesse des guerres. Et pour lui le meilleur moyen s'y parvenir c'est d user des pouvoirs de nécromant&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Elwa est un fiere nagas. Il mesure environs 3.30 et pèse un bon 190kg. Cette chips de nagas n'a pas vraiment de but.&nbsp;</p>\r\n\r\n<p>A cause de son apparence il est souvent chassé de lieu dans lequelle il est aimerait être. Cependant il a rencontré quelque personne fort sympathique et se sait pas seul car il a des amis. Il croit fermement aux dieu car il se pense lui-même être une demi divinité aux pouvoir hors-norme.&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "33",
+      "label": "Nagas"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "10"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Sacoche du voyageur armure de cuire =+1CA\r\nCA= armure+sagesse+bouclier "
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "10",
+      "label": "Nécromancien"
+    }
+  ],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Pour certaines raison des plus obscure Elxa déteste l'alcool mais pourrais manger un vache par jour. Cependant à cause de ses origines Elwa a connu la famine et n'est pas plus obligé énormément une portion humaine lui suffit&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

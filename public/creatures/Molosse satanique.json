@@ -1,0 +1,200 @@
+{
+  "name": [
+    {
+      "value": "Molosse satanique"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le molosse satanique est une autre race de chien maléfique qui vit dans les fosses brûlantes des enfers.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "7",
+      "label": "Chiens"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "11"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +4 <strong>DM</strong> 1d6+3 (+1d6 Feu)<br />\r\n<strong>Souffle (L)</strong> <strong>DM</strong> 5d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": "(+1d6 Feu)",
+          "reach": null
+        },
+        {
+          "name": "Souffle (L)",
+          "test": null,
+          "dm": "5d6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures élémentaires</strong> rang 2 (Feu)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "64": {
+      "id": "64",
+      "name": "Voie de la magie élémentaire",
+      "type": "character",
+      "capabilities": {
+        "2": {
+          "target_id": "302",
+          "label": "Protection contre les éléments",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. d’INT] tours, le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "302",
+      "label": "Protection contre les éléments",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. d’INT] tours, le Magicien retranche à tous les DM de feu, de froid, d’électricité ou d’acide subis un montant égal à 2 fois son Rang dans cette Voie.\r\n",
+      "paths": "Voie de la magie élémentaire"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "919",
+      "alt": "Molosse satanique",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "hound-satanic-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hound-satanic-modified.png.webp?itok=bQlzlztk"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "name": [
+    {
+      "value": "Pouding noir"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "vegetative",
+      "label": "Végétative"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "60"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "6"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><em>Pseudopode acide</em> : +10 DM 2d6 + 1d6 au tour suivant. Immunisé aux DM d’acide.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Pseudopode acide :",
+          "test": "+10",
+          "dm": "2d6",
+          "special": "+ 1d6 au tour suivant. Immunisé aux",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Corrosion du métal</em> : Les armes non magiques en métal ou en bois qui entrent en contact avec le poudding se corrodent. Après avoir infligé des dégâts, une arme subit un malus permanent et cumulatif de -1 au DM. L’arme est détruite si le malus cumulé atteint -5. Les munitions non magiques en métal qui entrent en contact avec le poudding sont détruites après avoir infligé leurs dégâts</p>\r\n\r\n<p><em>Escalade&nbsp;:</em> Le poudding peut grimper aux murs et même se déplacer au plafond.</p>\r\n\r\n<p><em>Camouflage&nbsp;</em>: Le poudding peut passer pour une ombre sur un mur. Il obtient un bonus de +5 aux test de discrétion.</p>\r\n\r\n<p><em>Informe&nbsp;</em>: Le poudding peut se faufiler dans un interstice d’une largeur minimale de 2 à 3 cm.</p>\r\n\r\n<p><em>Lent&nbsp;:</em> Le poudding subit en permanence l’état ralenti.</p>\r\n\r\n<p><em>Partition&nbsp;:</em> Si les DM tranchants ou de foudre supérieurs à 10 point sont infligés au poudding, il se scinde en 2 parties ayant chacune la moitié des PV et le même profil. Sa taille est réduite d’une catégorie (pour une taille minimale de petite et jusqu’à 4 parties).</p>\r\n\r\n<p><em>Régénération&nbsp;:</em> Un poudding noir récupère 5 PV par round, sauf s’il subit des DM de feu ou de froid.</p>\r\n\r\n<p>Même à 0 PV, il se reconstitue à moins qu’on ne brûle son corps par le feu ou le froid.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

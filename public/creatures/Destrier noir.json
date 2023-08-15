@@ -1,0 +1,205 @@
+{
+  "name": [
+    {
+      "value": "Destrier noir"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Aussi appelé Cauchemar, le cheval des enfers possède une robe de jais et des sabots comparables à des charbons ardents. De la fumée s’échappe de ses naseaux et sa crinière est parcourue de flammes, il laisse une trainée de feu dans son sillage.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Sabots</strong> +7 <strong>DM</strong> 1d6+6 +1d6 de feu</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Sabots",
+          "test": "+7",
+          "dm": "1d6+6",
+          "special": "+1d6 de feu",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures élémentaires</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Galop des cieux :</em> le destrier noir peut se déplacer dans les airs comme sur terre. Il couvre une distance de 30 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Monture épique</strong> La capacité épique du même nom permet de choisir cette créature pour monture. Si le personnage est un Chevalier ayant acquis la capacité Monture fantastique de la Voie du cavalier, il augmente les PV de celle-ci de 2 par niveau du personnage.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "411",
+          "label": "Souffle enflammé",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n"
+        },
+        "2": {
+          "target_id": "412",
+          "label": "Corps enflammé",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle inflige +1d6 DM de feu par attaque de contact réussie. Une créature qui l’attaque au contact subit 1d6 DM pour chaque attaque réussie. Si une victime est saisie ou agrippée par la créature, elle subit à chaque tour +1d6 de feu supplémentaire. Lorsqu’elle est au contact d’une source de feu importante, la créature régénère 5 PV par tour.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "411",
+      "label": "Souffle enflammé",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "412",
+      "label": "Corps enflammé",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle inflige +1d6 DM de feu par attaque de contact réussie. Une créature qui l’attaque au contact subit 1d6 DM pour chaque attaque réussie. Si une victime est saisie ou agrippée par la créature, elle subit à chaque tour +1d6 de feu supplémentaire. Lorsqu’elle est au contact d’une source de feu importante, la créature régénère 5 PV par tour.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1166",
+      "alt": "Destrier noir",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "nightmare-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/nightmare-modified.png.webp?itok=vU3R-Xa2"
+    }
+  ]
+}

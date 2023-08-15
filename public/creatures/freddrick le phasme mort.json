@@ -1,0 +1,130 @@
+{
+  "name": [
+    {
+      "value": "freddrick le phasme mort"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>c'est un phasme trouvé par un halfelin planté dans un rocher en forme de cul, le halfelin s'en sert comme baguette magique, au repos il est mou, plus des sorts sont lancés, plus il durcit, et plus il durcit plus les sorts lancés deviennent puissants</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "26",
+      "label": "Insectes géants"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "very_small",
+      "label": "Très petite"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "0"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "0"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "1"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2351",
+      "alt": "freddrick le phasme mort",
+      "title": "",
+      "width": "250",
+      "height": "236",
+      "label": "2013-03-09_Indische_Stabschrecke_carausius_morosus_anagoria.JPG",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/2013-03-09_Indische_Stabschrecke_carausius_morosus_anagoria.JPG.webp?itok=TRDi20-Z"
+    }
+  ]
+}

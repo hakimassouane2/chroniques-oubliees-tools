@@ -1,0 +1,219 @@
+{
+  "name": [
+    {
+      "value": "Olir Asnor Astrologue "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "60"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "-5 aux dégats magiques"
+    }
+  ],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Attaque magique : + 9 DM 2D6+7<br />\r\n<br />\r\nEnkystement Lointain : geste de la main.<br />\r\n20 m - test d'attaque magique opposé. -&gt; cible téléporté à l'auberge au toit fleuri à Vercelise.<br />\r\n<br />\r\nPorte Dimensionnelle : si ça tourne mal pour lui, l'astrologue crée une porte et s'en va donner l'alerte.<br />\r\n<br />\r\nInvocation : Olrik peut, en plus de l'élémentaire majeur de terre, invoquer 3 élémentaire de terre moyen (un par tour) max 3. Il s'entoure.<br />\r\n<br />\r\nSi les PJ tentent de l'attaquer, il fait directement un élémentaire devant la porte.<br />\r\n<br />\r\nUne fois que les 3 élémentaires sont sortis il quittera la pièce par une porte magique. Annoncera leur décès aux autorités.<br />\r\n<br />\r\nSi les PJ arrêtent et le supplient il arrêtera.&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": {
+        "0": {
+          "name": "Attaque magique : + 9",
+          "test": null,
+          "dm": "2d6+7",
+          "special": null,
+          "reach": null
+        },
+        "2": {
+          "name": "Enkystement Lointain : geste de la main.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "3": {
+          "name": "20 m - test d'attaque magique opposé. -&gt; cible téléporté à l'auberge au toit fleuri à Vercelise.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "5": {
+          "name": "Porte Dimensionnelle : si ça tourne mal pour lui, l'astrologue crée une porte et s'en va donner l'alerte.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "7": {
+          "name": "Invocation : Olrik peut, en plus de l'élémentaire majeur de terre, invoquer 3 élémentaire de terre moyen (un par tour) max 3. Il s'entoure.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "9": {
+          "name": "Si les PJ tentent de l'attaquer, il fait directement un élémentaire devant la porte.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "11": {
+          "name": "Une fois que les 3 élémentaires sont sortis il quittera la pièce par une porte magique. Annoncera leur décès aux autorités.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "13": {
+          "name": "Si les PJ arrêtent et le supplient il arrêtera.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      }
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2551",
+      "alt": "",
+      "title": "",
+      "width": "580",
+      "height": "840",
+      "label": "Capture d’écran 2023-07-27 à 19.25.54.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Capture%20d%E2%80%99e%CC%81cran%202023-07-27%20a%CC%80%2019.25.54.png.webp?itok=Cujp6kmZ"
+    }
+  ]
+}

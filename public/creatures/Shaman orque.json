@@ -1,0 +1,217 @@
+{
+  "name": [
+    {
+      "value": "Shaman orque"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "37",
+      "label": "Orques"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "29"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dague</strong> +4 <strong>DM</strong> 1d4+3<br />\r\n<strong>Attaque magique (L)</strong> +7 <strong>DM</strong> 2d6+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dague",
+          "test": "+4",
+          "dm": "1d4+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique (L)",
+          "test": "+7",
+          "dm": "2d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong> rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Sensible à la lumière :</em> créatures souterraines, les orques détestent la lumière du jour. La lumière du soleil leur inflige une pénalité de -1 en attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        },
+        "2": {
+          "target_id": "403",
+          "label": "Armure magique",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "403",
+      "label": "Armure magique",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n",
+      "paths": "Voie de la magie de combat"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1094",
+      "alt": "Shaman orque",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "orc_shaman-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/orc_shaman-modified.png.webp?itok=9p2haT7Y"
+    }
+  ]
+}

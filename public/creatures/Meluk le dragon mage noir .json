@@ -1,0 +1,193 @@
+{
+  "name": [
+    {
+      "value": "Meluk le dragon mage noir "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>un dragon 2 fois plus grand que la moyen aux ecalle noir et au yeux violet&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Meluk le dragon mage noir&nbsp;</p>\r\n\r\n<p>Posséde une inteligence humaine</p>\r\n\r\n<p>et une grande capacité a utiliser la magie</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "11",
+      "label": "Dragons"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "resistant",
+      "label": "Résistant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "4"
+    }
+  ],
+  "level": [
+    {
+      "value": "20"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "25"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "9"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Attaque(s)</p>\r\n\r\n<p><strong>Morsure et griffes</strong>&nbsp;+27&nbsp;<strong>DM</strong>&nbsp;4d6+21<br />\r\n<strong>Souffle (L)</strong>&nbsp;<strong>DM</strong>&nbsp;6d6+42 (20x15m)</p>\r\n\r\n<p>compétence</p>\r\n\r\n<p><strong>torpeur :&nbsp;</strong>paralise de peur la cible&nbsp;</p>\r\n\r\n<p><strong>Dévoration : absorbe 50%&nbsp;</strong>Des <strong>pm&nbsp;</strong>de la cible et la converti en <strong>pv</strong></p>\r\n\r\n<p><strong>Vole des Arcan : </strong>peux retourner un sort contre son lanceur&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque(s)",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Morsure et griffes",
+          "test": "+27",
+          "dm": "4d6+21",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Souffle (L)",
+          "test": null,
+          "dm": "6d6+42",
+          "special": "(20x15m)",
+          "reach": null
+        },
+        {
+          "name": "compétence",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "torpeur : paralise de peur la cible",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dévoration : absorbe 50% Des pm de la cible et la converti en pv",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Vole des Arcan : peux retourner un sort contre son lanceur",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "13",
+      "label": "Magicien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "20"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>compétence</p>\r\n\r\n<p><strong>torpeur :&nbsp;</strong>paralise de peur la cible&nbsp;</p>\r\n\r\n<p><strong>Dévoration : absorbe 50%&nbsp;</strong>Des <strong>pm&nbsp;</strong>de la cible et la converti en <strong>pv</strong></p>\r\n\r\n<p><strong>Vole des Arcan : </strong>peux retourner un sort contre son lanceur&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1729",
+      "alt": "",
+      "title": "",
+      "width": "800",
+      "height": "418",
+      "label": "HD-wallpaper-epic-art-fantasy-battle-angel-dragons-artwork.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/HD-wallpaper-epic-art-fantasy-battle-angel-dragons-artwork.jpg.webp?itok=ha3-S_MZ"
+    }
+  ]
+}

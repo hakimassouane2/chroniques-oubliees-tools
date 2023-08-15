@@ -1,0 +1,215 @@
+{
+  "name": [
+    {
+      "value": "Dystri"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "21",
+      "label": "Golems"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "19"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "42"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "RD 10 sauf DM de sorts ex : projectile magique"
+    }
+  ],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Rang 1, 2, 3 et 4 de la voie des cristaux.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>\r\n\r\n<p>Cristal Bleu nuit : +5 Init</p>\r\n\r\n<p>Cristal Irisé : permet de subsister sans respirer</p>\r\n\r\n<p>Cristal noir fumé : RD 10 DM de feu et de froid</p>\r\n\r\n<p>Cristal orange : RD 10 DM d'acide et d'électricité</p>\r\n\r\n<p>Cristal rose laiteux : +2 Def</p>\r\n\r\n<p>Cristal translucide : permet subsister sans boire ni manger&nbsp;</p>\r\n\r\n<p>Rang 2 de la voie des créatures magiques</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Flotte 2m au dessus du sol&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "62": {
+      "id": "62",
+      "name": "Voie de la magie des arcanes",
+      "type": "character",
+      "capabilities": {
+        "4": {
+          "target_id": "294",
+          "label": "Téléportation",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.\r\n"
+        },
+        "5": {
+          "target_id": "295",
+          "label": "Désintégration",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière. Un test d’attaque magique réussi permet de toucher une créature et d’infliger [5d6 + Mod. d’INT] DM. Si le magicien vise un objet porté par une créature, le jet d’attaque subit un malus de -5. Les objets magiques sont insensibles à ce sort, les objets normaux sont réduits en poussière. Aucun objet de plus de 50 kg ne peut être affecté par ce sort : inutile donc de tenter de creuser un tunnel par ce biais. En revanche, vous pourrez ainsi désintégrer une porte (ou même une pierre dans un mur).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "294",
+      "label": "Téléportation",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.\r\n",
+      "paths": "Voie de la magie des arcanes"
+    },
+    {
+      "target_id": "295",
+      "label": "Désintégration",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien projette un rayon mortel dont la portée est de 20 mètres et qui annule la cohésion de la matière, ne laissant derrière lui qu’un amas de poussière. Un test d’attaque magique réussi permet de toucher une créature et d’infliger [5d6 + Mod. d’INT] DM. Si le magicien vise un objet porté par une créature, le jet d’attaque subit un malus de -5. Les objets magiques sont insensibles à ce sort, les objets normaux sont réduits en poussière. Aucun objet de plus de 50 kg ne peut être affecté par ce sort : inutile donc de tenter de creuser un tunnel par ce biais. En revanche, vous pourrez ainsi désintégrer une porte (ou même une pierre dans un mur).\r\n",
+      "paths": "Voie de la magie des arcanes"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "887",
+      "alt": "",
+      "title": "",
+      "width": "1181",
+      "height": "1748",
+      "label": "Sans titre 54_20230205195941.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/Sans%20titre%2054_20230205195941.png.webp?itok=Gqh5FOVV"
+    }
+  ]
+}

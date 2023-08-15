@@ -1,0 +1,216 @@
+{
+  "name": [
+    {
+      "value": "villadeois de vinea'r"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée longue</strong> +4 <strong>DM</strong> 1d8+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée longue",
+          "test": "+4",
+          "dm": "1d8+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Forme hybride (L) : le personnage peut prendre une forme hybride pour [1d6 + Mod. de CON] tours en réussissant un test e SAG difficulté 15. En forme hybride, le personnage devient plus puissant et plus rapide,&nbsp; mais il peut continuer à utiliser ses armes, il gagne +2 en attaque et aux DM , à tous les Tests de FOR, DEX et CON et +4 en initiative. RD 5 sauf DM arme en argent.</p>\r\n\r\n<p>Loups garou naturel : transformation sans test SAG et pour une action simple.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "83": {
+      "id": "83",
+      "name": "Voie du PNJ récurrent",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "390",
+          "label": "Instinct de survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "84": {
+      "id": "84",
+      "name": "Voie de la meute",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "393",
+          "label": "Interchangeables",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Tant que la créature et ses alliées sont plus nombreuses que la cible, elles se relaient pour esquiver ses attaques et elles obtiennent un bonus de +5 en DEF. Si plusieurs créatures semblables sont au contact du PJ, le MJ a toute latitude pour infliger les DM d’une attaque sur la créature de son choix, le personnage ne sait jamais laquelle il blesse.\r\n"
+        },
+        "2": {
+          "target_id": "394",
+          "label": "Attaque en traître",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Si la créature attaque en même temps qu’un allié (elle peut volontairement retarder son Initiative), de dos ou par surprise, elle réalise une Attaque sournoise avec un bonus de +5 en attaque et +2d6 aux DM.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "390",
+      "label": "Instinct de survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "393",
+      "label": "Interchangeables",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Tant que la créature et ses alliées sont plus nombreuses que la cible, elles se relaient pour esquiver ses attaques et elles obtiennent un bonus de +5 en DEF. Si plusieurs créatures semblables sont au contact du PJ, le MJ a toute latitude pour infliger les DM d’une attaque sur la créature de son choix, le personnage ne sait jamais laquelle il blesse.\r\n",
+      "paths": "Voie de la meute"
+    },
+    {
+      "target_id": "394",
+      "label": "Attaque en traître",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Si la créature attaque en même temps qu’un allié (elle peut volontairement retarder son Initiative), de dos ou par surprise, elle réalise une Attaque sournoise avec un bonus de +5 en attaque et +2d6 aux DM.\r\n",
+      "paths": "Voie de la meute"
+    }
+  ],
+  "picture": []
+}

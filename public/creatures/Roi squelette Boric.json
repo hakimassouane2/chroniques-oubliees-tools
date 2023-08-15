@@ -1,0 +1,191 @@
+{
+  "name": [
+    {
+      "value": "Roi squelette Boric"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "1",
+      "label": "Squelettes"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Réduction 5 / contondant "
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Lance</strong> +6 <strong>DM</strong> 1d8+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Lance",
+          "test": "+6",
+          "dm": "1d8+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Réduction des dégâts 5 / contondant&nbsp;</p>\r\n\r\n<p>Couronne de fer noir: injonction&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "38": {
+      "id": "38",
+      "name": "Voie de l'envoûteur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "179",
+          "label": "Injonction",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur donne un ordre simple (mais pas dangereux pour elle) que la victime doit pouvoir comprendre. Il doit réussir un test d’attaque magique opposé avec la cible (contre attaque au contact si la créature n'en a pas) à une portée de 20 mètres. En cas d’échec, la cible exécutera l’ordre pendant son prochain tour.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "179",
+      "label": "Injonction",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur donne un ordre simple (mais pas dangereux pour elle) que la victime doit pouvoir comprendre. Il doit réussir un test d’attaque magique opposé avec la cible (contre attaque au contact si la créature n'en a pas) à une portée de 20 mètres. En cas d’échec, la cible exécutera l’ordre pendant son prochain tour.\r\n",
+      "paths": "Voie de l'envoûteur"
+    }
+  ],
+  "picture": []
+}

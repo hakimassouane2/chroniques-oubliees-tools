@@ -1,0 +1,250 @@
+{
+  "name": [
+    {
+      "value": "Kamek"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Drakonide doté d'une malformation génétique le rendant très petit. Il fut la risé de son peuple. Il a en eut plus qu'assez d'être moqué et prit le fuite à Mushroom Town. Il s'y découvrit une passion pour la magie. Cette dernière lui permettant de cacher sa diformité. Dépuis, il a gravit les échelons et est désormais le sorcier officiel de la cour.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "11",
+      "label": "Dragons"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "6"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [
+    {
+      "value": "Magie"
+    }
+  ],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "23"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Bâton ferré</strong> +2 <strong>DM</strong> 1d6+2</p>\r\n\r\n<p><strong>Dague</strong> +2 <strong>DM</strong> 1d4+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bâton ferré",
+          "test": "+2",
+          "dm": "1d6+2",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+2",
+          "dm": "1d4+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "8",
+      "label": "Ensorceleur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "4"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des illusions</strong> rang 4</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Souffle</strong> : Un soufle de feu qui inflige 2d6 DM par Rang dans une zone conique de 10 m de long sur 5 m de large. Toutes les créatures affectées peuvent diviser les DM par 2 si elles réussissent un test de DEX difficulté 12. Après avoir utilisé son souffle, le drakonide doit attendre 1d4 tours avant de pouvoir l'utiliser à nouveau.</p>\r\n\r\n<p><strong>Reve hyperréaliste</strong> : Kamek peut une fois par combat plonger les joeur dans un rêve profond. Dans ce dernier il peut faire combatre les joueurs des créature ne dépassant pas le niveaux des joueurs -1. Kamek ne peut rein faire pendant le someil des joueurs, il doit se concentrer sur son sort.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "39": {
+      "id": "39",
+      "name": "Voie des illusions",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "184",
+          "label": "Image décalée",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. de CHA] tours, lorsqu’une attaque le touche, l’Ensorceleur lance 1d6 : sur 5-6, il ne subit pas les DM.\r\n"
+        },
+        "2": {
+          "target_id": "185",
+          "label": "Mirage",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée). Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie (portée 500 m). Divisez ces paramètres par 10 si l’illusion est animée. Interagir avec l’illusion la fait disparaître.\r\n"
+        },
+        "3": {
+          "target_id": "186",
+          "label": "Imitation",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L'ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou - 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.\r\n"
+        },
+        "4": {
+          "target_id": "187",
+          "label": "Dédoublement",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.\r\n"
+        }
+      },
+      "rank": 4
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "184",
+      "label": "Image décalée",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. de CHA] tours, lorsqu’une attaque le touche, l’Ensorceleur lance 1d6 : sur 5-6, il ne subit pas les DM.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "185",
+      "label": "Mirage",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur crée une illusion visuelle et sonore immobile d’une durée de [5 + Mod. de CHA] minutes (ou tours si l’illusion est animée). Le volume maximum de l’illusion est de 10 m de coté par rang dans la voie (portée 500 m). Divisez ces paramètres par 10 si l’illusion est animée. Interagir avec l’illusion la fait disparaître.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "186",
+      "label": "Imitation",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L'ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou - 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.\r\n",
+      "paths": "Voie des illusions"
+    },
+    {
+      "target_id": "187",
+      "label": "Dédoublement",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Sur une Attaque magique réussie (portée 20 m), l’Ensorceleur crée un double translucide de la cible pendant [5 + Mod. de CHA] tours. Le double est sous le contrôle de l’Ensorceleur. Il possède les mêmes Caractéristiques que l’original mais seulement la moitié de ses PV et tous les DM qu’il inflige sont divisés par deux. Il disparaît si ses PV tombent à 0. Une créature ne peut être dédoublée qu’une fois par combat.\r\n",
+      "paths": "Voie des illusions"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1668",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "423",
+      "label": "Kamek.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Kamek.jpg.webp?itok=r2ogmnld"
+    }
+  ]
+}

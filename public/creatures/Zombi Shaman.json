@@ -1,0 +1,168 @@
+{
+  "name": [
+    {
+      "value": "Zombi Shaman"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "45",
+      "label": "Zombis"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "25"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / tranchant"
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Attaque</strong> +4 <strong>DM</strong> 1d6+1 ou selon arme +1</p>\r\n\r\n<p><strong>Attaque magique (L)</strong>&nbsp;+5&nbsp;<strong>DM</strong>&nbsp;2d6+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque",
+          "test": "+4",
+          "dm": "1d6+1",
+          "special": "ou selon arme +1",
+          "reach": null
+        },
+        {
+          "name": "Attaque magique (L)",
+          "test": "+5",
+          "dm": "2d6+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong>&nbsp;rang 2</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Réduction des DM :</em> retrancher 5 points à tous les DM infligés au zombi par des armes saufs s’il s’agit d’armes tranchantes comme les épées ou les haches.</p>\r\n\r\n<p><em>Sans esprit :</em> aucune âme n’habite la carcasse morte, le zombi est immunisé à tous les sorts qui affectent l’esprit (INT, SAG et CHA).</p>\r\n\r\n<p><em>Lenteur :</em> le zombi voit sa DEX réduite à 8 et il ne se déplace que de 10 mètres par action de mouvement.</p>\r\n\r\n<p><em>Insensible à la douleur :</em> la DEF du zombi est réduite de 4 points par rapport à une créature de son type mais ses PV augmentent de 100% et il gagne +2 en attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "477",
+      "alt": "",
+      "title": "",
+      "width": "660",
+      "height": "940",
+      "label": "zombi-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-08/zombi-modified.png.webp?itok=mN9HAyom"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "name": [
+    {
+      "value": "Varamyr"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "65"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Baton druidique</strong>&nbsp;+6&nbsp;<strong>DM</strong> 1d8+1<br />\r\n<strong>Projectile magique</strong> +9&nbsp;<strong>DM</strong> 1d6+4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Baton druidique",
+          "test": "+6",
+          "dm": "1d8+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Projectile magique",
+          "test": "+9",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "4",
+      "label": "Druide"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "5"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Druide de niveau 5<br />\r\n<strong>Voie des végétaux</strong> rang 5 (Druide)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Fuir pour combattre un autre jour :</em>&nbsp;si Varamyr tombe à 20 PV ou moins, il fera une prison végétale puis porte végétale (qu'il peut faire sans limite de distance, dans tout Njord) pour se retirer vers son bosquet sacré.</p>\r\n\r\n<p><em>Haut druide de Njord:&nbsp;</em>à son tour, Varamyr peut lancer une capacité limitée (L) comme une action de mouvement ou d'attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "23": {
+      "id": "23",
+      "name": "Voie des végétaux",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "108",
+          "label": "Peau d’écorce",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.\r\n"
+        },
+        "2": {
+          "target_id": "109",
+          "label": "Prison végétale",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Druide peut commander à la végétation de pousser et bloquer ses ennemis (mais pas ses alliés) dans une zone de 10 m de diamètre (portée 20 m) pendant [5 + Mod. de SAG] tours. Entravées, les cibles subissent un malus de -2 en attaque et en DEF, et ne peuvent pas se déplacer. Chaque tour, une créature peut se libérer avec un test de FOR difficulté [10 + Mod. de SAG].\r\n"
+        },
+        "3": {
+          "target_id": "110",
+          "label": "Animation d’un arbre",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours. Arbre animé : Init 7, DEF 13, PV [rang x 10], attaque de contact = [niveau du druide], DM 1d6+3, Déplacement 10 m par action de mouvement. Réduction de DM de 10 sauf contre les armes tranchantes et le feu.\r\n"
+        },
+        "4": {
+          "target_id": "111",
+          "label": "Gland de pouvoir",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Druide peut lancer un gland sur une cible (portée 10 m). En cas d’attaque magique réussie, la victime se transforme en statue de bois pendant [2d6 + Mod. de SAG] tours. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 mais elle gagne une réduction des DM de 10. Le sort s’achève dès que la cible perd plus de 10 PV.\r\n"
+        },
+        "5": {
+          "target_id": "112",
+          "label": "Porte végétale",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par jour, le Druide peut pénétrer dans le tronc d’un gros arbre et sortir de celui d’un autre arbre appartenant à la même forêt et situé à une distance maximum de [Mod. de SAG] x 10 km.\r\n"
+        }
+      },
+      "rank": 5
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "108",
+      "label": "Peau d’écorce",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La peau du Druide prend la consistance de l’écorce. Il gagne +1 en DEF par rang dans la voie pendant [5 + Mod. de SAG] tours.\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "109",
+      "label": "Prison végétale",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Druide peut commander à la végétation de pousser et bloquer ses ennemis (mais pas ses alliés) dans une zone de 10 m de diamètre (portée 20 m) pendant [5 + Mod. de SAG] tours. Entravées, les cibles subissent un malus de -2 en attaque et en DEF, et ne peuvent pas se déplacer. Chaque tour, une créature peut se libérer avec un test de FOR difficulté [10 + Mod. de SAG].\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "110",
+      "label": "Animation d’un arbre",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours. Arbre animé : Init 7, DEF 13, PV [rang x 10], attaque de contact = [niveau du druide], DM 1d6+3, Déplacement 10 m par action de mouvement. Réduction de DM de 10 sauf contre les armes tranchantes et le feu.\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "111",
+      "label": "Gland de pouvoir",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Druide peut lancer un gland sur une cible (portée 10 m). En cas d’attaque magique réussie, la victime se transforme en statue de bois pendant [2d6 + Mod. de SAG] tours. Sous cette forme elle ne peut agir et ne ressent rien. Sa DEF passe à 10 mais elle gagne une réduction des DM de 10. Le sort s’achève dès que la cible perd plus de 10 PV.\r\n",
+      "paths": "Voie des végétaux"
+    },
+    {
+      "target_id": "112",
+      "label": "Porte végétale",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par jour, le Druide peut pénétrer dans le tronc d’un gros arbre et sortir de celui d’un autre arbre appartenant à la même forêt et situé à une distance maximum de [Mod. de SAG] x 10 km.\r\n",
+      "paths": "Voie des végétaux"
+    }
+  ],
+  "picture": []
+}

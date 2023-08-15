@@ -1,0 +1,166 @@
+{
+  "name": [
+    {
+      "value": "Kolik - Chef des Crânes-Creux"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Chef de la tribu des Crânes-Creux, il porte son épée longue et porte un crâne creux sur sa tête, certainement le trophée d'une ancienne victime</p>\r\n\r\n<p><strong>Bourse:</strong> 12Pc/8Pa/1Po</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "20",
+      "label": "Gobelins"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Epée longue</strong> +4&nbsp;<strong>DM</strong> 1d8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Epée longue",
+          "test": "+4",
+          "dm": "1d8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Attaque en meute :</em> lorsqu’au moins 2 gobelins attaquent la même cible à ce tour, ils bénéficient d’un bonus de +2 en attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Son épée <em>en Laenk</em> est ornée d'un<strong> rubis </strong>sur le pommeau.</p>\r\n\r\n<p>Elle éclaire dans un rayon de 3m</p>\r\n\r\n<p><strong>Bonus de l'épée:&nbsp; </strong>+1 en attaque</p>\r\n\r\n<p><strong>Valeur:</strong> 500Pa (50 Po)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "702",
+      "alt": "",
+      "title": "",
+      "width": "276",
+      "height": "658",
+      "label": "Chef-Crânes-Creux.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/Chef-Cr%C3%A2nes-Creux.png.webp?itok=pFuNqXES"
+    }
+  ]
+}

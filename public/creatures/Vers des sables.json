@@ -1,0 +1,208 @@
+{
+  "name": [
+    {
+      "value": "Vers des sables"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>2x3x8</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "26",
+      "label": "Insectes géants"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "15"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "15"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "26"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "200"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Attaque</strong>&nbsp;+21&nbsp;<strong>DM</strong>&nbsp;3d6+15</p>\r\n\r\n<p><strong>Acide&nbsp;</strong>+18&nbsp;<strong>DM</strong>&nbsp;4d6+15</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque",
+          "test": "+21",
+          "dm": "3d6+15",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Acide",
+          "test": "+18",
+          "dm": "4d6+15",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du prédateur&nbsp;</strong>rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Habitant des sables</strong> : Si l’environnement le permet, la créature peut se dissimuler dans le sable. Lorsqu'elle attaque, la cible doit faire un test de SAG difficulté [10 + Mod. de DEX] ou être Surprise. Si la cible réussit son jet la créature ne peut pas se cacher dans le sable pour un round.<br />\r\nSi la créature attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "2": {
+          "target_id": "388",
+          "label": "Dévorer",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n"
+        },
+        "3": {
+          "target_id": "389",
+          "label": "Gober",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle utilise sa capacité Dévorer, la créature peut avaler toute entière une cible d’au moins 1 taille en dessous de la sienne. La victime doit faire un test de FOR opposé, en cas d’échec elle passe directement dans l’estomac du monstre. Un personnage avalé subit 3d6 DM d’asphyxie et d’acide chaque tour. Il peut attaquer avec une arme pas plus grande qu’une dague en réussissant un test de FOR difficulté 15 à chaque tour. L’attaque se fait avec une pénalité de -5 en attaque et les DM sont divisés par 2.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "388",
+      "label": "Dévorer",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque la créature réussit une attaque avec un résultat de 15-20 au d20, elle saisit sa proie entre ses crocs ou ses griffes et lui inflige immédiatement une attaque gratuite supplémentaire. Si la FOR de la cible est inférieure ou égale au prédateur, elle est de plus Renversée et Immobilisée. Pour se libérer, la victime doit réussir un test de FOR opposé lors de son tour et cela lui demande une action de mouvement (et une autre pour se relever si elle a réussi).\r\n",
+      "paths": "Voie du prédateur"
+    },
+    {
+      "target_id": "389",
+      "label": "Gober",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle utilise sa capacité Dévorer, la créature peut avaler toute entière une cible d’au moins 1 taille en dessous de la sienne. La victime doit faire un test de FOR opposé, en cas d’échec elle passe directement dans l’estomac du monstre. Un personnage avalé subit 3d6 DM d’asphyxie et d’acide chaque tour. Il peut attaquer avec une arme pas plus grande qu’une dague en réussissant un test de FOR difficulté 15 à chaque tour. L’attaque se fait avec une pénalité de -5 en attaque et les DM sont divisés par 2.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1491",
+      "alt": "",
+      "title": "",
+      "width": "236",
+      "height": "329",
+      "label": "Vers des sables.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/Vers%20des%20sables.jpg.webp?itok=7VZ1fn9_"
+    }
+  ]
+}

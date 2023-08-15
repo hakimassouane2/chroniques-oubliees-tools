@@ -1,0 +1,293 @@
+{
+  "name": [
+    {
+      "value": "Gangrel"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "14",
+      "label": "Elfes noirs (Drows)"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "5"
+    }
+  ],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "19"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "75"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "25"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>2 Attaques : Dégats 1D8 + 3<br />\r\n+ 10 pour la 1ère (Main droite)<br />\r\n+ 7 pour la 2nde (Main gauche)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "2 Attaques : Dégats 1D8 + 3",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "+ 10 pour la 1ère (Main droite)",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "+ 7 pour la 2nde (Main gauche)",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "7",
+      "label": "Voleur"
+    }
+  ],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "72": {
+      "id": "72",
+      "name": "Voie du tueur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "339",
+          "label": "Attaque mortelle",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n"
+        },
+        "2": {
+          "target_id": "340",
+          "label": "Disparition",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature devient invisible (passage dans les ombres, cape magique, sort, etc.) et peut se déplacer de 20 mètres. Elle réapparaît à son prochain tour et si elle emporte un test opposé de discrétion (DEX) contre la SAG de sa cible, elle peut effectuer une Attaque mortelle.\r\n"
+        },
+        "3": {
+          "target_id": "341",
+          "label": "Assassinat",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si la cible est Surprise, une Attaque mortelle réussie l’oblige à réussir un test de CON difficulté 15 ou tomber à 0 PV.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "83": {
+      "id": "83",
+      "name": "Voie du PNJ récurrent",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "390",
+          "label": "Instinct de survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+        },
+        "3": {
+          "target_id": "392",
+          "label": "Porteur de poisse",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Toutes les attaques et tous les tests effectués contre le PNJ sont réalisés avec deux dés, seul le plus mauvais résultat est pris en compte. À chaque fois qu’un joueur utilise 1 point de chance contre lui, le PNJ gagne 1 point de poisse. Un point de poisse peut être utilisé pour infliger une pénalité de -10 au test de d20 d’un adversaire au moment où le MJ en a envie.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "339",
+      "label": "Attaque mortelle",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une attaque similaire à l’Attaque sournoise du Voleur qui doit être exécutée de dos ou par surprise. La créature obtient un bonus de +5 en attaque et ajoute [2d6 par rang] aux DM. La créature obtient aussi un bonus de +5 aux tests de discrétion.\r\n",
+      "paths": "Voie du tueur"
+    },
+    {
+      "target_id": "340",
+      "label": "Disparition",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature devient invisible (passage dans les ombres, cape magique, sort, etc.) et peut se déplacer de 20 mètres. Elle réapparaît à son prochain tour et si elle emporte un test opposé de discrétion (DEX) contre la SAG de sa cible, elle peut effectuer une Attaque mortelle.\r\n",
+      "paths": "Voie du tueur"
+    },
+    {
+      "target_id": "341",
+      "label": "Assassinat",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si la cible est Surprise, une Attaque mortelle réussie l’oblige à réussir un test de CON difficulté 15 ou tomber à 0 PV.\r\n",
+      "paths": "Voie du tueur"
+    },
+    {
+      "target_id": "390",
+      "label": "Instinct de survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "392",
+      "label": "Porteur de poisse",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Toutes les attaques et tous les tests effectués contre le PNJ sont réalisés avec deux dés, seul le plus mauvais résultat est pris en compte. À chaque fois qu’un joueur utilise 1 point de chance contre lui, le PNJ gagne 1 point de poisse. Un point de poisse peut être utilisé pour infliger une pénalité de -10 au test de d20 d’un adversaire au moment où le MJ en a envie.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1706",
+      "alt": "",
+      "title": "",
+      "width": "1600",
+      "height": "1920",
+      "label": "imageonline-co-transparentimage(1).png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/imageonline-co-transparentimage%281%29.png.webp?itok=ARcs2V5V"
+    }
+  ]
+}

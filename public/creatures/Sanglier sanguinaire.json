@@ -1,0 +1,232 @@
+{
+  "name": [
+    {
+      "value": "Sanglier sanguinaire"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Une énorme créature pourvue d’une crête osseuse et de défenses énormes. Cette créature correspond à une version préhistorique ou à un monstre mythique.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "41",
+      "label": "Sangliers"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "6"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Défenses</strong> +10 <strong>DM</strong> 2d6+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Défenses",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du cogneur</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        },
+        "2": {
+          "target_id": "418",
+          "label": "Enrager",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n"
+        },
+        "3": {
+          "target_id": "419",
+          "label": "Percuter",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Sur une charge réussie, si la victime est d’une taille inférieure à la créature, elle est de plus projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes). Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour, elle peut tenter un nouveau test de CON pour retrouver ses esprits.\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "418",
+      "label": "Enrager",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle reçoit un coup critique ou si ses PV passent sous la moitié, la créature devient enragée. Elle ignore les pénalités de douleur ou la peur, augmente de +5 son score d’attaque au contact et ses DM de +1d6. Elle peut encore agir un tour complet après avoir atteint 0 PV.\r\n",
+      "paths": "Voie du cogneur"
+    },
+    {
+      "target_id": "419",
+      "label": "Percuter",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Sur une charge réussie, si la victime est d’une taille inférieure à la créature, elle est de plus projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes). Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour, elle peut tenter un nouveau test de CON pour retrouver ses esprits.\r\n",
+      "paths": "Voie du cogneur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1111",
+      "alt": "Sanglier sanguinaire",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "boar_bloody-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/boar_bloody-modified.png.webp?itok=8p6IiTjy"
+    }
+  ]
+}

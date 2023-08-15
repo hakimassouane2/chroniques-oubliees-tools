@@ -1,0 +1,174 @@
+{
+  "name": [
+    {
+      "value": "Rat-garou infecté"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Vous pouvez imaginez que d’autres espèces que le loup peuvent conférer cette malédiction, on obtient alors des sangliers-garous, des ours-garous ou encore des rats-garous. Ces derniers sont généralement rencontré dans les villes de taille importante où ils se fondent dans la population ou se cachent dans les égouts. Les rats-garous infectés prennent la forme d’un rat géant lorsqu’ils se transforment.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "31",
+      "label": "Lycanthropes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "14"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "9"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / argent"
+    }
+  ],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +2 <strong>DM</strong> 1d4+1</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+2",
+          "dm": "1d4+1",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Transformation en rat (L) :</em> un humanoïde infecté se transforme en un rat énorme et sanguinaire dont les Caractéristiques sont indiquées ci-dessus lorsque la pleine lune apparaît ou si une émotion importante le saisit.</p>\r\n\r\n<p><em>Résister :</em> un personnage infecté peut toutefois résister à l’appel de la pleine lune (ou de la transformation) en réussissant un test de SAG difficulté 18.</p>\r\n\r\n<p><em>Se souvenir :</em> un personnage peut se souvenir de ses agissements de la nuit en réussissant un test de SAG difficulté 18.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Rat-garou infecté et personnage :</strong> si un personnage ou PNJ possède plus de 16 PV, il garde son propre score de PV même pendant la transformation. Éventuellement si son Mod. de FOR est supérieur à +1, conservez-le aussi et modifiez les scores d’attaque et de DM en conséquence.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1065",
+      "alt": "Rat-garou infecté",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "wererat_infected-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wererat_infected-modified.png.webp?itok=0w4N0Nkm"
+    }
+  ]
+}

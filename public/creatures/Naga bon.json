@@ -1,0 +1,429 @@
+{
+  "name": [
+    {
+      "value": "Naga bon"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "33",
+      "label": "Nagas"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +20 <strong>DM</strong> 2d6+8 + venin<br />\r\n<strong>Attaque magique</strong> +18</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+20",
+          "dm": "2d6+8",
+          "special": "+ venin",
+          "reach": null
+        },
+        {
+          "name": "Attaque magique",
+          "test": "+18",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "6",
+      "label": "Prêtre"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "10"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la foi</strong> rang 4<br />\r\n<strong>Voie de la guerre sainte</strong> rang 5<br />\r\n<strong>Voie des soins</strong> rang 4</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Venin :</em> la victime doit réussir un test de CON difficulté 14 ou être <em>Affaiblie</em>. Si la victime est déjà Affaiblie par le venin, un échec lors d’une nouvelle morsure, la fait sombrer dans l’inconscience pour 1d6 tours. Un troisième échec signifie 1d6 heures d’inconscience.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "26": {
+      "id": "26",
+      "name": "Voie de la foi",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "123",
+          "label": "Parole divine",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque rang dans cette Voie, le Prêtre obtient un bonus de +2 aux tests de CHA visant à convaincre ou convertir son auditoire.\r\n"
+        },
+        "2": {
+          "target_id": "124",
+          "label": "Arme d’argent",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul le Prêtre peut utiliser. Cette arme inflige [1d6 + Mod. de SAG] de DM. Contre les démons et les mort-vivants, elle offre un bonus de +2 en attaque et ajoute +1d6 aux DM.\r\n"
+        },
+        "3": {
+          "target_id": "125",
+          "label": "Ailes célestes",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.\r\n"
+        },
+        "4": {
+          "target_id": "126",
+          "label": "Foudres divines",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "La foudre frappe toutes les créatures désignées dans un rayon de 10 mètres autour du Prêtre et leur inflige [1d6 + Mod. de SAG] de DM. Le Prêtre compare son test d’attaque magique à la DEF de chaque cible.\r\n"
+        }
+      },
+      "rank": 4
+    },
+    "27": {
+      "id": "27",
+      "name": "Voie de la guerre sainte",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "127",
+          "label": "Arme bénie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Prêtre bénit son arme sacrée. S’il obtient un résultat de « 1 » sur son dé de DM, il relance le dé et garde le second résultat. Les DM de l’arme sont considérés comme magiques.\r\n"
+        },
+        "2": {
+          "target_id": "128",
+          "label": "Bouclier de la foi",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Prêtre porte le symbole de sa foi sur son bouclier, ce qui lui confère un bonus supplémentaire de +1 en DEF. Ce bonus passe à +2 au Rang 4 de la Voie.\r\n"
+        },
+        "3": {
+          "target_id": "129",
+          "label": "Marteau spirituel",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre effectue une attaque magique avec une portée de 30 mètres. Un projectile d’énergie prenant la forme de l’arme du Prêtre va percuter la cible, lui infligeant [1d8 + Mod. de SAG] de DM.\r\n"
+        },
+        "4": {
+          "target_id": "130",
+          "label": "Châtiment divin",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Prêtre effectue une attaque de contact avec un bonus en attaque et aux dégâts égal à son Mod. de SAG.\r\n"
+        },
+        "5": {
+          "target_id": "131",
+          "label": "Mot de pouvoir",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Prêtre peut prononcer un mot avec la voix de son dieu. Cela dépasse l’entendement des mortels et ses ennemis à portée de vue sont paralysés de terreur pendant 1 tour tandis que tous ses alliés en vue bénéficient d’un bonus de +5 en attaque pendant cette période.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "29": {
+      "id": "29",
+      "name": "Voie des soins",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "136",
+          "label": "Soins légers",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n"
+        },
+        "2": {
+          "target_id": "137",
+          "label": "Soins modérés",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n"
+        },
+        "3": {
+          "target_id": "138",
+          "label": "Soins de groupe",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Prêtre peut libérer une décharge d’énergie bienfaitrice : tous ses compagnons en vue et lui récupèrent [1d8 + niveau du prêtre] PV perdus.\r\n"
+        },
+        "4": {
+          "target_id": "139",
+          "label": "Guérison",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par jour, le Prêtre peut toucher une cible, qui récupère alors tous ses PV perdus et se trouve guérie des poisons, maladies et affaiblissements de Caractéristiques.\r\n"
+        }
+      },
+      "rank": 4
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "123",
+      "label": "Parole divine",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque rang dans cette Voie, le Prêtre obtient un bonus de +2 aux tests de CHA visant à convaincre ou convertir son auditoire.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "124",
+      "label": "Arme d’argent",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Ce miracle crée pour la durée du combat une arme d’argent et de lumière que seul le Prêtre peut utiliser. Cette arme inflige [1d6 + Mod. de SAG] de DM. Contre les démons et les mort-vivants, elle offre un bonus de +2 en attaque et ajoute +1d6 aux DM.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "125",
+      "label": "Ailes célestes",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Des ailes divines poussent dans le dos du Prêtre, qui peut voler à une vitesse équivalente à deux fois son déplacement normal pendant [5 + Mod. de SAG] tours. Rester en vol stationnaire avec les ailes céleste est une action de mouvement.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "126",
+      "label": "Foudres divines",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "La foudre frappe toutes les créatures désignées dans un rayon de 10 mètres autour du Prêtre et leur inflige [1d6 + Mod. de SAG] de DM. Le Prêtre compare son test d’attaque magique à la DEF de chaque cible.\r\n",
+      "paths": "Voie de la foi"
+    },
+    {
+      "target_id": "127",
+      "label": "Arme bénie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Prêtre bénit son arme sacrée. S’il obtient un résultat de « 1 » sur son dé de DM, il relance le dé et garde le second résultat. Les DM de l’arme sont considérés comme magiques.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "128",
+      "label": "Bouclier de la foi",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Prêtre porte le symbole de sa foi sur son bouclier, ce qui lui confère un bonus supplémentaire de +1 en DEF. Ce bonus passe à +2 au Rang 4 de la Voie.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "129",
+      "label": "Marteau spirituel",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre effectue une attaque magique avec une portée de 30 mètres. Un projectile d’énergie prenant la forme de l’arme du Prêtre va percuter la cible, lui infligeant [1d8 + Mod. de SAG] de DM.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "130",
+      "label": "Châtiment divin",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Prêtre effectue une attaque de contact avec un bonus en attaque et aux dégâts égal à son Mod. de SAG.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "131",
+      "label": "Mot de pouvoir",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Prêtre peut prononcer un mot avec la voix de son dieu. Cela dépasse l’entendement des mortels et ses ennemis à portée de vue sont paralysés de terreur pendant 1 tour tandis que tous ses alliés en vue bénéficient d’un bonus de +5 en attaque pendant cette période.\r\n",
+      "paths": "Voie de la guerre sainte"
+    },
+    {
+      "target_id": "136",
+      "label": "Soins légers",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut toucher une cible, qui récupère alors [1d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n",
+      "paths": "Voie des soins"
+    },
+    {
+      "target_id": "137",
+      "label": "Soins modérés",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Prêtre peut toucher une cible, qui récupère alors [2d8 + niveau du prêtre] PV perdus. Le Prêtre peut utiliser ce sort sur lui-même. Peut être utilisé un nombre de fois par jour égal au Rang que le Prêtre a atteint dans cette Voie.\r\n",
+      "paths": "Voie des soins"
+    },
+    {
+      "target_id": "138",
+      "label": "Soins de groupe",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Prêtre peut libérer une décharge d’énergie bienfaitrice : tous ses compagnons en vue et lui récupèrent [1d8 + niveau du prêtre] PV perdus.\r\n",
+      "paths": "Voie des soins"
+    },
+    {
+      "target_id": "139",
+      "label": "Guérison",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par jour, le Prêtre peut toucher une cible, qui récupère alors tous ses PV perdus et se trouve guérie des poisons, maladies et affaiblissements de Caractéristiques.\r\n",
+      "paths": "Voie des soins"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1072",
+      "alt": "Naga bon",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "naga_good-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/naga_good-modified.png.webp?itok=9jU1DgKu"
+    }
+  ]
+}

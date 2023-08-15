@@ -1,0 +1,226 @@
+{
+  "name": [
+    {
+      "value": "Cyclope Unguthoar, OEil de Tor-Angul"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Unguthoar, OEil de<br />\r\nTor-Angul<br />\r\nNC 14, taille colossale,<br />\r\ncréature humanoïde<br />\r\n<br />\r\nÉquipement : Unguthoar ne<br />\r\npossède aucun équipement<br />\r\nà la taille des PJ ni aucun<br />\r\nbien magique...<br />\r\n&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "17",
+      "label": "Géants"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "14"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "18"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "18"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "28"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "260"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "RD6"
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Massue 2 mains +24<br />\r\nDM 4d6+18<br />\r\nLancer de pierre dressée<br />\r\n(30 m) +15 DM 3d6+9</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Massue 2 mains",
+          "test": "+24",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "DM 4d6+18",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Lancer de pierre dressée",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "(30 m)",
+          "test": "+15",
+          "dm": "3d6+9",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "2": {
+          "target_id": "415",
+          "label": "Balayage",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n"
+        },
+        "3": {
+          "target_id": "416",
+          "label": "Projection",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, la victime est projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes) et subit +3d6 DM supplémentaires. Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour elle peut tenter un nouveau test de CON pour retrouver ses esprits. Sa résistance aux DM passe à 6 (RD 6).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "416",
+      "label": "Projection",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, la victime est projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes) et subit +3d6 DM supplémentaires. Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour elle peut tenter un nouveau test de CON pour retrouver ses esprits. Sa résistance aux DM passe à 6 (RD 6).\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "415",
+      "label": "Balayage",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": []
+}

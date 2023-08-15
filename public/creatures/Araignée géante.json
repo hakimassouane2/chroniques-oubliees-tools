@@ -1,0 +1,168 @@
+{
+  "name": [
+    {
+      "value": "Araignée géante"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>La grosse forme sombre qui vous observe est en réalité une araignée. Une araignée de la taille d’un gros chien ! Elle se déplace à une vitesse surprenante et, dans l’obscurité de la caverne, on ne perçoit réellement que ses deux petits yeux rouges...</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "18"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "19"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong>&nbsp;+6&nbsp;<strong>DM</strong>&nbsp;1d4+1<br />\r\n<strong>Toile solide (L) (3m)</strong> +5 <strong>DM<em>&nbsp;</em></strong>(voir capacité spéciale)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+6",
+          "dm": "1d4+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Toile solide (L) (3m)",
+          "test": "+5",
+          "dm": null,
+          "special": "(voir capacité spéciale)",
+          "reach": "3"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em><strong>Toile solide (L) :</strong> </em>sur un test d’attaque à distance réussi, l’araignée emprisonne sa cible dans une toile gluante et solide. La victime est paralysée (aucune action possible) et pour se libérer elle doit réussir un test de FOR difficulté 15 (il s’agit d’une action limitée).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><strong>Tactique : </strong>elle utilise son pouvoir de toile d’araignée sur la plus grosse proie (Krush s’il est présent) avant de mordre<br />\r\n<strong>Moral :</strong> quand il ne lui reste plus que 5 PV ou moins, l’araignée s’avoue vaincue et tente de fuir (dans une galerie inaccessible pour les personnages) au tour de combat suivant.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1866",
+      "alt": "Big spider",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "Nicolas_Bede_a_big_spider_rpg_creature_c24db529-ada4-461e-a9e6-55f91013484a.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Nicolas_Bede_a_big_spider_rpg_creature_c24db529-ada4-461e-a9e6-55f91013484a.png.webp?itok=ozfDrFK-"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "name": [
+    {
+      "value": "Markus le broyeur"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "6 / sauf magique"
+    }
+  ],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Attaques : +12, DM 2d6+10</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaques :",
+          "test": "+12",
+          "dm": "2d6+10",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "68": {
+      "id": "68",
+      "name": "Voie de la maîtrise",
+      "type": "character",
+      "capabilities": {
+        "2": {
+          "target_id": "321",
+          "label": "Morsure du serpent",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine obtient des DM critiques (multipliés par 2) sur un résultat de 19 à 20 au d20 du test d’attaque à mains nues ou avec une arme de contact, et sur des résultats de 18 à 20 avec une rapière ou une Vivelame.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "69": {
+      "id": "69",
+      "name": "Voie de la méditation",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "325",
+          "label": "Pacifisme",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Tant que le Moine n’a réalisé aucune action offensive dans un combat, il bénéficie d’un bonus en DEF de +5.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "70": {
+      "id": "70",
+      "name": "Voie du poing",
+      "type": "character",
+      "capabilities": {
+        "4": {
+          "target_id": "332",
+          "label": "Déluge de coups",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "A son tour, le Moine peut effectuer 2 attaques à mains nues sur des cibles de son choix ou 2 attaques avec une arme. Alternativement, il peut choisir de faire 3 attaques en utilisant un d12 en attaque pour chacune d’elle (au lieu d’un d20).\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "71": {
+      "id": "71",
+      "name": "Voie du vent",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "334",
+          "label": "Pas du vent",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine peut se déplacer avant et après avoir attaqué (mais il couvre toujours une distance normale). De plus, il gagne +1 par rang dans la Voie en Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "335",
+          "label": "Course du vent",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine se déplace à une vitesse surhumaine. Il couvre une distance de 40 mètres par action de mouvement (la distance normale est de 20 mètres) et se relever est pour lui une action gratuite.\r\n"
+        },
+        "3": {
+          "target_id": "336",
+          "label": "Course des airs",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Moine défie les lois de la pesanteur et peut se déplacer sur des surfaces qui ne devraient pas supporter son poids. Il peut se déplacer sur l’eau, la neige, le feuillage des arbres ou courir sur un mur vertical. Il doit commencer et terminer son déplacement sur une surface normale.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "3": {
+          "target_id": "416",
+          "label": "Projection",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, la victime est projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes) et subit +3d6 DM supplémentaires. Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour elle peut tenter un nouveau test de CON pour retrouver ses esprits. Sa résistance aux DM passe à 6 (RD 6).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "332",
+      "label": "Déluge de coups",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "A son tour, le Moine peut effectuer 2 attaques à mains nues sur des cibles de son choix ou 2 attaques avec une arme. Alternativement, il peut choisir de faire 3 attaques en utilisant un d12 en attaque pour chacune d’elle (au lieu d’un d20).\r\n",
+      "paths": "Voie du poing"
+    },
+    {
+      "target_id": "416",
+      "label": "Projection",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, la victime est projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes) et subit +3d6 DM supplémentaires. Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour elle peut tenter un nouveau test de CON pour retrouver ses esprits. Sa résistance aux DM passe à 6 (RD 6).\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "321",
+      "label": "Morsure du serpent",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine obtient des DM critiques (multipliés par 2) sur un résultat de 19 à 20 au d20 du test d’attaque à mains nues ou avec une arme de contact, et sur des résultats de 18 à 20 avec une rapière ou une Vivelame.\r\n",
+      "paths": "Voie de la maîtrise"
+    },
+    {
+      "target_id": "325",
+      "label": "Pacifisme",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Tant que le Moine n’a réalisé aucune action offensive dans un combat, il bénéficie d’un bonus en DEF de +5.\r\n",
+      "paths": "Voie de la méditation"
+    },
+    {
+      "target_id": "336",
+      "label": "Course des airs",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine défie les lois de la pesanteur et peut se déplacer sur des surfaces qui ne devraient pas supporter son poids. Il peut se déplacer sur l’eau, la neige, le feuillage des arbres ou courir sur un mur vertical. Il doit commencer et terminer son déplacement sur une surface normale.\r\n",
+      "paths": "Voie du vent"
+    },
+    {
+      "target_id": "335",
+      "label": "Course du vent",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine se déplace à une vitesse surhumaine. Il couvre une distance de 40 mètres par action de mouvement (la distance normale est de 20 mètres) et se relever est pour lui une action gratuite.\r\n",
+      "paths": "Voie du vent"
+    },
+    {
+      "target_id": "334",
+      "label": "Pas du vent",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Moine peut se déplacer avant et après avoir attaqué (mais il couvre toujours une distance normale). De plus, il gagne +1 par rang dans la Voie en Initiative.\r\n",
+      "paths": "Voie du vent"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2733",
+      "alt": "",
+      "title": "",
+      "width": "678",
+      "height": "1000",
+      "label": "Photo and Video Storage.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-08/Photo%20and%20Video%20Storage.jpg.webp?itok=etaDvZgy"
+    }
+  ]
+}

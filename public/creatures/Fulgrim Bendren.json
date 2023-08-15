@@ -1,0 +1,183 @@
+{
+  "name": [
+    {
+      "value": "Fulgrim Bendren"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Malgré ses nombreuse frivolité Fumgrim est très pieux et essayera toujours de rendre Moradin fier. Jeune il n'était pas croyant les cours à la forge et de minage etait pour lui un calvaire sans fin car des professeur etait trop lent mais un jour il a croisé Elwa, un nagas, qui lui a prouvé que les dieux existé et lui a permis de faire un premier pas sur le chemin de la repentance.&nbsp;</p>\r\n\r\n<p>Maintenant Fulgrim consacre énormément de temps au forges et aux combat. Cependant il n'y a pas meilleur moyen que de boire les meilleurs pour rendre hommage à Moradin.&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>1.10m pour 80kg. Bon mangeurs une bonne graille ne se refuse jamais et les bons vins disparaissent d'eux.</p>\r\n\r\n<p>Est très fier de sa longue barbe grise qui montre toute sa sagesse naine après tout Fulgrim se considère comme tel, mais reste grincheux quand on l'approche. Attention à vos pied si vous approchez trop!</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "34",
+      "label": "Nains"
+    }
+  ],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "15"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Pack du guerrier. CA +3 pour l'armure. Bouclier +1CA \r\nCA= 10+armure+sagesse+boublier\r\n"
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Marteau nain classique&nbsp;</p>\r\n\r\n<p>Tromblon nain si le mj le permet</p>\r\n\r\n<p>Tout est nain si ça ne l es pas Moradin viendra punir les malendrin</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Marteau nain classique",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Tromblon nain si le mj le permet",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Tout est nain si ça ne l es pas Moradin viendra punir les malendrin",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "12",
+      "label": "Guerrier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Il cache toujours une bonne bouteille dans sa barbe!</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

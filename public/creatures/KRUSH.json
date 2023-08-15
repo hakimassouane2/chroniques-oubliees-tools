@@ -1,0 +1,268 @@
+{
+  "name": [
+    {
+      "value": "KRUSH"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "37",
+      "label": "Orques"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "berserk",
+      "label": "Berserk"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "4"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "21"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "40"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée bâtarde&nbsp; +7 1d8+3</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée bâtarde",
+          "test": "+7",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "12",
+      "label": "Guerrier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "2"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Sensible à la lumière :</em> créatures souterraines, les orques détestent la lumière du jour. La lumière du soleil leur inflige une pénalité de -1 en attaque.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "52": {
+      "id": "52",
+      "name": "Voie du bouclier",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "261",
+          "label": "Protéger un allié",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier accorde le Mod. de DEF de son bouclier à un compagnon de son choix qui se trouve juste à côté de lui (il conserve ce bonus pour lui-même aussi). Il peut changer de compagnon à chaque tour durant sa phase d’Initiative. C’est une action gratuite.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "56": {
+      "id": "56",
+      "name": "Voie du combat",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "273",
+          "label": "Vivacité",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier gagne +3 en Initiative.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "60": {
+      "id": "60",
+      "name": "Voie de la résistance",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "283",
+          "label": "Robustesse",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "En prenant cette capacité, le Guerrier gagne 3 PV supplémentaires au Rang 1, puis 3 PV de plus au Rang 3 de cette Voie et enfin 3 PV au Rang 5.\r\n"
+        },
+        "2": {
+          "target_id": "284",
+          "label": "Armure naturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier a endurci son corps. Il bénéficie d’un bonus de +2 à la DEF. Ce bonus passe à +4 lorsqu’il atteint le rang 4 de la voie.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "283",
+      "label": "Robustesse",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "En prenant cette capacité, le Guerrier gagne 3 PV supplémentaires au Rang 1, puis 3 PV de plus au Rang 3 de cette Voie et enfin 3 PV au Rang 5.\r\n",
+      "paths": "Voie de la résistance"
+    },
+    {
+      "target_id": "284",
+      "label": "Armure naturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier a endurci son corps. Il bénéficie d’un bonus de +2 à la DEF. Ce bonus passe à +4 lorsqu’il atteint le rang 4 de la voie.\r\n",
+      "paths": "Voie de la résistance"
+    },
+    {
+      "target_id": "261",
+      "label": "Protéger un allié",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier accorde le Mod. de DEF de son bouclier à un compagnon de son choix qui se trouve juste à côté de lui (il conserve ce bonus pour lui-même aussi). Il peut changer de compagnon à chaque tour durant sa phase d’Initiative. C’est une action gratuite.\r\n",
+      "paths": "Voie du bouclier"
+    },
+    {
+      "target_id": "273",
+      "label": "Vivacité",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier gagne +3 en Initiative.\r\n",
+      "paths": "Voie du combat"
+    }
+  ],
+  "picture": []
+}

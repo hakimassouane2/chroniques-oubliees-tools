@@ -1,0 +1,152 @@
+{
+  "name": [
+    {
+      "value": "Strige"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>La strige est une affreuse petite créature rougeâtre de 30 cm, croisement entre un moustique géant et une chauve-souris pourvue de quatre ailes. Elle possède également quatre pattes barbelées qui permettant de s’accrocher férocement à ses victimes pour leur sucer le sang.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0.5"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "very_small",
+      "label": "Très petite"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "2"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Piqure</strong> +3 <strong>DM</strong> sucer le sang</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Piqure",
+          "test": "+3",
+          "dm": null,
+          "special": "sucer le sang",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Sucer le sang :</em> une strige qui réussit son attaque s’agrippe à sa proie pour lui aspirer le sang et inflige ainsi 1d4 DM par tour. Lorsque la strige a infligé au moins 6 points de DM de cette façon, elle se détache et fuit le combat. Une créature de taille normale est dès lors <em>Affaiblie</em> pour 10 minutes. Lorsqu’elle est fixée à sa proie, la strige possède une DEF de 12.</p>\r\n\r\n<p><em>Vol :</em> La strige vole à une vitesse de 20 mètres par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "231",
+      "alt": "",
+      "title": "",
+      "width": "502",
+      "height": "497",
+      "label": "strige.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/strige.png.webp?itok=Vqx-T3yY"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "name": [
+    {
+      "value": "Abélard II le Triomphant, Comte défunt de Goncquiers"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Le comte squelette porte encore sa couronne, bien que largement rouillée suite à plusieurs siècles d'abandon. Il trimbale avec lui une masse qui luis légèrement. Son corps est encore recouvert par quelques plaques de fer et bouts de tissus en lambeaux.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le comte Abélard II est rentré dans l'histoire pour avoir arrêter l'avancée des troupes de l'Usurpateur pendant la guerre civile du troisième interrègne de l'Empire de la Lune. C'est sous sa charge que Goncquiers va vivre sa deuxième phase de croissance, que la route traversant la ville va se faire paver et que les mines d'or vont rouvrir. Avant la bataille, il s'était&nbsp;replié avec ses serfs sur le Clos-de-la-Menguarre, comme nombre de ses prédécesseurs avant lui, alors encerclé par les armées fédérées contre le Régent Anatole III. Il va traverser, avec ses quelques soldats restants, la Menguarre, au milieu de la nuit. De là, il va éliminer pendant leur sommeil une grande partie des forces d'élites engagées, incendiant le campement et pourchassant les malheureux réveillés dans une ambiance de terreur tandis qu'une cinquantaine d'hommes-d'armes se jettaient sur eux à la lueur de la lune et des flammes... Après quelques heures de chaos et face à l'incapacité de d'organiser une défense un tant-soi-peu viable, les forces de l'Usurpateur, alors en marche pour la capitale impériale, vont se replier, mettant un terme à la première phase de la guerre et permettant au camp loyaliste et fidèle à Anatole III de reprendre progressivement l'ascendant dans le conflit. Abélard II mourra tout de même quelques années plus tard d'une mauvaise chute à cheval. Une crypte lui sera construite sur le Clos-de-la-Manguarre, en souvenir de sa victoire.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "1",
+      "label": "Squelettes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Marteau de guerre enchanté (une main) + 2 : +8 DM : 1d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Marteau de guerre enchanté (une main) + 2 :",
+          "test": "+8",
+          "dm": null,
+          "special": ": 1d6+6",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": []
+}

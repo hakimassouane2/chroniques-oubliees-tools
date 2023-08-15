@@ -1,0 +1,313 @@
+{
+  "name": [
+    {
+      "value": "Drider"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Un drider possède le buste d’un elfe noir et le corps d’une araignée géante.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Dans la société impitoyable des elfes noirs, cette abomination est généralement créée par magie à partir d’un elfe en guise de punition. Les driders détestent toutes les créatures humanoïdes, elfes noirs inclus.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "+2"
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "con_comment": [
+    {
+      "value": "+2"
+    }
+  ],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "23"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure</strong> +13 <strong>DM</strong> 1d6+2 + venin<br />\r\n<strong>Arme</strong> +13 <strong>DM</strong> 1d8+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure",
+          "test": "+13",
+          "dm": "1d6+2",
+          "special": "+ venin",
+          "reach": null
+        },
+        {
+          "name": "Arme",
+          "test": "+13",
+          "dm": "1d8+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "10",
+      "label": "Nécromancien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "4"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Lanceur de sort de niveau 4<br />\r\n<strong>Voie de la magie destructrice</strong> rang 2 (Magicien)<br />\r\n<strong>Voie de la sombre magie</strong> rang 3 (Nécromancien)<br />\r\n<strong>Voie du prédateur</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Attaques multiples (L) :</em> au prix d’une action limitée, le drider peut faire une attaque de morsure plus une attaque avec une arme dans le même tour.</p>\r\n\r\n<p><em>Résistance à la magie :</em> le drider obtient un bonus de +5 en DEF et à tous les tests pour résister à la magie.</p>\r\n\r\n<p><em>Venin :</em> la morsure du drider <em>Affaibli</em> la victime si elle rate un test de CON difficulté 15. Au second échec, elle tombre dans l’inconscience pour 1d6 tours. Au troisième pour 1d6 heures.</p>\r\n\r\n<p><em>Hybride :</em> la force de +5 du drider correspond à sa taille, toutefois le buste humanoïde de taille normale possède seulement une FOR de +2.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "58": {
+      "id": "58",
+      "name": "Voie de la sombre magie",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "269",
+          "label": "Ténèbres",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.\r\n"
+        },
+        "2": {
+          "target_id": "270",
+          "label": "Pattes d’araignée",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.\r\n"
+        },
+        "3": {
+          "target_id": "271",
+          "label": "Strangulation",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "En réussissant un test d’attaque magique (portée 20 m), le Nécromancien étouffe une créature vivante et lui inflige [1d6 + Mod. d’INT] DM par tour pendant [rang] tours pourvu qu’il maintienne sa concentration par une action limitée. La victime subit un malus égal au nombre de tours d’effet de la Strangulation (-1 au premier tour, -2 au second, etc.) à tous ses tests. Si la victime sort du champ de vision du Nécromancien, le sort prend fin.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "63": {
+      "id": "63",
+      "name": "Voie de la magie destructrice",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "296",
+          "label": "Projectile magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n"
+        },
+        "2": {
+          "target_id": "297",
+          "label": "Rayon affaiblissant",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    },
+    {
+      "target_id": "296",
+      "label": "Projectile magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "297",
+      "label": "Rayon affaiblissant",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "269",
+      "label": "Ténèbres",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.\r\n",
+      "paths": "Voie de la sombre magie"
+    },
+    {
+      "target_id": "270",
+      "label": "Pattes d’araignée",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.\r\n",
+      "paths": "Voie de la sombre magie"
+    },
+    {
+      "target_id": "271",
+      "label": "Strangulation",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "En réussissant un test d’attaque magique (portée 20 m), le Nécromancien étouffe une créature vivante et lui inflige [1d6 + Mod. d’INT] DM par tour pendant [rang] tours pourvu qu’il maintienne sa concentration par une action limitée. La victime subit un malus égal au nombre de tours d’effet de la Strangulation (-1 au premier tour, -2 au second, etc.) à tous ses tests. Si la victime sort du champ de vision du Nécromancien, le sort prend fin.\r\n",
+      "paths": "Voie de la sombre magie"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1152",
+      "alt": "Drider",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "drider-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/drider-modified.png.webp?itok=auubRcGj"
+    }
+  ]
+}

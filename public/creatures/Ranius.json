@@ -1,0 +1,174 @@
+{
+  "name": [
+    {
+      "value": "Ranius"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "37",
+      "label": "Orques"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "13"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Attaque contacte +3:&nbsp; Epée tranchante 1d6+2+1</p>\r\n\r\n<p>Capacité 1: Attaque en muscle&nbsp; -compte comme une action-</p>\r\n\r\n<p>Votre attaque fait +10 en attaque au contacte au lieu de +3, mais Ranius perd 1 pv.</p>\r\n\r\n<p>Capacité 2: Appèle à la ceinture de récuparation&nbsp; -compte comme une attque-</p>\r\n\r\n<p>Soignez 1d4+2(niveau) de pv a Ranius.</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque contacte",
+          "test": "+3",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Capacité 1: Attaque en muscle  -compte comme une action-",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Votre attaque fait +10 en attaque au contacte au lieu de",
+          "test": "+3",
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Capacité 2: Appèle à la ceinture de récuparation  -compte comme une attque-",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Soignez 1d4+2(niveau) de pv a Ranius.",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

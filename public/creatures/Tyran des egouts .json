@@ -1,0 +1,225 @@
+{
+  "name": [
+    {
+      "value": "Tyran des egouts "
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "4"
+    }
+  ],
+  "level": [
+    {
+      "value": "11"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "28"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "300"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Tentacules (x4)</strong> +15 <strong>DM</strong> 2d6+10</p>\r\n\r\n<p>Attaque magique (L) +13 DM&nbsp; 5d6 + 18</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Tentacules (x4)",
+          "test": "+15",
+          "dm": "2d6+10",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique (L)",
+          "test": "+13",
+          "dm": null,
+          "special": "5d6 + 18",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Agripper</em> (Voie des créatures volantes rang 2)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "816",
+      "alt": "I will destroy",
+      "title": "",
+      "width": "564",
+      "height": "752",
+      "label": "a3cbec56260be0f0c536db65a03b5a7c.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/a3cbec56260be0f0c536db65a03b5a7c.jpg.webp?itok=_lQbPKvf"
+    }
+  ]
+}

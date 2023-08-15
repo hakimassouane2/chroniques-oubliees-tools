@@ -1,0 +1,174 @@
+{
+  "name": [
+    {
+      "value": "Ankheg fatiguée"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Tactique : l’Ankheg est une&nbsp;créature qui peut s’avérer&nbsp;létale&nbsp;pour un groupe de premier niveau&nbsp;aussi les PJ seront peut-être amenés à fuir (n’oubliez pas la capacité « Instinct de survie » des humains, elle sera primordiale !). Ils&nbsp;peuvent trouver de nombreuses&nbsp;failles de pierre noire trop étroites&nbsp;pour l’Ankheg afin de s’y réfugier. Expliquez bien aux joueurs&nbsp;que si la faille est assez étroite&nbsp;pour le mettre à l’abri, elle ne&nbsp;lui&nbsp;permet pas d’utiliser une arme à&nbsp;projectile. Si les PJ se séparent,il est possible de se jouer de lui&nbsp;en l’attirant successivement dans&nbsp;différentes direction, il n’est pas&nbsp;très futé, ni très rapide. Cela peut&nbsp;par exemple permettre d’utiliser&nbsp;le bloc de la zone C pour l’écraser.</p>\r\n\r\n<p>S’il est réduit à 5 PV ou moins,&nbsp;il prend la fuite et s’enterre dans&nbsp;la zone de pierre blanche la plus&nbsp;proche.</p>\r\n\r\n<p>Et si vraiment ça sent le sapin pour&nbsp;votre groupe, vous avez toujours&nbsp;l’option « Krush ». Ou pas.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "26",
+      "label": "Insectes géants"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "22"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Mandibules +6 DM 1d6+4 + 1d4&nbsp;<span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">acide</span></p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Mandibules",
+          "test": "+6",
+          "dm": "1d6+4",
+          "special": "+ 1d4 acide",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Jet d’acide (L)&nbsp; : une fois par combat,<span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">l’Ankheg peut cracher un jet d’acide&nbsp;</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">à une distance de 10 mètres. Il inflige&nbsp;</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">3d6 DM et la cible peut faire un test d</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">e DEX difficulté 12 pour ne subir q</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">ue la moitié des DM.</span></p>\r\n\r\n<p>Creuser (L)&nbsp;: l’Ankheg utilise ses formidables mandibules associées à l’acide q<span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">u’il secrète pour se déplacer sous t</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">erre. Au prix d’une action limitée, l'</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">Ankheg est capable de creuser sur u</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">ne profondeur de 10 mètres par tour.</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">Il peut utiliser sa capacité embuscade p</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">our surgir du sol et attaquer.</span></p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": []
+}

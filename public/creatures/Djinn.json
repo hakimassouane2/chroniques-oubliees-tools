@@ -1,0 +1,232 @@
+{
+  "name": [
+    {
+      "value": "Djinn"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "18",
+      "label": "Génies"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "20"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "80"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Cimeterre</strong> +8 <strong>DM</strong> 2d6+8<br />\r\n<strong>Foudre</strong> +10 <strong>DM</strong> 3d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Cimeterre",
+          "test": "+8",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Foudre",
+          "test": "+10",
+          "dm": "3d6+6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong> capacité de rang 1 et rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Immunisé à l’électricité et à l’acide :</em> le djinn est immunisé aux DM d’électricité et d’acide.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "23": {
+      "id": "23",
+      "name": "Voie des végétaux",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "110",
+          "label": "Animation d’un arbre",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours. Arbre animé : Init 7, DEF 13, PV [rang x 10], attaque de contact = [niveau du druide], DM 1d6+3, Déplacement 10 m par action de mouvement. Réduction de DM de 10 sauf contre les armes tranchantes et le feu.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        },
+        "3": {
+          "target_id": "404",
+          "label": "Déplacement magique",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "404",
+      "label": "Déplacement magique",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "110",
+      "label": "Animation d’un arbre",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Une fois par combat, le Druide peut animer un arbre en le touchant. Il combat pendant [niveau du druide] tours. Arbre animé : Init 7, DEF 13, PV [rang x 10], attaque de contact = [niveau du druide], DM 1d6+3, Déplacement 10 m par action de mouvement. Réduction de DM de 10 sauf contre les armes tranchantes et le feu.\r\n",
+      "paths": "Voie des végétaux"
+    }
+  ],
+  "picture": []
+}

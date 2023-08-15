@@ -1,0 +1,162 @@
+{
+  "name": [
+    {
+      "value": "Nuée de guêpes géantes"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "35",
+      "label": "Nuées"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "6"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Attaque</strong> +5 <strong>DM</strong> 1d6 (poison)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Attaque",
+          "test": "+5",
+          "dm": "1d6",
+          "special": "(poison)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Vol : </em>les guêpes se déplacent en vol de 30 mètres par action de mouvement, ce qui rend toute tentative de fuite futile.</p>\r\n\r\n<p><em>Recouvrir (L) :</em> la nuée peut recouvrir sa proie après avoir réussi une attaque de contact contre sa cible. Dès lors, la cible est distraite, déséquilibrée et victime d’innombrables morsures. La nuée lui inflige automatiquement 1d6 DM par tour et la victime est <em>Affaiblie</em> tant que la nuée n’est pas vaincue.</p>\r\n\r\n<p><em>Poison :</em> à chaque tour où elle est blessée par la nuée, la victime doit réussir un test de CON difficulté 10 ou sombrer dans l’inconscience tandis que la nuée continue à la dévorer… <em>Cibles multiples :</em> la nuée est constituée de très nombreuses cibles et les attaques conventionnelles lui infligent peu de DM. Les attaques de zone lui infligent des DM normaux mais tous les DM par des armes de contact ou à distance ne lui infligent qu’un seul point de DM par attaque réussie.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1084",
+      "alt": "",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "swarm_wasps-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swarm_wasps-modified.png.webp?itok=U-bL9zCB"
+    }
+  ]
+}

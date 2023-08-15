@@ -1,0 +1,202 @@
+{
+  "name": [
+    {
+      "value": "Elémentaire fangeux, moyen"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un élémentaire fangeux est un élémentaire d'eau qui a pis forme dans un plan d'eau insalubre (marais, égouts, douves d'un donjon maudit...)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "12",
+      "label": "Elémentaires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "29"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / magie "
+    }
+  ],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Coup</strong> +4 <strong>DM</strong> 1d6+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Coup",
+          "test": "+4",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures magiques</strong> rang 1 (RD 5 / magie)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Immunité :</em> les élémentaires fangeux sont immunisés aux DM de froid.</p>\r\n\r\n<p><em>Mode d’attaque :</em> l’élémentaire d’eau percute l’adversaire ou le noie.</p>\r\n\r\n<p><strong>Quand atteint 0PV</strong>, jeter 1D6, sur 5+ se divise en 2 petits élémentaires fangeux. Sinon explose et propage maladie a 12m&nbsp;: sauvegarde de CON 12, sinon affaiblis&nbsp;: Désavantage a tous les jets pendant 1D8 heures.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p><em><strong>Ils voient dans le noir</strong></em> à 30 mètres et ils peuvent déterminer la localisation de toute créature en contact avec leur élément à moins de 30 mètres, même si celle-ci est invisible.</p>\r\n\r\n<p><em><strong>Cyclone (L)</strong> :</em> une fois par combat, un élémentaire peut se transformer en tourbillon de matière élémentaire. Pendant [1d4+1] tours, il peut se déplacer à travers les créatures et les objets à la vitesse de 30 mètres par tour. Toute créature sur son passage doit faire un test de DEX ou de FOR au choix de difficulté [10 + Mod. de FOR de l’élémentaire].<br />\r\nEn cas d’échec, la cible subit automatiquement les DM de base de l’élémentaire (selon la taille) et elle est <em>renversée</em> au sol (si sa taille ne dépasse pas celle de l’élémentaire).<br />\r\nEn cas de succès, elle ne subit que la moitié des DM et peut rester debout. Lorsqu’il est sous forme de cyclone, l’élémentaire gagne un bonus de +5 en DEF.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "792",
+      "alt": "",
+      "title": "",
+      "width": "910",
+      "height": "1000",
+      "label": "élémentaire fangeux.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/%C3%A9l%C3%A9mentaire%20fangeux.png.webp?itok=lZA-tFBC"
+    }
+  ]
+}

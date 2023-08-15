@@ -1,0 +1,297 @@
+{
+  "name": [
+    {
+      "value": "Titan"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Dans la création, les titans sont seconds seulement derrière les dieux eux-mêmes. Humanoïdes immenses, mesurant jusqu’à près de 10 mètres, ils sont détenteurs d’une sagesse ancestrale et dotés de pouvoirs magiques encore plus considérables que leur stature. Heureusement les titans sont extrêmement rares et plutôt tournés vers la contemplation, toutefois, la colère d’un titan est une telle débauche de puissance brute qu’elle est de nature à détruire des royaumes entiers. En plus des talents décrits ci-dessous, il n’est pas rare qu’un titan bénéficie de niveaux dans un Profil de lanceur de sort : souvent de niveau 10 pour un NC de 25.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "20"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "18"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "18"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "34"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "320"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "6"
+    }
+  ],
+  "init": [
+    {
+      "value": "8"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Marteau de guerre</strong> +30 <strong>DM</strong> 4d6+24<br />\r\n<strong>Attaque magique (foudre)</strong> +18 <strong>DM</strong> 10d6+30</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Marteau de guerre",
+          "test": "+30",
+          "dm": "4d6+24",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique (foudre)",
+          "test": "+18",
+          "dm": "10d6+30",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong> rang 3<br />\r\n<strong>Voie du colosse</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        },
+        "2": {
+          "target_id": "403",
+          "label": "Armure magique",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n"
+        },
+        "3": {
+          "target_id": "404",
+          "label": "Déplacement magique",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "91": {
+      "id": "91",
+      "name": "Voie du colosse",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "414",
+          "label": "Fauchage",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n"
+        },
+        "2": {
+          "target_id": "415",
+          "label": "Balayage",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n"
+        },
+        "3": {
+          "target_id": "416",
+          "label": "Projection",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur 15 à 20 au test d’attaque, la victime est projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes) et subit +3d6 DM supplémentaires. Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour elle peut tenter un nouveau test de CON pour retrouver ses esprits. Sa résistance aux DM passe à 6 (RD 6).\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "403",
+      "label": "Armure magique",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "404",
+      "label": "Déplacement magique",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "414",
+      "label": "Fauchage",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "415",
+      "label": "Balayage",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature utilise sa grande taille pour affecter plusieurs créatures face à elle d’un seul coup de patte/arme. Si plusieurs cibles sont présentes face à elle, son attaque affecte deux créatures (dans un arc de 180°). Faire un seul test d’attaque et le comparer à la DEF de chaque cible. Sa résistance aux DM passe à 4 (RD 4).\r\n",
+      "paths": "Voie du colosse"
+    },
+    {
+      "target_id": "416",
+      "label": "Projection",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur 15 à 20 au test d’attaque, la victime est projetée à [1d6+1] mètres de là (plus ou moins selon la taille des protagonistes) et subit +3d6 DM supplémentaires. Elle doit réussir un test de CON de difficulté 15 ou être Étourdie. A chaque tour elle peut tenter un nouveau test de CON pour retrouver ses esprits. Sa résistance aux DM passe à 6 (RD 6).\r\n",
+      "paths": "Voie du colosse"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1182",
+      "alt": "Titan",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "titan-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/titan-modified.png.webp?itok=FZlGLAE3"
+    }
+  ]
+}

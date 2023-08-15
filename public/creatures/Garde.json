@@ -1,0 +1,169 @@
+{
+  "name": [
+    {
+      "value": "Garde"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Un homme très souvent de taille moyenne en armure avec un système de hiérarchie&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un soldat qui garde sa ville de toute son ardeur</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "23"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "\\2 dommage si 0pv "
+    }
+  ],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>haldebarde 1d8 arc 1d6 lance 1d8 arbalète 1d4 et pétoire si gradé 1d10</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "haldebarde 1d8 arc 1d6 lance 1d8 arbalète 1d4 et pétoire si gradé 1d10",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "5",
+      "label": "Chevalier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "4"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Armure sur mesure</p>\r\n\r\n<p>L’armure du Chevalier est parfaitement ajustée, aussi il n’ajoute que la moitié de sa DEF à la difficulté des tests pour lesquels l’armure inflige une pénalité (de même pour les casques). Si vous n’utilisez pas la règle de pénalité des armures, le chevalier obtient un bonus de +1 en DEF lorsqu’il porte une armure métallique.</p>\r\n\r\n<p>Sans peur</p>\r\n\r\n<p>Le Chevalier est immunisé aux attaques de peur et il offre un bonus de [2 + Mod. de CHA] à tous ses alliés contre ce type d’effet.</p>\r\n\r\n<p>Charisme héroïque</p>\r\n\r\n<p>Le personnage augmente sa valeur de CHA de +2. Il peut de plus lancer deux d20 à chaque fois qu’un test de CHA lui est demandé et conserver le meilleur résultat.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

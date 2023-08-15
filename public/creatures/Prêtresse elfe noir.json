@@ -1,0 +1,310 @@
+{
+  "name": [
+    {
+      "value": "Prêtresse elfe noir"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "14",
+      "label": "Elfes noirs (Drows)"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2.5"
+    }
+  ],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "21"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "56"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Masse serpent</strong> +10 <strong>DM</strong> 1d6+4<br />\r\n<strong>Attaque magique</strong> (30 mètres) +10 <strong>DM</strong> 7d6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Masse serpent",
+          "test": "+10",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque magique (30 mètres)",
+          "test": "+10",
+          "dm": "7d6",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie de la magie de combat</strong> rang 1<br />\r\n<strong>Voie du PNJ récurrent</strong> rang 2<br />\r\n<strong>Voie de la magie maléfique</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Poison :</em> la masse serpent de la prêtresse inocule du poison à sa victime à chaque attaque. Elle doit faire un test de CON difficulté 14 ou sombrer dans l’inconscience immédiatement pour une durée de 1d6 minutes.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "83": {
+      "id": "83",
+      "name": "Voie du PNJ récurrent",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "390",
+          "label": "Instinct de survie",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+        },
+        "2": {
+          "target_id": "391",
+          "label": "Chair à canon",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par tour, le PNJ peut décider qu’une attaque qui le visait touche à la place un de ses sous-fifres situé à moins de 3 m et venu s’interposer (ou derrière lequel il s’est mis à couvert). Le PNJ gagne un bonus de +5 en DEF tant que des sous-fifres sont positionnés à moins de 3 mètres de lui.\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "85": {
+      "id": "85",
+      "name": "Voie de la magie maléfique",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "396",
+          "label": "Vampirisation",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature doit réussir une attaque magique sur une cible vivante à une distance maximum de 30 mètres. En cas de réussite, la cible subit [1d6 x NC/2] DM et la créature régénère autant de PV que de DM infligés. De plus à chaque fois qu’une créature meurt à moins de 20 mètres d’elle, la créature siphonne son énergie et gagne [1d6 + NC] PV.\r\n"
+        },
+        "2": {
+          "target_id": "397",
+          "label": "Animer un cadavre",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Ce pouvoir permet d’animer le cadavre d’une créature morte pendant le combat. La créature se relève avec les mêmes Caractéristiques mais elle subit une pénalité de -2 en attaque et en Initiative. Lorsque le cadavre est à nouveau vaincu, il ne peut pas être réanimé. Le cadavre de la créature animée ne peut être d’un NC supérieur à celui de celle qui utilise cette capacité.\r\n"
+        },
+        "3": {
+          "target_id": "398",
+          "label": "Injonction mortelle",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une cible située à une distance maximum de 30 mètres doit réussir un test de CON difficulté 15 ou tomber à 0 PV (et mourir immédiatement s’il s’agit d’un PNJ). En cas de succès, la cible subit tout de même [2d6 + NC] DM. Ce pouvoir ne peut prendre une même créature pour cible qu’une seule fois par combat.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "402",
+          "label": "Attaque magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "402",
+      "label": "Attaque magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "390",
+      "label": "Instinct de survie",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "391",
+      "label": "Chair à canon",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par tour, le PNJ peut décider qu’une attaque qui le visait touche à la place un de ses sous-fifres situé à moins de 3 m et venu s’interposer (ou derrière lequel il s’est mis à couvert). Le PNJ gagne un bonus de +5 en DEF tant que des sous-fifres sont positionnés à moins de 3 mètres de lui.\r\n",
+      "paths": "Voie du PNJ récurrent"
+    },
+    {
+      "target_id": "396",
+      "label": "Vampirisation",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature doit réussir une attaque magique sur une cible vivante à une distance maximum de 30 mètres. En cas de réussite, la cible subit [1d6 x NC/2] DM et la créature régénère autant de PV que de DM infligés. De plus à chaque fois qu’une créature meurt à moins de 20 mètres d’elle, la créature siphonne son énergie et gagne [1d6 + NC] PV.\r\n",
+      "paths": "Voie de la magie maléfique"
+    },
+    {
+      "target_id": "397",
+      "label": "Animer un cadavre",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Ce pouvoir permet d’animer le cadavre d’une créature morte pendant le combat. La créature se relève avec les mêmes Caractéristiques mais elle subit une pénalité de -2 en attaque et en Initiative. Lorsque le cadavre est à nouveau vaincu, il ne peut pas être réanimé. Le cadavre de la créature animée ne peut être d’un NC supérieur à celui de celle qui utilise cette capacité.\r\n",
+      "paths": "Voie de la magie maléfique"
+    },
+    {
+      "target_id": "398",
+      "label": "Injonction mortelle",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une cible située à une distance maximum de 30 mètres doit réussir un test de CON difficulté 15 ou tomber à 0 PV (et mourir immédiatement s’il s’agit d’un PNJ). En cas de succès, la cible subit tout de même [2d6 + NC] DM. Ce pouvoir ne peut prendre une même créature pour cible qu’une seule fois par combat.\r\n",
+      "paths": "Voie de la magie maléfique"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1004",
+      "alt": "Prêtresse elfe noir",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "draw_woman_priestess-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/draw_woman_priestess-modified.png.webp?itok=Ztf1gkvS"
+    }
+  ]
+}

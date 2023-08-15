@@ -1,0 +1,398 @@
+{
+  "name": [
+    {
+      "value": "Drog"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "37",
+      "label": "Orques"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "61"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée longue </strong>+13 <strong>DM </strong>1d8</p>\r\n\r\n<p><strong>155-Traumhache</strong> +14 <strong>DM </strong>1d8+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée longue",
+          "test": "+13",
+          "dm": "1d8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "155-Traumhache",
+          "test": "+14",
+          "dm": "1d8+2",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "12",
+      "label": "Guerrier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "9"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du combat</strong> rang 5</p>\r\n\r\n<p><strong>Voie de la résistance</strong>&nbsp;rang 4</p>\r\n\r\n<p><strong>Voie du maitre d'arme&nbsp;</strong>rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Vision dans le noir</strong> : dans le noir total, le Demi-orque voit comme dans la pénombre jusqu'à 30 m.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "56": {
+      "id": "56",
+      "name": "Voie du combat",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "273",
+          "label": "Vivacité",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier gagne +3 en Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "274",
+          "label": "Désarmer",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Guerrier réalise une attaque au contact et sa victime doit faire un test d’attaque opposé. Si le Guerrier obtient le plus haut score, l’arme de son adversaire tombe au sol (une action de mouvement doit être employée pour la ramasser). Si le Guerrier réussit son test avec au moins 10 points de plus que son adversaire, il empêche celui-ci de récupérer son arme (en posant le pied dessus, en l’envoyant hors de portée, etc.). Cette capacité est évidemment sans effet sur les armes naturelles (griffes, crocs, épine dorsale, etc.). Les adversaires qui utilisent des armes à 2 mains sont plus difficiles à désarmer, infligeant un malus de -5 au test.\r\n"
+        },
+        "3": {
+          "target_id": "275",
+          "label": "Double attaque",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Guerrier peut tenter deux attaques au contact durant ce tour avec un malus de -2.\r\n"
+        },
+        "4": {
+          "target_id": "276",
+          "label": "Attaque circulaire",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Guerrier peut tenter une attaque au contact contre chaque adversaire engagé au contact avec lui.\r\n"
+        },
+        "5": {
+          "target_id": "277",
+          "label": "Attaque puissante",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier peut choisir d’utiliser 1d12 en attaque au contact au lieu du d20 habituel (il ajoute normalement son score d’attaque). Si une telle attaque est réussie, il ajoute +2d6 aux DM. Cette capacité peut être utilisée avec Double attaque, Attaque circulaire ou Attaque parfaite par exemple.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "59": {
+      "id": "59",
+      "name": "Voie du maître d'armes",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "278",
+          "label": "Arme de prédilection",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier choisit une arme de prédilection (par exemple épée longue ou hache à 1 main, arc court, etc.), et gagne +1 en attaque lorsqu’il l’utilise.\r\n"
+        },
+        "2": {
+          "target_id": "279",
+          "label": "Science du critique",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier inflige des critiques sur 19-20 (18-20 lorsqu’il emploie une rapière ou une Vivelame).\r\n"
+        },
+        "3": {
+          "target_id": "280",
+          "label": "Spécialisation",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque le Guerrier emploie son arme de prédilection, il gagne un bonus de +2 aux DM.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "60": {
+      "id": "60",
+      "name": "Voie de la résistance",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "283",
+          "label": "Robustesse",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "En prenant cette capacité, le Guerrier gagne 3 PV supplémentaires au Rang 1, puis 3 PV de plus au Rang 3 de cette Voie et enfin 3 PV au Rang 5.\r\n"
+        },
+        "2": {
+          "target_id": "284",
+          "label": "Armure naturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier a endurci son corps. Il bénéficie d’un bonus de +2 à la DEF. Ce bonus passe à +4 lorsqu’il atteint le rang 4 de la voie.\r\n"
+        },
+        "3": {
+          "target_id": "285",
+          "label": "Second souffle",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Guerrier peut décider de ne pas attaquer lors du tour de combat pour reprendre son souffle. Il récupère alors [1d10 + niveau + Mod. de CON] PV.\r\n"
+        },
+        "4": {
+          "target_id": "286",
+          "label": "Dur à cuire",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier reçoit un bonus de +5 à tous ses tests de CON. De plus, lorsqu’il tombe à 0 PV, il peut continuer à agir pendant un ultime tour avant de tomber inconscient.\r\n"
+        }
+      },
+      "rank": 4
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "273",
+      "label": "Vivacité",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier gagne +3 en Initiative.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "274",
+      "label": "Désarmer",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Guerrier réalise une attaque au contact et sa victime doit faire un test d’attaque opposé. Si le Guerrier obtient le plus haut score, l’arme de son adversaire tombe au sol (une action de mouvement doit être employée pour la ramasser). Si le Guerrier réussit son test avec au moins 10 points de plus que son adversaire, il empêche celui-ci de récupérer son arme (en posant le pied dessus, en l’envoyant hors de portée, etc.). Cette capacité est évidemment sans effet sur les armes naturelles (griffes, crocs, épine dorsale, etc.). Les adversaires qui utilisent des armes à 2 mains sont plus difficiles à désarmer, infligeant un malus de -5 au test.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "275",
+      "label": "Double attaque",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Guerrier peut tenter deux attaques au contact durant ce tour avec un malus de -2.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "276",
+      "label": "Attaque circulaire",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Guerrier peut tenter une attaque au contact contre chaque adversaire engagé au contact avec lui.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "277",
+      "label": "Attaque puissante",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier peut choisir d’utiliser 1d12 en attaque au contact au lieu du d20 habituel (il ajoute normalement son score d’attaque). Si une telle attaque est réussie, il ajoute +2d6 aux DM. Cette capacité peut être utilisée avec Double attaque, Attaque circulaire ou Attaque parfaite par exemple.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "283",
+      "label": "Robustesse",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "En prenant cette capacité, le Guerrier gagne 3 PV supplémentaires au Rang 1, puis 3 PV de plus au Rang 3 de cette Voie et enfin 3 PV au Rang 5.\r\n",
+      "paths": "Voie de la résistance"
+    },
+    {
+      "target_id": "284",
+      "label": "Armure naturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier a endurci son corps. Il bénéficie d’un bonus de +2 à la DEF. Ce bonus passe à +4 lorsqu’il atteint le rang 4 de la voie.\r\n",
+      "paths": "Voie de la résistance"
+    },
+    {
+      "target_id": "285",
+      "label": "Second souffle",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Guerrier peut décider de ne pas attaquer lors du tour de combat pour reprendre son souffle. Il récupère alors [1d10 + niveau + Mod. de CON] PV.\r\n",
+      "paths": "Voie de la résistance"
+    },
+    {
+      "target_id": "286",
+      "label": "Dur à cuire",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier reçoit un bonus de +5 à tous ses tests de CON. De plus, lorsqu’il tombe à 0 PV, il peut continuer à agir pendant un ultime tour avant de tomber inconscient.\r\n",
+      "paths": "Voie de la résistance"
+    },
+    {
+      "target_id": "278",
+      "label": "Arme de prédilection",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier choisit une arme de prédilection (par exemple épée longue ou hache à 1 main, arc court, etc.), et gagne +1 en attaque lorsqu’il l’utilise.\r\n",
+      "paths": "Voie du maître d'armes"
+    },
+    {
+      "target_id": "279",
+      "label": "Science du critique",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier inflige des critiques sur 19-20 (18-20 lorsqu’il emploie une rapière ou une Vivelame).\r\n",
+      "paths": "Voie du maître d'armes"
+    },
+    {
+      "target_id": "280",
+      "label": "Spécialisation",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque le Guerrier emploie son arme de prédilection, il gagne un bonus de +2 aux DM.\r\n",
+      "paths": "Voie du maître d'armes"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1517",
+      "alt": "",
+      "title": "",
+      "width": "236",
+      "height": "447",
+      "label": "Drog.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Drog.jpg.webp?itok=kw5YGNxo"
+    }
+  ]
+}

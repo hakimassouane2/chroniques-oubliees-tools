@@ -1,0 +1,162 @@
+{
+  "name": [
+    {
+      "value": "Abaddon"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "12"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "130"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "RD 10 Feu et Acide"
+    }
+  ],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dards (x3)&nbsp;</strong>+12&nbsp;<strong>DM&nbsp;</strong>2D6 + Poison</p>\r\n\r\n<p><strong>Epée&nbsp;</strong>+12&nbsp;<strong>DM</strong> 3D6+6 + 2D6 froid</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dards (x3)",
+          "test": "+12",
+          "dm": "2d6",
+          "special": "+ Poison",
+          "reach": null
+        },
+        {
+          "name": "Epée",
+          "test": "+12",
+          "dm": "3d6+6",
+          "special": "+ 2D6 froid",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures magiques</strong> rang 3 (RD 15/ armes saintes)</p>\r\n\r\n<p><strong>Voie de la magie maléfique</strong> rang 2</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Vol: 30m par action de mouvement</p>\r\n\r\n<p>attaques multiples: 3 attaques pour 1 action d'attaque (Dards)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "841",
+      "alt": "",
+      "title": "",
+      "width": "2644",
+      "height": "2445",
+      "label": "5iRFpVpBlhH3UJ6ySIRHtf2YB7yl8fPGoPGOhMuVkzs.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/5iRFpVpBlhH3UJ6ySIRHtf2YB7yl8fPGoPGOhMuVkzs.jpg.webp?itok=ArbjnaEi"
+    }
+  ]
+}

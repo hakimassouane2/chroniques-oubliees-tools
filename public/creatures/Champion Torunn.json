@@ -1,0 +1,214 @@
+{
+  "name": [
+    {
+      "value": "Champion Torunn"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "12",
+      "label": "Elémentaires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "vegetative",
+      "label": "Végétative"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "13"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "+6"
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [
+    {
+      "value": "- 1"
+    }
+  ],
+  "con_mod": [
+    {
+      "value": "13"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "22"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "10 / feu ou hache"
+    }
+  ],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Branches</strong> +15 <strong>DM</strong> 3d6+10<br />\r\n<strong>Sabots</strong>&nbsp;+10&nbsp;<strong>DM</strong>&nbsp;2d6+8<br />\r\n<strong>Grande hache</strong>&nbsp;+10&nbsp;<strong>DM</strong>&nbsp;2d6+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Branches",
+          "test": "+15",
+          "dm": "3d6+10",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Sabots",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Grande hache",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Résistance aux DM :</em> le Sylvanien retranche 10 points à tous les DM sauf s’il s’agit de feu ou de haches.</p>\r\n\r\n<p><em>Attaque double (L) :</em>&nbsp;le centaure peut faire une attaque de sabot plus une attaque avec son épée dans le même tour.</p>\r\n\r\n<p><em>Hybride :</em>&nbsp;étant un mélange de deux créatures, le centaure possède des Caractéristiques particulières. Sa FOR de +6 fait référence à la puissance globale de la créature mais son buste humain lui octroie seulement un bonus de +3 en combat. Il est considéré comme une créature humanoïde pour tout ce qui concerne les attaques mentales mais pas pour les physiques. Il en va de même pour la CON en cas de progression dans un Profil de personnage.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "92": {
+      "id": "92",
+      "name": "Voie du cogneur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "417",
+          "label": "Charge",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "417",
+      "label": "Charge",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature parcourt une distance maximum de 30 mètres et réalise une attaque, lancez deux d20 et gardez le meilleur résultat. Si l’attaque est réussie, en plus des DM normaux, une victime de taille inférieure ou égale à la créature, doit faire un test opposé de FOR ou être Renversée. Dans ce cas, la créature piétine (ou embroche) sa victime et les DM sont doublés.\r\n",
+      "paths": "Voie du cogneur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "2257",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "773",
+      "label": "2a61ec104cebb2c3d6c1b27a722f100a.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/2a61ec104cebb2c3d6c1b27a722f100a.jpg.webp?itok=3-DtVlTS"
+    }
+  ]
+}

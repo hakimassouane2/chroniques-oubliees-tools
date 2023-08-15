@@ -1,0 +1,177 @@
+{
+  "name": [
+    {
+      "value": "Barghest"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>La forme hybride, située entre un gobelin et un loup, est sa forme naturelle. Un barghest adulte pèse environ 90kg et sous forme hybride, il possède une peau violacée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Le barghest est une abomination maléfique capable de prendre trois formes distinctes à volonté : gobelin, loup et hybride. Il voit dans le noir et parle gobelin, le worg et la langue infernale. Créature cruelle et vicieuse, le barghest aime tuer mais il préfère la ruse et la surprise à l’affrontement direct.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +6 <strong>DM</strong> 1d6+5<br />\r\n<strong>Par arme</strong> +6 <strong>DM</strong> 1d8+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+6",
+          "dm": "1d6+5",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Par arme",
+          "test": "+6",
+          "dm": "1d8+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Changement de forme :</em> le barghest peut changer de forme par une action de mouvement. Sous forme hybride, il peut attaquer à la fois par morsure et par arme au prix d’une action limitée. Sous forme de loup, il peut couvrir 30 mètres par action de mouvement.</p>\r\n\r\n<p><em>Charme monstre (L) :</em> le barghest peut charmer toute créature maléfique par son aura infernale et ténébreuse jusqu’à un NC de 6 et une INT de 12. Il doit pour cela réussir un test opposé d’INT contre sa cible. En cas de réussite, elle se met à son service aussi longtemps que le barghest ne relâche pas son emprise. Pour cette raison, un barghest est souvent à la tête d’un groupe de créatures maléfiques hétéroclites (gobelins, worgs, ogre, etc.).</p>\r\n\r\n<p><em>Clignotement (L) :</em> pendant [1d6 + 2] tours, le barghest apparait et disparait aléatoirement, le rendant difficile à viser. Tout test d’attaque qui le vise dont le résultat du dé est impair est considéré comme un échec.</p>\r\n\r\n<p><em>Ingestion de cadavre (L) :</em> lorsqu’il tue une créature humanoïde, le barghest peut ouvrir une gueule démesurée et ingérer totalement le cadavre et l’âme du défunt. Il ne reste rien de sa victime et c’est probablement la mort définitive d’un personnage (à utiliser avec modération…). Lorsqu’il a ingéré 10 créatures de cette façon, le NC du Barghest augmente de 1 et il gagne +2 en attaque, +1d6 aux DM et +20 PV. Il grossit d’une trentaine de kilos. Il peut subir cette augmentation jusqu’à trois fois. Les plus gros barghest sont nommés barghest nobles.</p>\r\n\r\n<p><em>Passage sans traces :</em> le barghest ne laisse aucune piste lorsqu’il se déplace sous forme de loup et gagne un bonus de +5 à tous les tests de discrétion.</p>\r\n\r\n<p><em>Téléportation (L) :</em> le barghest disparaît et réapparaît à un autre endroit situé à moins de 120 mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le barghest.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1153",
+      "alt": "",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "barghest-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/barghest-modified.png.webp?itok=gjVpxzme"
+    }
+  ]
+}

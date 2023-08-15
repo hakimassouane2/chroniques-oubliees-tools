@@ -1,0 +1,168 @@
+{
+  "name": [
+    {
+      "value": "Quentin"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Il porte des lunettes, il a les cheveux noirs.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un jeune garçon (un peu fou, en même temps il nomme son perso uhu)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "0"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "10"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "10"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Giffle 1d4 DM (Dm non létaux)</p>\r\n\r\n<p>Lançage de turbulo +10 au toucher, 6d6 Dm, l'ennemi fait un test de Con difficulté 16, si il échoue il devient étourdit pendant 1 tour. (en même temps, il mange un turbulo, quelle fou)</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Giffle 1d4",
+          "test": null,
+          "dm": null,
+          "special": "(Dm non létaux)",
+          "reach": null
+        },
+        {
+          "name": "Lançage de turbulo",
+          "test": "+10",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "827",
+      "alt": "",
+      "title": "",
+      "width": "4032",
+      "height": "3024",
+      "label": "20230114_143405.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/20230114_143405.jpg.webp?itok=cT5Lw8UY"
+    }
+  ]
+}

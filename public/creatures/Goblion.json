@@ -1,0 +1,161 @@
+{
+  "name": [
+    {
+      "value": "Goblion"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "20",
+      "label": "Gobelins"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "berserk",
+      "label": "Berserk"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "7"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "60"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Griffes et morsure</strong> + 14&nbsp;<strong>DM</strong>&nbsp;3d6+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Griffes et morsure + 14",
+          "test": null,
+          "dm": "3d6+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>1. Fusion (L) : Deux créatures instables disposant de cette capacité peuvent fusionner entre elles au prix d’une action limitée pour former une nouvelle entité plus puissante et plus grande. Le processus est réversible sur un test d’INT difficulté 15. La base technique de la nouvelle entité reste celle de la créature disposant au choix du grand(e) : taille, NC ou nombre de PV . La créature gagne immédiatement 1 rang de boss et fait l’acquisition d’une capacité emblématique de son binôme. Il faut fusionner 4 créatures de taille équivalente pour augmenter la taille finale d’une catégorie (voir le tableau des archétypes pages 221).</p>\r\n\r\n<p>2. Scission : La créature peut, le temps de quelques secondes, se séparer de n’importe quelle partie de son corps, prenant au dépourvu ses adversaires. Lorsqu’elle subit les DM d’une attaque, lancez 1d6 : sur 3 ou 4, la créature expulse un corpuscule, sur 5 ou 6, la créature ne subit aucun DM et elle expulse un corpuscule (fonctionne pas sur les DM de zone/dans le temps). Le corpuscule possède une DEF de 12 ainsi que 3 PV. Il n’inflige pas de DM par lui-même, mais chaque corpuscule attaque les adversaires de la créature en même temps qu’elle : pour chaque corpuscule présent, la créature bénéficie d’un bonus de +1 en Attaque et aux DM et sa plage de coup critique est augmentée de 1. Au prix d’une action limitée, si la créature le souhaite, tous les corpuscules non-détruits fusionnent à nouveau avec la créature principale, chaque corpuscule guérit la créature de 6 PV.</p>\r\n\r\n<p>3. Essence Chaotique : Lorsque la créature est victime de DM élémentaires (feu, glace, etc.), son corps change et absorbe l’élément qui aurait dû lui occasionner des DM. Chaque élément permet de de stacker un point élémentaire. Gagne un niveau dans la voie des créatures élémentaires par point élémentaires.</p>\r\n\r\n<p>1. Souffle enflammé (L) :&nbsp;est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.</p>\r\n\r\n<p>2. Corps enflammé :&nbsp;est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle donne +2 DEF. Lorsqu’elle est au contact d’une source de l'élément importante, la créature régénère 5 PV par tour.</p>\r\n\r\n<p>3. Explosion finale : Lorsqu’elle trépasse, la créature explose violemment en infligeant [NC] d6 DM d'élément dans un rayon qui dépend de sa taille. Petite : 3 m, moyenne 5 m, grande 10 m, énorme 20 m, colossale 30 m. Un test de DEX difficulté 13 permet de diviser les DM par 2. La difficulté passe à 18 pour les créatures en combat au contact au moment de l’explosion.&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

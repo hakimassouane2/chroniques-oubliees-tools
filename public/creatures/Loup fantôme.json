@@ -1,0 +1,124 @@
+{
+  "name": [
+    {
+      "value": "Loup fantôme"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Une forme assez précise d'un loup laissant échapper des vagues de fumée noire autour de lui nous laissant dans l'interrogation d'une réelle forme ou d'un esprit...</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ce loup fantôme rode autour de son Druide, c'est une sorte de soutien durant l'aventure et il n'a aucun impact sur les actions de ce dernier. Seul son maître&nbsp;peut le voir et communiquer avec lui: son esprit peut se connecter à son Druide quand ils le veulent.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "7",
+      "label": "Chiens"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "0"
+    }
+  ],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "0"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "0"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "1"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "2200",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "804",
+      "label": "Correspondance of Dreams - Shatters of hopes (Letter Story) - Fenrir.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Correspondance%20of%20Dreams%20-%20Shatters%20of%20hopes%20%28Letter%20Story%29%20-%20Fenrir.jpg.webp?itok=gn89A-Rk"
+    }
+  ]
+}

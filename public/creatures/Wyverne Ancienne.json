@@ -1,0 +1,186 @@
+{
+  "name": [
+    {
+      "value": "Wyverne Ancienne"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "11",
+      "label": "Dragons"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "15"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "colossal",
+      "label": "Colossale"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "12"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "12"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "30"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "200"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "25"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Dard</strong>&nbsp;+17&nbsp;<strong>DM</strong>&nbsp;2d6 + venin</p>\r\n\r\n<p><strong>Morsure et griffes</strong>&nbsp;+22&nbsp;<strong>DM</strong>&nbsp;4d6+16</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Dard",
+          "test": "+17",
+          "dm": "2d6",
+          "special": "+ venin",
+          "reach": null
+        },
+        {
+          "name": "Morsure et griffes",
+          "test": "+22",
+          "dm": "4d6+16",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>1. Vol rapide</p>\r\n\r\n<p>La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.</p>\r\n\r\n<p>2. Agripper</p>\r\n\r\n<p>Sur un résultat de 15-20 au d20 en attaque, la créature agrippe sa proie et ne la lâche plus. Elle obtient un bonus de +5 en attaque et +1d6 aux DM contre la cible qu’elle agrippe et celle-ci est Immobilisée si elle est de taille inférieure. La victime peut essayer de se libérer au prix d’une action de mouvement en réussissant un test de FOR opposé.</p>\r\n\r\n<p>1. Fauchage</p>\r\n\r\n<p>Sur 15 à 20 au test d’attaque, si l’attaque est réussie, la victime doit réussir au choix un test de FOR ou de DEX difficulté [10+Mod. de FOR de la créature] ou être Renversée. La créature retranche 2 à tous les DM subis (RD 2) avec des armes (contact ou distance). Les sorts font des DM normaux.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Venin :</em>&nbsp;en cas d’échec d’un test de CON (difficulté 15), la victime est&nbsp;<em>Affaiblie</em>&nbsp;pendant 1d6 heures. Si la victime subit un nouvel empoisonnement du même type pendant cette période, elle sombre dans l’inconscience pour 1d6 heures.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "797",
+      "alt": "",
+      "title": "",
+      "width": "608",
+      "height": "580",
+      "label": "kisspng-dragon-granblue-fantasy-wyvern-winged-crown-5b42a35158e2b3.8914188515310938413641.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/kisspng-dragon-granblue-fantasy-wyvern-winged-crown-5b42a35158e2b3.8914188515310938413641.png.webp?itok=DzxtH1TS"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "name": [
+    {
+      "value": "Aberration des cauchemars"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "7"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "60"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "RD : 5 dégâts non magique "
+    }
+  ],
+  "init": [
+    {
+      "value": "14"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Tentacule : +10 4d6 de dégâts physique</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Tentacule :",
+          "test": "+10",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>- Invocation de créatures 4 au début de tour /+2 par tour automatique (action gratuite)<br />\r\n- Hallucination : Attaque mentale, dégâts psychique (3d6+2) + peur si rate jet d'INT (DD 12)<br />\r\n- Création de ténèbres : invoque une zone d'ombre qui renforce les invocations (+2 à leurs jets et -2 aux jets d'attaque pour les personnages).<br />\r\n- Fouet tentaculaire : Attaque automatique les personnages situé au contact des invocations en début de round. (+7 2d6+2 ; Test DEX DD 12 pour 1/2 dégâts)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1266",
+      "alt": "",
+      "title": "",
+      "width": "864",
+      "height": "1728",
+      "label": "Abberation de cauchemar.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/Abberation%20de%20cauchemar.png.webp?itok=-CXG9tMZ"
+    }
+  ]
+}

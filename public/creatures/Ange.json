@@ -1,0 +1,317 @@
+{
+  "name": [
+    {
+      "value": "Ange"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Un ange ressemble à un humain de 2 m 70 et possède une paire d’ailes magnifiques d’une envergure de près de 5 mètres lorsqu’elles sont déployées.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Les anges sont des créatures vivant dans les plans supérieurs du Bien. Il s’agit d’une autre dimension où vivent les êtres les plus bienfaisants de la création et où les âmes des défunts fidèles aux divinités du Bien trouvent le repos. Les anges sont irrémédiablement honnêtes et francs, beaux et presque trop parfaits, ils dégagent une aura de puissance quasi palpable. Un ange est une créature très puissante mais il n’a, généralement, aucune raison de combattre un groupe de personnage et fera plutôt un allié décisif. Toutefois on murmure qu’il existerait des anges déchus devenus de formidables instruments de mort…</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "12"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "24"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "110"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "10 / armes maléfiques"
+    }
+  ],
+  "init": [
+    {
+      "value": "22"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée 2 mains</strong> +16 <strong>DM</strong> 2d6+14<br />\r\n<strong>Arc de précision</strong> +14 <strong>DM</strong> 2d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée 2 mains",
+          "test": "+16",
+          "dm": "2d6+14",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc de précision",
+          "test": "+14",
+          "dm": "2d6+6",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du champion</strong> rang 3<br />\r\n<strong>Voie des créatures volantes</strong> rang 1<br />\r\n<strong>Voie des créatures magiques</strong> rang 2 (RD 10/ armes maléfiques)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Don des langues :</em> les Anges peuvent converser avec toutes les créatures par télépathie à une distance de 50 mètres ou à l’oral dans leur propre langue.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "88": {
+      "id": "88",
+      "name": "Voie des créatures volantes",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "405",
+          "label": "Vol rapide",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        },
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        }
+      },
+      "rank": 2
+    },
+    "93": {
+      "id": "93",
+      "name": "Voie du champion",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "420",
+          "label": "Imparable",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n"
+        },
+        "2": {
+          "target_id": "421",
+          "label": "Riposte",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le champion peut effectuer une attaque en action gratuite contre chaque adversaire qui l’attaque à l’exception de celui qu’il a lui-même choisit d’attaquer à son tour.\r\n"
+        },
+        "3": {
+          "target_id": "422",
+          "label": "Hausser le ton",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’il passe sous la moitié de ses PV maximum, le champion gagne un bonus de +5 à ses tests d’attaque et +1d6 aux DM et il réduit tous les DM subits de 5 points par attaque (RD 5).\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "420",
+      "label": "Imparable",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "421",
+      "label": "Riposte",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le champion peut effectuer une attaque en action gratuite contre chaque adversaire qui l’attaque à l’exception de celui qu’il a lui-même choisit d’attaquer à son tour.\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "422",
+      "label": "Hausser le ton",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’il passe sous la moitié de ses PV maximum, le champion gagne un bonus de +5 à ses tests d’attaque et +1d6 aux DM et il réduit tous les DM subits de 5 points par attaque (RD 5).\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "405",
+      "label": "Vol rapide",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n",
+      "paths": "Voie des créatures volantes"
+    },
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1149",
+      "alt": "Ange",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "angel-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/angel-modified.png.webp?itok=a3yvdYTr"
+    }
+  ]
+}

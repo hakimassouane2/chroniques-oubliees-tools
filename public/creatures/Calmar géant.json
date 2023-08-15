@@ -1,0 +1,170 @@
+{
+  "name": [
+    {
+      "value": "Calmar géant"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Comme leurs cousins ordinaires, les calmars géants possèdent un long corps fuselé en forme de cornet et dix tentacules dont 2 plus longs. Toutefois, ceux-ci mesurent environ 3 mètres de long et ses 2 tentacules principaux (ceux avec lesquels il attaque) atteignent jusqu’à 6 mètres de long.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "aquatic",
+      "label": "Aquatique"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Tentacules</strong> (2 attaques) +10 <strong>DM</strong> 1d6+4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Tentacules (2 attaques)",
+          "test": "+10",
+          "dm": "1d6+4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Dévorer, rang 2 de la Voie du prédateur.</em> <em>Nuage d’encre :</em> le calmar peut émettre un nuage d’encre noire qui aveugle ses poursuivants au prix d’une action de mouvement. Le nuage occupe un volume de 10 mètres de coté considéré comme une zone de ténèbres (noir total) pendant 1d4 tours. Ensuite, la zone s’étend sur 20 mètres et elle est alors considérée comme de la pénombre pendant 1d4 tours supplémentaires.</p>\r\n\r\n<p><em>Propulsion (L) :</em> sous l’eau, le calmar peut se déplacer de 60 mètres par tour en ligne droite au prix d’une action limitée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1144",
+      "alt": "Calmar géant",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "squid_giant-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/squid_giant-modified.png.webp?itok=py_p8gMQ"
+    }
+  ]
+}

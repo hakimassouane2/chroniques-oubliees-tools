@@ -1,0 +1,170 @@
+{
+  "name": [
+    {
+      "value": "Bersak"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "37",
+      "label": "Orques"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "2"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "18"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Contacte + 3:&nbsp; Fléau de Bersak 1d8+1</p>\r\n\r\n<p>Capacité 1: Colère (L) une fois par combat</p>\r\n\r\n<p>Réussi automatique, dommage 1d8</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Capacité 2:&nbsp; Ordre du chef -compte comme une attaque-</p>\r\n\r\n<p>Tous les autres orc sous les ordres de Bersak obtienne +5 en attaque au contacte pour le prochain tour</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": {
+        "0": {
+          "name": "Contacte + 3:  Fléau de Bersak 1d8+1",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "1": {
+          "name": "Capacité 1: Colère (L) une fois par combat",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "2": {
+          "name": "Réussi automatique, dommage 1d8",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "4": {
+          "name": "Capacité 2:  Ordre du chef -compte comme une attaque-",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        "5": {
+          "name": "Tous les autres orc sous les ordres de Bersak obtienne",
+          "test": "+5",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      }
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

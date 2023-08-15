@@ -1,0 +1,157 @@
+{
+  "name": [
+    {
+      "value": "Serpent géant"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ce serpent constricteur est digne de l’animal sacré de la tour de l’éléphant, rencontré par Arnold Schwarzenegger dans Conan. Soit une bête de plus de 15 mètres de long pourvue d’un corps aussi épais que celui d’un homme.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "42",
+      "label": "Serpents"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "8"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "10"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "10"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et constriction</strong> +10 <strong>DM</strong> 2d6+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et constriction",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Étreinte</em><em> :</em> à chaque fois que le serpent réussit une attaque il peut faire un test de FOR opposé contre sa victime (toutefois celle-ci peut choisir de résister par un test de DEX). En cas de succès, il s’enroule autour d’elle et commence à l’étouffer, infligeant automatiquement 1d6 DM supplémentaire par tour. La victime est <em>Immobilisée</em>. Elle peut tenter de se libérer au prix d’une action de mouvement à chaque tour, en réussissant un test de FOR difficulté 20.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Note : si vous souhaitez créer un serpent géant venimeux, utilisez les règles de poison développées pour les insectes géants (+1 NC).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1120",
+      "alt": "Serpent géant",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "snake_giant-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/snake_giant-modified.png.webp?itok=KfM71PLa"
+    }
+  ]
+}

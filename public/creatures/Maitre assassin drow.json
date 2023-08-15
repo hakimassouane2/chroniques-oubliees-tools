@@ -1,0 +1,213 @@
+{
+  "name": [
+    {
+      "value": "Maitre assassin drow"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un drow entrainé pour tuer tous ce qui bouge. Il est sans pitié, et n'ésitera jamais a se battre.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "14",
+      "label": "Elfes noirs (Drows)"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "12"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "10"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "35"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "70"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "35"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Coup de dague (lame du tourment) +5 au toucher, utilise sa dex pour toucher, 4d6 2d8 +12 DM.</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Coup de dague (lame du tourment) +5 au toucher, utilise sa dex pour toucher, 4d6 2d8",
+          "test": "+12",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "7",
+      "label": "Voleur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "20"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Quand il passe a moins de 30 Pv, il devient invisible et ajoute +2d8 DM.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "31": {
+      "id": "31",
+      "name": "Voie de l’assassin",
+      "type": "character",
+      "capabilities": {
+        "5": {
+          "target_id": "150",
+          "label": "Ouverture mortelle",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Une fois par combat, le Voleur obtient une réussite critique automatique contre la cible de son choix. Il profite donc d’une réussite automatique, des dégâts multipliés par 2 prévus dans ce cas, et même des d6 d’Attaque sournoise, eux aussi multipliés.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "35": {
+      "id": "35",
+      "name": "Voie du spadassin",
+      "type": "character",
+      "capabilities": {
+        "5": {
+          "target_id": "168",
+          "label": "Botte secrète",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsque le Voleur obtient un critique sur une attaque au contact, l’attaque devient automatiquement une Attaque sournoise. Les effets de la capacité d’Attaque sournoise s’appliquent en plus des effets normaux du critique.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "150",
+      "label": "Ouverture mortelle",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Une fois par combat, le Voleur obtient une réussite critique automatique contre la cible de son choix. Il profite donc d’une réussite automatique, des dégâts multipliés par 2 prévus dans ce cas, et même des d6 d’Attaque sournoise, eux aussi multipliés.\r\n",
+      "paths": "Voie de l’assassin"
+    },
+    {
+      "target_id": "168",
+      "label": "Botte secrète",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsque le Voleur obtient un critique sur une attaque au contact, l’attaque devient automatiquement une Attaque sournoise. Les effets de la capacité d’Attaque sournoise s’appliquent en plus des effets normaux du critique.\r\n",
+      "paths": "Voie du spadassin"
+    }
+  ],
+  "picture": []
+}

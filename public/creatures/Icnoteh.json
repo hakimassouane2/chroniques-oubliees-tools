@@ -1,0 +1,378 @@
+{
+  "name": [
+    {
+      "value": "Icnoteh"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Icnoteh est un vampire vieux de 2000 ans. il a décidé de créer une secte dont il serait le dieu, car il pense que ses origines elfiques le rendent supérieur aux autres vampires.</p>\r\n\r\n<p>A force de se voir dédier des sacrifices et des prières, il acquit suffisament de pouvoir pour pouvoir capturer un ange nommé Hamael et lui prendre son sang et de fait, devenir un dieu. Seul la mort d'Hamael peut le tuer, alors il le garde prisonnier dans un monde parallèle de feu, où règne la soeur déchu d'Hamael, Lilith.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "44",
+      "label": "Vampires"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "5"
+    }
+  ],
+  "level": [
+    {
+      "value": "13"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "29"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "200"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "20/ Argent ou Feu"
+    }
+  ],
+  "init": [
+    {
+      "value": "20"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Croc ou griffe&nbsp;<strong>20&nbsp;</strong>DM <strong>2d6+10</strong></p>\r\n\r\n<p>Brume sanglante&nbsp;<strong>16</strong>&nbsp;DM&nbsp;<strong>6d6+13</strong></p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Croc ou griffe 20",
+          "test": null,
+          "dm": "2d6+10",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Brume sanglante 16",
+          "test": null,
+          "dm": "6d6+13",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Voie de la magie destructrice - rang 1 à 5</p>\r\n\r\n<p>Voie de la mort - rang 1 à 5</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Brume sanglante : Au premier tour, il prend la forme d'une brume sanglante qui inflige des dégats à tout les advsaires. Lors de sa mort, il reprend sa forme de brume, mais ne fait que la moitié des dégats.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "54": {
+      "id": "54",
+      "name": "Voie de la mort",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "249",
+          "label": "Siphon des âmes",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "1",
+          "description": "Chaque fois qu’une créature meurt à moins de 20 m du Nécromancien, il récupère 1d6 PV.\r\n"
+        },
+        "2": {
+          "target_id": "250",
+          "label": "Masque mortuaire",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.\r\n"
+        },
+        "3": {
+          "target_id": "251",
+          "label": "Baiser du vampire",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).\r\n"
+        },
+        "4": {
+          "target_id": "252",
+          "label": "Briser les cœurs",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien fait mine de broyer le coeur de sa victime. Il doit réussir une attaque magique (portée 20 m) et inflige [5d6 + Mod. d’INT] DM. La victime divise les DM par deux si elle réussit un test de CON difficulté [10 + Mod. d’INT].\r\n"
+        },
+        "5": {
+          "target_id": "253",
+          "label": "Mot de mort",
+          "rank": "5",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Nécromancien doit réussir un test d’attaque magique contre le score max de PV de sa cible (portée 10 m). La victime doit réussir un test de CON difficulté [ 10 + Mod. d’INT] ou tomber à 0 PV.\r\n"
+        }
+      },
+      "rank": 5
+    },
+    "63": {
+      "id": "63",
+      "name": "Voie de la magie destructrice",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "296",
+          "label": "Projectile magique",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n"
+        },
+        "2": {
+          "target_id": "297",
+          "label": "Rayon affaiblissant",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n"
+        },
+        "3": {
+          "target_id": "298",
+          "label": "Flèche enflammée",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n"
+        },
+        "4": {
+          "target_id": "299",
+          "label": "Boule de feu",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Magicien choisit une cible située à moins de 30 mètres. Il fait un test d’attaque magique et le compare à la DEF de tous les personnages (y compris le Magicien et ses compagnons) se trouvant dans un rayon de 6 mètres autour de la cible. Chaque victime pour laquelle le test est un succès encaisse [4d6 + Mod. d’INT] de DM et doit effectuer un test de DEX difficulté 10 + Mod. d’INT du Magicien pour ne subir que la moitié des DM. Quand le test d’attaque est un échec, la cible subit automatiquement la moitié des DM (pas besoin de faire le test de DEX).\r\n"
+        },
+        "5": {
+          "target_id": "300",
+          "label": "Rituel de puissance",
+          "rank": "5",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Sur une attaque magique, le Magicien peut utiliser un d12 en attaque au lieu du d20 habituel. Si l’attaque est réussie, il ajoute 2d6 aux DM. Cette capacité s’utilise uniquement avec les sorts nécessitant un test d’attaque et infligeant des DM. Si les DM sont répartis sur plusieurs tours, seuls les DM initiaux sont modifiés.\r\n"
+        }
+      },
+      "rank": 5
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "296",
+      "label": "Projectile magique",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible visible située à moins de 50 mètres. Elle encaisse automatiquement 1d4 points de dégâts (pas de test d’attaque nécessaire). À partir du Rang 4 dans cette Voie, les DM passent à 1d6.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "297",
+      "label": "Rayon affaiblissant",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 10 mètres. Si son attaque magique réussit, le rayon affecte la cible qui subit un malus de -2 à ses tests de FOR, d’attaque au contact et de dégâts, pendant [1d6 + Mod. d’INT] tours.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "298",
+      "label": "Flèche enflammée",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 30 mètres. Si son attaque magique réussit, la cible encaisse [1d6 + Mod. d’INT] DM et la flèche enflamme ses vêtements. Chaque tour de combat suivant, le feu inflige 1d6 dégâts supplémentaires. Sur un résultat de 1 à 2, les flammes s’éteignent et le sort prend fin.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "299",
+      "label": "Boule de feu",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Magicien choisit une cible située à moins de 30 mètres. Il fait un test d’attaque magique et le compare à la DEF de tous les personnages (y compris le Magicien et ses compagnons) se trouvant dans un rayon de 6 mètres autour de la cible. Chaque victime pour laquelle le test est un succès encaisse [4d6 + Mod. d’INT] de DM et doit effectuer un test de DEX difficulté 10 + Mod. d’INT du Magicien pour ne subir que la moitié des DM. Quand le test d’attaque est un échec, la cible subit automatiquement la moitié des DM (pas besoin de faire le test de DEX).\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "300",
+      "label": "Rituel de puissance",
+      "rank": "5",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Sur une attaque magique, le Magicien peut utiliser un d12 en attaque au lieu du d20 habituel. Si l’attaque est réussie, il ajoute 2d6 aux DM. Cette capacité s’utilise uniquement avec les sorts nécessitant un test d’attaque et infligeant des DM. Si les DM sont répartis sur plusieurs tours, seuls les DM initiaux sont modifiés.\r\n",
+      "paths": "Voie de la magie destructrice"
+    },
+    {
+      "target_id": "249",
+      "label": "Siphon des âmes",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "1",
+      "description": "Chaque fois qu’une créature meurt à moins de 20 m du Nécromancien, il récupère 1d6 PV.\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "250",
+      "label": "Masque mortuaire",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Pendant [5 + Mod. d’INT] tours, le Nécromancien prend l’apparence de la mort. Il est immunisé aux attaques qui n’affectent que les vivants et à la plupart des pouvoirs des mort-vivants (de plus, ceux-ci le prennent pour l’un des leurs). Il retranche 2 points à tous les DM physiques subits et divise par deux tous les DM de froid.\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "251",
+      "label": "Baiser du vampire",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Ce sort nécessite la réussite d’un test d’attaque magique (portée 50 m). La cible subit [1d8+Mod. d’INT] DM et le Nécromancien récupère autant de PV (sans dépasser son score max de PV).\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "252",
+      "label": "Briser les cœurs",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien fait mine de broyer le coeur de sa victime. Il doit réussir une attaque magique (portée 20 m) et inflige [5d6 + Mod. d’INT] DM. La victime divise les DM par deux si elle réussit un test de CON difficulté [10 + Mod. d’INT].\r\n",
+      "paths": "Voie de la mort"
+    },
+    {
+      "target_id": "253",
+      "label": "Mot de mort",
+      "rank": "5",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Nécromancien doit réussir un test d’attaque magique contre le score max de PV de sa cible (portée 10 m). La victime doit réussir un test de CON difficulté [ 10 + Mod. d’INT] ou tomber à 0 PV.\r\n",
+      "paths": "Voie de la mort"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1879",
+      "alt": "",
+      "title": "",
+      "width": "750",
+      "height": "1000",
+      "label": "ob_647d1a_camazotz-default-card.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/ob_647d1a_camazotz-default-card.jpg.webp?itok=IAO5fjji"
+    }
+  ]
+}

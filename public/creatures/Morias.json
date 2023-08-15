@@ -1,0 +1,303 @@
+{
+  "name": [
+    {
+      "value": "Morias"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "9"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "24"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "105"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Epée longue</strong> +8 <strong>DM&nbsp;&nbsp;</strong>1d8+3</p>\r\n\r\n<p><strong>Dague</strong> +8 <strong>DM&nbsp;</strong>1d4+3</p>\r\n\r\n<p><strong>11-Marteau POW</strong> +8 <strong>DM&nbsp;</strong>1d6+3</p>\r\n\r\n<p><strong>151-Carapace bleue</strong></p>\r\n\r\n<p><strong>152-Fleur de feu</strong></p>\r\n\r\n<p><strong>193-Carapace rouge</strong></p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Epée longue",
+          "test": "+8",
+          "dm": null,
+          "special": "1d8+3",
+          "reach": null
+        },
+        {
+          "name": "Dague",
+          "test": "+8",
+          "dm": "1d4+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "11-Marteau POW",
+          "test": "+8",
+          "dm": "1d6+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "151-Carapace bleue",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "152-Fleur de feu",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "193-Carapace rouge",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "9"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du Champion</strong> rang 2</p>\r\n\r\n<p><strong>Voie du Combat</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Instinct de survie</strong><strong> </strong>: lorsqu’une attaque devrait amener le personnage à 0 PV, les DM qu’elle inflige sont divisés par 2 (minimum 1).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "56": {
+      "id": "56",
+      "name": "Voie du combat",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "273",
+          "label": "Vivacité",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le Guerrier gagne +3 en Initiative.\r\n"
+        },
+        "2": {
+          "target_id": "274",
+          "label": "Désarmer",
+          "rank": "2",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Guerrier réalise une attaque au contact et sa victime doit faire un test d’attaque opposé. Si le Guerrier obtient le plus haut score, l’arme de son adversaire tombe au sol (une action de mouvement doit être employée pour la ramasser). Si le Guerrier réussit son test avec au moins 10 points de plus que son adversaire, il empêche celui-ci de récupérer son arme (en posant le pied dessus, en l’envoyant hors de portée, etc.). Cette capacité est évidemment sans effet sur les armes naturelles (griffes, crocs, épine dorsale, etc.). Les adversaires qui utilisent des armes à 2 mains sont plus difficiles à désarmer, infligeant un malus de -5 au test.\r\n"
+        },
+        "3": {
+          "target_id": "275",
+          "label": "Double attaque",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le Guerrier peut tenter deux attaques au contact durant ce tour avec un malus de -2.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "93": {
+      "id": "93",
+      "name": "Voie du champion",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "420",
+          "label": "Imparable",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n"
+        },
+        "2": {
+          "target_id": "421",
+          "label": "Riposte",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le champion peut effectuer une attaque en action gratuite contre chaque adversaire qui l’attaque à l’exception de celui qu’il a lui-même choisit d’attaquer à son tour.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "420",
+      "label": "Imparable",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si le champion obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), il inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire).\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "421",
+      "label": "Riposte",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le champion peut effectuer une attaque en action gratuite contre chaque adversaire qui l’attaque à l’exception de celui qu’il a lui-même choisit d’attaquer à son tour.\r\n",
+      "paths": "Voie du champion"
+    },
+    {
+      "target_id": "273",
+      "label": "Vivacité",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le Guerrier gagne +3 en Initiative.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "274",
+      "label": "Désarmer",
+      "rank": "2",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Guerrier réalise une attaque au contact et sa victime doit faire un test d’attaque opposé. Si le Guerrier obtient le plus haut score, l’arme de son adversaire tombe au sol (une action de mouvement doit être employée pour la ramasser). Si le Guerrier réussit son test avec au moins 10 points de plus que son adversaire, il empêche celui-ci de récupérer son arme (en posant le pied dessus, en l’envoyant hors de portée, etc.). Cette capacité est évidemment sans effet sur les armes naturelles (griffes, crocs, épine dorsale, etc.). Les adversaires qui utilisent des armes à 2 mains sont plus difficiles à désarmer, infligeant un malus de -5 au test.\r\n",
+      "paths": "Voie du combat"
+    },
+    {
+      "target_id": "275",
+      "label": "Double attaque",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le Guerrier peut tenter deux attaques au contact durant ce tour avec un malus de -2.\r\n",
+      "paths": "Voie du combat"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1670",
+      "alt": "",
+      "title": "",
+      "width": "564",
+      "height": "564",
+      "label": "Morias.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Morias.jpg.webp?itok=Mc5cQqvI"
+    }
+  ]
+}

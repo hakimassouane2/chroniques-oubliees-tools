@@ -1,0 +1,318 @@
+{
+  "name": [
+    {
+      "value": "AXELIAM"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un bandit vétéran peut servir de chef à un groupe de petites frappes (augmentez son CHA à +2). Si vous voulez des bandits plus dangereux, ajoutez-leur un ou plusieurs rangs dans la Voie de la meute (le rang 2, Attaque en traître est un incontournable).</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "3",
+      "label": "Bandits"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [
+    {
+      "value": "3"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "cha",
+      "label": "CHA"
+    }
+  ],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "17"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée longue</strong> <strong>DM</strong> 1d8+3<br />\r\n<strong>Arc</strong> (30m) <strong>DM</strong> 1d6+2</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée longue",
+          "test": null,
+          "dm": "1d8+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Arc (30m)",
+          "test": null,
+          "dm": "1d6+2",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "9",
+      "label": "Rôdeur"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "3"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "43": {
+      "id": "43",
+      "name": "Voie de l’archer",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "193",
+          "label": "Sens affûtés",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "44": {
+      "id": "44",
+      "name": "Voie du compagnon animal",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "198",
+          "label": "Odorat",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le loup du Rôdeur détecte les odeurs des animaux et des créatures là où ils sont passés. Le Rôdeur obtient un bonus de +5 aux tests de SAG pour pister et suivre des traces.\r\n"
+        },
+        "2": {
+          "target_id": "199",
+          "label": "Surveillance",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le loup est constamment sur ses gardes. Le Rôdeur a donc un temps d’avance quand des ennemis essaient de l’attaquer par surprise, il obtient un bonus de +5 pour les tests de surprise (SAG) et en Initiative. Lorsqu’il est surpris, il peut faire une attaque simple à distance AVANT que ne débute le premier tour de combat.\r\n"
+        },
+        "3": {
+          "target_id": "200",
+          "label": "Combat",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le loup du Rôdeur peut désormais se battre comme un véritable personnage. Il attaque en même temps que le Rôdeur. Loup : Init 13, DEF 14, PV [niveau x 4], attaque au contact = [niveau du Rôdeur], DM 1d6+1, FOR +1, DEX +1, CON* +1, INT -3, SAG* +2, CHA -2.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "48": {
+      "id": "48",
+      "name": "Voie du traqueur",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "221",
+          "label": "Pas de loup",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Quand il essaie de passer inaperçu en forêt, le Rôdeur bénéficie d’un bonus de +2 par Rang à son test de DEX.\r\n"
+        },
+        "2": {
+          "target_id": "222",
+          "label": "Ennemi juré",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Après avoir tué une créature, le Rôdeur peut décider que tous ceux de sa race sont devenus des ennemis jurés. Contre ces créatures, il bénéficie d’un bonus égal à son Mod. de SAG pour ses attaques et il inflige +1d6 de DM. Le Rôdeur peut changer d’ennemi juré une fois au cours de chaque niveau.\r\n"
+        }
+      },
+      "rank": 2
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "193",
+      "label": "Sens affûtés",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n",
+      "paths": "Voie de l’archer"
+    },
+    {
+      "target_id": "198",
+      "label": "Odorat",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le loup du Rôdeur détecte les odeurs des animaux et des créatures là où ils sont passés. Le Rôdeur obtient un bonus de +5 aux tests de SAG pour pister et suivre des traces.\r\n",
+      "paths": "Voie du compagnon animal"
+    },
+    {
+      "target_id": "199",
+      "label": "Surveillance",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le loup est constamment sur ses gardes. Le Rôdeur a donc un temps d’avance quand des ennemis essaient de l’attaquer par surprise, il obtient un bonus de +5 pour les tests de surprise (SAG) et en Initiative. Lorsqu’il est surpris, il peut faire une attaque simple à distance AVANT que ne débute le premier tour de combat.\r\n",
+      "paths": "Voie du compagnon animal"
+    },
+    {
+      "target_id": "200",
+      "label": "Combat",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le loup du Rôdeur peut désormais se battre comme un véritable personnage. Il attaque en même temps que le Rôdeur. Loup : Init 13, DEF 14, PV [niveau x 4], attaque au contact = [niveau du Rôdeur], DM 1d6+1, FOR +1, DEX +1, CON* +1, INT -3, SAG* +2, CHA -2.\r\n",
+      "paths": "Voie du compagnon animal"
+    },
+    {
+      "target_id": "221",
+      "label": "Pas de loup",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Quand il essaie de passer inaperçu en forêt, le Rôdeur bénéficie d’un bonus de +2 par Rang à son test de DEX.\r\n",
+      "paths": "Voie du traqueur"
+    },
+    {
+      "target_id": "222",
+      "label": "Ennemi juré",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Après avoir tué une créature, le Rôdeur peut décider que tous ceux de sa race sont devenus des ennemis jurés. Contre ces créatures, il bénéficie d’un bonus égal à son Mod. de SAG pour ses attaques et il inflige +1d6 de DM. Le Rôdeur peut changer d’ennemi juré une fois au cours de chaque niveau.\r\n",
+      "paths": "Voie du traqueur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "396",
+      "alt": "",
+      "title": "",
+      "width": "780",
+      "height": "860",
+      "label": "bandit-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-08/bandit-modified.png.webp?itok=tTVFoJ8t"
+    }
+  ]
+}

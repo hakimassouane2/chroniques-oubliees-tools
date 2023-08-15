@@ -1,0 +1,193 @@
+{
+  "name": [
+    {
+      "value": "Griffon"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Le griffon est une puissante créature au corps de lion pourvue de la tête et des ailes d’un aigle.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Ce mélange ne manque pas de majesté et cet animal fantastique est parfois utilisé comme monture par les Chevaliers. La créature pèse environ 300kg pour une envergure de 7 mètres. Un griffon est plus intelligent qu’un simple animal et, même s’il ne parle pas, il peut apprendre à comprendre une langue s’il y est habitué très tôt.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsures et griffes</strong> +10 <strong>DM</strong> 2d6+8</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsures et griffes",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures volantes</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": "<p>Un œuf de griffon viable est un bien très précieux, il vaut 3 000 pa, un tout jeune animal se vend autour de 5 000 pa. Les dresseurs professionnels demandent 1 000 pa pour apprivoiser ou entraîner un griffon.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "structured_capabilities": {
+    "88": {
+      "id": "88",
+      "name": "Voie des créatures volantes",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "405",
+          "label": "Vol rapide",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "405",
+      "label": "Vol rapide",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n",
+      "paths": "Voie des créatures volantes"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1167",
+      "alt": "Griffon",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "griffin-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/griffin-modified.png.webp?itok=wnsbES7o"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "name": [
+    {
+      "value": "Loup-garou naturel"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Les loups-garous naturels sont porteurs du don lunaire depuis leur naissance car un de leur parent était lui-même un loup-garou. Ce sont des créatures plus puissantes, décrites par défaut comme maléfiques dans le cadre de CO Fantasy mais qui peuvent avoir des motivations plus ordinaires selon votre cadre de jeu. Un loup-garou naturel peut changer de forme à volonté et possède deux formes alternatives, la forme classique de loup et une forme hybride mi-homme, mi-loup (ou de loup redressé) plus dangereuse. Le loup-garou décrit ici est un Profil de base mais vous pouvez le rendre plus puissant en lui ajoutant des niveaux dans un Profil ou plus simplement en augmentant son rang de Boss.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "31",
+      "label": "Lycanthropes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "forest",
+      "label": "Forêt"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "4"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "35"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Loup : <strong>morsure et griffes</strong> +6 <strong>DM</strong> 1d6+5<br />\r\nHumanoïde : <strong>arme</strong> +6 <strong>DM</strong> 1d8+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Loup : morsure et griffes",
+          "test": "+6",
+          "dm": "1d6+5",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Humanoïde : arme",
+          "test": "+6",
+          "dm": "1d8+5",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie du prédateur</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Transformation en loup(L) :</em> la créature peut se transformer à volonté en loup.</p>\r\n\r\n<p><em>Forme hybride (L) :</em> le personnage adopte une forme qui reflète totalement sa nature duale, mi-loup mi-humanoïde. Il peut à la fois faire des attaques de morsure et utiliser une arme. En termes de jeu, cela lui accorde une attaque de chaque type (loup + humanoïde) par tour en utilisant une action limitée.</p>\r\n\r\n<p><em>Empathie avec les loups :</em> un loup-garou possède un don naturel pour apaiser les loups et parfois même les commander.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "82": {
+      "id": "82",
+      "name": "Voie du prédateur",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "387",
+          "label": "Embuscade",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "387",
+      "label": "Embuscade",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+      "paths": "Voie du prédateur"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1064",
+      "alt": "Loup-garou naturel",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "werewolf_natural-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/werewolf_natural-modified.png.webp?itok=so0XNl9Q"
+    }
+  ]
+}

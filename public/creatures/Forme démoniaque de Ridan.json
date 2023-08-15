@@ -1,0 +1,164 @@
+{
+  "name": [
+    {
+      "value": "Forme démoniaque de Ridan"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Une forme démoniaque mêlant homme et démon. On voit que les deux formes se battent entre elles pour la dominance du corps.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Un être très grand avec une épée démoniaque. Apparence de démon</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "2"
+    }
+  ],
+  "level": [
+    {
+      "value": "6"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "75"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "RD 5 pour attaque feu et acide"
+    }
+  ],
+  "init": [
+    {
+      "value": "15"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Epée démoniaque : 1d12 + 3 (test de dextérité lvl 10 + nbr de DM de l'arme)</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Epée démoniaque : 1d12 + 3 (test de dextérité lvl 10 + nbr de",
+          "test": null,
+          "dm": null,
+          "special": "de l'arme)",
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p>Coup Infernal : Plante son épée dans le sol et fait sortir un geyser de flamme sous une cible. Jet de DEX pour esquiver (8 ou moins - tout les DM / 9-13 - DM divisé par 2 / +13 aucun DM -&gt; LES DEGATS SONT DE 3d6 + brulure (1d6 DM pdt 1d4 tour)</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Résistance :</em>&nbsp;par défaut, tous les démons réduisent les DM de feu et d’acide de 10 points. D’autres capacités peuvent améliorer cette résistance.</p>\r\n\r\n<p><em>Télépathie :</em>&nbsp;les démons peuvent communiquer avec toutes les créatures par télépathie à une distance de 50 mètres sans avoir besoin de partager une langue commune. Ils parlent l’infernal.</p>\r\n\r\n<p><em>Téléportation (L) :</em>&nbsp;un démon peut se téléporter à n’importe quel endroit qu’il voit ou qu’il connaît à une distance maximum de [NC x 100] mètres.</p>\r\n\r\n<p><em>Vision dans le noir :</em>&nbsp;tous les démons voient dans le noir comme en plein jour à une distance de 30 mètres.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": []
+}

@@ -1,0 +1,190 @@
+{
+  "name": [
+    {
+      "value": "Rat-garou naturel"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Les lycanthropes naturels peuvent prendre une forme hybride qui leur permet d’attaquer avec une arme en plus de leur morsure.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "31",
+      "label": "Lycanthropes"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-4"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "29"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 / argent"
+    }
+  ],
+  "init": [
+    {
+      "value": "22"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Rat : <strong>Morsure</strong> +4 <strong>DM</strong> 1d4+3<br />\r\nHumanoïde : <strong>Arme</strong> +4 <strong>DM</strong> 1d8+3</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Rat : Morsure",
+          "test": "+4",
+          "dm": "1d4+3",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Humanoïde : Arme",
+          "test": "+4",
+          "dm": "1d8+3",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Transformation en rat (L) :</em> la créature peut se transformer à volonté en rat.</p>\r\n\r\n<p><em>Forme hybride (L) :</em> le personnage adopte une forme qui reflète totalement sa nature duale, mi-rat mi-humanoïde. Il peut à la fois faire des attaques de morsure et utiliser une arme. En termes de jeu, cela lui accorde une attaque de chaque type (rat + humanoïde) par tour en utilisant une action limitée.</p>\r\n\r\n<p><em>Empathie avec les rats :</em> un rat-garou possède un don naturel pour apaiser les rats et parfois même les commander.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "1067",
+      "alt": "",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "wererat_natural-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wererat_natural-modified.png.webp?itok=GkivjWmI"
+    }
+  ]
+}

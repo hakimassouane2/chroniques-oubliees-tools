@@ -1,0 +1,173 @@
+{
+  "name": [
+    {
+      "value": "Swamp Shaman"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "24",
+      "label": "Hommes-lézards"
+    }
+  ],
+  "environment": [
+    {
+      "value": "swamp",
+      "label": "Marécage"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "inferior",
+      "label": "Inférieur"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "0.5"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-1"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "13"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "4"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "13"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Bâton&nbsp;</strong>+1 <strong>DM</strong> 1d6+1</p>\r\n\r\n<p><strong>Griffe DM</strong> 1d4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Bâton",
+          "test": "+1",
+          "dm": "1d6+1",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Griffe",
+          "test": null,
+          "dm": "1d4",
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Maladie :</em> chaque créature griffée par un chaman doit faire un test de CON difficulté 8 à la fin du combat. En cas d’échec, elle contracte une maladie dont les symptômes se manifestent après 2d6 heures. La victime est <em>Affaiblie</em> et perd 1d4 PV toutes les 24 heures qui ne peuvent pas être soignés par le repos. Réalisez un nouveau test de CON difficulté 15 chaque jour pour tenter de mettre fin à la maladie. Les PV perdus sont alors récupérés au rythme de 1 PV par jour de repos.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": [],
+  "capabilities": [],
+  "picture": [
+    {
+      "target_id": "751",
+      "alt": "",
+      "title": "",
+      "width": "416",
+      "height": "449",
+      "label": "pharblex.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/pharblex.png.webp?itok=MpVxdsNc"
+    }
+  ]
+}

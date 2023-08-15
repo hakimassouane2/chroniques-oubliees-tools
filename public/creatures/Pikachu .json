@@ -1,0 +1,247 @@
+{
+  "name": [
+    {
+      "value": "Pikachu "
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Petite créature jaune dépourvue de 4 petite patte et un queue jaune et marron. Il et super mignon mais il ne faut pas ce faire avoir</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Voici un Pikachu rameur il aime bien jouer au jeux vidéo et adoré ce battre et faire des course de rapidité il utilise l'électricité pour ce battre&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "plain",
+      "label": "Plaine"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "1"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "small",
+      "label": "Petit"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "5"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "20"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "18"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Que de fer&nbsp; &nbsp; &nbsp;2d6&nbsp; +4</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Que de fer     2d6",
+          "test": "+4",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [
+    {
+      "value": "1"
+    }
+  ],
+  "paths": [
+    {
+      "value": "<p>Voie des Pokémon&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "74": {
+      "id": "74",
+      "name": "Voie de l'elfe sylvain",
+      "type": "race",
+      "capabilities": {
+        "3": {
+          "target_id": "349",
+          "label": "Archer émérite",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’il utilise un arc, l’elfe sylvain obtient une réussite critique sur un résultat de 19-20 au d20. Il sait utiliser les arcs quel que soit son profil.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "75": {
+      "id": "75",
+      "name": "Voie du haut-elfe",
+      "type": "character",
+      "capabilities": {
+        "4": {
+          "target_id": "355",
+          "label": "Immortel",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "L’elfe n’a besoin que de la moitié du repos, de la nourriture ou de la boisson d’un humain normal pour être en pleine forme. Il est immunisé aux effets des poisons et des maladies.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "76": {
+      "id": "76",
+      "name": "Voie du gnome",
+      "type": "race",
+      "capabilities": {
+        "4": {
+          "target_id": "360",
+          "label": "Merveille technologique",
+          "rank": "4",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le gnome sait utiliser les arbalètes (et les armes à poudre si votre MJ autorise leur usage) quel que soit son profil. Il ajoute son Mod. de DEX aux DM qu’il inflige avec ces armes.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "360",
+      "label": "Merveille technologique",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le gnome sait utiliser les arbalètes (et les armes à poudre si votre MJ autorise leur usage) quel que soit son profil. Il ajoute son Mod. de DEX aux DM qu’il inflige avec ces armes.\r\n",
+      "paths": "Voie du gnome"
+    },
+    {
+      "target_id": "355",
+      "label": "Immortel",
+      "rank": "4",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "L’elfe n’a besoin que de la moitié du repos, de la nourriture ou de la boisson d’un humain normal pour être en pleine forme. Il est immunisé aux effets des poisons et des maladies.\r\n",
+      "paths": "Voie du haut-elfe"
+    },
+    {
+      "target_id": "349",
+      "label": "Archer émérite",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’il utilise un arc, l’elfe sylvain obtient une réussite critique sur un résultat de 19-20 au d20. Il sait utiliser les arcs quel que soit son profil.\r\n",
+      "paths": "Voie de l'elfe sylvain"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1562",
+      "alt": "C kakashi en ermite rikudo",
+      "title": "",
+      "width": "720",
+      "height": "1280",
+      "label": "Screenshot_20230403-163740_Snapchat.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/Screenshot_20230403-163740_Snapchat.jpg.webp?itok=auvtZLIz"
+    }
+  ]
+}

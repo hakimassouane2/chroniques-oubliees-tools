@@ -1,0 +1,179 @@
+{
+  "name": [
+    {
+      "value": "Ogre des montagnes"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "36",
+      "label": "Ogres"
+    }
+  ],
+  "environment": [],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "16"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "30"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "12"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Hachoir +8 = 2d6+6</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Hachoir",
+          "test": "+8",
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><strong>Baroud d'honneur</strong> : lorsqu'il est réduit à 0 PV, l'ogre porte une dernière attaque avec un bonus de +5 avant de s'écrouler sans vie.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "21": {
+      "id": "21",
+      "name": "Voie du héros",
+      "type": "character",
+      "capabilities": {
+        "2": {
+          "target_id": "102",
+          "label": "Piqûres d'insecte",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’il porte une armure lourde (demi-plaque ou plus), le Chevalier réduit les DM subis par les attaques à distances d’un montant égal au rang atteint dans cette voie.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "102",
+      "label": "Piqûres d'insecte",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’il porte une armure lourde (demi-plaque ou plus), le Chevalier réduit les DM subis par les attaques à distances d’un montant égal au rang atteint dans cette voie.\r\n",
+      "paths": "Voie du héros"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1781",
+      "alt": "",
+      "title": "",
+      "width": "508",
+      "height": "700",
+      "label": "Ogre.jpg",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Ogre.jpg.webp?itok=vI5T_3Qt"
+    }
+  ]
+}

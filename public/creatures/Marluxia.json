@@ -1,0 +1,289 @@
+{
+  "name": [
+    {
+      "value": "Marluxia"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Marluxia est un homme d'une quarantaine d'années, il a les cheveux gris et un teint assez pâle avec des yeux rouges luisants.</p>\r\n\r\n<p>Il porte toujours une toge de son église, avec un manteau en cuir de qualité supérieur par dessus.&nbsp;</p>\r\n\r\n<p>Une grande cicatrice descend sur son sourcils en partant du haut de son front.</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Prêtre en chef de l'église de Maëdra</p>\r\n\r\n<p>Se bats avec de la magie <a href=\"https://fr.wikipedia.org/wiki/Insecto%C3%AFde\">Insectoïde</a>&nbsp;et une faux à une main.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "46",
+      "label": "PNJ"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "8"
+    }
+  ],
+  "level": [
+    {
+      "value": "8"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "medium",
+      "label": "Moyen"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "1"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "int",
+      "label": "INT"
+    },
+    {
+      "value": "wis",
+      "label": "SAG"
+    }
+  ],
+  "defense": [
+    {
+      "value": "12"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "45"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "Réduit de /2 les dégats de magie noir et insectes, poisons, acide."
+    }
+  ],
+  "init": [
+    {
+      "value": "2"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Corps à corps : Faux du maitre -&gt; 1d6+DEX&nbsp;</p>\r\n\r\n<p>Distance : Fiole d'acide -&gt;&nbsp;</p>\r\n\r\n<p>Attaque spéciale : Constriction -&gt; Une main utilisé pour se transformer en mille-pattes extensible qui serre sont adversaires (porté 4 m) 1d4+INT.&nbsp; Doit réussir un jet de DEX. 16 pour sortir ou reçoit 1d4 par tour&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Corps à corps : Faux du maitre -&gt; 1d6+DEX",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Distance : Fiole d'acide -&gt;",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Attaque spéciale : Constriction -&gt; Une main utilisé pour se transformer en mille-pattes extensible qui serre sont adversaires (porté 4 m) 1d4+INT.  Doit réussir un jet de DEX. 16 pour sortir ou reçoit 1d4 par tour",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p>Main du mage :</p>\r\n\r\n<p>Projectile magique :</p>\r\n\r\n<p>Occupation de l'essaim des enfers :</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "39": {
+      "id": "39",
+      "name": "Voie des illusions",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "186",
+          "label": "Imitation",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L'ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou - 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "41": {
+      "id": "41",
+      "name": "Voie des artefacts",
+      "type": "character",
+      "capabilities": {
+        "4": {
+          "target_id": "206",
+          "label": "Frappe des arcanes",
+          "rank": "4",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Le Forgesort frappe le sol de son bâton et provoque une onde dévastatrice dans un rayon de 10 m autour de lui. Toutes les créatures dans la zone subissent automatiquement [2d6 + Mod. d’INT] DM et doivent réussir un test de FOR difficulté [10 + Mod. d’INT] pour ne pas tomber au sol.\r\n"
+        }
+      },
+      "rank": "custom"
+    },
+    "53": {
+      "id": "53",
+      "name": "Voie du démon",
+      "type": "character",
+      "capabilities": {
+        "1": {
+          "target_id": "244",
+          "label": "Malédiction",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "Effectuez un test d’attaque magique contre une cible à moins de 20 mètres. En cas de succès, la victime réalise tous ses tests avec deux d20 et garde le résultat le plus faible. Le sort prend fin dès qu’elle aura raté trois tests (il n’y a sinon aucune limite de temps). Si la cible possède une capacité lui permettant de lancer deux dés et de garder le meilleur, elle ne lance plus qu’un seul dé.\r\n"
+        }
+      },
+      "rank": 1
+    },
+    "87": {
+      "id": "87",
+      "name": "Voie de la magie de combat",
+      "type": "creature",
+      "capabilities": {
+        "3": {
+          "target_id": "404",
+          "label": "Déplacement magique",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "244",
+      "label": "Malédiction",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Effectuez un test d’attaque magique contre une cible à moins de 20 mètres. En cas de succès, la victime réalise tous ses tests avec deux d20 et garde le résultat le plus faible. Le sort prend fin dès qu’elle aura raté trois tests (il n’y a sinon aucune limite de temps). Si la cible possède une capacité lui permettant de lancer deux dés et de garder le meilleur, elle ne lance plus qu’un seul dé.\r\n",
+      "paths": "Voie du démon"
+    },
+    {
+      "target_id": "404",
+      "label": "Déplacement magique",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n",
+      "paths": "Voie de la magie de combat"
+    },
+    {
+      "target_id": "206",
+      "label": "Frappe des arcanes",
+      "rank": "4",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "Le Forgesort frappe le sol de son bâton et provoque une onde dévastatrice dans un rayon de 10 m autour de lui. Toutes les créatures dans la zone subissent automatiquement [2d6 + Mod. d’INT] DM et doivent réussir un test de FOR difficulté [10 + Mod. d’INT] pour ne pas tomber au sol.\r\n",
+      "paths": "Voie des artefacts"
+    },
+    {
+      "target_id": "186",
+      "label": "Imitation",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L'ensorceleur peut prendre l’apparence d’une créature de taille proche (+ ou - 50 cm) qu’il voit au moment de l’incantation. Durée [5 + Mod. de CHA] minutes. Toucher l’Ensorceleur (une attaque ou non) met fin au sort.\r\n",
+      "paths": "Voie des illusions"
+    }
+  ],
+  "picture": []
+}

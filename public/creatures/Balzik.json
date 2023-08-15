@@ -1,0 +1,196 @@
+{
+  "name": [
+    {
+      "value": "Balzik"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "10"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "str_comment": [
+    {
+      "value": "Rz,.kjfhgxfjtdhx"
+    }
+  ],
+  "dex_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "4"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "0"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "int",
+      "label": "INT"
+    }
+  ],
+  "defense": [
+    {
+      "value": "17"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "100"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p>Poing+5 1d6+3</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Poing+5 1d6+3",
+          "test": null,
+          "dm": null,
+          "special": null,
+          "reach": null
+        }
+      ]
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "10",
+      "label": "Nécromancien"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "10"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "36": {
+      "id": "36",
+      "name": "Voie de l'air",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "171",
+          "label": "Télékinésie",
+          "rank": "3",
+          "is_limited": "1",
+          "is_magical": "1",
+          "description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire (par exemple lui-même) dont le poids n’excède pas 50 kg par Rang, à une portée de 20 m et pendant [5+Mod. de CHA] tours. L’objet peut être déplacé de 10 m par tour au prix d'une action de mouvement. Il est possible de faire tomber un objet sur une cible surprise (DM 1d6 tous les 50 kg).\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "171",
+      "label": "Télékinésie",
+      "rank": "3",
+      "is_limited": "1",
+      "is_magical": "1",
+      "description": "L’Ensorceleur peut déplacer dans les airs un objet inerte ou une cible volontaire (par exemple lui-même) dont le poids n’excède pas 50 kg par Rang, à une portée de 20 m et pendant [5+Mod. de CHA] tours. L’objet peut être déplacé de 10 m par tour au prix d'une action de mouvement. Il est possible de faire tomber un objet sur une cible surprise (DM 1d6 tous les 50 kg).\r\n",
+      "paths": "Voie de l'air"
+    }
+  ],
+  "picture": []
+}

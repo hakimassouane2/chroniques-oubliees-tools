@@ -1,0 +1,195 @@
+{
+  "name": [
+    {
+      "value": "Manticore"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>La manticore est un puissant prédateur d’environ 500kg. Pourvue d’un corps de lion et de grandes ailes de chauve-souris, elle dispose d’une arme létale sous la forme d’une longue queue munie de dards qu’elle est capable de projeter à distance.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>La manticore est une créature magique intelligente et son facies est une parodie de visage humanoïde doté d’une mâchoire disproportionnée qui lui permet malgré tout de parler. Créature maléfique, elle s’allie souvent à d’autres forces tyranniques qui utilisent à leur avantage ses capacités de créature volante (reconnaissance, surveillance, soutient aérien) en échange de son met préféré : la chair humaine.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [],
+  "environment": [
+    {
+      "value": "mountain",
+      "label": "Montagne"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "1"
+    }
+  ],
+  "level": [
+    {
+      "value": "5"
+    }
+  ],
+  "category": [
+    {
+      "value": "alive",
+      "label": "Vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "2"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "-2"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [],
+  "defense": [
+    {
+      "value": "18"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [],
+  "init": [
+    {
+      "value": "16"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Morsure et griffes</strong> +10 <strong>DM</strong> 2d6+8<br />\r\n<strong>Projection de piquants</strong> (30m) +7 <strong>DM</strong> 2d6+5</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Morsure et griffes",
+          "test": "+10",
+          "dm": "2d6+8",
+          "special": null,
+          "reach": null
+        },
+        {
+          "name": "Projection de piquants (30m)",
+          "test": "+7",
+          "dm": "2d6+5",
+          "special": null,
+          "reach": "30"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures volantes</strong> rang 1</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Projection de piquants :</em> La manticore ne peut utiliser son attaque de projection de piquants que 5 fois par rencontre, il lui faut ensuite se reposer 24h pour en laisser repousser de nouveaux. Effectuer une attaque de Morsure et griffes plus une Projection de piquant nécessite une action limitée.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "88": {
+      "id": "88",
+      "name": "Voie des créatures volantes",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "405",
+          "label": "Vol rapide",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n"
+        }
+      },
+      "rank": 1
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "405",
+      "label": "Vol rapide",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol. Au premier tour de combat, la créature obtient un bonus de +5 en attaque et +1d6 aux DM si elle est en vol et attaque une créature au sol.\r\n",
+      "paths": "Voie des créatures volantes"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "1175",
+      "alt": "Manticore",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "manticore-modified.png",
+      "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/manticore-modified.png.webp?itok=DgCNDwjW"
+    }
+  ]
+}

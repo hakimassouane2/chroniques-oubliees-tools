@@ -1,0 +1,169 @@
+{
+  "name": [
+    {
+      "value": "Emil l'abomination"
+    }
+  ],
+  "appearance": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "description": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "45",
+      "label": "Zombis"
+    }
+  ],
+  "environment": [
+    {
+      "value": "underground",
+      "label": "Souterrain"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "powerful",
+      "label": "Puissant"
+    }
+  ],
+  "boss_rank": [],
+  "level": [
+    {
+      "value": "3"
+    }
+  ],
+  "category": [
+    {
+      "value": "non_living",
+      "label": "Non-vivante"
+    }
+  ],
+  "size": [
+    {
+      "value": "big",
+      "label": "Grande"
+    }
+  ],
+  "str_mod": [],
+  "str_comment": [],
+  "dex_mod": [],
+  "dex_comment": [],
+  "con_mod": [],
+  "con_comment": [],
+  "int_mod": [],
+  "int_comment": [],
+  "wis_mod": [],
+  "wis_comment": [],
+  "cha_mod": [],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "str",
+      "label": "FOR"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "15"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "50"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "5 tranchants"
+    }
+  ],
+  "init": [
+    {
+      "value": "10"
+    }
+  ],
+  "attacks": [
+    {
+      "value": null,
+      "format": null,
+      "data": []
+    }
+  ],
+  "profile": [
+    {
+      "target_id": "5",
+      "label": "Chevalier"
+    }
+  ],
+  "profile_level": [
+    {
+      "value": "5"
+    }
+  ],
+  "paths": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "18": {
+      "id": "18",
+      "name": "Voie de la guerre",
+      "type": "character",
+      "capabilities": {
+        "3": {
+          "target_id": "83",
+          "label": "Coup de bouclier",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Le chevalier peut effectuer à chaque tour une attaque au bouclier avec un d12 au lieu du d20 (action gratuite) qui inflige [1d4 + Mod. de FOR] DM.\r\n"
+        }
+      },
+      "rank": "custom"
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "83",
+      "label": "Coup de bouclier",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Le chevalier peut effectuer à chaque tour une attaque au bouclier avec un d12 au lieu du d20 (action gratuite) qui inflige [1d4 + Mod. de FOR] DM.\r\n",
+      "paths": "Voie de la guerre"
+    }
+  ],
+  "picture": []
+}
