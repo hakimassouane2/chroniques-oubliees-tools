@@ -2,6 +2,796 @@
   {
     "name": [
       {
+        "value": "Abaddon"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "9",
+        "label": "Démons et Diables"
+      }
+    ],
+    "environment": [
+      {
+        "value": "special",
+        "label": "Spécial"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "3"
+      }
+    ],
+    "level": [
+      {
+        "value": "12"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "huge",
+        "label": "Énorme"
+      }
+    ],
+    "str_mod": [],
+    "str_comment": [],
+    "dex_mod": [],
+    "dex_comment": [],
+    "con_mod": [],
+    "con_comment": [],
+    "int_mod": [],
+    "int_comment": [],
+    "wis_mod": [],
+    "wis_comment": [],
+    "cha_mod": [],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "con",
+        "label": "CON"
+      },
+      {
+        "value": "int",
+        "label": "INT"
+      }
+    ],
+    "defense": [
+      {
+        "value": "22"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "130"
+      }
+    ],
+    "dmg_reduction": [
+      {
+        "value": "RD 10 Feu et Acide"
+      }
+    ],
+    "init": [
+      {
+        "value": "18"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>Dards (x3)&nbsp;</strong>+12&nbsp;<strong>DM&nbsp;</strong>2D6 + Poison</p>\r\n\r\n<p><strong>Epée&nbsp;</strong>+12&nbsp;<strong>DM</strong> 3D6+6 + 2D6 froid</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Dards (x3)",
+            "test": "+12",
+            "dm": "2d6",
+            "special": "+ Poison",
+            "reach": null
+          },
+          {
+            "name": "Epée",
+            "test": "+12",
+            "dm": "3d6+6",
+            "special": "+ 2D6 froid",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": "<p><strong>Voie des créatures magiques</strong> rang 3 (RD 15/ armes saintes)</p>\r\n\r\n<p><strong>Voie de la magie maléfique</strong> rang 2</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p>Vol: 30m par action de mouvement</p>\r\n\r\n<p>attaques multiples: 3 attaques pour 1 action d'attaque (Dards)</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "841",
+        "alt": "",
+        "title": "",
+        "width": "2644",
+        "height": "2445",
+        "label": "5iRFpVpBlhH3UJ6ySIRHtf2YB7yl8fPGoPGOhMuVkzs.jpg",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/5iRFpVpBlhH3UJ6ySIRHtf2YB7yl8fPGoPGOhMuVkzs.jpg.webp?itok=ArbjnaEi"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Aberration des cauchemars"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [
+      {
+        "value": "special",
+        "label": "Spécial"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "7"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "big",
+        "label": "Grande"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-5"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "6"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "str",
+        "label": "FOR"
+      },
+      {
+        "value": "con",
+        "label": "CON"
+      },
+      {
+        "value": "wis",
+        "label": "SAG"
+      }
+    ],
+    "defense": [
+      {
+        "value": "12"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "60"
+      }
+    ],
+    "dmg_reduction": [
+      {
+        "value": "RD : 5 dégâts non magique "
+      }
+    ],
+    "init": [
+      {
+        "value": "14"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>Tentacule : +10 4d6 de dégâts physique</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Tentacule :",
+            "test": "+10",
+            "dm": null,
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p>- Invocation de créatures 4 au début de tour /+2 par tour automatique (action gratuite)<br />\r\n- Hallucination : Attaque mentale, dégâts psychique (3d6+2) + peur si rate jet d'INT (DD 12)<br />\r\n- Création de ténèbres : invoque une zone d'ombre qui renforce les invocations (+2 à leurs jets et -2 aux jets d'attaque pour les personnages).<br />\r\n- Fouet tentaculaire : Attaque automatique les personnages situé au contact des invocations en début de round. (+7 2d6+2 ; Test DEX DD 12 pour 1/2 dégâts)</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "1266",
+        "alt": "",
+        "title": "",
+        "width": "864",
+        "height": "1728",
+        "label": "Abberation de cauchemar.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-03/Abberation%20de%20cauchemar.png.webp?itok=-CXG9tMZ"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Abélard II le Triomphant, Comte défunt de Goncquiers"
+      }
+    ],
+    "appearance": [
+      {
+        "value": "<p>Le comte squelette porte encore sa couronne, bien que largement rouillée suite à plusieurs siècles d'abandon. Il trimbale avec lui une masse qui luis légèrement. Son corps est encore recouvert par quelques plaques de fer et bouts de tissus en lambeaux.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>Le comte Abélard II est rentré dans l'histoire pour avoir arrêter l'avancée des troupes de l'Usurpateur pendant la guerre civile du troisième interrègne de l'Empire de la Lune. C'est sous sa charge que Goncquiers va vivre sa deuxième phase de croissance, que la route traversant la ville va se faire paver et que les mines d'or vont rouvrir. Avant la bataille, il s'était&nbsp;replié avec ses serfs sur le Clos-de-la-Menguarre, comme nombre de ses prédécesseurs avant lui, alors encerclé par les armées fédérées contre le Régent Anatole III. Il va traverser, avec ses quelques soldats restants, la Menguarre, au milieu de la nuit. De là, il va éliminer pendant leur sommeil une grande partie des forces d'élites engagées, incendiant le campement et pourchassant les malheureux réveillés dans une ambiance de terreur tandis qu'une cinquantaine d'hommes-d'armes se jettaient sur eux à la lueur de la lune et des flammes... Après quelques heures de chaos et face à l'incapacité de d'organiser une défense un tant-soi-peu viable, les forces de l'Usurpateur, alors en marche pour la capitale impériale, vont se replier, mettant un terme à la première phase de la guerre et permettant au camp loyaliste et fidèle à Anatole III de reprendre progressivement l'ascendant dans le conflit. Abélard II mourra tout de même quelques années plus tard d'une mauvaise chute à cheval. Une crypte lui sera construite sur le Clos-de-la-Manguarre, en souvenir de sa victoire.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "1",
+        "label": "Squelettes"
+      }
+    ],
+    "environment": [
+      {
+        "value": "special",
+        "label": "Spécial"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "1"
+      }
+    ],
+    "level": [
+      {
+        "value": "3"
+      }
+    ],
+    "category": [
+      {
+        "value": "non_living",
+        "label": "Non-vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [],
+    "int_comment": [],
+    "wis_mod": [],
+    "wis_comment": [],
+    "cha_mod": [],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "17"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "35"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "14"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>Marteau de guerre enchanté (une main) + 2 : +8 DM : 1d6+6</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Marteau de guerre enchanté (une main) + 2 :",
+            "test": "+8",
+            "dm": null,
+            "special": ": 1d6+6",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": {
+      "89": {
+        "id": "89",
+        "name": "Voie des créatures magiques",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "408",
+            "label": "Réduction des DM",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+          }
+        },
+        "rank": 1
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "408",
+        "label": "Réduction des DM",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+        "paths": "Voie des créatures magiques"
+      }
+    ],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Adelbat, dieu de la mort"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "9",
+        "label": "Démons et Diables"
+      }
+    ],
+    "environment": [
+      {
+        "value": "special",
+        "label": "Spécial"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "1"
+      }
+    ],
+    "level": [
+      {
+        "value": "5"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [],
+    "str_comment": [],
+    "dex_mod": [],
+    "dex_comment": [],
+    "con_mod": [],
+    "con_comment": [],
+    "int_mod": [],
+    "int_comment": [],
+    "wis_mod": [],
+    "wis_comment": [],
+    "cha_mod": [],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "10"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "10"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "10"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Aigle domestique"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "2",
+        "label": "Aigles"
+      }
+    ],
+    "environment": [
+      {
+        "value": "mountain",
+        "label": "Montagne"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "6"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "12"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "14"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "6"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "str",
+        "label": "FOR"
+      },
+      {
+        "value": "dex",
+        "label": "DEX"
+      },
+      {
+        "value": "con",
+        "label": "CON"
+      },
+      {
+        "value": "int",
+        "label": "INT"
+      },
+      {
+        "value": "wis",
+        "label": "SAG"
+      },
+      {
+        "value": "cha",
+        "label": "CHA"
+      }
+    ],
+    "defense": [
+      {
+        "value": "15"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "26"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "10"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
         "value": "Aigle géant"
       }
     ],
@@ -362,7 +1152,7 @@
         "width": "1000",
         "height": "501",
         "label": "eagle.jpg",
-        "creature_token_url": "/creatures/images/aigle.png"
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-08/eagle.jpg.webp?itok=ilPx2MeY"
       }
     ]
   },
@@ -679,9 +1469,183 @@
         "width": "1024",
         "height": "1024",
         "label": "angel-modified.png",
-        "creature_token_url": "/creatures/images/ange.png"
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/angel-modified.png.webp?itok=a3yvdYTr"
       }
     ]
+  },
+  {
+    "name": [
+      {
+        "value": "Ankheg fatiguée"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>Tactique : l’Ankheg est une&nbsp;créature qui peut s’avérer&nbsp;létale&nbsp;pour un groupe de premier niveau&nbsp;aussi les PJ seront peut-être amenés à fuir (n’oubliez pas la capacité « Instinct de survie » des humains, elle sera primordiale !). Ils&nbsp;peuvent trouver de nombreuses&nbsp;failles de pierre noire trop étroites&nbsp;pour l’Ankheg afin de s’y réfugier. Expliquez bien aux joueurs&nbsp;que si la faille est assez étroite&nbsp;pour le mettre à l’abri, elle ne&nbsp;lui&nbsp;permet pas d’utiliser une arme à&nbsp;projectile. Si les PJ se séparent,il est possible de se jouer de lui&nbsp;en l’attirant successivement dans&nbsp;différentes direction, il n’est pas&nbsp;très futé, ni très rapide. Cela peut&nbsp;par exemple permettre d’utiliser&nbsp;le bloc de la zone C pour l’écraser.</p>\r\n\r\n<p>S’il est réduit à 5 PV ou moins,&nbsp;il prend la fuite et s’enterre dans&nbsp;la zone de pierre blanche la plus&nbsp;proche.</p>\r\n\r\n<p>Et si vraiment ça sent le sapin pour&nbsp;votre groupe, vous avez toujours&nbsp;l’option « Krush ». Ou pas.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "26",
+        "label": "Insectes géants"
+      }
+    ],
+    "environment": [
+      {
+        "value": "underground",
+        "label": "Souterrain"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "2"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "big",
+        "label": "Grande"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "6"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "15"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "22"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "15"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>Mandibules +6 DM 1d6+4 + 1d4&nbsp;<span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">acide</span></p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Mandibules",
+            "test": "+6",
+            "dm": "1d6+4",
+            "special": "+ 1d4 acide",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p>Jet d’acide (L)&nbsp; : une fois par combat,<span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">l’Ankheg peut cracher un jet d’acide&nbsp;</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">à une distance de 10 mètres. Il inflige&nbsp;</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">3d6 DM et la cible peut faire un test d</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">e DEX difficulté 12 pour ne subir q</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">ue la moitié des DM.</span></p>\r\n\r\n<p>Creuser (L)&nbsp;: l’Ankheg utilise ses formidables mandibules associées à l’acide q<span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">u’il secrète pour se déplacer sous t</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">erre. Au prix d’une action limitée, l'</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">Ankheg est capable de creuser sur u</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">ne profondeur de 10 mètres par tour.</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">Il peut utiliser sa capacité embuscade p</span><span style=\"color:var(--bs-body-color); font-family:var(--bs-body-font-family); font-size:var(--bs-body-font-size); font-weight:var(--bs-body-font-weight); text-align:var(--bs-body-text-align)\">our surgir du sol et attaquer.</span></p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": {
+      "82": {
+        "id": "82",
+        "name": "Voie du prédateur",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "387",
+            "label": "Embuscade",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+          }
+        },
+        "rank": 1
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "387",
+        "label": "Embuscade",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+        "paths": "Voie du prédateur"
+      }
+    ],
+    "picture": []
   },
   {
     "name": [
@@ -872,9 +1836,2841 @@
         "width": "640",
         "height": "965",
         "label": "Ankheg.png",
-        "creature_token_url": "/creatures/images/ankheg.png"
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/Ankheg.png.webp?itok=A5I6a_yJ"
       }
     ]
+  },
+  {
+    "name": [
+      {
+        "value": "Annita de Caurel"
+      }
+    ],
+    "appearance": [
+      {
+        "value": "<p>Belle jeune femme aux cheveux blonds ondulés.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>Ayant commencé sa carrière comme mage à Illistar, elle s’est rapidement convertie au culte d’Abalath, dieu&nbsp;des Secrets et des Complots suite à&nbsp;sa rencontre avec Amarange. L’envie&nbsp;et la convoitise sont les deux traits&nbsp;principaux d’Annita. Depuis, elle&nbsp;est devenue bien plus puissante et&nbsp;s’estime responsable des affaires&nbsp;du culte dans la région de Monastir,&nbsp;considérant Sifmo comme un&nbsp;homme d’action et non comme un&nbsp;vrai chef. Annita est la petite protégée&nbsp;d’Amarange et gare à ceux qui&nbsp;lui font du mal ou qui lui causent du&nbsp;tort, car il est certain qu’Amarange<br />\r\nfera tout ce qui est en son pouvoir&nbsp;pour la venger.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "46",
+        "label": "PNJ"
+      }
+    ],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "2"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "15"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "19"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "24"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>Dague</strong> +3 <strong>DM</strong> 1d4+1<br />\r\n<strong>Foudre (L)</strong> +5 <strong>DM</strong> 4d6 <em>(DEX&nbsp;difficulté 12 pour ½ DM)</em></p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Dague",
+            "test": "+3",
+            "dm": "1d4+1",
+            "special": null,
+            "reach": null
+          },
+          {
+            "name": "Foudre (L)",
+            "test": "+5",
+            "dm": "4d6",
+            "special": "(DEX difficulté 12 pour ½ DM)",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": "<p><strong>Moral :</strong></p>\r\n\r\n<p>Si la situation tourne mal, Annita&nbsp;utilise forme éthérée pour s’enfuir…</p>\r\n\r\n<p><strong>Équipement :</strong></p>\r\n\r\n<p>Anneau de&nbsp;protection +2</p>\r\n\r\n<p>Tube en os&nbsp;contenant un parchemin de&nbsp;nécromancien où sont inscrits les&nbsp;quatre premiers rangs de la Voie de&nbsp;la sombre magie (Nécromancien)</p>\r\n\r\n<p>Bourse (3 rubis de 500 pa chaque,&nbsp;3 po et 12 pa)</p>\r\n\r\n<p>Symbole béni&nbsp;d’Abalath</p>\r\n\r\n<p>Livre de sorts</p>\r\n\r\n<p>Besace&nbsp;contenant des composants et une&nbsp;bouteille d’encre pour écrire les&nbsp;parchemins (200 pa).</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "structured_capabilities": {
+      "36": {
+        "id": "36",
+        "name": "Voie de l'air",
+        "type": "character",
+        "capabilities": {
+          "5": {
+            "target_id": "173",
+            "label": "Forme éthérée",
+            "rank": "5",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.\r\n"
+          }
+        },
+        "rank": "custom"
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "173",
+        "label": "Forme éthérée",
+        "rank": "5",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "L’Ensorceleur et tout son équipement deviennent translucides et intangibles pendant [5 + Mod. de CHA] tours. Sous cette forme, il peut passer à travers murs et obstacles, et ne peut subir aucun DM physiques.\r\n",
+        "paths": "Voie de l'air"
+      }
+    ],
+    "picture": [
+      {
+        "target_id": "1790",
+        "alt": "",
+        "title": "",
+        "width": "830",
+        "height": "1295",
+        "label": "Capture d'écran 2023-05-06 131405.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Capture%20d%27%C3%A9cran%202023-05-06%20131405.png.webp?itok=YkPJ6Iw3"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Araignée "
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "26",
+        "label": "Insectes géants"
+      }
+    ],
+    "environment": [
+      {
+        "value": "underground",
+        "label": "Souterrain"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [
+      {
+        "value": "0"
+      }
+    ],
+    "level": [
+      {
+        "value": "0"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [],
+    "str_comment": [],
+    "dex_mod": [],
+    "dex_comment": [],
+    "con_mod": [],
+    "con_comment": [],
+    "int_mod": [],
+    "int_comment": [],
+    "wis_mod": [],
+    "wis_comment": [],
+    "cha_mod": [],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "str",
+        "label": "FOR"
+      },
+      {
+        "value": "dex",
+        "label": "DEX"
+      },
+      {
+        "value": "con",
+        "label": "CON"
+      },
+      {
+        "value": "wis",
+        "label": "SAG"
+      }
+    ],
+    "defense": [
+      {
+        "value": "16"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "18"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "19"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Araignée géante "
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": "<p><strong>Tactique:&nbsp;</strong>elle utilise son pouvoir de toile sur la plus grosse cible.&nbsp;</p>\r\n\r\n<p><strong>Moral:</strong>&nbsp;quand il ne lui reste plus que 5 PV ou moins, l'araignée s'avoue vaincu et tente de fuir (dans une galerie&nbsp; inaccessible pour les PJ) au tour de combat suivant.&nbsp;</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "26",
+        "label": "Insectes géants"
+      }
+    ],
+    "environment": [
+      {
+        "value": "underground",
+        "label": "Souterrain"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "1"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "big",
+        "label": "Grande"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "dex",
+        "label": "DEX"
+      },
+      {
+        "value": "wis",
+        "label": "SAG"
+      }
+    ],
+    "defense": [
+      {
+        "value": "16"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "18"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "19"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>_Morsure</strong> +6 <strong>DM</strong> 1d4+1</p>\r\n\r\n<p><strong>_Toile solide (L)&nbsp;</strong>(3m) +5&nbsp;<strong>DM&nbsp;</strong>(voir dessous)</p>\r\n\r\n<p>toile solide (L): sur un test d'attaque a distance réussi, l'araignée emprisonne sa cible dans une toile gluante et solide. La victime est paralysée (aucune action possible) et pour se libérer doit réussir un test de FOR difficulté 15 (action limitée).&nbsp;</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "_Morsure",
+            "test": "+6",
+            "dm": "1d4+1",
+            "special": null,
+            "reach": null
+          },
+          {
+            "name": "_Toile solide (L) (3m)",
+            "test": "+5",
+            "dm": null,
+            "special": "(voir dessous)",
+            "reach": "3"
+          },
+          {
+            "name": "toile solide (L): sur un test d'attaque a distance réussi, l'araignée emprisonne sa cible dans une toile gluante et solide. La victime est paralysée (aucune action possible) et pour se libérer doit réussir un test de FOR difficulté 15 (action limitée).",
+            "test": null,
+            "dm": null,
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "2459",
+        "alt": "",
+        "title": "",
+        "width": "469",
+        "height": "369",
+        "label": "Araignée géante.jpg",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Araign%C3%A9e%20g%C3%A9ante.jpg.webp?itok=ADN_o728"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Araignée géante"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>La grosse forme sombre qui vous observe est en réalité une araignée. Une araignée de la taille d’un gros chien ! Elle se déplace à une vitesse surprenante et, dans l’obscurité de la caverne, on ne perçoit réellement que ses deux petits yeux rouges...</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [],
+    "environment": [
+      {
+        "value": "underground",
+        "label": "Souterrain"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "1"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "dex",
+        "label": "DEX"
+      },
+      {
+        "value": "con",
+        "label": "CON"
+      }
+    ],
+    "defense": [
+      {
+        "value": "16"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "18"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "19"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>Morsure</strong>&nbsp;+6&nbsp;<strong>DM</strong>&nbsp;1d4+1<br />\r\n<strong>Toile solide (L) (3m)</strong> +5 <strong>DM<em>&nbsp;</em></strong>(voir capacité spéciale)</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Morsure",
+            "test": "+6",
+            "dm": "1d4+1",
+            "special": null,
+            "reach": null
+          },
+          {
+            "name": "Toile solide (L) (3m)",
+            "test": "+5",
+            "dm": null,
+            "special": "(voir capacité spéciale)",
+            "reach": "3"
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p><em><strong>Toile solide (L) :</strong> </em>sur un test d’attaque à distance réussi, l’araignée emprisonne sa cible dans une toile gluante et solide. La victime est paralysée (aucune action possible) et pour se libérer elle doit réussir un test de FOR difficulté 15 (il s’agit d’une action limitée).</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": "<p><strong>Tactique : </strong>elle utilise son pouvoir de toile d’araignée sur la plus grosse proie (Krush s’il est présent) avant de mordre<br />\r\n<strong>Moral :</strong> quand il ne lui reste plus que 5 PV ou moins, l’araignée s’avoue vaincue et tente de fuir (dans une galerie inaccessible pour les personnages) au tour de combat suivant.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "1866",
+        "alt": "Big spider",
+        "title": "",
+        "width": "1024",
+        "height": "1024",
+        "label": "Nicolas_Bede_a_big_spider_rpg_creature_c24db529-ada4-461e-a9e6-55f91013484a.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Nicolas_Bede_a_big_spider_rpg_creature_c24db529-ada4-461e-a9e6-55f91013484a.png.webp?itok=ozfDrFK-"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": " Araignée"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [
+      {
+        "value": "underground",
+        "label": "Souterrain"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [
+      {
+        "value": "0"
+      }
+    ],
+    "level": [
+      {
+        "value": "0"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "tiny",
+        "label": "Minuscule"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-5"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "12"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "1"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "14"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong><em>Morsure</em></strong>.&nbsp;+4 DM&nbsp;1+&nbsp;poison</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Morsure.",
+            "test": "+4",
+            "dm": "1",
+            "special": "+ poison",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p><strong>&nbsp;<em>poison</em></strong>&nbsp;la cible doit réussir un jet de sauvegarde de Constitution DD 9 ou subir&nbsp;1d4 dégâts de poison.</p>\r\n\r\n<p><strong><em>Pattes d'araignée</em></strong>. L'araignée peut escalader des surfaces difficiles et être au plafond la tête en bas sans avoir besoin d'effectuer un jet de caractéristique.</p>\r\n\r\n<p><strong><em>Sens de la toile</em></strong>. Lorsqu'elle est en contact avec une toile, l'araignée connait l'emplacement exact de toutes les créatures qui sont en contact avec cette toile.</p>\r\n\r\n<p><strong><em>Déplacement sur la toile</em></strong>. L'araignée ignore les restrictions de mouvement causées par une toile d'araignée.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "2799",
+        "alt": "",
+        "title": "",
+        "width": "1000",
+        "height": "745",
+        "label": "spider.jpg",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-08/spider.jpg.webp?itok=8hLENALU"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Arcaniste"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "2"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "int",
+        "label": "INT"
+      }
+    ],
+    "defense": [
+      {
+        "value": "15"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "15"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "10"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "13",
+        "label": "Magicien"
+      }
+    ],
+    "profile_level": [
+      {
+        "value": "1"
+      }
+    ],
+    "paths": [
+      {
+        "value": "<p><strong>Voie de la magie de combat</strong></p>\r\n\r\n<p>Les créatures dotées de cette voie obtiennent au choix l’INT, la SAG ou le CHA en Carac. Supérieure.</p>\r\n\r\n<p><strong>1. Attaque magique (L)</strong></p>\r\n\r\n<p>La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Archer vert"
+      }
+    ],
+    "appearance": [
+      {
+        "value": "<p>Les archers vert font un peu près un mètre, et une trentaine de kilo, ils une petite tenue en toile.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>Ces petites créature vertes vives dans la forêt d'Héliodor, elles sont têtues, donc quand elles ont un problème, pas de négociation, c'est direct la baston. Elle ne sont généralement pas très forte, du niveau d'un humain adolescent, mais attaquent en groupe. Les archers verts déteste les humains.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [],
+    "environment": [
+      {
+        "value": "forest",
+        "label": "Forêt"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [
+      {
+        "value": "1"
+      }
+    ],
+    "level": [
+      {
+        "value": "1"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "small",
+        "label": "Petit"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "12"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "5"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "15"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>At distance Flèche : +5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dm: 1d4 -1</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "At distance Flèche : +5               Dm: 1d4",
+            "test": "-1",
+            "dm": null,
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [
+      {
+        "value": "1"
+      }
+    ],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Archidruide"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [
+      {
+        "value": "forest",
+        "label": "Forêt"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "3"
+      }
+    ],
+    "level": [
+      {
+        "value": "15"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "5"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "8"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "7"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "6"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "5"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "dex",
+        "label": "DEX"
+      }
+    ],
+    "defense": [
+      {
+        "value": "24"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "66"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "18"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "4",
+        "label": "Druide"
+      }
+    ],
+    "profile_level": [
+      {
+        "value": "5"
+      }
+    ],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": {
+      "19": {
+        "id": "19",
+        "name": "Voie du fauve",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "89",
+            "label": "Vitesse du félin",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le Druide gagne +1 par rang dans la voie en Initiative et aux tests de course, d’escalade ou de saut.\r\n"
+          },
+          "2": {
+            "target_id": "90",
+            "label": "Panthère",
+            "rank": "2",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le Druide apprivoise une panthère (ou un puma) qui lui obéit au doigt et à l’œil. Panthère : FOR +2, DEX +4*, CON +2, INT -3, SAG +2*, CHA -2, Init 18, DEF 16, PV [niveau x 4], Attaque au contact [niveau du druide], DM 1d6+2\r\n"
+          },
+          "3": {
+            "target_id": "91",
+            "label": "Attaque bondissante",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "Le Druide parcourt jusqu’à 30 m et bénéficie d’un bonus de +5 au test d’attaque et de +1d6 aux DM contre sa cible. Il doit se déplacer d’au minimum 5 m en ligne droite pour faire cette attaque, qui ne peut par ailleurs être réalisée qu’à son premier tour du combat.\r\n"
+          }
+        },
+        "rank": 3
+      },
+      "20": {
+        "id": "20",
+        "name": "Voie de la nature",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "97",
+            "label": "Maître de la survie",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le Druide obtient un bonus de +2 par rang dans la voie à tous les tests basés sur la survie en milieu naturel (survie, vigilance, discrétion, etc.).\r\n"
+          },
+          "2": {
+            "target_id": "98",
+            "label": "Marche sylvestre",
+            "rank": "2",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Non seulement le Druide ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, il obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.\r\n"
+          },
+          "3": {
+            "target_id": "99",
+            "label": "Résistant",
+            "rank": "3",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le Druide obtient une réduction de DM égal à son [Rang x 2] contre toutes les sources de dégâts « naturels » : froid, chaleur, chutes, poisons… mais aussi aux DM provoqués par les animaux ou les insectes (même géants).\r\n"
+          },
+          "4": {
+            "target_id": "100",
+            "label": "Bâton de druide",
+            "rank": "4",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "Le Druide combat avec les deux extrémités de son bâton de bois noueux. Lorsqu’il utilise cette capacité, il effectue deux attaques de contact infligeant [1d6 DM + Mod. de FOR ou de DEX] (au choix) par attaque.\r\n"
+          }
+        },
+        "rank": 4
+      },
+      "22": {
+        "id": "22",
+        "name": "Voie du protecteur",
+        "type": "character",
+        "capabilities": {
+          "2": {
+            "target_id": "104",
+            "label": "Forêt vivante",
+            "rank": "2",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n"
+          },
+          "3": {
+            "target_id": "105",
+            "label": "Régénération",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "La cible touchée par le Druide guérit 3 PV par tour pendant [niveau du Druide + Mod. de SAG] tours. Ce sort ne peut pas affecter une créature plus d’une fois par jour.\r\n"
+          }
+        },
+        "rank": "custom"
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "97",
+        "label": "Maître de la survie",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le Druide obtient un bonus de +2 par rang dans la voie à tous les tests basés sur la survie en milieu naturel (survie, vigilance, discrétion, etc.).\r\n",
+        "paths": "Voie de la nature"
+      },
+      {
+        "target_id": "98",
+        "label": "Marche sylvestre",
+        "rank": "2",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Non seulement le Druide ne subit aucune pénalité de déplacement en terrain difficile (neige, boue, broussailles, pente abrupte, etc.) mais en plus, il obtient un bonus de +2 en attaque et en DEF lors d’un combat dans ces conditions.\r\n",
+        "paths": "Voie de la nature"
+      },
+      {
+        "target_id": "99",
+        "label": "Résistant",
+        "rank": "3",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le Druide obtient une réduction de DM égal à son [Rang x 2] contre toutes les sources de dégâts « naturels » : froid, chaleur, chutes, poisons… mais aussi aux DM provoqués par les animaux ou les insectes (même géants).\r\n",
+        "paths": "Voie de la nature"
+      },
+      {
+        "target_id": "100",
+        "label": "Bâton de druide",
+        "rank": "4",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "Le Druide combat avec les deux extrémités de son bâton de bois noueux. Lorsqu’il utilise cette capacité, il effectue deux attaques de contact infligeant [1d6 DM + Mod. de FOR ou de DEX] (au choix) par attaque.\r\n",
+        "paths": "Voie de la nature"
+      },
+      {
+        "target_id": "89",
+        "label": "Vitesse du félin",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le Druide gagne +1 par rang dans la voie en Initiative et aux tests de course, d’escalade ou de saut.\r\n",
+        "paths": "Voie du fauve"
+      },
+      {
+        "target_id": "90",
+        "label": "Panthère",
+        "rank": "2",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le Druide apprivoise une panthère (ou un puma) qui lui obéit au doigt et à l’œil. Panthère : FOR +2, DEX +4*, CON +2, INT -3, SAG +2*, CHA -2, Init 18, DEF 16, PV [niveau x 4], Attaque au contact [niveau du druide], DM 1d6+2\r\n",
+        "paths": "Voie du fauve"
+      },
+      {
+        "target_id": "91",
+        "label": "Attaque bondissante",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "Le Druide parcourt jusqu’à 30 m et bénéficie d’un bonus de +5 au test d’attaque et de +1d6 aux DM contre sa cible. Il doit se déplacer d’au minimum 5 m en ligne droite pour faire cette attaque, qui ne peut par ailleurs être réalisée qu’à son premier tour du combat.\r\n",
+        "paths": "Voie du fauve"
+      },
+      {
+        "target_id": "105",
+        "label": "Régénération",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "La cible touchée par le Druide guérit 3 PV par tour pendant [niveau du Druide + Mod. de SAG] tours. Ce sort ne peut pas affecter une créature plus d’une fois par jour.\r\n",
+        "paths": "Voie du protecteur"
+      },
+      {
+        "target_id": "104",
+        "label": "Forêt vivante",
+        "rank": "2",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "La forêt s’éveille dans un rayon d’1 km par rang et devient une alliée du Druide pendant les 12 prochaines heures. Dans ce périmètre, les ennemis du Druide sont désorientés et gênés par les branches et les racines. Ils divisent leur déplacement par deux et subissent une pénalité de -5 en Initiative et à tous les tests de survie, d’orientation, de perception ou de discrétion. Si deux Druides essayent d’influencer la forêt, c’est celui dont le niveau est le plus élevé qui l’emporte.\r\n",
+        "paths": "Voie du protecteur"
+      }
+    ],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Archimage"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "2"
+      }
+    ],
+    "level": [
+      {
+        "value": "9"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "int",
+        "label": "INT"
+      }
+    ],
+    "defense": [
+      {
+        "value": "18"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "49"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "12"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>ATT + 6,&nbsp; DM 1D6+5</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "ATT + 6,",
+            "test": null,
+            "dm": "1d6+5",
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "13",
+        "label": "Magicien"
+      }
+    ],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": "<p>Les quelques talents qui ont maîtrisé le travail magique peuvent être reconnus comme un archimage , se tenant au sommet de leur pouvoir recueillant une grande influence ,ainsi que quelques tours qui leur sont propres, en cours de route. Bien que souvent bourrus et distants, ces lanceurs de sorts prestigieux sont assez puissants pour inverser le cours des batailles qui mettent en jeu le destin du monde</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "structured_capabilities": {
+      "62": {
+        "id": "62",
+        "name": "Voie de la magie des arcanes",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "291",
+            "label": "Agrandissement",
+            "rank": "1",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.\r\n"
+          },
+          "2": {
+            "target_id": "292",
+            "label": "Forme gazeuse",
+            "rank": "2",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.\r\n"
+          },
+          "3": {
+            "target_id": "293",
+            "label": "Hâte",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.\r\n"
+          },
+          "4": {
+            "target_id": "294",
+            "label": "Téléportation",
+            "rank": "4",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.\r\n"
+          }
+        },
+        "rank": 4
+      },
+      "87": {
+        "id": "87",
+        "name": "Voie de la magie de combat",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "402",
+            "label": "Attaque magique",
+            "rank": "1",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+          },
+          "2": {
+            "target_id": "403",
+            "label": "Armure magique",
+            "rank": "2",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n"
+          }
+        },
+        "rank": 2
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "294",
+        "label": "Téléportation",
+        "rank": "4",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Magicien disparaît et réapparaît à un autre endroit situé à moins de [INT x 10] mètres. Le lieu d’arrivée doit être soit en ligne de vue, soit parfaitement connu par le Magicien.\r\n",
+        "paths": "Voie de la magie des arcanes"
+      },
+      {
+        "target_id": "402",
+        "label": "Attaque magique",
+        "rank": "1",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+        "paths": "Voie de la magie de combat"
+      },
+      {
+        "target_id": "403",
+        "label": "Armure magique",
+        "rank": "2",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n",
+        "paths": "Voie de la magie de combat"
+      },
+      {
+        "target_id": "292",
+        "label": "Forme gazeuse",
+        "rank": "2",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Magicien prend la consistance d’un gaz. Il se déplace au ras du sol (s’il chute, il le fait au ralenti) à une vitesse de 10 m par tour. Il peut s’introduire par les plus petits interstices (comme sous une porte) mais ne peut utiliser aucune capacité sous cette forme. Il ne subit pas non plus de DM, à l’exception des sorts de zone occasionnant des DM (comme Boule de feu). Le sort a une durée de [1d4 + Mod. d’INT] tours.\r\n",
+        "paths": "Voie de la magie des arcanes"
+      },
+      {
+        "target_id": "293",
+        "label": "Hâte",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.\r\n",
+        "paths": "Voie de la magie des arcanes"
+      },
+      {
+        "target_id": "291",
+        "label": "Agrandissement",
+        "rank": "1",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Magicien ou une cible volontaire (au contact) voit sa taille augmenter de 50% pendant [5 + Mod. d’INT] tours. Il gagne +2 aux DM au contact et aux tests de FOR. Pataud, il subit un malus de -2 aux tests de DEX.\r\n",
+        "paths": "Voie de la magie des arcanes"
+      }
+    ],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Ardus"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "46",
+        "label": "PNJ"
+      }
+    ],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "fast",
+        "label": "Rapide"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "2"
+      }
+    ],
+    "level": [
+      {
+        "value": "3"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "big",
+        "label": "Grande"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "dex",
+        "label": "DEX"
+      }
+    ],
+    "defense": [
+      {
+        "value": "18"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "36"
+      }
+    ],
+    "dmg_reduction": [
+      {
+        "value": "\\2 DM si 0pv "
+      }
+    ],
+    "init": [
+      {
+        "value": "14"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "12",
+        "label": "Guerrier"
+      }
+    ],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "arme animée"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "2"
+      }
+    ],
+    "category": [
+      {
+        "value": "non_living",
+        "label": "Non-vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "small",
+        "label": "Petit"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "16"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "16"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "18"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>Epée longue +6 DM 1d8</p>\r\n\r\n<p>Hallebarde +6 DM 1d10</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Epée longue",
+            "test": "+6",
+            "dm": "1d8",
+            "special": null,
+            "reach": null
+          },
+          {
+            "name": "Hallebarde",
+            "test": "+6",
+            "dm": "1d10",
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p>Vol rapide :</p>\r\n\r\n<p>Une arme animée obtient une action de mouvement supplémentaire par tour lorsqu’elle est en vol (ce qui lui permet d’utiliser Imparable après un déplacement).</p>\r\n\r\n<p>Imparable (L) :</p>\r\n\r\n<p>Réaliser une attaque en lançant deux d20 et garder le meilleur résultat. Si une arme animée obtient 15-20 au d20 d’un test d’attaque (même sans utiliser Imparable), elle inflige +1d6 DM et l’attaque est automatiquement réussie (quelle que soit la DEF de son adversaire)</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Armure animé"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "2"
+      }
+    ],
+    "category": [
+      {
+        "value": "non_living",
+        "label": "Non-vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "str",
+        "label": "FOR"
+      }
+    ],
+    "defense": [
+      {
+        "value": "18"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "28"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "10"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>+6 DM 1d6+3</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "+6",
+            "test": null,
+            "dm": "1d6+3",
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p>Résistance : l'armure animée divise par 2 tous les DM perforants. Lorsqu'elle est réduite&nbsp; 0 PV elle peut encore agir un tour complet&nbsp;</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Arvind \"Cerberus\""
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>Arvind a toujours été un vagabond, il aime voyager et survivre en nature, grimper des montagnes, explorer des grottes lugubre, camper à la belle étoile, tout cela est la vie idéale pour lui.<br />\r\nLors d'une nuit de pleine lune il fit la rencontre d'un loup-garou, rencontre à laquelle il survécut miraculeusement mais durant laquelle il fut infecté.<br />\r\nAvec le temps Arvind réussit à contrôler sa transformation, il peut désormais se transformer à volonté en restant maitre de ses actions dans une certaine mesure, même si cela met son mental à rude épreuve surtout lorsque le sang coule ou durant les nuits de pleine lune.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [],
+    "environment": [],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "2"
+      }
+    ],
+    "level": [
+      {
+        "value": "7"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "18"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "69"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "12"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>Couteau de chasse : +11 à l'attaque, 1d6+5 dégâts</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Couteau de chasse :",
+            "test": "+11",
+            "dm": null,
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [
+      {
+        "value": "5"
+      }
+    ],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p>Instinct de survie (passif humain) : Lorsqu’une attaque devrait amener le personnage à 0 PV, les DM qu’elle inflige sont divisés par 2 (minimum 1).</p>\r\n\r\n<p>Transformation en loup-garou infecté : Sous cette forme Arvind conserve ses capacités mais gagne en plus la capacité \"Embuscade\", il obtient +2 FOR et CON, -2 INT et SAG. Sa FOR, DEX et SAG deviennent des caractéristiques supérieur, il ne peut plus utiliser son couteau mais gagne à la place une attaque naturelle (+15 attaque, 1d6+8 dgts) sur laquelle il peut utiliser sa capacité \"arme enflammé\".</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": "<p>Notes : Lorsqu'il utilise une action limité Arvind peut tout de même faire un déplacement grâce à \"Instinct de survie\", de plus lorsqu'il est sous l'effet de \"Hâte\" il peut bénéficier de cette action supplémentaire même en plus d'une action limité, contrairement à la description du sort.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "structured_capabilities": {
+      "58": {
+        "id": "58",
+        "name": "Voie de la sombre magie",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "269",
+            "label": "Ténèbres",
+            "rank": "1",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.\r\n"
+          },
+          "2": {
+            "target_id": "270",
+            "label": "Pattes d’araignée",
+            "rank": "2",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.\r\n"
+          }
+        },
+        "rank": 2
+      },
+      "62": {
+        "id": "62",
+        "name": "Voie de la magie des arcanes",
+        "type": "character",
+        "capabilities": {
+          "3": {
+            "target_id": "293",
+            "label": "Hâte",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.\r\n"
+          }
+        },
+        "rank": "custom"
+      },
+      "64": {
+        "id": "64",
+        "name": "Voie de la magie élémentaire",
+        "type": "character",
+        "capabilities": {
+          "3": {
+            "target_id": "303",
+            "label": "Arme enflammée",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.\r\n"
+          }
+        },
+        "rank": "custom"
+      },
+      "66": {
+        "id": "66",
+        "name": "Voie de la magie universelle",
+        "type": "character",
+        "capabilities": {
+          "3": {
+            "target_id": "313",
+            "label": "Invisibilité",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "1",
+            "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n"
+          }
+        },
+        "rank": "custom"
+      },
+      "78": {
+        "id": "78",
+        "name": "Voie de l'humain",
+        "type": "race",
+        "capabilities": {
+          "4": {
+            "target_id": "370",
+            "label": "Increvable",
+            "rank": "4",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Une fois par tour, lorsqu’une attaque fait tomber le personnage à 0 PV, ce dernier peut effectuer un test d’attaque (du même type) opposé à celui de l’adversaire. En cas de réussite, le personnage esquive ou résiste à cette attaque et ne subit aucun DM.\r\n"
+          }
+        },
+        "rank": "custom"
+      },
+      "82": {
+        "id": "82",
+        "name": "Voie du prédateur",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "387",
+            "label": "Embuscade",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n"
+          }
+        },
+        "rank": 1
+      },
+      "83": {
+        "id": "83",
+        "name": "Voie du PNJ récurrent",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "390",
+            "label": "Instinct de survie",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n"
+          }
+        },
+        "rank": 1
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "390",
+        "label": "Instinct de survie",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "La créature est passée maître dans l’art de se faufiler et de se mettre à couvert. Une fois par tour, au moment de son choix, le PNJ peut utiliser une action de mouvement supplémentaire pour se déplacer. Si un effet ou une créature le paralyse, le ralenti ou restreint ses mouvements, il a droit à un test d’INT ou de DEX au choix difficulté 10 pour s’en débarrasser une fois par tour. Il gagne +5 en DEF lorsqu’il lui reste moins de [NCx5] PV.\r\n",
+        "paths": "Voie du PNJ récurrent"
+      },
+      {
+        "target_id": "370",
+        "label": "Increvable",
+        "rank": "4",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Une fois par tour, lorsqu’une attaque fait tomber le personnage à 0 PV, ce dernier peut effectuer un test d’attaque (du même type) opposé à celui de l’adversaire. En cas de réussite, le personnage esquive ou résiste à cette attaque et ne subit aucun DM.\r\n",
+        "paths": "Voie de l'humain"
+      },
+      {
+        "target_id": "293",
+        "label": "Hâte",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Pendant [1d6 + Mod. d’INT] tours, le Magicien voit son métabolisme s’accélérer. A partir du tour suivant, il obtient une action supplémentaire par tour : soit une attaque normale, soit une action de mouvement. En revanche, il ne peut toujours accomplir qu’une seule action limitée par tour.\r\n",
+        "paths": "Voie de la magie des arcanes"
+      },
+      {
+        "target_id": "303",
+        "label": "Arme enflammée",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Magicien peut enflammer une arme pour [5 + Mod. d’INT] tours. Celle-ci inflige +1D6 DM de feu.\r\n",
+        "paths": "Voie de la magie élémentaire"
+      },
+      {
+        "target_id": "313",
+        "label": "Invisibilité",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Magicien se rend invisible pendant [1d6 + Mod. d’INT] minutes. Une fois invisible, personne ne peut plus détecter sa présence ou lui porter d’attaque. Si le Magicien attaque ou utilise une capacité limitée, il redevient visible.\r\n",
+        "paths": "Voie de la magie universelle"
+      },
+      {
+        "target_id": "269",
+        "label": "Ténèbres",
+        "rank": "1",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Nécromancien invoque une zone fixe de ténèbres magiques, de 10 m de diamètre, pour une durée de [5 + Mod. d’INT] tours. Même les créatures capables de voir dans le noir sont aveuglées dans cette zone.\r\n",
+        "paths": "Voie de la sombre magie"
+      },
+      {
+        "target_id": "270",
+        "label": "Pattes d’araignée",
+        "rank": "2",
+        "is_limited": "1",
+        "is_magical": "1",
+        "description": "Le Nécromancien peut se déplacer de 10 m par action de mouvement sur les murs et les plafonds pendant [5 + Mod. d’INT] tours. S’il reste immobile, il peut lancer des sorts.\r\n",
+        "paths": "Voie de la sombre magie"
+      },
+      {
+        "target_id": "387",
+        "label": "Embuscade",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Au premier tour de combat, si l’environnement permet à la créature de se dissimuler, la cible doit faire un test de SAG difficulté [15 + Mod. de DEX] ou être Surprise. Si elle attaque avec succès une cible surprise, la créature inflige +1d6 aux DM et toute créature dont la FOR est inférieure à la sienne est Renversée. La créature obtient un bonus de +5 à tous les tests de discrétion et en Init.\r\n",
+        "paths": "Voie du prédateur"
+      }
+    ],
+    "picture": [
+      {
+        "target_id": "2608",
+        "alt": "",
+        "title": "",
+        "width": "827",
+        "height": "1219",
+        "label": "Arvind_0.jpg",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/Arvind_0.jpg.webp?itok=SUxTUl7e"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Arwendill"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "14",
+        "label": "Elfes noirs (Drows)"
+      }
+    ],
+    "environment": [
+      {
+        "value": "forest",
+        "label": "Forêt"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "1"
+      }
+    ],
+    "level": [
+      {
+        "value": "4"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "19"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "36"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "23"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "8",
+        "label": "Ensorceleur"
+      }
+    ],
+    "profile_level": [
+      {
+        "value": "1"
+      }
+    ],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
+  },
+  {
+    "name": [
+      {
+        "value": "Assassin kobold"
+      }
+    ],
+    "appearance": [
+      {
+        "value": "<p>Le gnoll est un humanoïde puissant de plus de 2 mètres dont la particularité est une tête d’hyène et une fourrure jaune sale.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "27",
+        "label": "Kobolds"
+      }
+    ],
+    "environment": [
+      {
+        "value": "plain",
+        "label": "Plaine"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "1"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "small",
+        "label": "Petit"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "15"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "15"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "14"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>Dagues</strong> +4 <strong>DM</strong> 1d4+2 (2 attaques)</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Dagues",
+            "test": "+4",
+            "dm": "1d4+2",
+            "special": "(2 attaques)",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": []
   },
   {
     "name": [
@@ -1086,7 +4882,7 @@
         "width": "1024",
         "height": "1024",
         "label": "assassin-major-modified.png",
-        "creature_token_url": "/creatures/images/assassin-majeur.png"
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/assassin-major-modified.png.webp?itok=Y2pErEaJ"
       }
     ]
   },
@@ -1283,7 +5079,1073 @@
         "width": "1024",
         "height": "1024",
         "label": "assassin-minor-modified.png",
-        "creature_token_url": "/creatures/images/assassin-mineur.png"
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/assassin-minor-modified.png.webp?itok=SaUzi-2p"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Aversa"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "14",
+        "label": "Elfes noirs (Drows)"
+      }
+    ],
+    "environment": [
+      {
+        "value": "underground",
+        "label": "Souterrain"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_rank": [
+      {
+        "value": "7"
+      }
+    ],
+    "level": [
+      {
+        "value": "7"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "int",
+        "label": "INT"
+      }
+    ],
+    "defense": [
+      {
+        "value": "17"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "60"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "18"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>+8</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "+8",
+            "test": null,
+            "dm": null,
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "10",
+        "label": "Nécromancien"
+      }
+    ],
+    "profile_level": [
+      {
+        "value": "7"
+      }
+    ],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": {
+      "85": {
+        "id": "85",
+        "name": "Voie de la magie maléfique",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "396",
+            "label": "Vampirisation",
+            "rank": "1",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "La créature doit réussir une attaque magique sur une cible vivante à une distance maximum de 30 mètres. En cas de réussite, la cible subit [1d6 x NC/2] DM et la créature régénère autant de PV que de DM infligés. De plus à chaque fois qu’une créature meurt à moins de 20 mètres d’elle, la créature siphonne son énergie et gagne [1d6 + NC] PV.\r\n"
+          },
+          "2": {
+            "target_id": "397",
+            "label": "Animer un cadavre",
+            "rank": "2",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "Ce pouvoir permet d’animer le cadavre d’une créature morte pendant le combat. La créature se relève avec les mêmes Caractéristiques mais elle subit une pénalité de -2 en attaque et en Initiative. Lorsque le cadavre est à nouveau vaincu, il ne peut pas être réanimé. Le cadavre de la créature animée ne peut être d’un NC supérieur à celui de celle qui utilise cette capacité.\r\n"
+          },
+          "3": {
+            "target_id": "398",
+            "label": "Injonction mortelle",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "Une cible située à une distance maximum de 30 mètres doit réussir un test de CON difficulté 15 ou tomber à 0 PV (et mourir immédiatement s’il s’agit d’un PNJ). En cas de succès, la cible subit tout de même [2d6 + NC] DM. Ce pouvoir ne peut prendre une même créature pour cible qu’une seule fois par combat.\r\n"
+          }
+        },
+        "rank": 3
+      },
+      "87": {
+        "id": "87",
+        "name": "Voie de la magie de combat",
+        "type": "creature",
+        "capabilities": {
+          "1": {
+            "target_id": "402",
+            "label": "Attaque magique",
+            "rank": "1",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n"
+          },
+          "2": {
+            "target_id": "403",
+            "label": "Armure magique",
+            "rank": "2",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n"
+          },
+          "3": {
+            "target_id": "404",
+            "label": "Déplacement magique",
+            "rank": "3",
+            "is_limited": "1",
+            "is_magical": "0",
+            "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n"
+          }
+        },
+        "rank": 3
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "402",
+        "label": "Attaque magique",
+        "rank": "1",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "La créature possède un pouvoir magique qui inflige [1d6 x NC] DM sur un test d’attaque magique réussi (portée 30 m) sur une cible unique. Si vous souhaitez lancer moins de dés, convertissez la moitié des d6 obtenus en autant de bonus de +3 aux DM (8d6 vaut 4d6 + 12). Alternativement, le pouvoir inflige les même DM dans une zone de 10 mètres de diamètre, un test de DEX difficulté 10 réussi permet alors aux cibles de diviser les DM par 2.\r\n",
+        "paths": "Voie de la magie de combat"
+      },
+      {
+        "target_id": "403",
+        "label": "Armure magique",
+        "rank": "2",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "La créature possède un pouvoir magique (peau de pierre, intangible, forme ténébreuse, etc.) qui lui permet de diviser tous les DM physiques subits par 2 pour le reste du combat. Ce pouvoir n’affecte pas les DM des attaques magiques élémentaires (feu, froid, acide, électricité).\r\n",
+        "paths": "Voie de la magie de combat"
+      },
+      {
+        "target_id": "404",
+        "label": "Déplacement magique",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "La créature possède une magie qui lui permet de se téléporter à une distance maximum de [20 x NC] mètre. Le lieu d’arrivée doit être en ligne de vue ou parfaitement connu (10 minutes pour étudier le lieu). Alternativement, le MJ peut choisir de lui donner une capacité de vol magique (équivalent à Vol rapide).\r\n",
+        "paths": "Voie de la magie de combat"
+      },
+      {
+        "target_id": "396",
+        "label": "Vampirisation",
+        "rank": "1",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "La créature doit réussir une attaque magique sur une cible vivante à une distance maximum de 30 mètres. En cas de réussite, la cible subit [1d6 x NC/2] DM et la créature régénère autant de PV que de DM infligés. De plus à chaque fois qu’une créature meurt à moins de 20 mètres d’elle, la créature siphonne son énergie et gagne [1d6 + NC] PV.\r\n",
+        "paths": "Voie de la magie maléfique"
+      },
+      {
+        "target_id": "397",
+        "label": "Animer un cadavre",
+        "rank": "2",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "Ce pouvoir permet d’animer le cadavre d’une créature morte pendant le combat. La créature se relève avec les mêmes Caractéristiques mais elle subit une pénalité de -2 en attaque et en Initiative. Lorsque le cadavre est à nouveau vaincu, il ne peut pas être réanimé. Le cadavre de la créature animée ne peut être d’un NC supérieur à celui de celle qui utilise cette capacité.\r\n",
+        "paths": "Voie de la magie maléfique"
+      },
+      {
+        "target_id": "398",
+        "label": "Injonction mortelle",
+        "rank": "3",
+        "is_limited": "1",
+        "is_magical": "0",
+        "description": "Une cible située à une distance maximum de 30 mètres doit réussir un test de CON difficulté 15 ou tomber à 0 PV (et mourir immédiatement s’il s’agit d’un PNJ). En cas de succès, la cible subit tout de même [2d6 + NC] DM. Ce pouvoir ne peut prendre une même créature pour cible qu’une seule fois par combat.\r\n",
+        "paths": "Voie de la magie maléfique"
+      }
+    ],
+    "picture": [
+      {
+        "target_id": "1709",
+        "alt": "",
+        "title": "",
+        "width": "1684",
+        "height": "1920",
+        "label": "imageonline-co-transparentimage(1)_0.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-04/imageonline-co-transparentimage%281%29_0.png.webp?itok=S4IYDoOD"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Avian"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "2",
+        "label": "Aigles"
+      }
+    ],
+    "environment": [
+      {
+        "value": "mountain",
+        "label": "Montagne"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "5"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "1"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "-2"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "dex",
+        "label": "DEX"
+      },
+      {
+        "value": "con",
+        "label": "CON"
+      }
+    ],
+    "defense": [
+      {
+        "value": "17"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "25"
+      }
+    ],
+    "dmg_reduction": [
+      {
+        "value": "Insensible au Froid\r\n-2 Test distance"
+      }
+    ],
+    "init": [
+      {
+        "value": "16"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p>Griffe et Bec : +3, 1D6 DM</p>\r\n\r\n<p>&nbsp;</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Griffe et Bec :",
+            "test": "+3",
+            "dm": null,
+            "special": null,
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "869",
+        "alt": "",
+        "title": "",
+        "width": "401",
+        "height": "528",
+        "label": "pngaaa.com-6135022.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-01/pngaaa.com-6135022.png.webp?itok=c3BjkpBs"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "AXELIAM"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": "<p>Un bandit vétéran peut servir de chef à un groupe de petites frappes (augmentez son CHA à +2). Si vous voulez des bandits plus dangereux, ajoutez-leur un ou plusieurs rangs dans la Voie de la meute (le rang 2, Attaque en traître est un incontournable).</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "3",
+        "label": "Bandits"
+      }
+    ],
+    "environment": [
+      {
+        "value": "forest",
+        "label": "Forêt"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "powerful",
+        "label": "Puissant"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [
+      {
+        "value": "3"
+      }
+    ],
+    "level": [
+      {
+        "value": "3"
+      }
+    ],
+    "category": [
+      {
+        "value": "humanoid",
+        "label": "Humanoïde"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "3"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-1"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [
+      {
+        "value": "str",
+        "label": "FOR"
+      },
+      {
+        "value": "con",
+        "label": "CON"
+      },
+      {
+        "value": "cha",
+        "label": "CHA"
+      }
+    ],
+    "defense": [
+      {
+        "value": "13"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "17"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "17"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>Épée longue</strong> <strong>DM</strong> 1d8+3<br />\r\n<strong>Arc</strong> (30m) <strong>DM</strong> 1d6+2</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Épée longue",
+            "test": null,
+            "dm": "1d8+3",
+            "special": null,
+            "reach": null
+          },
+          {
+            "name": "Arc (30m)",
+            "test": null,
+            "dm": "1d6+2",
+            "special": null,
+            "reach": "30"
+          }
+        ]
+      }
+    ],
+    "profile": [
+      {
+        "target_id": "9",
+        "label": "Rôdeur"
+      }
+    ],
+    "profile_level": [
+      {
+        "value": "3"
+      }
+    ],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": {
+      "43": {
+        "id": "43",
+        "name": "Voie de l’archer",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "193",
+            "label": "Sens affûtés",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n"
+          }
+        },
+        "rank": 1
+      },
+      "44": {
+        "id": "44",
+        "name": "Voie du compagnon animal",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "198",
+            "label": "Odorat",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le loup du Rôdeur détecte les odeurs des animaux et des créatures là où ils sont passés. Le Rôdeur obtient un bonus de +5 aux tests de SAG pour pister et suivre des traces.\r\n"
+          },
+          "2": {
+            "target_id": "199",
+            "label": "Surveillance",
+            "rank": "2",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le loup est constamment sur ses gardes. Le Rôdeur a donc un temps d’avance quand des ennemis essaient de l’attaquer par surprise, il obtient un bonus de +5 pour les tests de surprise (SAG) et en Initiative. Lorsqu’il est surpris, il peut faire une attaque simple à distance AVANT que ne débute le premier tour de combat.\r\n"
+          },
+          "3": {
+            "target_id": "200",
+            "label": "Combat",
+            "rank": "3",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Le loup du Rôdeur peut désormais se battre comme un véritable personnage. Il attaque en même temps que le Rôdeur. Loup : Init 13, DEF 14, PV [niveau x 4], attaque au contact = [niveau du Rôdeur], DM 1d6+1, FOR +1, DEX +1, CON* +1, INT -3, SAG* +2, CHA -2.\r\n"
+          }
+        },
+        "rank": 3
+      },
+      "48": {
+        "id": "48",
+        "name": "Voie du traqueur",
+        "type": "character",
+        "capabilities": {
+          "1": {
+            "target_id": "221",
+            "label": "Pas de loup",
+            "rank": "1",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Quand il essaie de passer inaperçu en forêt, le Rôdeur bénéficie d’un bonus de +2 par Rang à son test de DEX.\r\n"
+          },
+          "2": {
+            "target_id": "222",
+            "label": "Ennemi juré",
+            "rank": "2",
+            "is_limited": "0",
+            "is_magical": "0",
+            "description": "Après avoir tué une créature, le Rôdeur peut décider que tous ceux de sa race sont devenus des ennemis jurés. Contre ces créatures, il bénéficie d’un bonus égal à son Mod. de SAG pour ses attaques et il inflige +1d6 de DM. Le Rôdeur peut changer d’ennemi juré une fois au cours de chaque niveau.\r\n"
+          }
+        },
+        "rank": 2
+      }
+    },
+    "capabilities": [
+      {
+        "target_id": "193",
+        "label": "Sens affûtés",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Pour chaque Rang dans cette Voie, le Rôdeur gagne un bonus de +2 à tous ses tests de SAG destinés à simuler la perception (vue, ouïe, vigilance, etc.). De plus, il ajoute son Mod. de SAG aux dégâts qu’il inflige à l’arc et à son Initiative.\r\n",
+        "paths": "Voie de l’archer"
+      },
+      {
+        "target_id": "198",
+        "label": "Odorat",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le loup du Rôdeur détecte les odeurs des animaux et des créatures là où ils sont passés. Le Rôdeur obtient un bonus de +5 aux tests de SAG pour pister et suivre des traces.\r\n",
+        "paths": "Voie du compagnon animal"
+      },
+      {
+        "target_id": "199",
+        "label": "Surveillance",
+        "rank": "2",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le loup est constamment sur ses gardes. Le Rôdeur a donc un temps d’avance quand des ennemis essaient de l’attaquer par surprise, il obtient un bonus de +5 pour les tests de surprise (SAG) et en Initiative. Lorsqu’il est surpris, il peut faire une attaque simple à distance AVANT que ne débute le premier tour de combat.\r\n",
+        "paths": "Voie du compagnon animal"
+      },
+      {
+        "target_id": "200",
+        "label": "Combat",
+        "rank": "3",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Le loup du Rôdeur peut désormais se battre comme un véritable personnage. Il attaque en même temps que le Rôdeur. Loup : Init 13, DEF 14, PV [niveau x 4], attaque au contact = [niveau du Rôdeur], DM 1d6+1, FOR +1, DEX +1, CON* +1, INT -3, SAG* +2, CHA -2.\r\n",
+        "paths": "Voie du compagnon animal"
+      },
+      {
+        "target_id": "221",
+        "label": "Pas de loup",
+        "rank": "1",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Quand il essaie de passer inaperçu en forêt, le Rôdeur bénéficie d’un bonus de +2 par Rang à son test de DEX.\r\n",
+        "paths": "Voie du traqueur"
+      },
+      {
+        "target_id": "222",
+        "label": "Ennemi juré",
+        "rank": "2",
+        "is_limited": "0",
+        "is_magical": "0",
+        "description": "Après avoir tué une créature, le Rôdeur peut décider que tous ceux de sa race sont devenus des ennemis jurés. Contre ces créatures, il bénéficie d’un bonus égal à son Mod. de SAG pour ses attaques et il inflige +1d6 de DM. Le Rôdeur peut changer d’ennemi juré une fois au cours de chaque niveau.\r\n",
+        "paths": "Voie du traqueur"
+      }
+    ],
+    "picture": [
+      {
+        "target_id": "396",
+        "alt": "",
+        "title": "",
+        "width": "780",
+        "height": "860",
+        "label": "bandit-modified.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-08/bandit-modified.png.webp?itok=tTVFoJ8t"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Baby cerber"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "7",
+        "label": "Chiens"
+      }
+    ],
+    "environment": [
+      {
+        "value": "special",
+        "label": "Spécial"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "2"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "medium",
+        "label": "Moyen"
+      }
+    ],
+    "str_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "str_comment": [],
+    "dex_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "dex_comment": [],
+    "con_mod": [
+      {
+        "value": "4"
+      }
+    ],
+    "con_comment": [],
+    "int_mod": [
+      {
+        "value": "-3"
+      }
+    ],
+    "int_comment": [],
+    "wis_mod": [
+      {
+        "value": "2"
+      }
+    ],
+    "wis_comment": [],
+    "cha_mod": [
+      {
+        "value": "0"
+      }
+    ],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "14"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "25"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "14"
+      }
+    ],
+    "attacks": [
+      {
+        "value": "<p><strong>Morsure </strong>(3 attaques) +3<strong> </strong>-&gt; 2d4+2<strong> DM</strong> + poison</p>\r\n",
+        "format": "simple_html",
+        "data": [
+          {
+            "name": "Morsure (3 attaques)",
+            "test": "+3",
+            "dm": null,
+            "special": "+ poison",
+            "reach": null
+          }
+        ]
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": "<p><strong>Détection des proies (L) :</strong> le cerbère peut détecter la direction de la créature à sang chaud de taille moyenne (ou petite, faute de mieux) la plus proche de lui dans un rayon de 100 mètres. Pour cela, il doit faire un test de SAG (Perception) opposé à la DEX (Discrétion) de sa cible. Si la cible est située à plus de 50 mètres de distance, il subit une pénalité de -5 à son test.</p>\r\n\r\n<p><strong>Poison :</strong> la salive du cerbère est empoisonnée, la victime d’une morsure doit réussir un test de CON difficulté 10 ou être affaiblie à son prochain tour.</p>\r\n",
+        "format": "simple_html"
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "2266",
+        "alt": "",
+        "title": "",
+        "width": "655",
+        "height": "540",
+        "label": "cerbère.jpg",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/cerb%C3%A8re.jpg.webp?itok=b9WWlLDk"
+      }
+    ]
+  },
+  {
+    "name": [
+      {
+        "value": "Baguette"
+      }
+    ],
+    "appearance": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "description": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "creature_family": [
+      {
+        "target_id": "10",
+        "label": "Dinosaures"
+      }
+    ],
+    "environment": [
+      {
+        "value": "plain",
+        "label": "Plaine"
+      }
+    ],
+    "archetype": [
+      {
+        "value": "standard",
+        "label": "Standard"
+      }
+    ],
+    "boss_type": [],
+    "boss_rank": [],
+    "level": [
+      {
+        "value": "1"
+      }
+    ],
+    "category": [
+      {
+        "value": "alive",
+        "label": "Vivante"
+      }
+    ],
+    "size": [
+      {
+        "value": "small",
+        "label": "Petit"
+      }
+    ],
+    "str_mod": [],
+    "str_comment": [],
+    "dex_mod": [],
+    "dex_comment": [],
+    "con_mod": [],
+    "con_comment": [],
+    "int_mod": [],
+    "int_comment": [],
+    "wis_mod": [],
+    "wis_comment": [],
+    "cha_mod": [],
+    "cha_comment": [],
+    "sup_abilities": [],
+    "defense": [
+      {
+        "value": "5"
+      }
+    ],
+    "health_point": [
+      {
+        "value": "10"
+      }
+    ],
+    "dmg_reduction": [],
+    "init": [
+      {
+        "value": "1"
+      }
+    ],
+    "attacks": [
+      {
+        "value": null,
+        "format": null,
+        "data": []
+      }
+    ],
+    "profile": [],
+    "profile_level": [],
+    "paths": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "special_capabilities": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "comments": [
+      {
+        "value": null,
+        "format": null
+      }
+    ],
+    "structured_capabilities": [],
+    "capabilities": [],
+    "picture": [
+      {
+        "target_id": "2057",
+        "alt": "",
+        "title": "",
+        "width": "558",
+        "height": "379",
+        "label": "image_2023-06-19_232338111.png",
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-06/image_2023-06-19_232338111.png.webp?itok=5Z3EB_9N"
       }
     ]
   },
@@ -1589,7 +6451,7 @@
         "width": "1024",
         "height": "1024",
         "label": "balor-modified.png",
-        "creature_token_url": "/creatures/images/balor.png"
+        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/balor-modified.png.webp?itok=fxvqYhb4"
       }
     ]
   },

@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeProvider } from "@emotion/react";
-import { createTheme } from "@mui/material";
+import { Container, createTheme } from "@mui/material";
 import { Roboto } from "next/font/google";
 import Navbar from "../components/navbar/Navbar";
 import "./globals.css";
@@ -39,7 +39,7 @@ export default function RootLayout({
       <body>
         <ThemeProvider theme={theme}>
           <Navbar />
-          {children}
+          <Container maxWidth="xl">{children}</Container>
         </ThemeProvider>
       </body>
     </html>
