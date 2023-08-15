@@ -58,7 +58,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 const Creatures = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
   const [searchTerm, setSearchTerm] = React.useState<string>("");
-  const [sortType, setSortType] = React.useState(1);
+  const [sortType, setSortType] = React.useState("");
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
@@ -66,7 +66,7 @@ const Creatures = () => {
     };
 
   const handleAgeChange = (event: SelectChangeEvent) => {
-    setSortType(event.target.value);
+    setSortType(event.target.value as string);
   };
 
   return (
