@@ -2,9 +2,9 @@
 
 import { ThemeProvider } from "@emotion/react";
 import { Container, createTheme } from "@mui/material";
-import { Roboto } from "next/font/google";
 import Navbar from "../components/navbar/Navbar";
 import "./globals.css";
+import { Roboto } from "next/font/google";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -28,9 +28,14 @@ export default function RootLayout({
         contrastText: "#47008F",
       },
     },
+    typography: {
+      fontFamily: ["Blackmoor", "Lato", "sans-serif"].join(","),
+      fontSize: 20,
+    },
   });
+
   return (
-    <html lang="en" className={roboto.className}>
+    <html lang="en">
       <head>
         <title>Chroniques Oubliées | DRS</title>
       </head>
