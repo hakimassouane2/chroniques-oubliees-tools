@@ -1918,7 +1918,17 @@
     ],
     "structured_capabilities": [],
     "capabilities": [],
-    "picture": []
+    "picture": [
+      {
+        "target_id": "1187",
+        "alt": "Bandit Vétéran",
+        "title": "",
+        "width": "1024",
+        "height": "1024",
+        "label": "bandit-veteran-modified.png",
+        "creature_token_url": "/creatures/images/bandit-veteran.png"
+      }
+    ]
   },
   {
     "name": [
@@ -5172,7 +5182,17 @@
     ],
     "structured_capabilities": [],
     "capabilities": [],
-    "picture": []
+    "picture": [
+      {
+        "target_id": "1187",
+        "alt": "Chef Bandit",
+        "title": "",
+        "width": "1024",
+        "height": "1024",
+        "label": "chef-bandit-modified.png",
+        "creature_token_url": "/creatures/images/chef-bandit.png"
+      }
+    ]
   },
   {
     "name": [
@@ -6132,7 +6152,17 @@
     ],
     "structured_capabilities": [],
     "capabilities": [],
-    "picture": []
+    "picture": [
+      {
+        "target_id": "1187",
+        "alt": "Chef Orque",
+        "title": "",
+        "width": "1024",
+        "height": "1024",
+        "label": "chef-orque-modified.png",
+        "creature_token_url": "/creatures/images/chef-orque.png"
+      }
+    ]
   },
   {
     "name": [
@@ -7975,7 +8005,7 @@
         "width": "1024",
         "height": "1024",
         "label": "very_small_creature-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/very_small_creature-modified.png.webp?itok=3kYUtdAC"
+        "creature_token_url": "/creatures/images/creature-tres-petite.png"
       }
     ]
   },
@@ -8123,7 +8153,7 @@
         "width": "1024",
         "height": "1024",
         "label": "gelatinous_cube-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gelatinous_cube-modified.png.webp?itok=Ckv_49Y_"
+        "creature_token_url": "/creatures/images/cube-gelatineux.png"
       }
     ]
   },
@@ -8320,7 +8350,7 @@
         "width": "1024",
         "height": "1024",
         "label": "deinonychus-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/deinonychus-modified.png.webp?itok=BuHWp78A"
+        "creature_token_url": "/creatures/images/deinonychus.png"
       }
     ]
   },
@@ -8525,7 +8555,7 @@
         "width": "1024",
         "height": "1024",
         "label": "nightmare-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/nightmare-modified.png.webp?itok=vU3R-Xa2"
+        "creature_token_url": "/creatures/images/destrier-noir.png"
       }
     ]
   },
@@ -8748,7 +8778,7 @@
         "width": "1024",
         "height": "1024",
         "label": "diplodocus-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/diplodocus-modified.png.webp?itok=uvail7UX"
+        "creature_token_url": "/creatures/images/diplodocus.png"
       }
     ]
   },
@@ -8982,7 +9012,17 @@
         "paths": "Voie des végétaux"
       }
     ],
-    "picture": []
+    "picture": [
+      {
+        "target_id": "1187",
+        "alt": "Djinn",
+        "title": "",
+        "width": "1024",
+        "height": "1024",
+        "label": "djinn-modified.png",
+        "creature_token_url": "/creatures/images/djinn.png"
+      }
+    ]
   },
   {
     "name": [
@@ -9168,7 +9208,7 @@
         "width": "1024",
         "height": "1024",
         "label": "doppleganger-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/doppleganger-modified.png.webp?itok=vCDCbb_e"
+        "creature_token_url": "/creatures/images/doppleganger.png"
       }
     ]
   },
@@ -9465,7 +9505,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dragon-adult-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dragon-adult-modified.png.webp?itok=aJeUywIu"
+        "creature_token_url": "/creatures/images/dragon-adulte.png"
       }
     ]
   },
@@ -9775,7 +9815,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dragon-ancient-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dragon-ancient-modified.png.webp?itok=P5y2IUYe"
+        "creature_token_url": "/creatures/images/dragon-ancien.png"
       }
     ]
   },
@@ -10043,7 +10083,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dragon-young-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dragon-young-modified.png.webp?itok=koJ4uOaU"
+        "creature_token_url": "/creatures/images/dragon-jeune.png"
       }
     ]
   },
@@ -10302,7 +10342,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dragon-juvenile-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dragon-juvenile-modified.png.webp?itok=JO4ZuPKJ"
+        "creature_token_url": "/creatures/images/dragon-juvenile.png"
       }
     ]
   },
@@ -10615,7 +10655,7 @@
         "width": "1024",
         "height": "1024",
         "label": "drider-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/drider-modified.png.webp?itok=auubRcGj"
+        "creature_token_url": "/creatures/images/drider.png"
       }
     ]
   },
@@ -10920,7 +10960,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dryade-modified_0.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dryade-modified_0.png.webp?itok=6YeHPp6_"
+        "creature_token_url": "/creatures/images/dryade.png"
       }
     ]
   },
@@ -11179,7 +11219,7 @@
         "width": "1024",
         "height": "1024",
         "label": "efreeti-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/efreeti-modified.png.webp?itok=E1W8LiPh"
+        "creature_token_url": "/creatures/images/efrit.png"
       }
     ]
   },
@@ -11388,7 +11428,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elf-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elf-modified.png.webp?itok=iLNizLGm"
+        "creature_token_url": "/creatures/images/elfe-des-bois.png"
       }
     ]
   },
@@ -11653,7 +11693,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_air_colossal-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_air_colossal-modified.png.webp?itok=Xy8bmKYg"
+        "creature_token_url": "/creatures/images/elementaire-air-colossal.png"
       }
     ]
   },
@@ -11884,7 +11924,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_air_big-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_air_big-modified.png.webp?itok=hy5GXzJ9"
+        "creature_token_url": "/creatures/images/elementaire-air-grand.png"
       }
     ]
   },
@@ -12086,7 +12126,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_air_medium-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_air_medium-modified.png.webp?itok=hwmDAQCz"
+        "creature_token_url": "/creatures/images/elementaire-air-moyen.png"
       }
     ]
   },
@@ -12288,7 +12328,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_air_small-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_air_small-modified.png.webp?itok=wEfdUoqe"
+        "creature_token_url": "/creatures/images/elementaire-air-petit.png"
       }
     ]
   },
@@ -12536,7 +12576,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_air_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_air_giant-modified.png.webp?itok=HNl2a1UE"
+        "creature_token_url": "/creatures/images/elementaire-air-enorme.png"
       }
     ]
   },
@@ -12801,7 +12841,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_water_colossal-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_water_colossal-modified.png.webp?itok=seWiSkhF"
+        "creature_token_url": "/creatures/images/elementaire-eau-colossal.png"
       }
     ]
   },
@@ -13032,7 +13072,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_water_big-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_water_big-modified.png.webp?itok=cvzAplrA"
+        "creature_token_url": "/creatures/images/elementaire-eau-grand.png"
       }
     ]
   },
@@ -13234,7 +13274,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_water_medium-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_water_medium-modified.png.webp?itok=SvlEco0x"
+        "creature_token_url": "/creatures/images/elementaire-eau-moyen.png"
       }
     ]
   },
@@ -13436,7 +13476,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_water_small-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_water_small-modified.png.webp?itok=22UD5koe"
+        "creature_token_url": "/creatures/images/elementaire-eau-petit.png"
       }
     ]
   },
@@ -13684,7 +13724,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_water_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_water_giant-modified.png.webp?itok=4b02NKZg"
+        "creature_token_url": "/creatures/images/elementaire-eau-enorme.png"
       }
     ]
   },
@@ -13949,7 +13989,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_fire_colossal-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_fire_colossal-modified.png.webp?itok=rosNzCuM"
+        "creature_token_url": "/creatures/images/elementaire-feu-colossal.png"
       }
     ]
   },
@@ -14180,7 +14220,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_fire_big-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_fire_big-modified.png.webp?itok=h6ZmN5p2"
+        "creature_token_url": "/creatures/images/elementaire-feu-grand.png"
       }
     ]
   },
@@ -14382,7 +14422,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_fire_medium-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_fire_medium-modified.png.webp?itok=Mq5JmmCE"
+        "creature_token_url": "/creatures/images/elementaire-feu-moyen.png"
       }
     ]
   },
@@ -14584,7 +14624,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_fire_small-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_fire_small-modified.png.webp?itok=um-VSqiX"
+        "creature_token_url": "/creatures/images/elementaire-feu-petit.png"
       }
     ]
   },
@@ -14832,7 +14872,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_fire_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_fire_giant-modified.png.webp?itok=FrPAjey-"
+        "creature_token_url": "/creatures/images/elementaire-feu-enorme.png"
       }
     ]
   },
@@ -15097,7 +15137,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_earth_colossal-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_earth_colossal-modified.png.webp?itok=6i9Fx9eH"
+        "creature_token_url": "/creatures/images/elementaire-terre-colossal.png"
       }
     ]
   },
@@ -15328,7 +15368,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_earth_big-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_earth_big-modified.png.webp?itok=5iO__Rgs"
+        "creature_token_url": "/creatures/images/elementaire-terre-grand.png"
       }
     ]
   },
@@ -15530,7 +15570,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_earth_medium-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_earth_medium-modified.png.webp?itok=fbNNAwTT"
+        "creature_token_url": "/creatures/images/elementaire-terre-moyen.png"
       }
     ]
   },
@@ -15732,7 +15772,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_earth_small-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_earth_small-modified.png.webp?itok=J4kc0cdi"
+        "creature_token_url": "/creatures/images/elementaire-terre-petit.png"
       }
     ]
   },
@@ -15980,7 +16020,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elemental_earth_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elemental_earth_giant-modified.png.webp?itok=qwdVyKtR"
+        "creature_token_url": "/creatures/images/elementaire-terre-enorme.png"
       }
     ]
   },
@@ -16173,7 +16213,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elephant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elephant-modified.png.webp?itok=a8gjD-85"
+        "creature_token_url": "/creatures/images/elephant.png"
       }
     ]
   },
@@ -16370,7 +16410,7 @@
         "width": "1024",
         "height": "1024",
         "label": "ettin-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ettin-modified.png.webp?itok=xIw3o03i"
+        "creature_token_url": "/creatures/images/ettin.png"
       }
     ]
   },
@@ -16584,7 +16624,7 @@
         "width": "1024",
         "height": "1024",
         "label": "ghost_major-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ghost_major-modified.png.webp?itok=Q6jcj8Hr"
+        "creature_token_url": "/creatures/images/fantome-majeur.png"
       }
     ]
   },
@@ -16772,7 +16812,7 @@
         "width": "1024",
         "height": "1024",
         "label": "ghost_minor-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ghost_minor-modified.png.webp?itok=fg2_kuhR"
+        "creature_token_url": "/creatures/images/fantome-mineur.png"
       }
     ]
   },
@@ -16924,7 +16964,7 @@
         "width": "1024",
         "height": "1024",
         "label": "kid-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/kid-modified.png.webp?itok=9lQ2QiGN"
+        "creature_token_url": "/creatures/images/gamin.png"
       }
     ]
   },
@@ -17247,7 +17287,7 @@
         "width": "1024",
         "height": "1024",
         "label": "elite-guard-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/elite-guard-modified.png.webp?itok=InPgfhtg"
+        "creature_token_url": "/creatures/images/garde-elite.png"
       }
     ]
   },
@@ -17494,7 +17534,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bodyguard-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bodyguard-modified.png.webp?itok=ifhKB7hy"
+        "creature_token_url": "/creatures/images/garde-du-corps.png"
       }
     ]
   },
@@ -17720,7 +17760,7 @@
         "width": "1024",
         "height": "1024",
         "label": "gargoyle-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gargoyle-modified.png.webp?itok=m4L-wxPt"
+        "creature_token_url": "/creatures/images/gargouille.png"
       }
     ]
   },
@@ -17877,7 +17917,7 @@
         "width": "1024",
         "height": "1024",
         "label": "gnoll-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gnoll-modified.png.webp?itok=a_4PP7Lk"
+        "creature_token_url": "/creatures/images/gnoll-de-base.png"
       }
     ]
   },
@@ -18034,7 +18074,7 @@
         "width": "1024",
         "height": "1024",
         "label": "goblin-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/goblin-modified.png.webp?itok=Zlkbbfx9"
+        "creature_token_url": "/creatures/images/gobelin-de-base.png"
       }
     ]
   },
@@ -18200,7 +18240,7 @@
         "width": "1024",
         "height": "1024",
         "label": "goblin-elite-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/goblin-elite-modified.png.webp?itok=KpeYETsG"
+        "creature_token_url": "/creatures/images/gobelin-elite.png"
       }
     ]
   },
@@ -18366,7 +18406,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bugbear-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bugbear-modified.png.webp?itok=j2IBwWJM"
+        "creature_token_url": "/creatures/images/gobelours.png"
       }
     ]
   },
@@ -18610,7 +18650,7 @@
         "width": "1024",
         "height": "1024",
         "label": "golem_flesh-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/golem_flesh-modified.png.webp?itok=xMwcCsK_"
+        "creature_token_url": "/creatures/images/golem-de-chair.png"
       }
     ]
   },
@@ -18858,7 +18898,7 @@
         "width": "1024",
         "height": "1024",
         "label": "golem_iron-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/golem_iron-modified.png.webp?itok=G44m_NV0"
+        "creature_token_url": "/creatures/images/golem-de-fer.png"
       }
     ]
   },
@@ -19089,7 +19129,7 @@
         "width": "1024",
         "height": "1024",
         "label": "golem_stone-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/golem_stone-modified.png.webp?itok=4HNj1or9"
+        "creature_token_url": "/creatures/images/golem-de-pierre.png"
       }
     ]
   },
@@ -19358,7 +19398,7 @@
         "width": "1024",
         "height": "1024",
         "label": "gorilla_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gorilla_giant-modified.png.webp?itok=XPbasJta"
+        "creature_token_url": "/creatures/images/gorille-geant.png"
       }
     ]
   },
@@ -19551,7 +19591,7 @@
         "width": "1024",
         "height": "1024",
         "label": "gorilla-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/gorilla-modified.png.webp?itok=mT2JBN3y"
+        "creature_token_url": "/creatures/images/gorille.png"
       }
     ]
   },
@@ -19712,7 +19752,7 @@
         "width": "1024",
         "height": "1024",
         "label": "ghoul-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ghoul-modified.png.webp?itok=X85fEcNx"
+        "creature_token_url": "/creatures/images/goule.png"
       }
     ]
   },
@@ -19985,7 +20025,7 @@
         "width": "1024",
         "height": "1024",
         "label": "assassin-great-master-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/assassin-great-master-modified.png.webp?itok=Rq_bf0Ec"
+        "creature_token_url": "/creatures/images/grand-maitre-assassin.png"
       }
     ]
   },
@@ -20204,7 +20244,7 @@
         "width": "1024",
         "height": "1024",
         "label": "lion_great_male-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/lion_great_male-modified.png.webp?itok=NsXSCxGN"
+        "creature_token_url": "/creatures/images/grand-male-lion.png"
       }
     ]
   },
@@ -20397,7 +20437,7 @@
         "width": "1024",
         "height": "1024",
         "label": "griffin-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/griffin-modified.png.webp?itok=wnsbES7o"
+        "creature_token_url": "/creatures/images/griffon.png"
       }
     ]
   },
@@ -20581,7 +20621,7 @@
         "width": "1024",
         "height": "1024",
         "label": "strong-man-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/strong-man-modified.png.webp?itok=0p5PV-y1"
+        "creature_token_url": "/creatures/images/gros-bras.png"
       }
     ]
   },
@@ -20781,7 +20821,7 @@
         "width": "1024",
         "height": "1024",
         "label": "draw_man_warrior-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/draw_man_warrior-modified.png.webp?itok=DUTtQNXb"
+        "creature_token_url": "/creatures/images/guerrier-elfe-noir.png"
       }
     ]
   },
@@ -21015,7 +21055,7 @@
         "width": "1024",
         "height": "1024",
         "label": "draw_woman_warrior-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/draw_woman_warrior-modified.png.webp?itok=gDBn8Gmj"
+        "creature_token_url": "/creatures/images/guerriere-elfe-noir.png"
       }
     ]
   },
@@ -21241,7 +21281,7 @@
         "width": "1024",
         "height": "1024",
         "label": "giant_stone-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/giant_stone-modified.png.webp?itok=OD1hXMgq"
+        "creature_token_url": "/creatures/images/geant-de-pierre.png"
       }
     ]
   },
@@ -21450,7 +21490,7 @@
         "width": "1024",
         "height": "1024",
         "label": "giant_hill-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/giant_hill-modified.png.webp?itok=vIEKeYgV"
+        "creature_token_url": "/creatures/images/geant-des-collines.png"
       }
     ]
   },
@@ -21693,7 +21733,7 @@
         "width": "1024",
         "height": "1024",
         "label": "giant_storm-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/giant_storm-modified.png.webp?itok=QNmW4ZN7"
+        "creature_token_url": "/creatures/images/geant-des-tempetes.png"
       }
     ]
   },
@@ -21919,7 +21959,7 @@
         "width": "1024",
         "height": "1024",
         "label": "giant_frost-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/giant_frost-modified.png.webp?itok=XsP30qUc"
+        "creature_token_url": "/creatures/images/geant-du-givre.png"
       }
     ]
   },
@@ -22107,7 +22147,7 @@
         "width": "1024",
         "height": "1024",
         "label": "harpy-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/harpy-modified.png.webp?itok=_lRZBMHk"
+        "creature_token_url": "/creatures/images/harpie.png"
       }
     ]
   },
@@ -22286,7 +22326,7 @@
         "width": "1024",
         "height": "1024",
         "label": "hippogriff-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hippogriff-modified.png.webp?itok=RCWQdnLl"
+        "creature_token_url": "/creatures/images/hippogriffe.png"
       }
     ]
   },
@@ -22443,7 +22483,7 @@
         "width": "1024",
         "height": "1024",
         "label": "hobgoblin-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hobgoblin-modified.png.webp?itok=vQLfbzSQ"
+        "creature_token_url": "/creatures/images/hobgobelin-de-base.png"
       }
     ]
   },
@@ -22612,7 +22652,7 @@
         "width": "1024",
         "height": "1024",
         "label": "lizardfolk-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/lizardfolk-modified.png.webp?itok=SlFUJm4r"
+        "creature_token_url": "/creatures/images/homme-lezard-de-base.png"
       }
     ]
   },
@@ -22774,7 +22814,7 @@
         "width": "1024",
         "height": "1024",
         "label": "hydra_10_heads-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hydra_10_heads-modified.png.webp?itok=PPdQD46V"
+        "creature_token_url": "/creatures/images/hydre-dix-tetes.png"
       }
     ]
   },
@@ -22936,7 +22976,7 @@
         "width": "1024",
         "height": "1024",
         "label": "hydra_5_heads-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hydra_5_heads-modified.png.webp?itok=HPEeJQEj"
+        "creature_token_url": "/creatures/images/hydre-cinq-tetes.png"
       }
     ]
   },
@@ -23097,7 +23137,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bug_colossal-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bug_colossal-modified.png.webp?itok=emz1M4Xp"
+        "creature_token_url": "/creatures/images/insecte-de-taille-colossale.png"
       }
     ]
   },
@@ -23258,7 +23298,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bug_big-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bug_big-modified.png.webp?itok=GgM-xOxi"
+        "creature_token_url": "/creatures/images/insecte-de-taille-grande.png"
       }
     ]
   },
@@ -23428,7 +23468,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bug_medium-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bug_medium-modified.png.webp?itok=mip9L_WT"
+        "creature_token_url": "/creatures/images/insecte-de-taille-moyenne.png"
       }
     ]
   },
@@ -23589,7 +23629,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bug_small-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bug_small-modified.png.webp?itok=1Ie9JGVv"
+        "creature_token_url": "/creatures/images/insecte-de-taille-petite.png"
       }
     ]
   },
@@ -23750,7 +23790,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bug_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bug_giant-modified.png.webp?itok=Mp4-GBzK"
+        "creature_token_url": "/creatures/images/insecte-de-taille-enorme.png"
       }
     ]
   },
@@ -23914,7 +23954,7 @@
         "width": "1024",
         "height": "1024",
         "label": "kobold-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/kobold-modified.png.webp?itok=7hjtYvBZ"
+        "creature_token_url": "/creatures/images/kobold.png"
       }
     ]
   },
@@ -24253,7 +24293,7 @@
         "width": "1024",
         "height": "1024",
         "label": "lich-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/lich-modified.png.webp?itok=LEU9QMS1"
+        "creature_token_url": "/creatures/images/liche.png"
       }
     ]
   },
@@ -24410,7 +24450,7 @@
         "width": "1024",
         "height": "1024",
         "label": "unicorn-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/unicorn-modified.png.webp?itok=fN46TYHa"
+        "creature_token_url": "/creatures/images/licorne.png"
       }
     ]
   },
@@ -24616,7 +24656,7 @@
         "width": "1024",
         "height": "1024",
         "label": "lion-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/lion-modified.png.webp?itok=LvjfE-4j"
+        "creature_token_url": "/creatures/images/lion.png"
       }
     ]
   },
@@ -24875,7 +24915,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wolf_winter-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wolf_winter-modified.png.webp?itok=6xj_qEe0"
+        "creature_token_url": "/creatures/images/loup-arctique.png"
       }
     ]
   },
@@ -25081,7 +25121,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wolf_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wolf_giant-modified.png.webp?itok=x0w5fJjA"
+        "creature_token_url": "/creatures/images/loup-geant.png"
       }
     ]
   },
@@ -25274,7 +25314,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wolf_alpha-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wolf_alpha-modified.png.webp?itok=jKbVDfKP"
+        "creature_token_url": "/creatures/images/loup-male-alpha.png"
       }
     ]
   },
@@ -25475,7 +25515,7 @@
         "width": "1024",
         "height": "1024",
         "label": "werewolf_infected-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/werewolf_infected-modified.png.webp?itok=gxU9PFYA"
+        "creature_token_url": "/creatures/images/loup-garou-infecte.png"
       }
     ]
   },
@@ -25692,7 +25732,7 @@
         "width": "1024",
         "height": "1024",
         "label": "werewolf_natural-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/werewolf_natural-modified.png.webp?itok=so0XNl9Q"
+        "creature_token_url": "/creatures/images/loup-garou-naturel.png"
       }
     ]
   },
@@ -25885,7 +25925,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wolf-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wolf-modified.png.webp?itok=1ntt48SQ"
+        "creature_token_url": "/creatures/images/loup.png"
       }
     ]
   },
@@ -26078,7 +26118,7 @@
         "width": "1024",
         "height": "1024",
         "label": "mamouth-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/mamouth-modified.png.webp?itok=JVzw6Pbs"
+        "creature_token_url": "/creatures/images/mammouth.png"
       }
     ]
   },
@@ -26273,7 +26313,7 @@
         "width": "1024",
         "height": "1024",
         "label": "manticore-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/manticore-modified.png.webp?itok=DgCNDwjW"
+        "creature_token_url": "/creatures/images/manticore.png"
       }
     ]
   },
@@ -26461,7 +26501,7 @@
         "width": "1024",
         "height": "1024",
         "label": "merchant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/merchant-modified.png.webp?itok=rYZWDQ_f"
+        "creature_token_url": "/creatures/images/marchand.png"
       }
     ]
   },
@@ -26726,7 +26766,7 @@
         "width": "1024",
         "height": "1024",
         "label": "marylith-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/marylith-modified.png.webp?itok=n_d1qqNT"
+        "creature_token_url": "/creatures/images/marilith.png"
       }
     ]
   },
@@ -26957,7 +26997,7 @@
         "width": "1024",
         "height": "1024",
         "label": "assassin-master-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/assassin-master-modified.png.webp?itok=OF6toBrk"
+        "creature_token_url": "/creatures/images/maitre-assassin.png"
       }
     ]
   },
@@ -27109,7 +27149,7 @@
         "width": "1024",
         "height": "1024",
         "label": "militiaman-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/militiaman-modified.png.webp?itok=ywpCaFBR"
+        "creature_token_url": "/creatures/images/milicien.png"
       }
     ]
   },
@@ -27380,7 +27420,7 @@
         "width": "427",
         "height": "599",
         "label": "Minotaure.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/Minotaure.png.webp?itok=aPncxXXv"
+        "creature_token_url": "/creatures/images/minotaure.png"
       }
     ]
   },
@@ -27580,7 +27620,7 @@
         "width": "1024",
         "height": "1024",
         "label": "hound-satanic-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/hound-satanic-modified.png.webp?itok=bQlzlztk"
+        "creature_token_url": "/creatures/images/molosse-satanique.png"
       }
     ]
   },
@@ -27776,7 +27816,7 @@
         "width": "1024",
         "height": "1024",
         "label": "mummy-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/mummy-modified.png.webp?itok=ouKwlpba"
+        "creature_token_url": "/creatures/images/momie.png"
       }
     ]
   },
@@ -27978,7 +28018,7 @@
         "width": "387",
         "height": "358",
         "label": "Méduse.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-05/M%C3%A9duse.png.webp?itok=nQrHbbjQ"
+        "creature_token_url": "/creatures/images/meduse.png"
       }
     ]
   },
@@ -28407,7 +28447,7 @@
         "width": "1024",
         "height": "1024",
         "label": "naga_good-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/naga_good-modified.png.webp?itok=9jU1DgKu"
+        "creature_token_url": "/creatures/images/naga-bon.png"
       }
     ]
   },
@@ -28836,7 +28876,7 @@
         "width": "1024",
         "height": "1024",
         "label": "naga_bad-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/naga_bad-modified.png.webp?itok=4tB4zQY5"
+        "creature_token_url": "/creatures/images/naga-malefique.png"
       }
     ]
   },
@@ -29265,7 +29305,7 @@
         "width": "1024",
         "height": "1024",
         "label": "naga_neutral-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/naga_neutral-modified.png.webp?itok=NH3FG704"
+        "creature_token_url": "/creatures/images/naga-neutre.png"
       }
     ]
   },
@@ -29438,7 +29478,7 @@
         "width": "1024",
         "height": "1024",
         "label": "duergar-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/duergar-modified.png.webp?itok=JWb-5Krb"
+        "creature_token_url": "/creatures/images/nain-sombre.png"
       }
     ]
   },
@@ -29638,7 +29678,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dwarf-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dwarf-modified.png.webp?itok=crcJTEub"
+        "creature_token_url": "/creatures/images/nain.png"
       }
     ]
   },
@@ -29800,7 +29840,7 @@
         "width": "1024",
         "height": "1024",
         "label": "swarm_spiders-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swarm_spiders-modified.png.webp?itok=FGyrPZy0"
+        "creature_token_url": "/creatures/images/nue-araignee-venimeuse.png"
       }
     ]
   },
@@ -29962,7 +30002,7 @@
         "width": "1024",
         "height": "1024",
         "label": "swarm_birds-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swarm_birds-modified.png.webp?itok=Rvgqvj2V"
+        "creature_token_url": "/creatures/images/nue-oiseaux.png"
       }
     ]
   },
@@ -30124,7 +30164,7 @@
         "width": "1024",
         "height": "1024",
         "label": "swarm_hornet-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swarm_hornet-modified.png.webp?itok=K_gAOz8u"
+        "creature_token_url": "/creatures/images/nue-frelons.png"
       }
     ]
   },
@@ -30286,7 +30326,7 @@
         "width": "1024",
         "height": "1024",
         "label": "swarm_wasps-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swarm_wasps-modified.png.webp?itok=U-bL9zCB"
+        "creature_token_url": "/creatures/images/nue-guepe-geante.png"
       }
     ]
   },
@@ -30448,7 +30488,7 @@
         "width": "1024",
         "height": "1024",
         "label": "swarm_rats-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swarm_rats-modified.png.webp?itok=judsFA-f"
+        "creature_token_url": "/creatures/images/nue-de-rats.png"
       }
     ]
   },
@@ -30853,7 +30893,7 @@
         "width": "1024",
         "height": "1024",
         "label": "nymph-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/nymph-modified.png.webp?itok=4qO3Reh0"
+        "creature_token_url": "/creatures/images/nymphe.png"
       }
     ]
   },
@@ -31197,7 +31237,7 @@
         "width": "1024",
         "height": "1024",
         "label": "ogre_mage-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ogre_mage-modified.png.webp?itok=89C9PkPh"
+        "creature_token_url": "/creatures/images/ogre-mage.png"
       }
     ]
   },
@@ -31381,7 +31421,7 @@
         "width": "1024",
         "height": "1024",
         "label": "ogre_family-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/ogre_family-modified.png.webp?itok=hTsiLUlZ"
+        "creature_token_url": "/creatures/images/ogre.png"
       }
     ]
   },
@@ -31586,7 +31626,7 @@
         "width": "1024",
         "height": "1024",
         "label": "shadow-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/shadow-modified.png.webp?itok=Z6kdquL1"
+        "creature_token_url": "/creatures/images/ombre.png"
       }
     ]
   },
@@ -31735,7 +31775,17 @@
     ],
     "structured_capabilities": [],
     "capabilities": [],
-    "picture": []
+    "picture": [
+      {
+        "target_id": "1093",
+        "alt": "Orque noir",
+        "title": "",
+        "width": "1024",
+        "height": "1024",
+        "label": "noir-modified.png",
+        "creature_token_url": "/creatures/images/orque-noir.png"
+      }
+    ]
   },
   {
     "name": [
@@ -31931,7 +31981,7 @@
         "width": "1024",
         "height": "1024",
         "label": "orc_elite-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/orc_elite-modified.png.webp?itok=yiWjH_zI"
+        "creature_token_url": "/creatures/images/orque-elite.png"
       }
     ]
   },
@@ -32088,7 +32138,7 @@
         "width": "1024",
         "height": "1024",
         "label": "orc-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/orc-modified.png.webp?itok=fs6Zvfgx"
+        "creature_token_url": "/creatures/images/orque.png"
       }
     ]
   },
@@ -32286,7 +32336,7 @@
         "width": "1024",
         "height": "1024",
         "label": "brear_brown-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/brear_brown-modified.png.webp?itok=8DFtZI-4"
+        "creature_token_url": "/creatures/images/ours-brun.png"
       }
     ]
   },
@@ -32448,7 +32498,7 @@
         "width": "1024",
         "height": "1024",
         "label": "zombie_owlbear-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/zombie_owlbear-modified.png.webp?itok=UNMHdF_G"
+        "creature_token_url": "/creatures/images/ours-hiboux-zombie.png"
       }
     ]
   },
@@ -32619,7 +32669,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bear_black-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bear_black-modified.png.webp?itok=iAA9KDMH"
+        "creature_token_url": "/creatures/images/ours-noir.png"
       }
     ]
   },
@@ -32838,7 +32888,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bear_polar-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bear_polar-modified.png.webp?itok=fSLFua9n"
+        "creature_token_url": "/creatures/images/ours-polaire.png"
       }
     ]
   },
@@ -33069,7 +33119,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bear_prehistoric-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bear_prehistoric-modified.png.webp?itok=m9hiOq3u"
+        "creature_token_url": "/creatures/images/ours-prehistorique.png"
       }
     ]
   },
@@ -33284,7 +33334,7 @@
         "width": "1024",
         "height": "1024",
         "label": "owlbear-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/owlbear-modified.png.webp?itok=-I2ySu1p"
+        "creature_token_url": "/creatures/images/ours-hiboux-zombie.png"
       }
     ]
   },
@@ -33433,7 +33483,7 @@
         "width": "563",
         "height": "396",
         "label": "3256501ca7bf8bd883ebc500ffc1aafe.jpg",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-07/3256501ca7bf8bd883ebc500ffc1aafe.jpg.webp?itok=K_cKMC6R"
+        "creature_token_url": "/creatures/images/panthere.png"
       }
     ]
   },
@@ -33585,7 +33635,7 @@
         "width": "1024",
         "height": "1024",
         "label": "passerby-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/passerby-modified.png.webp?itok=Dblmxa41"
+        "creature_token_url": "/creatures/images/passant.png"
       }
     ]
   },
@@ -33751,7 +33801,7 @@
         "width": "1024",
         "height": "1024",
         "label": "giant_octupus-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/giant_octupus-modified.png.webp?itok=QVi1Hh7s"
+        "creature_token_url": "/creatures/images/pieuvre-geante.png"
       }
     ]
   },
@@ -34103,7 +34153,7 @@
         "width": "1024",
         "height": "1024",
         "label": "pixie_bewitching-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/pixie_bewitching-modified.png.webp?itok=x8qEJtzh"
+        "creature_token_url": "/creatures/images/pixie-ensorceleur.png"
       }
     ]
   },
@@ -34287,7 +34337,7 @@
         "width": "736",
         "height": "736",
         "label": "original.jpg",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-06/original.jpg.webp?itok=t58dohYQ"
+        "creature_token_url": "/creatures/images/pixie.png"
       }
     ]
   },
@@ -34492,7 +34542,7 @@
         "width": "1024",
         "height": "1024",
         "label": "kobold_priest-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/kobold_priest-modified.png.webp?itok=t311iz_X"
+        "creature_token_url": "/creatures/images/pretre-kobold.png"
       }
     ]
   },
@@ -34802,7 +34852,7 @@
         "width": "1024",
         "height": "1024",
         "label": "draw_woman_priestess-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/draw_woman_priestess-modified.png.webp?itok=Ztf1gkvS"
+        "creature_token_url": "/creatures/images/pretresse-elfe-noir.png"
       }
     ]
   },
@@ -35033,7 +35083,7 @@
         "width": "1024",
         "height": "1024",
         "label": "pteranodon-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/pteranodon-modified.png.webp?itok=xQTMwhLJ"
+        "creature_token_url": "/creatures/images/pteranodon.png"
       }
     ]
   },
@@ -35226,7 +35276,7 @@
         "width": "1536",
         "height": "1536",
         "label": "pegasus-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/pegasus-modified.png.webp?itok=Si7ZkMnf"
+        "creature_token_url": "/creatures/images/pegase.png"
       }
     ]
   },
@@ -35487,7 +35537,7 @@
         "width": "1024",
         "height": "1024",
         "label": "quasit-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/quasit-modified.png.webp?itok=Z7yXtJN6"
+        "creature_token_url": "/creatures/images/quasit.png"
       }
     ]
   },
@@ -35653,7 +35703,7 @@
         "width": "924",
         "height": "379",
         "label": "Rat géant.jpg",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2022-12/Rat%20g%C3%A9ant.jpg.webp?itok=QcvXnnsg"
+        "creature_token_url": "/creatures/images/rat-geant.png"
       }
     ]
   },
@@ -35827,7 +35877,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wererat_infected-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wererat_infected-modified.png.webp?itok=0w4N0Nkm"
+        "creature_token_url": "/creatures/images/rat-garou-infecte.png"
       }
     ]
   },
@@ -36017,7 +36067,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wererat_natural-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wererat_natural-modified.png.webp?itok=GkivjWmI"
+        "creature_token_url": "/creatures/images/rat-garou-naturel.png"
       }
     ]
   },
@@ -36205,7 +36255,7 @@
         "width": "1024",
         "height": "1024",
         "label": "rhinoceros-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/rhinoceros-modified.png.webp?itok=eIwoC3bX"
+        "creature_token_url": "/creatures/images/rhinoceros.png"
       }
     ]
   },
@@ -36432,7 +36482,7 @@
         "width": "1024",
         "height": "1024",
         "label": "roc-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/roc-modified.png.webp?itok=CWzsOCkr"
+        "creature_token_url": "/creatures/images/roc.png"
       }
     ]
   },
@@ -36664,7 +36714,7 @@
         "width": "1024",
         "height": "1024",
         "label": "boar_bloody-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/boar_bloody-modified.png.webp?itok=8p6IiTjy"
+        "creature_token_url": "/creatures/images/sanglier-sanguinaire.png"
       }
     ]
   },
@@ -36874,7 +36924,7 @@
         "width": "1024",
         "height": "1024",
         "label": "boar-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/boar-modified.png.webp?itok=bO7CCP8z"
+        "creature_token_url": "/creatures/images/sanglier.png"
       }
     ]
   },
@@ -37071,7 +37121,7 @@
         "width": "1024",
         "height": "1024",
         "label": "sergeant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/sergeant-modified.png.webp?itok=mEQchc9f"
+        "creature_token_url": "/creatures/images/sergent.png"
       }
     ]
   },
@@ -37264,7 +37314,7 @@
         "width": "1024",
         "height": "1024",
         "label": "snake_constrictor-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/snake_constrictor-modified.png.webp?itok=dAIXUZX0"
+        "creature_token_url": "/creatures/images/serpent-constricteur.png"
       }
     ]
   },
@@ -37421,7 +37471,7 @@
         "width": "1024",
         "height": "1024",
         "label": "snake_giant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/snake_giant-modified.png.webp?itok=KfM71PLa"
+        "creature_token_url": "/creatures/images/serpent-geant.png"
       }
     ]
   },
@@ -37614,7 +37664,7 @@
         "width": "1024",
         "height": "1024",
         "label": "snake-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/snake-modified.png.webp?itok=KzEX3Tq1"
+        "creature_token_url": "/creatures/images/serpent-venimeux.png"
       }
     ]
   },
@@ -37831,7 +37881,7 @@
         "width": "1024",
         "height": "1024",
         "label": "orc_shaman-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/orc_shaman-modified.png.webp?itok=9p2haT7Y"
+        "creature_token_url": "/creatures/images/shaman-orque.png"
       }
     ]
   },
@@ -37988,7 +38038,7 @@
         "width": "1024",
         "height": "1024",
         "label": "soldier-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/soldier-modified.png.webp?itok=tEM-lpvQ"
+        "creature_token_url": "/creatures/images/soldat.png"
       }
     ]
   },
@@ -38185,7 +38235,7 @@
         "width": "1024",
         "height": "1024",
         "label": "swordsman-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/swordsman-modified.png.webp?itok=lMym1Sb9"
+        "creature_token_url": "/creatures/images/spadassin.png"
       }
     ]
   },
@@ -38399,7 +38449,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wraith-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wraith-modified.png.webp?itok=MVrvJWG-"
+        "creature_token_url": "/creatures/images/spectre.png"
       }
     ]
   },
@@ -38587,7 +38637,7 @@
         "width": "1024",
         "height": "1024",
         "label": "skeleton-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/skeleton-modified.png.webp?itok=zedGpFYO"
+        "creature_token_url": "/creatures/images/squelette-de-base.png"
       }
     ]
   },
@@ -38792,7 +38842,7 @@
         "width": "1024",
         "height": "1024",
         "label": "skeleton_giant_2-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/skeleton_giant_2-modified.png.webp?itok=hLULSqrD"
+        "creature_token_url": "/creatures/images/squelette-de-geant.png"
       }
     ]
   },
@@ -38944,7 +38994,7 @@
         "width": "502",
         "height": "497",
         "label": "strige.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/strige.png.webp?itok=Vqx-T3yY"
+        "creature_token_url": "/creatures/images/stirge.png"
       }
     ]
   },
@@ -39265,7 +39315,7 @@
         "width": "1024",
         "height": "1024",
         "label": "succubus-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/succubus-modified.png.webp?itok=PQkBPxMG"
+        "creature_token_url": "/creatures/images/succube.png"
       }
     ]
   },
@@ -39422,7 +39472,7 @@
         "width": "1024",
         "height": "1024",
         "label": "dagger-wielder-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/dagger-wielder-modified.png.webp?itok=GcPCV_Fb"
+        "creature_token_url": "/creatures/images/surineur.png"
       }
     ]
   },
@@ -39578,7 +39628,7 @@
         "width": "1024",
         "height": "1024",
         "label": "treant-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/treant-modified.png.webp?itok=RMKTM2yU"
+        "creature_token_url": "/creatures/images/sylvanien.png"
       }
     ]
   },
@@ -39767,7 +39817,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bull_alpha-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bull_alpha-modified.png.webp?itok=klzg4Qp2"
+        "creature_token_url": "/creatures/images/taureau-grand-male.png"
       }
     ]
   },
@@ -39956,7 +40006,7 @@
         "width": "1024",
         "height": "1024",
         "label": "bull-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/bull-modified.png.webp?itok=21ltPsJ6"
+        "creature_token_url": "/creatures/images/taureau.png"
       }
     ]
   },
@@ -40179,7 +40229,7 @@
         "width": "1024",
         "height": "1024",
         "label": "tiger_saber_toothed-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/tiger_saber_toothed-modified.png.webp?itok=fh4VTEr1"
+        "creature_token_url": "/creatures/images/tigre-dent-de-sabre.png"
       }
     ]
   },
@@ -40398,7 +40448,7 @@
         "width": "1024",
         "height": "1024",
         "label": "tiger-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/tiger-modified.png.webp?itok=2z452JFh"
+        "creature_token_url": "/creatures/images/tigre.png"
       }
     ]
   },
@@ -40695,7 +40745,7 @@
         "width": "1024",
         "height": "1024",
         "label": "titan-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/titan-modified.png.webp?itok=FZlGLAE3"
+        "creature_token_url": "/creatures/images/titan.png"
       }
     ]
   },
@@ -40931,7 +40981,7 @@
         "width": "1024",
         "height": "1024",
         "label": "triceratops-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/triceratops-modified.png.webp?itok=S79ZGU6v"
+        "creature_token_url": "/creatures/images/triceratops.png"
       }
     ]
   },
@@ -41135,7 +41185,7 @@
         "width": "1024",
         "height": "1024",
         "label": "troll-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/troll-modified.png.webp?itok=JG_VVoUo"
+        "creature_token_url": "/creatures/images/troll.png"
       }
     ]
   },
@@ -41375,7 +41425,7 @@
         "width": "1024",
         "height": "1024",
         "label": "tyrannosaure-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/tyrannosaure-modified.png.webp?itok=TUZLMex_"
+        "creature_token_url": "/creatures/images/tyrannosaure.png"
       }
     ]
   },
@@ -41833,7 +41883,7 @@
         "width": "1024",
         "height": "1024",
         "label": "vampire_ancient-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/vampire_ancient-modified.png.webp?itok=Ru2xNKSO"
+        "creature_token_url": "/creatures/images/vampire-ancien.png"
       }
     ]
   },
@@ -42073,7 +42123,7 @@
         "width": "1024",
         "height": "1024",
         "label": "vampire-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/vampire-modified.png.webp?itok=ejO_k4gR"
+        "creature_token_url": "/creatures/images/vampire.png"
       }
     ]
   },
@@ -42279,7 +42329,7 @@
         "width": "1024",
         "height": "1024",
         "label": "vampire_spawn-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/vampire_spawn-modified.png.webp?itok=g-_tMufD"
+        "creature_token_url": "/creatures/images/vampirien.png"
       }
     ]
   },
@@ -42436,7 +42486,7 @@
         "width": "1024",
         "height": "1024",
         "label": "pickpocket-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/pickpocket-modified.png.webp?itok=C4Lb_dI2"
+        "creature_token_url": "/creatures/images/voleur-a-la-tire.png"
       }
     ]
   },
@@ -42644,7 +42694,7 @@
         "width": "1024",
         "height": "1024",
         "label": "wyvern-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/wyvern-modified.png.webp?itok=BAsQL7dn"
+        "creature_token_url": "/creatures/images/wyverne.png"
       }
     ]
   },
@@ -42846,7 +42896,7 @@
         "width": "1024",
         "height": "1024",
         "label": "worg-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/worg-modified.png.webp?itok=vBqCnYbY"
+        "creature_token_url": "/creatures/images/worg.png"
       }
     ]
   },
@@ -43007,7 +43057,7 @@
         "width": "1024",
         "height": "1024",
         "label": "zombie-modified.png",
-        "creature_token_url": "https://www.co-drs.org/sites/default/files/styles/creatures_token/public/co/creature/2023-02/zombie-modified.png.webp?itok=q-KFPFNW"
+        "creature_token_url": "/creatures/images/zombie-humain.png"
       }
     ]
   }
