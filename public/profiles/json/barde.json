@@ -6,7 +6,8 @@
   "hd": "1d6",
   "weaponsAndArmor": "Le Barde sait manier les armes à 1 main. Il peut porter jusqu’à l’armure de cuir renforcée et ne peut pas manier le bouclier.",
   "startingEquipment": "Rapière (DM 1d6, Crit 19-20), dague (DM 1d4), instrument de musique, armure de cuir (DEF +2).",
-  "imageUrl": "/profiles/images/barde.png",
+  "imageUrl": "/profiles/images/bard/bard.png.webp",
+  "imageUrlCropped": "/profiles/images/bard/bard-cropped.png.webp",
   "ways": [
     {
       "name": "Voie de l'escrime",

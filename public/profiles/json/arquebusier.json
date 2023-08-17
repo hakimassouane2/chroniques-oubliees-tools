@@ -5,7 +5,8 @@
   "hd": "1D8",
   "weaponsAndArmor": "L’Arquebusier sait manier toutes les armes de contact à une main, les armes à distance et les armes à poudre. Il peut porter jusqu’à la chemise de maille et ne manie pas de bouclier.",
   "startingEquipment": "Pétoire (DM 1d10, portée 20m), épée longue (DM 1d8), dague (DM 1d4), armure de cuir (DEF +2).",
-  "imageUrl": "/profiles/images/arquebusier.png.webp",
+  "imageUrl": "/profiles/images/arquebusier/arquebusier.png.webp",
+  "imageUrlCropped": "/profiles/images/arquebusier/arquebusier-cropped.png.webp",
   "ways": [
     {
       "name": "Voie de l'artilleur",
@@ -133,4 +134,4 @@
       ]
     }
   ]
-}
+},

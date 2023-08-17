@@ -70,11 +70,11 @@ const Creatures = () => {
   };
 
   return (
-    <div>
-      <Typography variant="h1">Listes des monstres</Typography>
+    <>
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
+        sx={{ mt: 2 }}
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Filtres</Typography>
@@ -130,24 +130,49 @@ const Creatures = () => {
                   />
                 </Link>
                 <CardContent sx={{ p: 2 }}>
-                  <Typography variant="h6">
+                  <Typography variant="h5" color={"primary"}>
                     {monster?.name[0]?.value}
                   </Typography>
                   {/* Archétype */}
-                  <Typography>
+                  <Typography
+                    variant="body2"
+                    fontWeight={300}
+                    fontFamily={"Roboto"}
+                    sx={{ color: "#212529" }}
+                  >
                     Archétype {monster?.archetype[0]?.label}
                   </Typography>
                   {/* Catégorie et taille */}
-                  <Typography>
+                  <Typography
+                    variant="body2"
+                    fontWeight={300}
+                    fontFamily={"Roboto"}
+                    sx={{ color: "#212529", mb: 1 }}
+                  >
                     Créature {monster?.category[0]?.label},{" "}
                     {monster?.size[0]?.label}
                   </Typography>
                   {/* Niveau */}
-                  <Typography>
+                  <Typography
+                    variant="body2"
+                    fontWeight={300}
+                    fontFamily={"Roboto"}
+                    sx={{ color: "#212529", mb: 1 }}
+                  >
                     <b>NC:</b>
                     {monster?.level[0]?.value}
                   </Typography>
-                  <Typography>
+                  <Typography
+                    variant="body2"
+                    fontWeight={300}
+                    fontFamily={"Roboto"}
+                    sx={{
+                      color: "#212529",
+                      display: "flex",
+                      justifyContent: "space-between",
+                      mb: 1,
+                    }}
+                  >
                     <b>DEF</b>
                     <SecurityIcon sx={{ color: "#256eff" }} />
                     {monster?.defense[0]?.value}
@@ -158,12 +183,30 @@ const Creatures = () => {
                     <DirectionsRunIcon sx={{ color: "#06a77d" }} />
                     {monster?.init[0]?.value}
                   </Typography>
-                  <Typography>
+                  <Typography
+                    variant="body2"
+                    fontWeight={300}
+                    fontFamily={"Roboto"}
+                    sx={{
+                      color: "#212529",
+                      display: "flex",
+                      justifyContent: "space-between",
+                    }}
+                  >
                     <b>FOR</b>+{monster?.str_mod[0]?.value}
                     <b>DEX</b>+{monster?.dex_mod[0]?.value}
                     <b>CON</b>+{monster?.con_mod[0]?.value}
                   </Typography>
-                  <Typography>
+                  <Typography
+                    variant="body2"
+                    fontWeight={300}
+                    fontFamily={"Roboto"}
+                    sx={{
+                      color: "#212529",
+                      display: "flex",
+                      justifyContent: "space-between",
+                    }}
+                  >
                     <b>INT</b>
                     <span>+{monster?.int_mod[0]?.value}</span>
                     <b>SAG</b>+{monster?.wis_mod[0]?.value}
@@ -174,7 +217,7 @@ const Creatures = () => {
             </Grid>
           ))}
       </Grid>
-    </div>
+    </>
   );
 };
 
