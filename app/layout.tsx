@@ -5,6 +5,7 @@ import { Container, createTheme } from "@mui/material";
 import { Roboto } from "next/font/google";
 import Navbar from "../components/navbar/Navbar";
 import "./globals.css";
+import Footer from "../components/footer/Footer";
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -39,7 +40,7 @@ export default function RootLayout({
       <head>
         <title>Chroniques Oubliées | DRS</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
@@ -49,6 +50,7 @@ export default function RootLayout({
         <ThemeProvider theme={theme}>
           <Navbar />
           <Container maxWidth="xl">{children}</Container>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

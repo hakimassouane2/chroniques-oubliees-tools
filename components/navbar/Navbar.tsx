@@ -43,6 +43,7 @@ function Navbar() {
             sx={{
               flexGrow: 1,
               display: { xs: "none", md: "flex" },
+              justifyContent: "center",
             }}
           >
             <div>
@@ -53,7 +54,11 @@ function Navbar() {
                 aria-expanded={open ? "true" : undefined}
                 onMouseEnter={handleMenuClick}
                 onClick={() => handleSubMenuClick("/game")}
-                sx={{ color: "white" }}
+                sx={{
+                  color: "white",
+                  textTransform: "none",
+                  fontSize: "1.7rem",
+                }}
                 endIcon={<KeyboardArrowDownIcon />}
               >
                 Jeu
@@ -71,12 +76,22 @@ function Navbar() {
                   onClick={() => {
                     handleSubMenuClick("/game/rules");
                   }}
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
+                  }}
                 >
                   Règles
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
                     handleSubMenuClick("/game/races");
+                  }}
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
                   }}
                 >
                   Races
@@ -85,10 +100,15 @@ function Navbar() {
                   onClick={() => {
                     handleSubMenuClick("/game/profiles");
                   }}
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
+                  }}
                 >
                   Profiles
                 </MenuItem>
-                <MenuItem
+                {/* <MenuItem
                   onClick={() => {
                     handleSubMenuClick("/game/ways");
                   }}
@@ -101,10 +121,15 @@ function Navbar() {
                   }}
                 >
                   Capacités
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   onClick={() => {
                     handleSubMenuClick("/game/equipments");
+                  }}
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
                   }}
                 >
                   Équipements
@@ -112,6 +137,11 @@ function Navbar() {
                 <MenuItem
                   onClick={() => {
                     handleSubMenuClick("/game/conditions");
+                  }}
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
                   }}
                 >
                   États préjudiciables
@@ -126,7 +156,7 @@ function Navbar() {
               onClick={() => {
                 navigateToUrl("/creatures");
               }}
-              sx={{ color: "white" }}
+              sx={{ color: "white", textTransform: "none", fontSize: "1.7rem" }}
             >
               Bestiaire
             </Button>
@@ -138,7 +168,7 @@ function Navbar() {
               onClick={() => {
                 navigateToUrl("/ressources");
               }}
-              sx={{ color: "white" }}
+              sx={{ color: "white", textTransform: "none", fontSize: "1.7rem" }}
             >
               Ressources
             </Button>

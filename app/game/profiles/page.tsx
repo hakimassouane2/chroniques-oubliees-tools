@@ -98,7 +98,7 @@ const Profiles = () => {
           </FormControl>
         </AccordionDetails>
       </Accordion> */}
-      <Grid container spacing={3} sx={{ mt: 1 }}>
+      <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
         {data
           .filter((profile: any) => {
             if (profile?.name?.toLowerCase().match(searchTerm)) {
@@ -121,7 +121,7 @@ const Profiles = () => {
                     sx={{ backgroundColor: "white" }}
                   />
                 </Link>
-                <CardContent sx={{ p: 2 }}>
+                <CardContent sx={{ p: 2, height: "16rem" }}>
                   <Typography variant="h5" color={"primary"}>
                     {profile?.name}
                   </Typography>

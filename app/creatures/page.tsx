@@ -106,7 +106,7 @@ const Creatures = () => {
           </FormControl>
         </AccordionDetails>
       </Accordion>
-      <Grid container spacing={3} sx={{ mt: 1 }}>
+      <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
         {data
           .filter((monster: any) => {
             if (monster?.name[0]?.value.toLowerCase().match(searchTerm)) {
