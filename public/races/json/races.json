@@ -1,1 +1,94 @@
-[{}]
+[
+  {
+    "name": "Demi-elfe",
+    "mainDescription": "Les Demi-elfes sont des artistes hors-pair dotés d'une grande sensibilité. Toutefois, attention car ils sont beaux parleurs et manipulateurs : cachez vos filles et vos femmes, ils ont brisé plus d'un cœur et corrompu bien des dames de réputation vertueuse.",
+    "secondDescription": "Le Demi-elfe a hérité des qualités de ses deux parents (humain et Elfe). Il est généralement traité avec condescendance parmi les Elfes et est considéré comme un Elfe parmi les humains.",
+    "appearance": {
+      "description": "Grâce naturelle, oreilles légèrement pointues, pilosité faible.",
+      "startingAge": "20",
+      "lifeSpan": "150",
+      "minHeight": "1.50",
+      "minWeight": "40.00",
+      "maxHeight": "1.90",
+      "maxWeight": "80.00"
+    },
+    "statistics": "-2 CON, +2 SAG",
+    "racials": [
+      {
+        "name": "Sang mêlé",
+        "description": "Le Demi-elfe choisit l'une des deux Capacités suivantes : Instinct de survie (humain) : Lorsqu’une attaque devrait amener le personnage à 0 PV, les DM qu’elle inflige sont divisés par 2 (minimum 1). Lumière des étoiles (Elfe) : Pour un Haut-elfe, l’obscurité de la nuit sous la lumière des étoiles n’est que de la pénombre, où seuls les petits détails lui échappent."
+      }
+    ],
+    "usualNames": "Les noms des personnages Demi-elfes reflètent souvent leur double nature et ils se composent d’un prénom elfique et d’un nom humain. Plus rarement l’inverse, car les Elfes n’acceptent pas qu’une créature avec une durée de vie aussi brève porte le nom de leur lignée."
+  },
+  {
+    "name": "Demi-orque",
+    "mainDescription": "Les Demi-orques sont violents, sales et stupides, ils en veulent au monde entier de leur ignoble naissance et mieux vaut les éviter",
+    "secondDescription": "Le Demi-orque est de grande taille. Issu de l’union souvent forcée d’une humaine et d’un Orque, il possède une force physique hors du commun. Il est généralement méprisé par les autres races, en particulier par les Nains et les Elfes.",
+    "appearance": {
+      "description": "Grand et athlétique. Peau grisâtre ou verdâtre, mâchoire large, front bas, petits yeux.",
+      "startingAge": "15",
+      "lifeSpan": "60",
+      "minHeight": "1.70",
+      "minWeight": "70.00",
+      "maxHeight": "2.10",
+      "maxWeight": "150.00"
+    },
+    "statistics": "+2 FOR, -2 INT, -2 CHA",
+    "racials": [
+      {
+        "name": "Vision dans le noir",
+        "description": "Dans le noir total, le Demi-orque voit comme dans la pénombre jusqu’à 30 m."
+      }
+    ],
+    "usualNames": "Les Demi-orques utilisent des prénoms humains, à moins qu’ils aient été élevés chez les Orques. Certains se choisissent aussi un prénom orque à l’âge adulte, en réaction à l’ostracisme dont ils sont victimes. Les noms orques sont courts et gutturaux, privilégiez les lettres R, G et K, évitez une voyelle douce comme le E et préférez le O.\n\nMasc. Aog, Bargul, Carok, Drog, Erok, Farg, Gorog, Hurl, Jorgul, Krok, Krush, Lug, Mog, Norok, Rok, Urdu, etc.\nFém. Les femmes orques ajoutent généralement la lettre A à la fin de leur prénom."
+  },
+  {
+    "name": "Elfe, Haut",
+    "mainDescription": "Les Elfes se croient supérieurs à tous les autres, ce sont de puissants magiciens mais leur cœur est sans pitié. Ils obéissent à de très anciennes règles et à des serments incompréhensibles pour les Races à l’espérance de vie ordinaire.",
+    "secondDescription": "Le Haut-elfe est un être féerique qui vit extrêmement longtemps. Il est méprisant envers les Nains et arrogant envers les autres races. Proche de la nature, il maîtrise aussi bien les arts de la magie que ceux de la guerre.",
+    "appearance": {
+      "description": "Svelte et gracieux. Oreilles pointues, yeux en amandes (verts, violets), cheveux parfois blancs, argent ou or, pilosité absente.",
+      "startingAge": "80",
+      "lifeSpan": "450",
+      "minHeight": "1.50",
+      "maxHeight": "1.80",
+      "minWeight": "40.00",
+      "maxWeight": "70.00"
+    },
+    "statistics": "-2 FOR, +2 CHA",
+    "racials": [
+      {
+        "name": "Lumière des étoiles",
+        "description": "Pour un Haut-elfe, l’obscurité de la nuit sous la lumière des étoiles n’est que de la pénombre, où seuls les petits détails lui échappent."
+      }
+    ],
+    "usualNames": "Les Hauts-elfes privilégient les noms aux sonorités douces mais complexes. L, W, N et M sont les consonnes dominantes et les voyelles sont souvent doubles (ië, aë). Les noms féminins finissent par -wen, -wë, -ië, -aël ou –aëlle. Ceux des hommes par des terminaisons aux sonorités plus tranchées comme -dir, -dur, -dor ou -dil.",
+    "maleNames": [
+      "Arwendil",
+      "Caëldwendir",
+      "Eldwyndor",
+      "Elberenhdir",
+      "Elendur",
+      "Gilgalendil",
+      "Irwildur",
+      "Laurelith",
+      "Linaëndir",
+      "Laendoril",
+      "Nennendir"
+    ],
+    "femaleNames": [
+      "Elberenh",
+      "Elidhwen",
+      "Ellenúviel",
+      "Laurelinn",
+      "Linaëwen",
+      "Laendorië",
+      "Maelwë",
+      "Maerwen",
+      "Nennenvaël",
+      "Ninwelotë",
+      "Tintaëlle"
+    ]
+  }
+]
