@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Arquebusier",
+    "description": "L’Arquebusier est un dur à cuire, un soldat ou un mercenaire habitué des champs de bataille. C’est un spécialiste du combat à distance et plus particulièrement des armes à feu et des explosifs.",
+    "hasMagicAttackModifier": false,
+    "hd": "1D8",
+    "weaponsAndArmor": "L’Arquebusier sait manier toutes les armes de contact à une main, les armes à distance et les armes à poudre. Il peut porter jusqu’à la chemise de maille et ne manie pas de bouclier.",
+    "startingEquipment": "Pétoire (DM 1d10, portée 20m), épée longue (DM 1d8), dague (DM 1d4), armure de cuir (DEF +2).",
+    "imageUrl": "/profiles/images/arquebusier/arquebusier.png.webp",
+    "imageUrlCropped": "/profiles/images/arquebusier/arquebusier-cropped.png.webp",
+    "ways": [
+      {
+        "name": "Voie de l'artilleur",
+        "abilities": [
+          {
+            "name": "Mécanismes",
+            "description": "L’Arquebusier obtient un bonus de +1 par Rang dans cette voie à tous les tests visant à réparer ou à comprendre des mécanismes (cela inclut le fait de désamorcer des pièges mécaniques et de manipuler des armes de siège). Il peut appliquer ce bonus à tous les tests d’attaque avec des armes de siège (baliste, couleuvrine, canon, trébuchet, catapulte, etc.)."
+          },
+          {
+            "name": "Tir de semonce (L)",
+            "description": "Après avoir raté une attaque à distance au tour précédent, l’Arquebusier déclare qu’il s’agissait d’un tir de semonce. À ce tour, il tire sur la même cible et obtient +5 à son test et +1d6 aux DM sur sa première attaque."
+          },
+          {
+            "name": "Tir de barrage (L)",
+            "description": "L’Arquebusier met en joue une cible sur laquelle il a l’Initiative et attend. Si elle se déplace à ce tour, il effectue une attaque à distance. En cas de succès la victime choisit entre deux possibilités : soit elle subit double dégâts, soit elle ne se déplace pas et ne subit pas de dégâts, tout en perdant son tour."
+          },
+          {
+            "name": "Couleuvrine (L)",
+            "description": "L'Arquebusier obtient une couleuvrine, un petit canon portatif qui nécessite la mise en place d’un trépied (ou d’un appui). Utiliser cette arme demande une action limitée et ne peut avoir lieu qu’une seule fois par combat. Sur un test d’attaque à distance réussi, elle inflige [4d6 + Mod. de DEX] DM. La portée maximale de cette arme est de 100 mètres et sa portée minimale de 10 mètres."
+          },
+          {
+            "name": "Feu nourri",
+            "description": "Lorsqu’il utilise le Tir de barrage, l’Arquebusier peut affecter jusqu’à [1 + Mod. de DEX] cibles différentes dans le même tour. Toutes les cibles doivent être dans une zone frontale de 20 mètres de large au maximum. Chaque cible donne lieu à un test d’attaque à distance indépendant."
+          }
+        ]
+      },
+      {
+        "name": "Voie des explosifs",
+        "abilities": [
+          {
+            "name": "Chimiste",
+            "description": "L’Arquebusier sait fabriquer sa propre poudre et d’autres substances explosives, et obtient un bonus de +2 par Rang à tous les tests de chimie ou d’alchimie. Les armes à poudre du personnage ne présentent plus de risque de « faire long feu » ou d’explosion et le joueur ne lance plus de dé de poudre."
+          },
+          {
+            "name": "Démolition",
+            "description": "L’Arquebusier peut préparer un explosif qui lui permet de démolir facilement des structures. Il lui faut 3 tours complets pour préparer et poser son explosif. Celui-ci inflige à la structure 2d6 DM par Rang dans la voie et 1d6 par rang dans un rayon de 6 mètres autour (en ignorant la moitié de la RD de la structure. Voir DM aux structures)."
+          },
+          {
+            "name": "Poudre puissante",
+            "description": "L’Arquebusier sait préparer lui-même une poudre plus puissante, il ajoute +10 mètres à la portée et +2 aux dégâts de toutes ses armes à poudre."
+          },
+          {
+            "name": "Piège explosif (L)",
+            "description": "Il faut un tour complet à l’Arquebusier pour installer un piège qui explose dans un rayon de 3 mètres en infligeant 5d6 DM (test de DEX difficulté 15 pour ne subir que la moitié des DM). L’Arquebusier peut choisir entre deux modes de déclenchement, soit avec un retardateur allant de 1 à 10 tours au choix, soit à l’intrusion de toute créature dans une zone d’1 mètre autour du piège. Cette seconde solution demande 1 tour de préparation supplémentaire et un personnage attentif peut détecter et éviter le piège avec un test de SAG difficulté [12 + Mod. d’INT de l’Arquebusier]."
+          },
+          {
+            "name": "Boulet explosif (L)",
+            "description": "L’Arquebusier sait fabriquer et lancer de petites boules de métal munies de poudre et d’une mèche. Un tel projectile a une portée de 20 mètres et explose dans un rayon de 5 mètres en infligeant 5d6 DM, divisé par 2 pour les victimes qui réussissent un test de DEX difficulté [12 + Mod. de DEX de l’Arquebusier]."
+          }
+        ]
+      },
+      {
+        "name": "Voie du champ de bataille",
+        "abilities": [
+          {
+            "name": "Action concertée",
+            "description": "Une fois par tour, l’Arquebusier peut échanger son Initiative avec un autre personnage volontaire. S’il cède son Initiative à un personnage plus lent, il gagne un bonus de +1 sur ses tests d’attaque à ce tour. Ce bonus passe à +2 au Rang 4 de la voie."
+          },
+          {
+            "name": "À couvert (L)",
+            "description": "Jusqu’à son prochain tour, l’Arquebusier divise par 2 les DM dus aux attaques à distance et de zone qu’il reçoit, et peut se déplacer de 20 mètres. Un compagnon de l’Arquebusier peut profiter de cette aptitude s’il a son accord et reste à son contact."
+          },
+          {
+            "name": "Combattant aguerri",
+            "description": "L’Arquebusier peut choisir n’importe quelle capacité de rang 2 d’une voie de Guerrier de son choix et gagne 3 PV supplémentaires. Il peut choisir une capacité de Rang 1 seulement et gagne alors 6 PV au lieu de 3."
+          },
+          {
+            "name": "Combat de masse",
+            "description": "L'Arquebusier obtient une action de mouvement ou une action d’attaque supplémentaire à chaque tour si le combat implique au moins 10 créatures (en comptant l’Arquebusier et ses alliés)."
+          },
+          {
+            "name": "Constitution héroïque",
+            "description": "Le personnage augmente son score de CON de +2 et il peut désormais lancer deux d20 à chaque fois qu’un test de CON lui est demandé et conserver le meilleur résultat."
+          }
+        ]
+      },
+      {
+        "name": "Voie du pistolero",
+        "abilities": [
+          {
+            "name": "Plus vite que son ombre",
+            "description": "Si son arme à poudre est prête (chargée et tenue en main), l’Arquebusier peut tirer avec un bonus de +10 à son Initiative."
+          },
+          {
+            "name": "Cadence de tir",
+            "description": "Recharger une pétoire ou un mousquet devient une action de mouvement. Dans le cas d’une arbalète de poing ou d’une arbalète légère, l’action devient gratuite. À partir du Rang 5 dans la voie, il peut recharger deux armes en une seule action."
+          },
+          {
+            "name": "Tir double (L)",
+            "description": "L'Arquebusier est capable de tirer avec une pétoire dans chaque main sans pénalité. Si l’Arquebusier décharge simultanément ses deux armes sur la même cible, il fait un seul test à +2 en attaque (mais il lance séparément les DM). Le joueur peut choisir de ne pas réaliser les deux tirs simultanément, afin, par exemple, de pouvoir tirer sur une autre cible s’il tue la première. Dans ce cas, il n’obtient pas de bonus en attaque."
+          },
+          {
+            "name": "As de la gâchette",
+            "description": "Lorsqu’il atteint une DEF de 25 ou plus sur son attaque à distance avec une arme à poudre ou une arbalète, l’Arquebusier ajoute +1d6 aux DM de son attaque."
+          },
+          {
+            "name": "Dextérité héroïque",
+            "description": "Le personnage augmente son score de DEX de +2 et il peut désormais lancer deux d20 à chaque fois qu’un test de DEX lui est demandé, et conserver le meilleur résultat."
+          }
+        ]
+      },
+      {
+        "name": "Voie de la précision",
+        "abilities": [
+          {
+            "name": "Joli coup !",
+            "description": "L’Arquebusier ignore les pénalités normalement appliquées lorsque la cible est à couvert (généralement -2 à -5)."
+          },
+          {
+            "name": "Tir précis",
+            "description": "L’Arquebusier ajoute un bonus de +1 aux DM des armes de tir jusqu’à une portée de [5 x Mod. de DEX]. Ce bonus passe à +2 au Rang 4 de la voie."
+          },
+          {
+            "name": "Défaut dans la cuirasse (L)",
+            "description": "L’Arquebusier passe un tour complet à analyser le point faible de son adversaire et à viser. Au tour suivant, il réalisera ses attaques à distance sur cette cible contre une DEF de [10 + Mod. de DEX de la cible]. Au lieu de cela, le joueur peut choisir d’ignorer la réduction des DM (RD) d’une créature (dans ce cas la DEF n’est pas modifiée)."
+          },
+          {
+            "name": "Tir parabolique",
+            "description": "L’Arquebusier est capable de réaliser un tir à longue distance sans pénalité : il double la portée des armes à distance. Il peut aussi tirer jusqu’au triple de la portée indiquée avec une pénalité de -5 en attaque et aux DM. Cette capacité ne modifie pas la portée de Tir précis."
+          },
+          {
+            "name": "Tir mortel",
+            "description": "Pour une attaque à distance, l’Arquebusier peut choisir d’utiliser un d12 pour son attaque au lieu du d20 habituel (et il ajoute normalement son score d’attaque). Si l’attaque est réussie, il ajoute +2d6 aux DM."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Barde",
+    "description": "Le Barde est un personnage polyvalent qui utilise la magie et le spectacle pour divertir et parvenir à ses fins. Il est aussi habitué aux ruses qu’à la diplomatie.",
+    "hasMagicAttackModifier": true,
+    "magicAttackModifier": "CHA",
+    "hd": "1d6",
+    "weaponsAndArmor": "Le Barde sait manier les armes à 1 main. Il peut porter jusqu’à l’armure de cuir renforcée et ne peut pas manier le bouclier.",
+    "startingEquipment": "Rapière (DM 1d6, Crit 19-20), dague (DM 1d4), instrument de musique, armure de cuir (DEF +2).",
+    "imageUrl": "/profiles/images/barde/barde.png.webp",
+    "imageUrlCropped": "/profiles/images/barde/barde-cropped.png.webp",
+    "ways": [
+      {
+        "name": "Voie de l'escrime",
+        "abilities": [
+          {
+            "name": "Précision",
+            "description": "Le Barde peut utiliser son score d’attaque à distance pour combattre au contact lorsqu’il emploie une arme à une main légère comme une dague, une épée courte ou une rapière."
+          },
+          {
+            "name": "Intelligence du combat",
+            "description": "Le Barde ajoute son Mod. d’INT en Initiative et en DEF en plus de son Mod. de DEX."
+          },
+          {
+            "name": "Feinte (L)",
+            "description": "Le Barde effectue une attaque fictive pour déséquilibrer son adversaire et réaliser ensuite une attaque mortelle. Faites un test d’attaque normal à ce tour mais n’infligez aucun dégât. Au tour suivant, si vous attaquez le même adversaire, vous profiterez d’un bonus de +5 en attaque et, si votre feinte était réussie, de +2d6 aux DM."
+          },
+          {
+            "name": "Attaque flamboyante (L)",
+            "description": "Le style de combat du Barde est flamboyant et surprenant : avec cette Capacité, il effectue une attaque de contact avec un bonus d’attaque et de DM égal à son Mod. de CHA (en plus du Mod. de FOR ou de DEX)."
+          },
+          {
+            "name": "Botte mortelle",
+            "description": "Lors d’une attaque au contact, s’il obtient un score total d’attaque supérieur ou égal à la DEF de son adversaire +10 points, le Barde obtient un bonus de +2d6 aux DM de son attaque."
+          }
+        ]
+      },
+      {
+        "name": "Voie du musicien",
+        "abilities": [
+          {
+            "name": "Chant des héros (L)",
+            "description": "Le barde chante et inspire ses compagnons : tous les alliés à portée de voix obtiennent un bonus de +1 à tous leurs tests pendant [5+ Mod. de CHA] tours."
+          },
+          {
+            "name": "Attaque sonore (L) *",
+            "description": "Le barde pousse un cri dont les effets sont dévastateurs (ou produit un son avec un instrument à cette même fin). Sur un test d’attaque magique réussi, il inflige [1d6 + Mod. de CHA] DM à toutes les cibles lui faisant face sur une portée de 10 m."
+          },
+          {
+            "name": "Zone de silence (L) *",
+            "description": "Le Barde crée une zone de silence fixe de 5 mètres de diamètre, jusqu’à une portée de 30 mètres, pendant [1d6+Mod. de CHA] tours. Tous les sons émis dans cette sphère sont annulés. La zone n’empêche pas le lancement des sorts mais inflige un malus de -2 à tous les tests d’attaque magique."
+          },
+          {
+            "name": "Danse irrésistible (L) *",
+            "description": "Le barde joue une gigue endiablée aux effets magiques. S’il réussit un test d’attaque magique contre la créature qu’il cible, celle-ci se met à danser pendant [1d4+Mod. de CHA] tours et subit un malus de -4 aux tests d’attaque et en DEF."
+          },
+          {
+            "name": "Musique fascinante (L) *",
+            "description": "Le Barde joue de la musique pour fasciner et «contrôler» toutes les créatures de son choix (rats, gobelins, humains, etc.) dans un rayon de 30 m. Seules les créatures dont les PV sont inférieurs ou égaux à [5 + Mod. de CHA] du Barde répondent. Les créatures sortent de leur cachette et se dirigent vers le Barde, elles le suivent tant qu’il continue à jouer. Quand il utilise cette capacité le Barde peut également se déplacer de 10 m par tour."
+          }
+        ]
+      },
+      {
+        "name": "Voie du saltimbanque",
+        "abilities": [
+          {
+            "name": "Acrobate",
+            "description": "Le Barde obtient un bonus de +2 par rang à tous ses tests de DEX visant à réaliser des acrobaties, tenir en équilibre, faire des sauts ou de l’escalade."
+          },
+          {
+            "name": "Grâce féline",
+            "description": "Le Barde ajoute son Mod. de CHA en DEF et en Initiative (en plus du Mod. habituel de DEX)."
+          },
+          {
+            "name": "Lanceur de couteau",
+            "description": "Une fois par tour, en plus de ses autres actions, le Barde peut lancer un couteau sur une cible à distance (maximum 10 m) en réussissant un test d’Attaque à Distance. Cette attaque est pour lui une action gratuite. Elle occasionne [1d4 + Mod. de DEX] de DM."
+          },
+          {
+            "name": "Esquive acrobatique",
+            "description": "Une fois par tour, le Barde peut réaliser une esquive en réussissant un test d’Attaque à Distance contre une Difficulté égale au score obtenu par son adversaire lors de son attaque. En cas de réussite, le Barde ne subit aucun DM. Si cette attaque était un critique, il subit tout de même des DM normaux (et annule donc l’effet critique «dégâts doublés»)."
+          },
+          {
+            "name": "Liberté d'action",
+            "description": "Le barde est immunisé à la peur et à tous les sorts ou effets magiques qui asservissent l’esprit ou le corps (possession, charme, paralysie, ralentissement, etc.)."
+          }
+        ]
+      },
+      {
+        "name": "Voie de la séduction",
+        "abilities": [
+          {
+            "name": "Charmant",
+            "description": "Le Barde obtient un bonus de +2 par rang atteint dans cette voie pour tous ses tests de CHA visant à séduire, baratiner ou mentir."
+          },
+          {
+            "name": "Dentelles et rapière",
+            "description": "Le Barde ne met pas d’armure, cela ne sied point en société. Sa seule armure est la dentelle, sa seule défense, la rapière. Lorsqu’il ne porte aucune armure et combat avec une rapière ou une épée, le Barde obtient un bonus de +1 en DEF contre les attaques au contact par Rang possédé dans cette Voie."
+          },
+          {
+            "name": "Arme secrète",
+            "description": "Une fois par combat, le Barde peut utiliser un subterfuge de séducteur pour surprendre et déstabiliser un adversaire du sexe opposé. Ce peut être un baiser fougueux soudainement délivré au cœur d’une mêlée, un sein qui s’échappe d’un bustier par mégarde, une main qui s’égare par le plus grand des hasards… Il doit réussir un test de CHA de difficulté égale à l’INT de son adversaire. En cas de succès celui-ci subit un malus de -10 en attaque et en DEF pendant 1 tour."
+          },
+          {
+            "name": "Suggestion (L) *",
+            "description": "Une fois par jour, le Barde peut suggérer une action à une créature en réussissant un test d’attaque magique avec pour difficulté les PV maximum de celle-ci. En cas de réussite la créature fera tout son possible pour satisfaire sa demande pendant 24 heures. Elle évitera les actions suicidaires (ce qui lui donnerait immédiatement un test d’INT difficulté 10 pour échapper au sort)."
+          },
+          {
+            "name": "Charisme héroïque",
+            "description": "Le personnage augmente sa valeur de CHA de +2. Il peut de plus lancer deux d20 à chaque fois qu’un test de CHA lui est demandé et conserver le meilleur résultat."
+          }
+        ]
+      },
+      {
+        "name": "Voie du vagabond",
+        "abilities": [
+          {
+            "name": "Rumeurs et légendes",
+            "description": "A force de voyager, le Barde a appris toutes sortes de choses, il obtient un bonus de +2 par Rang dans cette voie aux tests d’INT pour se «souvenir» d’une information historique, politique, géographique ou occulte qui pourrait lui être utile."
+          },
+          {
+            "name": "Compréhension des langues (L) *",
+            "description": "Ce sort permet au Barde de lire, écrire et parler n’importe quelle langue ancienne ou vivante pendant [1d6 + Mod. de CHA] minutes."
+          },
+          {
+            "name": "Débrouillard",
+            "description": "Le Barde obtient un bonus de +5 à tous ses tests de survie en nature et aux tests de profession et d’artisanat (forge, charpentier, etc.)."
+          },
+          {
+            "name": "Déguisement (L) *",
+            "description": "Ce sort permet au Barde de prendre l’apparence de n’importe quelle créature de taille à peu près équivalente (avec une marge d’environ 50 cm). S’il veut imiter une personne en particulier, il lui faudra réussir un test de CHA difficulté 15 (20 s’il ne la connaît pas mais l’a seulement vue, 10 s’il la connaît très bien). Le sort a une durée de 10 minutes."
+          },
+          {
+            "name": "Touche à tout",
+            "description": "Le Barde peut choisir n’importe quelle capacité de Rang 1 à 3 de son choix au sein d’un autre Profil de Chroniques Oubliées."
+          }
+        ]
+      }
+    ]
+  }
+]
