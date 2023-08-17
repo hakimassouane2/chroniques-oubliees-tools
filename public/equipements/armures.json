@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Petit bouclier",
+    "type": "Bouclier",
+    "def": "+1",
+    "price": "2 pa",
+    "comments": "La def s'additionne à celle de l'armure."
+  },
+  {
+    "name": "Tissu matelassé",
+    "type": "Corps",
+    "def": "+1",
+    "price": "2 pa",
+    "comments": ""
+  },
+  {
+    "name": "Cuir",
+    "type": "Corps",
+    "def": "+2",
+    "price": "4 pa",
+    "comments": ""
+  },
+  {
+    "name": "Grand bouclier",
+    "type": "Bouclier",
+    "def": "+2",
+    "price": "4 pa",
+    "comments": "La def s'additionne à celle de l'armure."
+  },
+  {
+    "name": "Cuir renforcé",
+    "type": "Corps",
+    "def": "+3",
+    "price": "8 pa",
+    "comments": ""
+  },
+  {
+    "name": "Chemise de mailles",
+    "type": "Corps",
+    "def": "+4",
+    "price": "15 pa",
+    "comments": ""
+  },
+  {
+    "name": "Cotte de mailles",
+    "type": "Corps",
+    "def": "+5",
+    "price": "20 pa",
+    "comments": ""
+  },
+  {
+    "name": "Demi-plaque",
+    "type": "Corps",
+    "def": "+6",
+    "price": "50 pa",
+    "comments": "Très rare."
+  },
+  {
+    "name": "Plaque complète",
+    "type": "Corps",
+    "def": "+8",
+    "price": "200 pa",
+    "comments": "Très rare. Fabriquée sur mesure, seul le profil de Chevalier est formé au port de cette armure au niveau 1."
+  }
+]

@@ -12,8 +12,6 @@ import data from "../../../../public/profiles/json/profiles.json";
 import Image from "next/image";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CasinoIcon from "@mui/icons-material/Casino";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiceD20 } from "@fortawesome/free-solid-svg-icons";
 
 const ProfileDetail = async ({ params }: { params: { name: string } }) => {
   const profile = data.find(

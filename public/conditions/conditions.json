@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Affaibli",
+    "description": "d12 pour tous les tests au lieu du d20",
+    "icon": "/conditions/images/achilles-heel.png"
+  },
+  {
+    "name": "Aveuglé",
+    "description": "Init. -5, Att. contact -5, DEF -5, Att. dist. -10",
+    "icon": "/conditions/images/sight-disabled.png"
+  },
+  {
+    "name": "Étourdi",
+    "description": "Aucune action possible, DEF -5",
+    "icon": "/conditions/images/handcuffed.png"
+  },
+  {
+    "name": "Immobilisé",
+    "description": "d12 pour tous les tests au lieu du d20, pas de déplacement",
+    "icon": "/conditions/images/weight-crush.png"
+  },
+  {
+    "name": "Paralysé",
+    "description": "Aucune action possible, en cas d’attaque : touché automatiquement et subit un coup critique",
+    "icon": "/conditions/images/stoned-skull.png"
+  },
+  {
+    "name": "Ralenti",
+    "description": "Une seule action par tour (action d’attaque ou de mouvement)",
+    "icon": "/conditions/images/tortoise.png"
+  },
+  {
+    "name": "Renversé",
+    "description": "Att. -5, DEF -5, nécessite une action de mouvement pour se relever",
+    "icon": "/conditions/images/falling.png"
+  },
+  {
+    "name": "Surpris",
+    "description": "Pas d’action, DEF -5 au 1er tour de combat",
+    "icon": "/conditions/images/surprised.png"
+  }
+]
