@@ -9,9 +9,21 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 import * as React from "react";
-import races from "../../../public/races/json/races.json";
 
 const Races = () => {
+  const [races, setRaces] = React.useState([]);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const response = await fetch("/api/races");
+      const data = await response.json();
+      console.log("data is -> ", data);
+      setRaces(data);
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <div>
       <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>

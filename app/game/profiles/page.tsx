@@ -10,7 +10,6 @@ import { SelectChangeEvent } from "@mui/material/Select";
 import { styled } from "@mui/material/styles";
 import Link from "next/link";
 import * as React from "react";
-import data from "../../../public/profiles/json/profiles.json";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -52,6 +51,17 @@ const Profiles = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
   const [searchTerm, setSearchTerm] = React.useState<string>("");
   const [sortType, setSortType] = React.useState("");
+  const [profiles, setProfiles] = React.useState([]);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const response = await fetch("/api/profiles");
+      const data = await response.json();
+      setProfiles(data);
+    }
+
+    fetchData();
+  }, []);
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
@@ -99,7 +109,7 @@ const Profiles = () => {
         </AccordionDetails>
       </Accordion> */}
       <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
-        {data
+        {profiles
           .filter((profile: any) => {
             if (profile?.name?.toLowerCase().match(searchTerm)) {
               return profile;

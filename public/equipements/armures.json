@@ -4,62 +4,71 @@
     "type": "Bouclier",
     "def": "+1",
     "price": "2 pa",
-    "comments": "La def s'additionne à celle de l'armure."
+    "comments": "La def s'additionne à celle de l'armure.",
+    "equipmentType": "armor"
   },
   {
     "name": "Tissu matelassé",
     "type": "Corps",
     "def": "+1",
     "price": "2 pa",
-    "comments": ""
+    "comments": "",
+    "equipmentType": "armor"
   },
   {
     "name": "Cuir",
     "type": "Corps",
     "def": "+2",
     "price": "4 pa",
-    "comments": ""
+    "comments": "",
+    "equipmentType": "armor"
   },
   {
     "name": "Grand bouclier",
     "type": "Bouclier",
     "def": "+2",
     "price": "4 pa",
-    "comments": "La def s'additionne à celle de l'armure."
+    "comments": "La def s'additionne à celle de l'armure.",
+    "equipmentType": "armor"
   },
   {
     "name": "Cuir renforcé",
     "type": "Corps",
     "def": "+3",
     "price": "8 pa",
-    "comments": ""
+    "comments": "",
+    "equipmentType": "armor"
   },
   {
     "name": "Chemise de mailles",
     "type": "Corps",
     "def": "+4",
     "price": "15 pa",
-    "comments": ""
+    "comments": "",
+    "equipmentType": "armor"
   },
   {
     "name": "Cotte de mailles",
     "type": "Corps",
     "def": "+5",
     "price": "20 pa",
-    "comments": ""
+    "comments": "",
+    "equipmentType": "armor"
   },
   {
     "name": "Demi-plaque",
     "type": "Corps",
     "def": "+6",
     "price": "50 pa",
-    "comments": "Très rare."
+    "comments": "Très rare.",
+    "equipmentType": "armor"
   },
   {
     "name": "Plaque complète",
     "type": "Corps",
     "def": "+8",
     "price": "200 pa",
-    "comments": "Très rare. Fabriquée sur mesure, seul le profil de Chevalier est formé au port de cette armure au niveau 1."
+    "comments": "Très rare. Fabriquée sur mesure, seul le profil de Chevalier est formé au port de cette armure au niveau 1.",
+    "equipmentType": "armor"
   }
 ]

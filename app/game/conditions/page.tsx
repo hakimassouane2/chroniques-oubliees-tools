@@ -1,4 +1,5 @@
 "use client";
+import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import {
   Breadcrumbs,
   Paper,
@@ -8,21 +9,11 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Typography,
 } from "@mui/material";
-import * as React from "react";
-import conditions from "../../../public/conditions/conditions.json";
-import Image from "next/image";
-import { styled } from "@mui/material/styles";
 import Link from "@mui/material/Link";
-import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
-import {
-  Link as RouterLink,
-  Route,
-  Routes,
-  MemoryRouter,
-  useLocation,
-} from "react-router-dom";
+import { styled } from "@mui/material/styles";
+import Image from "next/image";
+import * as React from "react";
 
 const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
@@ -35,6 +26,18 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 const Conditions = () => {
+  const [conditions, setConditions] = React.useState([]);
+
+  React.useEffect(() => {
+    async function fetchData() {
+      const response = await fetch("/api/conditions");
+      const data = await response.json();
+      setConditions(data);
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <Breadcrumbs

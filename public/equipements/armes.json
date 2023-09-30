@@ -8,7 +8,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "8 pa"
+    "price": "8 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Arbalète légère",
@@ -19,7 +20,8 @@
     "critical": 20,
     "damage": "2d4",
     "tempDamage": "Non",
-    "price": "10 pa"
+    "price": "10 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Arbalète lourde",
@@ -30,7 +32,8 @@
     "critical": 20,
     "damage": "3d4",
     "tempDamage": "Non",
-    "price": "12 pa"
+    "price": "12 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Arc court",
@@ -41,7 +44,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "4 pa"
+    "price": "4 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Arc long",
@@ -52,7 +56,8 @@
     "critical": 20,
     "damage": "1d8",
     "tempDamage": "Non",
-    "price": "5 pa"
+    "price": "5 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Bâton",
@@ -63,7 +68,8 @@
     "critical": 20,
     "damage": "1d4",
     "tempDamage": "Oui",
-    "price": ""
+    "price": "",
+    "equipmentType": "weapon"
   },
   {
     "name": "Bâton ferré",
@@ -74,7 +80,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "2 pa"
+    "price": "2 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Dague",
@@ -85,7 +92,8 @@
     "critical": 20,
     "damage": "1d4",
     "tempDamage": "Non",
-    "price": "3 pa"
+    "price": "3 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Épée à 2 mains",
@@ -96,7 +104,8 @@
     "critical": 20,
     "damage": "2d6",
     "tempDamage": "Non",
-    "price": "10 pa"
+    "price": "10 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Épée bâtarde",
@@ -107,7 +116,8 @@
     "critical": 20,
     "damage": "1d8 à 1 main, 1d12 à 2 mains",
     "tempDamage": "Non",
-    "price": "9 pa"
+    "price": "9 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Épée courte",
@@ -118,7 +128,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "5 pa"
+    "price": "5 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Épée longue",
@@ -129,7 +140,8 @@
     "critical": 20,
     "damage": "1d8",
     "tempDamage": "Non",
-    "price": "6 pa"
+    "price": "6 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Fronde",
@@ -140,7 +152,8 @@
     "critical": 20,
     "damage": "1d4",
     "tempDamage": "Non",
-    "price": ""
+    "price": "",
+    "equipmentType": "weapon"
   },
   {
     "name": "Gourdin",
@@ -151,7 +164,8 @@
     "critical": 20,
     "damage": "1d4",
     "tempDamage": "Oui",
-    "price": "1 pa"
+    "price": "1 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Hache à 1 main",
@@ -162,7 +176,8 @@
     "critical": 20,
     "damage": "1d8",
     "tempDamage": "Non",
-    "price": "6 pa"
+    "price": "6 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Hache à 2 mains",
@@ -173,7 +188,8 @@
     "critical": 20,
     "damage": "2d6",
     "tempDamage": "Non",
-    "price": "10 pa"
+    "price": "10 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Hachette",
@@ -184,7 +200,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "2 pa"
+    "price": "2 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Javelot",
@@ -195,7 +212,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "6 pa"
+    "price": "6 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Katana",
@@ -206,7 +224,8 @@
     "critical": 19,
     "damage": "1d10",
     "tempDamage": "Non",
-    "price": "12 pa"
+    "price": "12 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Marteau de guerre",
@@ -217,7 +236,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "4 pa"
+    "price": "4 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Masse d'armes",
@@ -228,7 +248,8 @@
     "critical": 20,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "4 pa"
+    "price": "4 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Mousquet",
@@ -239,7 +260,8 @@
     "critical": 20,
     "damage": "2d6",
     "tempDamage": "Non",
-    "price": "20 pa"
+    "price": "20 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Pétoire",
@@ -250,7 +272,8 @@
     "critical": 20,
     "damage": "1d10",
     "tempDamage": "Non",
-    "price": "15 pa"
+    "price": "15 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Rapière",
@@ -261,7 +284,8 @@
     "critical": 19,
     "damage": "1d6",
     "tempDamage": "Non",
-    "price": "6 pa"
+    "price": "6 pa",
+    "equipmentType": "weapon"
   },
   {
     "name": "Vivelame",
@@ -272,6 +296,7 @@
     "critical": 19,
     "damage": "1d10",
     "tempDamage": "Non",
-    "price": "12 pa"
+    "price": "12 pa",
+    "equipmentType": "weapon"
   }
 ]
