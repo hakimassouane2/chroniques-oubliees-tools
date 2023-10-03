@@ -1,3 +1,7 @@
+"use client";
+import { Profile } from "@/types/profile";
+import CasinoIcon from "@mui/icons-material/Casino";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
   Accordion,
   AccordionDetails,
@@ -8,20 +12,27 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import data from "../../../../public/profiles/json/profiles.json";
 import Image from "next/image";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import CasinoIcon from "@mui/icons-material/Casino";
+import React from "react";
+import { useLoading } from "../../../contexts/LoadingContext";
 
-const ProfileDetail = async ({ params }: { params: { name: string } }) => {
-  const profile = data.find(
-    (profile: any) =>
-      profile.name.toLowerCase() === decodeURIComponent(params.name)
+const ProfileDetail = ({ params }: { params: { profile: string } }) => {
+  const [currentProfile, setCurrentProfile] = React.useState<Profile | null>(
+    null
   );
+  const { setIsLoading } = useLoading();
 
-  if (!profile) {
-    return <Typography>Profile not found.</Typography>;
-  }
+  React.useEffect(() => {
+    async function fetchData() {
+      setIsLoading(true);
+      const response = await fetch(`/api/profiles/${params.profile}`);
+      const data = await response.json();
+      setCurrentProfile(data);
+      setIsLoading(false);
+    }
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -38,7 +49,7 @@ const ProfileDetail = async ({ params }: { params: { name: string } }) => {
                   variant="body2"
                   sx={{ fontFamily: "roboto", fontWeight: 300 }}
                 >
-                  {profile.hd}
+                  {currentProfile?.hd}
                 </Typography>
               </Box>
               <Typography variant="subtitle1" color={"primary"}>
@@ -48,7 +59,7 @@ const ProfileDetail = async ({ params }: { params: { name: string } }) => {
                 variant="body2"
                 sx={{ fontFamily: "roboto", fontWeight: 300 }}
               >
-                {profile.weaponsAndArmor}
+                {currentProfile?.weaponsAndArmor}
               </Typography>
               <Typography variant="subtitle1" color={"primary"}>
                 Equipement de départ
@@ -57,9 +68,9 @@ const ProfileDetail = async ({ params }: { params: { name: string } }) => {
                 variant="body2"
                 sx={{ fontFamily: "roboto", fontWeight: 300 }}
               >
-                {profile.startingEquipment}
+                {currentProfile?.startingEquipment}
               </Typography>
-              {profile.ways.map((way: any, index: any) => (
+              {currentProfile?.ways?.map((way: any, index: any) => (
                 <Accordion sx={{ mt: 2 }} key={way.name}>
                   <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
@@ -106,8 +117,8 @@ const ProfileDetail = async ({ params }: { params: { name: string } }) => {
             </Grid>
             <Grid item xs={12} sm={12} md={12} lg={4}>
               <Image
-                src={profile.imageUrl}
-                alt={profile.name}
+                src={currentProfile?.imageUrl || ""}
+                alt={currentProfile?.name || ""}
                 width={500}
                 height={500}
               />

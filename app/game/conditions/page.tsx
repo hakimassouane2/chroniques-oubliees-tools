@@ -1,4 +1,5 @@
 "use client";
+import { useLoading } from "@/contexts/LoadingContext";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import {
   Breadcrumbs,
@@ -27,12 +28,15 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 const Conditions = () => {
   const [conditions, setConditions] = React.useState([]);
+  const { setIsLoading } = useLoading();
 
   React.useEffect(() => {
     async function fetchData() {
+      setIsLoading(true);
       const response = await fetch("/api/conditions");
       const data = await response.json();
       setConditions(data);
+      setIsLoading(false);
     }
 
     fetchData();
@@ -123,6 +127,7 @@ const Conditions = () => {
                     fontFamily: "Roboto !important",
                     fontWeight: "300",
                     fontSize: "1rem",
+                    textTransform: "capitalize",
                   }}
                 >
                   {condition.name}

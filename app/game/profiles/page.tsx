@@ -10,6 +10,7 @@ import { SelectChangeEvent } from "@mui/material/Select";
 import { styled } from "@mui/material/styles";
 import Link from "next/link";
 import * as React from "react";
+import { useLoading } from "../../contexts/LoadingContext";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -47,17 +48,20 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-const Profiles = () => {
+const Profiles: React.FC = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
   const [searchTerm, setSearchTerm] = React.useState<string>("");
   const [sortType, setSortType] = React.useState("");
   const [profiles, setProfiles] = React.useState([]);
+  const { setIsLoading } = useLoading();
 
   React.useEffect(() => {
     async function fetchData() {
+      setIsLoading(true);
       const response = await fetch("/api/profiles");
       const data = await response.json();
       setProfiles(data);
+      setIsLoading(false);
     }
 
     fetchData();
@@ -132,7 +136,11 @@ const Profiles = () => {
                   />
                 </Link>
                 <CardContent sx={{ p: 2, height: "16rem" }}>
-                  <Typography variant="h5" color={"primary"}>
+                  <Typography
+                    variant="h5"
+                    color={"primary"}
+                    style={{ textTransform: "capitalize" }}
+                  >
                     {profile?.name}
                   </Typography>
                   {/* Archétype */}

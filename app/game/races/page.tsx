@@ -1,4 +1,5 @@
 "use client";
+import { useLoading } from "@/contexts/LoadingContext";
 import {
   Button,
   Card,
@@ -12,13 +13,15 @@ import * as React from "react";
 
 const Races = () => {
   const [races, setRaces] = React.useState([]);
+  const { setIsLoading } = useLoading();
 
   React.useEffect(() => {
     async function fetchData() {
+      setIsLoading(true);
       const response = await fetch("/api/races");
       const data = await response.json();
-      console.log("data is -> ", data);
       setRaces(data);
+      setIsLoading(false);
     }
 
     fetchData();
