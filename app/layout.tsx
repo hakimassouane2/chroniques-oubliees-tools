@@ -3,9 +3,9 @@
 import { ThemeProvider } from "@emotion/react";
 import { Container, createTheme } from "@mui/material";
 import { Roboto } from "next/font/google";
-import Footer from "../components/footer/Footer";
-import Navbar from "../components/navbar/Navbar";
 import ConditionalLoadingScreen from "./components/ConditionalLoadingScreen";
+import Footer from "./components/footer/Footer";
+import Navbar from "./components/navbar/Navbar";
 import { LoadingProvider } from "./contexts/LoadingContext";
 import "./globals.css";
 
