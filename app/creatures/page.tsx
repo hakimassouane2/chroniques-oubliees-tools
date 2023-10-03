@@ -1,23 +1,23 @@
 "use client";
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
-import Link from "next/link";
-import data from "../../public/creatures/creatures.json";
+import { useLoading } from "@/contexts/LoadingContext";
+import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
+import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import SecurityIcon from "@mui/icons-material/Security";
-import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
-import * as React from "react";
-import TextField from "@mui/material/TextField";
+import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
+import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary, {
   AccordionSummaryProps,
 } from "@mui/material/AccordionSummary";
-import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
-import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
-import { styled } from "@mui/material/styles";
-import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import FormControl from "@mui/material/FormControl";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
+import Select, { SelectChangeEvent } from "@mui/material/Select";
+import TextField from "@mui/material/TextField";
+import { styled } from "@mui/material/styles";
+import Link from "next/link";
+import * as React from "react";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -59,6 +59,20 @@ const Creatures = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
   const [searchTerm, setSearchTerm] = React.useState<string>("");
   const [sortType, setSortType] = React.useState("");
+  const [creatures, setCreatures] = React.useState([]);
+  const { setIsLoading } = useLoading();
+
+  React.useEffect(() => {
+    async function fetchData() {
+      setIsLoading(true);
+      const response = await fetch("/api/creatures");
+      const data = await response.json();
+      setCreatures(data);
+      setIsLoading(false);
+    }
+
+    fetchData();
+  }, []);
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
@@ -107,9 +121,9 @@ const Creatures = () => {
         </AccordionDetails>
       </Accordion>
       <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
-        {data
+        {creatures
           .filter((monster: any) => {
-            if (monster?.name[0]?.value.toLowerCase().match(searchTerm)) {
+            if (monster?.name[0]?.label.toLowerCase().match(searchTerm)) {
               return monster;
             }
           })
@@ -131,7 +145,7 @@ const Creatures = () => {
                 </Link>
                 <CardContent sx={{ p: 2 }}>
                   <Typography variant="h5" color={"primary"}>
-                    {monster?.name[0]?.value}
+                    {monster?.name[0]?.label}
                   </Typography>
                   {/* Archétype */}
                   <Typography
