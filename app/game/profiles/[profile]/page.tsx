@@ -1,12 +1,11 @@
 "use client";
+import Dice from "@/components/Dice";
 import { Profile } from "@/types/profile";
-import CasinoIcon from "@mui/icons-material/Casino";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
-  Box,
   Card,
   CardContent,
   Grid,
@@ -36,22 +35,16 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
 
   return (
     <>
-      <Grid container sx={{ mt: 10, mb: 10 }} flexDirection={"column"}>
+      <Grid container sx={{ mt: 10, mb: 10 }}>
         <Card>
-          <CardContent sx={{ display: "flex" }}>
-            <Grid item xs={12} sm={12} md={12} lg={8}>
+          <CardContent
+            sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}
+          >
+            <Grid item xs={12} sm={12} md={8} lg={8}>
               <Typography variant="subtitle1" color={"primary"}>
                 Dé de vie{" "}
               </Typography>
-              <Box sx={{ display: "flex", alignItems: "center" }}>
-                <CasinoIcon fontSize="large" color={"primary"} />
-                <Typography
-                  variant="body2"
-                  sx={{ fontFamily: "roboto", fontWeight: 300 }}
-                >
-                  {currentProfile?.hd}
-                </Typography>
-              </Box>
+              {currentProfile?.hd && <Dice hitDie={currentProfile?.hd} />}
               <Typography variant="subtitle1" color={"primary"}>
                 Armes et armures
               </Typography>
@@ -115,12 +108,14 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                 </Accordion>
               ))}
             </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={4}>
+            <Grid item xs={12} sm={12} md={4} lg={4}>
               <Image
                 src={currentProfile?.imageUrl || ""}
                 alt={currentProfile?.name || ""}
-                width={500}
-                height={500}
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }} // optional
               />
             </Grid>
           </CardContent>
