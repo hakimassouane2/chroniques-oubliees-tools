@@ -13,7 +13,7 @@ export async function GET(request: any, { params }: any) {
   const database = client.db(dbName);
   const abilities = database.collection("abilities");
   const matchingAbility = await abilities.findOne({
-    name: params.ability,
+    slug: params.ability,
   });
   return NextResponse.json(matchingAbility);
 }

@@ -37,7 +37,11 @@ const Races = () => {
         subtitle="Votre personnage peut être humain ou appartenir à une autre des races disponibles. La Race choisie influe sur le caractère du PJ et sur ses rapports avec les autres peuples humanoïdes."
       />
       <Container maxWidth="xl">
-        <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
+        <Grid
+          container
+          spacing={3}
+          sx={{ position: "relative", mt: -10, mb: 10 }}
+        >
           {races.map((race: any, index: any) => (
             <Grid item xs={12} sm={12} md={12} lg={12} key={index}>
               <Card sx={{ borderRadius: 2 }}>

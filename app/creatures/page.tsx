@@ -1,10 +1,18 @@
 "use client";
+import HeroSection from "@/components/HeroSection";
 import { useLoading } from "@/contexts/LoadingContext";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
 import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import SecurityIcon from "@mui/icons-material/Security";
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Container,
+  Grid,
+  Typography,
+} from "@mui/material";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary, {
@@ -85,152 +93,160 @@ const Creatures = () => {
 
   return (
     <>
-      <Accordion
-        expanded={expanded === "panel1"}
-        onChange={handleChange("panel1")}
-        sx={{ mt: 2 }}
-      >
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Filtres</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <TextField
-            id="outlined-basic"
-            label="Nom de la créature"
-            variant="outlined"
-            onChange={(e: any) => {
-              setSearchTerm(e.target.value);
-            }}
-          />
-          <FormControl>
-            <InputLabel id="demo-simple-select-label">Trier par</InputLabel>
+      <HeroSection
+        imageSrc="/heroes/creatures-min.png.webp"
+        title="Créatures"
+        subtitle="Retrouvez l'ensemble des créatures du bestiaire public de Chroniques Oubliées Fantasy !
+        Vous pouvez les cloner dans votre bestiaire privé et/ou les ajouter au générateur de rencontres."
+      />
+      <Container maxWidth="xl">
+        <Accordion
+          expanded={expanded === "panel1"}
+          onChange={handleChange("panel1")}
+          sx={{ mt: 2 }}
+        >
+          <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
+            <Typography>Filtres</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <TextField
+              id="outlined-basic"
+              label="Nom de la créature"
+              variant="outlined"
+              onChange={(e: any) => {
+                setSearchTerm(e.target.value);
+              }}
+            />
+            <FormControl>
+              <InputLabel id="demo-simple-select-label">Trier par</InputLabel>
 
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={sortType}
-              label="Trier par"
-              onChange={handleAgeChange}
-            >
-              <MenuItem value={1}>A - Z</MenuItem>
-              <MenuItem value={2}>Z - A</MenuItem>
-              <MenuItem value={3}>NC le plus bas</MenuItem>
-              <MenuItem value={4}>NC le plus haut</MenuItem>
-            </Select>
-          </FormControl>
-        </AccordionDetails>
-      </Accordion>
-      <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
-        {creatures
-          .filter((monster: any) => {
-            if (monster?.name[0]?.label.toLowerCase().match(searchTerm)) {
-              return monster;
-            }
-          })
-          .map((monster: any, index: any) => (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-              <Card sx={{ borderRadius: 2 }}>
-                <Link
-                  href={`/creatures/${encodeURIComponent(
-                    monster?.name[0]?.value
-                  )}`}
-                >
-                  <CardMedia
-                    component="img"
-                    alt={monster?.picture[0]?.alt}
-                    height="350"
-                    image={monster?.picture[0]?.creature_token_url}
-                    sx={{ backgroundColor: "#c5c5c5" }}
-                  />
-                </Link>
-                <CardContent sx={{ p: 2 }}>
-                  <Typography variant="h5" color={"primary"}>
-                    {monster?.name[0]?.label}
-                  </Typography>
-                  {/* Archétype */}
-                  <Typography
-                    variant="body2"
-                    fontWeight={300}
-                    fontFamily={"Roboto"}
-                    sx={{ color: "#212529" }}
+              <Select
+                labelId="demo-simple-select-label"
+                id="demo-simple-select"
+                value={sortType}
+                label="Trier par"
+                onChange={handleAgeChange}
+              >
+                <MenuItem value={1}>A - Z</MenuItem>
+                <MenuItem value={2}>Z - A</MenuItem>
+                <MenuItem value={3}>NC le plus bas</MenuItem>
+                <MenuItem value={4}>NC le plus haut</MenuItem>
+              </Select>
+            </FormControl>
+          </AccordionDetails>
+        </Accordion>
+        <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
+          {creatures
+            .filter((monster: any) => {
+              if (monster?.name[0]?.label.toLowerCase().match(searchTerm)) {
+                return monster;
+              }
+            })
+            .map((monster: any, index: any) => (
+              <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+                <Card sx={{ borderRadius: 2 }}>
+                  <Link
+                    href={`/creatures/${encodeURIComponent(
+                      monster?.name[0]?.value
+                    )}`}
                   >
-                    Archétype {monster?.archetype[0]?.label}
-                  </Typography>
-                  {/* Catégorie et taille */}
-                  <Typography
-                    variant="body2"
-                    fontWeight={300}
-                    fontFamily={"Roboto"}
-                    sx={{ color: "#212529", mb: 1 }}
-                  >
-                    Créature {monster?.category[0]?.label},{" "}
-                    {monster?.size[0]?.label}
-                  </Typography>
-                  {/* Niveau */}
-                  <Typography
-                    variant="body2"
-                    fontWeight={300}
-                    fontFamily={"Roboto"}
-                    sx={{ color: "#212529", mb: 1 }}
-                  >
-                    <b>NC:</b>
-                    {monster?.level[0]?.value}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    fontWeight={300}
-                    fontFamily={"Roboto"}
-                    sx={{
-                      color: "#212529",
-                      display: "flex",
-                      justifyContent: "space-between",
-                      mb: 1,
-                    }}
-                  >
-                    <b>DEF</b>
-                    <SecurityIcon sx={{ color: "#256eff" }} />
-                    {monster?.defense[0]?.value}
-                    <b>PV</b>
-                    <FavoriteIcon sx={{ color: "#fc440f" }} />
-                    {monster?.health_point[0]?.value}
-                    <b>INIT</b>
-                    <DirectionsRunIcon sx={{ color: "#06a77d" }} />
-                    {monster?.init[0]?.value}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    fontWeight={300}
-                    fontFamily={"Roboto"}
-                    sx={{
-                      color: "#212529",
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <b>FOR</b>+{monster?.str_mod[0]?.value}
-                    <b>DEX</b>+{monster?.dex_mod[0]?.value}
-                    <b>CON</b>+{monster?.con_mod[0]?.value}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    fontWeight={300}
-                    fontFamily={"Roboto"}
-                    sx={{
-                      color: "#212529",
-                      display: "flex",
-                      justifyContent: "space-between",
-                    }}
-                  >
-                    <b>INT</b>
-                    <span>+{monster?.int_mod[0]?.value}</span>
-                    <b>SAG</b>+{monster?.wis_mod[0]?.value}
-                    <b>CHA</b>+{monster?.cha_mod[0]?.value}
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-      </Grid>
+                    <CardMedia
+                      component="img"
+                      alt={monster?.picture[0]?.alt}
+                      height="350"
+                      image={monster?.picture[0]?.creature_token_url}
+                      sx={{ backgroundColor: "#c5c5c5" }}
+                    />
+                  </Link>
+                  <CardContent sx={{ p: 2 }}>
+                    <Typography variant="h5" color={"primary"}>
+                      {monster?.name[0]?.label}
+                    </Typography>
+                    {/* Archétype */}
+                    <Typography
+                      variant="body2"
+                      fontWeight={300}
+                      fontFamily={"Roboto"}
+                      sx={{ color: "#212529" }}
+                    >
+                      Archétype {monster?.archetype[0]?.label}
+                    </Typography>
+                    {/* Catégorie et taille */}
+                    <Typography
+                      variant="body2"
+                      fontWeight={300}
+                      fontFamily={"Roboto"}
+                      sx={{ color: "#212529", mb: 1 }}
+                    >
+                      Créature {monster?.category[0]?.label},{" "}
+                      {monster?.size[0]?.label}
+                    </Typography>
+                    {/* Niveau */}
+                    <Typography
+                      variant="body2"
+                      fontWeight={300}
+                      fontFamily={"Roboto"}
+                      sx={{ color: "#212529", mb: 1 }}
+                    >
+                      <b>NC:</b>
+                      {monster?.level[0]?.value}
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      fontWeight={300}
+                      fontFamily={"Roboto"}
+                      sx={{
+                        color: "#212529",
+                        display: "flex",
+                        justifyContent: "space-between",
+                        mb: 1,
+                      }}
+                    >
+                      <b>DEF</b>
+                      <SecurityIcon sx={{ color: "#256eff" }} />
+                      {monster?.defense[0]?.value}
+                      <b>PV</b>
+                      <FavoriteIcon sx={{ color: "#fc440f" }} />
+                      {monster?.health_point[0]?.value}
+                      <b>INIT</b>
+                      <DirectionsRunIcon sx={{ color: "#06a77d" }} />
+                      {monster?.init[0]?.value}
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      fontWeight={300}
+                      fontFamily={"Roboto"}
+                      sx={{
+                        color: "#212529",
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <b>FOR</b>+{monster?.str_mod[0]?.value}
+                      <b>DEX</b>+{monster?.dex_mod[0]?.value}
+                      <b>CON</b>+{monster?.con_mod[0]?.value}
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      fontWeight={300}
+                      fontFamily={"Roboto"}
+                      sx={{
+                        color: "#212529",
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <b>INT</b>
+                      <span>+{monster?.int_mod[0]?.value}</span>
+                      <b>SAG</b>+{monster?.wis_mod[0]?.value}
+                      <b>CHA</b>+{monster?.cha_mod[0]?.value}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+        </Grid>
+      </Container>
     </>
   );
 };

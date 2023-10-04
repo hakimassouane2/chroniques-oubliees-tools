@@ -40,13 +40,13 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
       <HeroSection
         imageSrc="/heroes/profiles-min.png.webp"
         title={
-          currentProfile!.name!.charAt(0).toUpperCase() +
-            currentProfile!.name!.slice(1) || ""
+          currentProfile?.name?.charAt(0).toUpperCase() +
+            currentProfile?.name?.slice(1) || ""
         }
         subtitle={currentProfile?.description || ""}
       />
       <Container maxWidth="xl">
-        <Grid container sx={{ mb: 10 }}>
+        <Grid container sx={{ position: "relative", mt: -10, mb: 10 }}>
           <Card>
             <CardContent
               sx={{
@@ -55,11 +55,11 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
               }}
             >
               <Grid item xs={12} sm={12} md={8} lg={8}>
-                <Typography variant="subtitle1" color={"primary"}>
+                <Typography variant="h6" color={"primary"}>
                   Dé de vie{" "}
                 </Typography>
                 {currentProfile?.hd && <Dice hitDie={currentProfile?.hd} />}
-                <Typography variant="subtitle1" color={"primary"}>
+                <Typography variant="h6" color={"primary"}>
                   Armes et armures
                 </Typography>
                 <Typography
@@ -68,7 +68,7 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                 >
                   {currentProfile?.weaponsAndArmor}
                 </Typography>
-                <Typography variant="subtitle1" color={"primary"}>
+                <Typography variant="h6" color={"primary"}>
                   Equipement de départ
                 </Typography>
                 <Typography
@@ -85,7 +85,11 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                       id="panel1a-header"
                       sx={{ mb: 0, pb: 0 }}
                     >
-                      <Typography color={"primary"} sx={{ mb: 0, pb: 0 }}>
+                      <Typography
+                        variant="h6"
+                        color={"primary"}
+                        sx={{ mb: 0, pb: 0 }}
+                      >
                         {way.name}
                       </Typography>
                     </AccordionSummary>

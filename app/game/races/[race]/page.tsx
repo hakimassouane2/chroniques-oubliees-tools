@@ -30,7 +30,7 @@ const RaceDetail = ({ params }: { params: { race: string } }) => {
         subtitle={currentRace?.mainDescription || ""}
       />
       <Container maxWidth="xl">
-        <Grid container sx={{ mb: 10 }}>
+        <Grid container sx={{ position: "relative", mt: -10, mb: 10 }}>
           <Card>
             <CardContent
               sx={{

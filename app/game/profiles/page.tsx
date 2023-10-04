@@ -126,7 +126,11 @@ const Profiles: React.FC = () => {
           </FormControl>
         </AccordionDetails>
       </Accordion> */}
-        <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
+        <Grid
+          container
+          spacing={3}
+          sx={{ position: "relative", mt: -10, mb: 10 }}
+        >
           {profiles
             .filter((profile: any) => {
               if (profile?.name?.toLowerCase().match(searchTerm)) {

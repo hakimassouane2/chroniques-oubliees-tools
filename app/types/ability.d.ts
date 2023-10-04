@@ -2,7 +2,8 @@ import { Profile } from "./profile";
 import { Way } from "./way";
 
 export type Ability = {
-  name: string;
+  slug: string;
+  label: string;
   description: string;
   isLimited: boolean;
   isSpell: boolean;

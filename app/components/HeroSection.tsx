@@ -22,7 +22,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
     <Box
       sx={{
         position: "relative",
-        height: "50vh",
+        height: "58vh",
         width: "100%",
         overflow: "hidden",
       }}

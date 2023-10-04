@@ -1,4 +1,5 @@
 "use client";
+import HeroSection from "@/components/HeroSection";
 import { Way } from "@/types/way";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
@@ -6,6 +7,7 @@ import {
   AccordionSummary,
   Card,
   CardContent,
+  Container,
   Grid,
   Typography,
 } from "@mui/material";
@@ -30,33 +32,43 @@ const WayDetail = ({ params }: { params: { way: string } }) => {
 
   return (
     <>
-      <Grid container sx={{ mt: 10, mb: 10 }}>
-        <Card>
-          <CardContent
-            sx={{ display: "flex", flexDirection: { xs: "column", md: "row" } }}
-          >
-            <Grid item xs={12} sm={12} md={8} lg={8}>
-              <Typography variant="subtitle1" color={"primary"}>
-                Dé de vie{" "}
-              </Typography>
-              {currentWay?.abilities?.map((ability: any, index: any) => (
-                <Accordion sx={{ mt: 2 }} key={ability.name}>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                    sx={{ mb: 0, pb: 0 }}
-                  >
-                    <Typography color={"primary"} sx={{ mb: 0, pb: 0 }}>
-                      {ability.name}
-                    </Typography>
-                  </AccordionSummary>
-                </Accordion>
-              ))}
-            </Grid>
-          </CardContent>
-        </Card>
-      </Grid>
+      <HeroSection
+        imageSrc="/heroes/co_paths-min.png.webp"
+        title={currentWay?.label || ""}
+        subtitle={currentWay?.additionalDescription || ""}
+      />
+      <Container maxWidth="xl">
+        <Grid container sx={{ mt: 10, mb: 10 }}>
+          <Card>
+            <CardContent
+              sx={{
+                display: "flex",
+                flexDirection: { xs: "column", md: "row" },
+              }}
+            >
+              <Grid item xs={12} sm={12} md={8} lg={8}>
+                <Typography variant="subtitle1" color={"primary"}>
+                  Dé de vie{" "}
+                </Typography>
+                {currentWay?.abilities?.map((ability: any, index: any) => (
+                  <Accordion sx={{ mt: 2 }} key={ability.name}>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                      sx={{ mb: 0, pb: 0 }}
+                    >
+                      <Typography color={"primary"} sx={{ mb: 0, pb: 0 }}>
+                        {ability.name}
+                      </Typography>
+                    </AccordionSummary>
+                  </Accordion>
+                ))}
+              </Grid>
+            </CardContent>
+          </Card>
+        </Grid>
+      </Container>
     </>
   );
 };
