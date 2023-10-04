@@ -39,10 +39,7 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
     <>
       <HeroSection
         imageSrc="/heroes/profiles-min.png.webp"
-        title={
-          currentProfile?.name?.charAt(0).toUpperCase() +
-            currentProfile?.name?.slice(1) || ""
-        }
+        title={currentProfile?.name || ""}
         subtitle={currentProfile?.description || ""}
       />
       <Container maxWidth="xl">
