@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar color="primary" position="static" sx={{ zIndex: 1300 }}>
+    <AppBar color="primary" position="fixed" sx={{ zIndex: 1300 }}>
       <Container maxWidth={false}>
         <Toolbar disableGutters>
           <Link href="/">

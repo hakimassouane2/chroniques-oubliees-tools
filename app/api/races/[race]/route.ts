@@ -13,7 +13,7 @@ export async function GET(request: any, { params }: any) {
   const database = client.db(dbName);
   const races = database.collection("races");
   const matchingRace = await races.findOne({
-    name: params.race,
+    slug: params.race,
   });
   return NextResponse.json(matchingRace);
 }

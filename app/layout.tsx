@@ -19,7 +19,7 @@ export default function RootLayout({
   const theme = createTheme({
     palette: {
       primary: {
-        main: "rgb(44 11 2 / 75%)",
+        main: "rgb(44 22 2 / 75%)",
         // light: will be calculated from palette.primary.main,
         // dark: will be calculated from palette.primary.main,
         // contrastText: will be calculated to contrast with palette.primary.main
@@ -53,7 +53,9 @@ export default function RootLayout({
           <ThemeProvider theme={theme}>
             <Navbar />
             <ConditionalLoadingScreen />
-            <Container maxWidth="xl">{children}</Container>
+            <Container maxWidth={false} disableGutters>
+              {children}
+            </Container>
             <Footer />
           </ThemeProvider>
         </body>

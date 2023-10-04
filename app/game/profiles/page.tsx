@@ -1,6 +1,14 @@
 "use client";
+import HeroSection from "@/components/HeroSection";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  CardMedia,
+  Container,
+  Grid,
+  Typography,
+} from "@mui/material";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary, {
@@ -78,7 +86,13 @@ const Profiles: React.FC = () => {
 
   return (
     <div>
-      {/*       <Accordion
+      <HeroSection
+        imageSrc="/heroes/profiles-min.png.webp"
+        title="Profils"
+        subtitle="Dans Chroniques Oubliées, le « métier », l’occupation principale du personnage, s’appelle un Profil. Cela peut être l'équivalent d'une « Classe » dans d'autres jeux de rôle."
+      />
+      <Container maxWidth="xl">
+        {/*       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
       >
@@ -112,50 +126,51 @@ const Profiles: React.FC = () => {
           </FormControl>
         </AccordionDetails>
       </Accordion> */}
-      <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
-        {profiles
-          .filter((profile: any) => {
-            if (profile?.name?.toLowerCase().match(searchTerm)) {
-              return profile;
-            }
-          })
-          .map((profile: any, index: any) => (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-              <Card sx={{ borderRadius: 2 }}>
-                <Link
-                  href={`profiles/${encodeURIComponent(
-                    (profile?.name).toLowerCase()
-                  )}`}
-                >
-                  <CardMedia
-                    component="img"
-                    alt={profile?.name}
-                    height="350"
-                    image={profile?.imageUrlCropped}
-                    sx={{ backgroundColor: "white" }}
-                  />
-                </Link>
-                <CardContent sx={{ p: 2, height: "16rem" }}>
-                  <Typography
-                    variant="h5"
-                    color={"primary"}
-                    style={{ textTransform: "capitalize" }}
+        <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
+          {profiles
+            .filter((profile: any) => {
+              if (profile?.name?.toLowerCase().match(searchTerm)) {
+                return profile;
+              }
+            })
+            .map((profile: any, index: any) => (
+              <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+                <Card sx={{ borderRadius: 2 }}>
+                  <Link
+                    href={`profiles/${encodeURIComponent(
+                      (profile?.name).toLowerCase()
+                    )}`}
                   >
-                    {profile?.name}
-                  </Typography>
-                  {/* Archétype */}
-                  <Typography
-                    variant="body2"
-                    fontFamily={"Roboto"}
-                    fontWeight={300}
-                  >
-                    {profile?.description}
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-      </Grid>
+                    <CardMedia
+                      component="img"
+                      alt={profile?.name}
+                      height="350"
+                      image={profile?.imageUrlCropped}
+                      sx={{ backgroundColor: "white" }}
+                    />
+                  </Link>
+                  <CardContent sx={{ p: 2, height: "16rem" }}>
+                    <Typography
+                      variant="h5"
+                      color={"primary"}
+                      style={{ textTransform: "capitalize" }}
+                    >
+                      {profile?.name}
+                    </Typography>
+                    {/* Archétype */}
+                    <Typography
+                      variant="body2"
+                      fontFamily={"Roboto"}
+                      fontWeight={300}
+                    >
+                      {profile?.description}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+        </Grid>
+      </Container>
     </div>
   );
 };

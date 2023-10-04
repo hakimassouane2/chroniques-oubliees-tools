@@ -1,5 +1,6 @@
 export type Race = {
-  name: string;
+  slug: string;
+  label: string;
   mainDescription: string;
   secondDescription: string;
   imageUrl: string;

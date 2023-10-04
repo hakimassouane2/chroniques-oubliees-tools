@@ -1,122 +1,103 @@
-import CasinoIcon from "@mui/icons-material/Casino";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
-  Card,
-  CardContent,
-  Grid,
-  Typography,
-} from "@mui/material";
+"use client";
+import HeroSection from "@/components/HeroSection";
+import { Race } from "@/types/race";
+import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
-import data from "../../../../public/profiles/json/profiles.json";
+import React from "react";
+import { useLoading } from "../../../contexts/LoadingContext";
 
-const ProfileDetail = async ({ params }: { params: { name: string } }) => {
-  const profile = data.find(
-    (profile: any) =>
-      profile.name.toLowerCase() === decodeURIComponent(params.name)
-  );
+const RaceDetail = ({ params }: { params: { race: string } }) => {
+  const [currentRace, setCurrentRace] = React.useState<Race | null>(null);
+  const { setIsLoading } = useLoading();
 
-  if (!profile) {
-    return <Typography>Profile not found.</Typography>;
-  }
+  React.useEffect(() => {
+    async function fetchData() {
+      setIsLoading(true);
+      const response = await fetch(`/api/races/${params.race}`);
+      const data = await response.json();
+      setCurrentRace(data);
+      setIsLoading(false);
+    }
+
+    fetchData();
+  }, []);
 
   return (
     <>
-      <Grid container sx={{ mt: 10, mb: 10 }} flexDirection={"column"}>
-        <Card>
-          <CardContent sx={{ display: "flex" }}>
-            <Grid item xs={12} sm={12} md={12} lg={8}>
-              <Typography variant="subtitle1" color={"primary"}>
-                Dé de vie{" "}
-              </Typography>
-              <Box sx={{ display: "flex", alignItems: "center" }}>
-                <CasinoIcon fontSize="large" color={"primary"} />
+      <HeroSection
+        imageSrc="/heroes/races-min.png.webp"
+        title={currentRace?.label || ""}
+        subtitle={currentRace?.mainDescription || ""}
+      />
+      <Container maxWidth="xl">
+        <Grid container sx={{ mb: 10 }}>
+          <Card>
+            <CardContent
+              sx={{
+                display: "flex",
+                flexDirection: { xs: "column", md: "row" },
+              }}
+            >
+              <Grid item xs={12} sm={12} md={8} lg={8}>
                 <Typography
                   variant="body2"
                   sx={{ fontFamily: "roboto", fontWeight: 300 }}
                 >
-                  {profile.hd}
+                  {currentRace?.secondDescription}
                 </Typography>
-              </Box>
-              <Typography variant="subtitle1" color={"primary"}>
-                Armes et armures
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{ fontFamily: "roboto", fontWeight: 300 }}
-              >
-                {profile.weaponsAndArmor}
-              </Typography>
-              <Typography variant="subtitle1" color={"primary"}>
-                Equipement de départ
-              </Typography>
-              <Typography
-                variant="body2"
-                sx={{ fontFamily: "roboto", fontWeight: 300 }}
-              >
-                {profile.startingEquipment}
-              </Typography>
-              {profile.ways.map((way: any, index: any) => (
-                <Accordion sx={{ mt: 2 }} key={way.name}>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                    sx={{ mb: 0, pb: 0 }}
-                  >
-                    <Typography color={"primary"} sx={{ mb: 0, pb: 0 }}>
-                      {way.name}
-                    </Typography>
-                  </AccordionSummary>
-                  <AccordionDetails>
-                    {way.abilities.map((ability: any, index: any) => (
-                      <Accordion sx={{ mt: 2 }} key={ability.name}>
-                        <AccordionSummary
-                          expandIcon={<ExpandMoreIcon />}
-                          aria-controls="panel1a-content"
-                          id="panel1a-header"
-                        >
-                          <Typography
-                            variant="body2"
-                            color={"primary"}
-                            sx={{
-                              fontFamily: "roboto",
-                              fontWeight: 400,
-                            }}
-                          >
-                            {index + 1}. {ability.name}
-                          </Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                          <Typography
-                            variant="body2"
-                            sx={{ fontFamily: "roboto", fontWeight: 300 }}
-                          >
-                            {ability.description}
-                          </Typography>
-                        </AccordionDetails>
-                      </Accordion>
-                    ))}
-                  </AccordionDetails>
-                </Accordion>
-              ))}
-            </Grid>
-            <Grid item xs={12} sm={12} md={12} lg={4}>
-              <Image
-                src={profile.imageUrl}
-                alt={profile.name}
-                width={500}
-                height={500}
-              />
-            </Grid>
-          </CardContent>
-        </Card>
-      </Grid>
+                <Typography variant="h5" color={"primary"}>
+                  Repères
+                </Typography>
+                <Typography
+                  variant="body2"
+                  sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                >
+                  reperes
+                </Typography>
+                <Typography variant="h5" color={"primary"}>
+                  Caractéristiques
+                </Typography>
+                <Typography
+                  variant="body2"
+                  sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                >
+                  {currentRace?.statistics}
+                </Typography>
+                <Typography variant="h5" color={"primary"}>
+                  Capacités
+                </Typography>
+                <Typography
+                  variant="body2"
+                  sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                >
+                  capacités
+                </Typography>
+                <Typography variant="h5" color={"primary"}>
+                  Noms Typiques
+                </Typography>
+                <Typography
+                  variant="body2"
+                  sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                >
+                  {currentRace?.usualNames}
+                </Typography>
+              </Grid>
+              <Grid item xs={12} sm={12} md={4} lg={4}>
+                <Image
+                  src={currentRace?.imageUrl || ""}
+                  alt={currentRace?.label || ""}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }} // optional
+                />
+              </Grid>
+            </CardContent>
+          </Card>
+        </Grid>
+      </Container>
     </>
   );
 };
 
-export default ProfileDetail;
+export default RaceDetail;
