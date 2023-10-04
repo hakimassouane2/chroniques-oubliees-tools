@@ -108,7 +108,12 @@ function Navbar() {
                 >
                   Profiles
                 </MenuItem>
-                {/* <MenuItem
+                <MenuItem
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
+                  }}
                   onClick={() => {
                     handleSubMenuClick("/game/ways");
                   }}
@@ -116,12 +121,17 @@ function Navbar() {
                   Voies
                 </MenuItem>
                 <MenuItem
+                  sx={{
+                    fontFamily: "Roboto",
+                    fontWeight: "300",
+                    fontSize: "1rem",
+                  }}
                   onClick={() => {
                     handleSubMenuClick("/game/abilities");
                   }}
                 >
                   Capacités
-                </MenuItem> */}
+                </MenuItem>
                 <MenuItem
                   onClick={() => {
                     handleSubMenuClick("/game/equipments");
