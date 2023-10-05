@@ -49,32 +49,22 @@ function Navbar() {
   };
 
   const menuItems = [
-    {
-      label: "Jeu",
-      url: "/game",
-      children: [
-        { label: "Règles", url: "/game/rules" },
-        { label: "Races", url: "/game/races" },
-      ],
-    },
+    { label: "Règles", url: "/game/rules" },
+    { label: "Races", url: "/game/races" },
+    { label: "Profiles", url: "/game/profiles" },
+    { label: "Voies", url: "/game/ways" },
+    { label: "Capacités", url: "/game/abilities" },
+    { label: "Équipements", url: "/game/equipments" },
+    { label: "États préjudiciables", url: "/game/conditions" },
     { label: "Bestiaire", url: "/creatures" },
     { label: "Ressources", url: "/ressources" },
   ];
 
   return (
     <>
-      <AppBar color="primary" position="fixed" sx={{ zIndex: 1300 }}>
+      <AppBar color="primary" position="fixed" sx={{ zIndex: 500 }}>
         <Container maxWidth={false}>
           <Toolbar disableGutters>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              edge="start"
-              onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { xs: "block", md: "none" } }}
-            >
-              <MenuIcon />
-            </IconButton>
             <Link href="/">
               <Image src="/logo.webp" alt="logo" width="75" height="75" />
             </Link>
@@ -231,12 +221,25 @@ function Navbar() {
                 Ressources
               </Button>
             </Box>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="end"
+              onClick={handleDrawerToggle}
+              sx={{
+                ml: "auto",
+                color: "white",
+                display: { xs: "block", md: "none" },
+              }}
+            >
+              <MenuIcon />
+            </IconButton>
           </Toolbar>
         </Container>
       </AppBar>
       <Drawer
         variant="temporary"
-        anchor="left"
+        anchor="right"
         open={mobileOpen}
         onClose={handleDrawerToggle}
         ModalProps={{
@@ -246,22 +249,9 @@ function Navbar() {
         <List>
           {menuItems.map((item) => (
             <div key={item.label}>
-              <ListItem button onClick={() => handleSubMenuClick(item.url)}>
+              <ListItem onClick={() => handleSubMenuClick(item.url)}>
                 <ListItemText primary={item.label} />
               </ListItem>
-              {item.children &&
-                item.children.map((subItem) => (
-                  <ListItem
-                    button
-                    key={subItem.label}
-                    onClick={() => handleSubMenuClick(subItem.url)}
-                  >
-                    <ListItemText
-                      primary={subItem.label}
-                      style={{ paddingLeft: "20px" }}
-                    />
-                  </ListItem>
-                ))}
             </div>
           ))}
         </List>

@@ -7,7 +7,7 @@ export default async function Home() {
     <>
       <HeroSection
         imageSrc="/heroes/default_home_bg.webp"
-        title="Chroniques Oubliées Fantasy"
+        title="Accueil"
         subtitle="Retrouvez les règles officielles du célèbre jeu de rôle de Black Book Editions et bien plus encore..."
       />
       <Container maxWidth="xl">
