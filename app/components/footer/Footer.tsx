@@ -1,19 +1,22 @@
-import React from "react";
-import Container from "@mui/material/Container";
-import Grid from "@mui/material/Grid";
-import Button from "@mui/material/Button";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import Link from "next/link";
-import Image from "next/image";
 import PeopleIcon from "@mui/icons-material/People";
 import { Typography } from "@mui/material";
+import Button from "@mui/material/Button";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
     <footer id="page-footer" className="py-1 pb-5 pb-md-0 sticky-footer">
       <Container
         maxWidth={false}
-        sx={{ backgroundColor: "rgba(0,0,0,.75)", fontFamily: "Roboto" }}
+        sx={{
+          backgroundColor: "rgba(0,0,0,.75)",
+          fontFamily: "Roboto",
+          color: "white",
+        }}
       >
         <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={3}>
