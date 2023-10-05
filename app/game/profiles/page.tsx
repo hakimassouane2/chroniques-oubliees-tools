@@ -153,7 +153,7 @@ const Profiles: React.FC = () => {
                       sx={{ backgroundColor: "white" }}
                     />
                   </Link>
-                  <CardContent sx={{ p: 2, height: "16rem" }}>
+                  <CardContent sx={{ p: 2, height: "15rem" }}>
                     <Typography
                       variant="h5"
                       color={"primary"}
@@ -166,6 +166,14 @@ const Profiles: React.FC = () => {
                       variant="body2"
                       fontFamily={"Roboto"}
                       fontWeight={300}
+                      overflow={"hidden"}
+                      sx={{
+                        height: "11rem",
+                        whiteSpace: "wrap",
+                        WebkitLineClamp: 6,
+                        display: "-webkit-box",
+                        WebkitBoxOrient: "vertical",
+                      }}
                     >
                       {profile?.description}
                     </Typography>
