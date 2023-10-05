@@ -92,95 +92,51 @@ const Profiles: React.FC = () => {
         subtitle="Dans Chroniques Oubliées, le « métier », l’occupation principale du personnage, s’appelle un Profil. Cela peut être l'équivalent d'une « Classe » dans d'autres jeux de rôle."
       />
       <Container maxWidth="xl">
-        {/*       <Accordion
-        expanded={expanded === "panel1"}
-        onChange={handleChange("panel1")}
-      >
-        <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Filtres</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <TextField
-            id="outlined-basic"
-            label="Nom de la créature"
-            variant="outlined"
-            onChange={(e: any) => {
-              setSearchTerm(e.target.value);
-            }}
-          />
-          <FormControl>
-            <InputLabel id="demo-simple-select-label">Trier par</InputLabel>
-
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={sortType}
-              label="Trier par"
-              onChange={handleAgeChange}
-            >
-              <MenuItem value={1}>A - Z</MenuItem>
-              <MenuItem value={2}>Z - A</MenuItem>
-              <MenuItem value={3}>NC le plus bas</MenuItem>
-              <MenuItem value={4}>NC le plus haut</MenuItem>
-            </Select>
-          </FormControl>
-        </AccordionDetails>
-      </Accordion> */}
         <Grid
           container
           spacing={3}
           sx={{ position: "relative", mt: -10, mb: 10 }}
         >
-          {profiles
-            .filter((profile: any) => {
-              if (profile?.name?.toLowerCase().match(searchTerm)) {
-                return profile;
-              }
-            })
-            .map((profile: any, index: any) => (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-                <Card sx={{ borderRadius: 2 }}>
-                  <Link
-                    href={`profiles/${encodeURIComponent(
-                      (profile?.name).toLowerCase()
-                    )}`}
+          {profiles.map((profile: any, index: any) => (
+            <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+              <Card sx={{ borderRadius: 2 }}>
+                <Link href={`profiles/${profile?.slug}`}>
+                  <CardMedia
+                    component="img"
+                    alt={profile?.name}
+                    height="350"
+                    image={profile?.imageUrlCropped}
+                    sx={{ backgroundColor: "white" }}
+                  />
+                </Link>
+                <CardContent sx={{ p: 2, height: "15rem" }}>
+                  <Typography
+                    variant="h5"
+                    color={"primary"}
+                    style={{ textTransform: "capitalize" }}
                   >
-                    <CardMedia
-                      component="img"
-                      alt={profile?.name}
-                      height="350"
-                      image={profile?.imageUrlCropped}
-                      sx={{ backgroundColor: "white" }}
-                    />
-                  </Link>
-                  <CardContent sx={{ p: 2, height: "15rem" }}>
-                    <Typography
-                      variant="h5"
-                      color={"primary"}
-                      style={{ textTransform: "capitalize" }}
-                    >
-                      {profile?.name}
-                    </Typography>
-                    {/* Archétype */}
-                    <Typography
-                      variant="body2"
-                      fontFamily={"Roboto"}
-                      fontWeight={300}
-                      overflow={"hidden"}
-                      sx={{
-                        height: "11rem",
-                        whiteSpace: "wrap",
-                        WebkitLineClamp: 6,
-                        display: "-webkit-box",
-                        WebkitBoxOrient: "vertical",
-                      }}
-                    >
-                      {profile?.description}
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Grid>
-            ))}
+                    {profile?.label}
+                  </Typography>
+                  {/* Archétype */}
+                  <Typography
+                    variant="body2"
+                    fontFamily={"Roboto"}
+                    fontWeight={300}
+                    overflow={"hidden"}
+                    sx={{
+                      height: "11rem",
+                      whiteSpace: "wrap",
+                      WebkitLineClamp: 6,
+                      display: "-webkit-box",
+                      WebkitBoxOrient: "vertical",
+                    }}
+                  >
+                    {profile?.description}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
         </Grid>
       </Container>
     </div>

@@ -1,6 +1,7 @@
 [
   {
-    "name": "Arquebusier",
+    "slug": "arquebusier",
+    "label": "Arquebusier",
     "description": "L’Arquebusier est un dur à cuire, un soldat ou un mercenaire habitué des champs de bataille. C’est un spécialiste du combat à distance et plus particulièrement des armes à feu et des explosifs.",
     "hasMagicAttackModifier": false,
     "hd": "1D8",
@@ -137,7 +138,8 @@
     ]
   },
   {
-    "name": "Barbare",
+    "slug": "barbare",
+    "label": "Barbare",
     "description": "Le Barbare est un combattant sauvage issu d’une culture primitive. Il affronte ses ennemis avec rage sans se cacher derrière une lourde armure.",
     "hasMagicAttackModifier": false,
     "hd": "1d12",
@@ -274,7 +276,8 @@
     ]
   },
   {
-    "name": "Barde",
+    "slug": "barde",
+    "label": "Barde",
     "description": "Le Barde est un personnage polyvalent qui utilise la magie et le spectacle pour divertir et parvenir à ses fins. Il est aussi habitué aux ruses qu’à la diplomatie.",
     "hasMagicAttackModifier": true,
     "magicAttackModifier": "CHA",
@@ -412,7 +415,8 @@
     ]
   },
   {
-    "name": "Chevalier",
+    "slug": "chevalier",
+    "label": "Chevalier",
     "description": "Le Chevalier est un noble guerrier errant, monté sur un puissant destrier et protégé par une armure lourde. Il parcourt la campagne en quête de torts à redresser et d’occasions de mettre son courage à l’épreuve.",
     "hasMagicAttackModifier": false,
     "hd": "1d10",
@@ -549,7 +553,8 @@
     ]
   },
   {
-    "name": "Druide",
+    "slug": "druide",
+    "label": "Druide",
     "description": "Le Druide est un prêtre de la nature qui défend sa pureté originelle et tire ses pouvoirs de la vie, des animaux et des plantes.",
     "hasMagicAttackModifier": true,
     "hd": "1d8",
@@ -686,7 +691,8 @@
     ]
   },
   {
-    "name": "Ensorceleur",
+    "slug": "ensorceleur",
+    "label": "Ensorceleur",
     "description": "L’Ensorceleur tire son pouvoir d’un talent inné pour la magie. Il pratique une magie subtile à base de tromperie et de contrôle, et possède peu de sorts de destruction massive.",
     "hasMagicAttackModifier": true,
     "hd": "1d4",
@@ -823,7 +829,8 @@
     ]
   },
   {
-    "name": "Forgesort",
+    "slug": "forgesort",
+    "label": "Forgesort",
     "description": "À la fois artisan et enchanteur, artiste et magicien, le Forgesort lie les énergies occultes à la matière qu’il façonne pour créer des artefacts magiques ou des breuvages aux propriétés fantastiques.",
     "hasMagicAttackModifier": true,
     "hd": "1d6",
@@ -960,7 +967,8 @@
     ]
   },
   {
-    "name": "Guerrier",
+    "slug": "guerrier",
+    "label": "Guerrier",
     "description": "Le Guerrier est un combattant émérite qui n’a pas peur du danger et qui affronte ses ennemis l’arme à la main. De tous les profils de combattant, il est le plus spécialisé et le plus complet dans l’art du combat au corps à corps.",
     "hasMagicAttackModifier": false,
     "hd": "1d10",
@@ -1097,7 +1105,8 @@
     ]
   },
   {
-    "name": "Magicien",
+    "slug": "magicien",
+    "label": "Magicien",
     "description": "Le Magicien n’est pas qu’un rat de bibliothèque. Il fait aussi appel à ses sorts pour se débarrasser de ses ennemis et pour aider ses compagnons.",
     "hasMagicAttackModifier": true,
     "hd": "1d4",
@@ -1234,7 +1243,8 @@
     ]
   },
   {
-    "name": "Moine",
+    "slug": "moine",
+    "label": "Moine",
     "description": "Le Moine combat à mains nues et utilise le contrôle qu’il a sur son esprit et son corps pour transformer ce dernier en arme de chair.",
     "hasMagicAttackModifier": false,
     "hd": "1d8",
@@ -1371,7 +1381,8 @@
     ]
   },
   {
-    "name": "Nécromancien",
+    "slug": "necromancien",
+    "label": "Nécromancien",
     "description": "Le Nécromancien est un lanceur de sorts qui s’intéresse aux forces obscures et au pouvoir de la mort. Les Nécromanciens sont généralement considérés comme maléfiques et sont peu appréciés. Interprétez-le de façon subtile afin d’en faire un personnage plutôt sombre ou désespéré, mais pas forcément \"mauvais\" !",
     "hasMagicAttackModifier": true,
     "hd": "1d4",
@@ -1508,7 +1519,8 @@
     ]
   },
   {
-    "name": "Prêtre",
+    "slug": "pretre",
+    "label": "Prêtre",
     "description": "Le Prêtre utilise l’énergie transmise par son dieu pour mener à bien ses missions avec la force de la foi mais aussi celle des armes si nécessaire.",
     "hasMagicAttackModifier": true,
     "hd": "1d8",
@@ -1645,7 +1657,8 @@
     ]
   },
   {
-    "name": "Rôdeur",
+    "slug": "rodeur",
+    "label": "Rôdeur",
     "description": "Le Rôdeur est à l’aise dans les forêts ténébreuses, où il traque les animaux dangereux et les créatures monstrueuses ou, au contraire, se fait l’ami des bêtes et le protecteur des lieux sauvages.",
     "hasMagicAttackModifier": false,
     "hd": "1d8",
@@ -1807,7 +1820,8 @@
     ]
   },
   {
-    "name": "Voleur",
+    "slug": "voleur",
+    "label": "Voleur",
     "description": "Le Voleur crochète les portes, détecte les pièges et préfère piller les cadavres des ennemis que de se salir les mains pendant le combat.",
     "hasMagicAttackModifier": false,
     "hd": "1d6",

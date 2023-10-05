@@ -13,7 +13,7 @@ export async function GET(request: any, { params }: any) {
   const database = client.db(dbName);
   const profiles = database.collection("profiles");
   const matchingProfile = await profiles.findOne({
-    name: params.profile,
+    slug: params.profile,
   });
   return NextResponse.json(matchingProfile);
 }

@@ -39,7 +39,7 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
     <>
       <HeroSection
         imageSrc="/heroes/profiles-min.png.webp"
-        title={currentProfile?.name || ""}
+        title={currentProfile?.label || ""}
         subtitle={currentProfile?.description || ""}
       />
       <Container maxWidth="xl">
@@ -126,7 +126,7 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
               <Grid item xs={12} sm={12} md={4} lg={4}>
                 <Image
                   src={currentProfile?.imageUrl || ""}
-                  alt={currentProfile?.name || ""}
+                  alt={currentProfile?.slug || ""}
                   width={0}
                   height={0}
                   sizes="100vw"

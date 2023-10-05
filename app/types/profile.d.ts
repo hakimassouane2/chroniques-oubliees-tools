@@ -1,7 +1,8 @@
 import { Way } from "./way";
 
 export type Profile = {
-  name: string;
+  slug: string;
+  label: string;
   description: string;
   hasMagicAttackModifier: boolean;
   hd: DiceKey;
