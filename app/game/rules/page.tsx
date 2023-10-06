@@ -1,13 +1,11 @@
 "use client";
 import HeroSection from "@/components/HeroSection";
-import SearchIcon from "@mui/icons-material/Search";
 import {
   Card,
   CardContent,
   Container,
   FormControl,
   Grid,
-  InputAdornment,
   TextField,
   Typography,
 } from "@mui/material";
@@ -159,20 +157,38 @@ const Rules = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} lg={3}>
                   <CardContent sx={{ p: 2 }}>
-                    <FormControl variant="standard">
+                    <FormControl variant="standard" fullWidth>
                       <TextField
-                        id="input-with-icon-adornment"
-                        InputProps={{
-                          startAdornment: (
-                            <InputAdornment position="start">
-                              <SearchIcon />
-                            </InputAdornment>
-                          ),
-                        }}
-                        fullWidth={true}
                         placeholder="Rechercher dans les règles"
                         variant="outlined"
-                        sx={{ fontFamily: "Roboto", fontWeight: 300 }}
+                        inputProps={{
+                          style: {
+                            fontFamily: "Roboto",
+                            fontWeight: 300,
+                            fontSize: 16,
+                            borderRadius: 20,
+                            paddingTop: 10,
+                            paddingBottom: 10,
+                          },
+                        }}
+                        sx={{
+                          mb: 2,
+                          "& .MuiOutlinedInput-root": {
+                            color: "#212529",
+                            backgroundColor: "#fff",
+                            borderColor: "#ae9782",
+                            "&:hover": {
+                              borderColor: "#ae9782",
+                            },
+                            "&.Mui-focused": {
+                              borderColor: "#ae9782",
+                              boxShadow: "0 0 0 0.25rem rgba(92,46,5,.25)",
+                            },
+                          },
+                          "& .MuiOutlinedInput-notchedOutline": {
+                            borderColor: "#ae9782",
+                          },
+                        }}
                       />
                     </FormControl>
                     <Typography variant="h5" color={"primary"}>
