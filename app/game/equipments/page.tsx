@@ -19,6 +19,8 @@ const Equipments = () => {
     <>
       <HeroSection
         imageSrc="/heroes/equipments-min.png.webp"
+        buttonText="Lire les règles"
+        buttonLink="/game/rules"
         title="Equipements"
         subtitle="Au cours d'une aventure, votre héros pourra porter ou acquérir différents biens et équipements. Retrouvez la liste de ces équipements issus du Livre de Base."
       />

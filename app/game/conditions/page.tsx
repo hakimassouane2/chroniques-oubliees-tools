@@ -48,13 +48,15 @@ const Conditions = () => {
     <>
       <HeroSection
         imageSrc="/heroes/prejudiciable_effects-min.png.webp"
+        buttonText="Lire les règles"
+        buttonLink="/game/rules"
         title="États préjudiciables"
         subtitle="Un état préjudiciable est un ensemble de pénalités infligées à un personnage."
       />
       <Container maxWidth="xl" sx={{ position: "relative", mt: -10, mb: 10 }}>
         <Breadcrumbs
           aria-label="breadcrumb"
-          sx={{ mt: 8, mb: 1, fontFamily: "Roboto" }}
+          sx={{ fontFamily: "Roboto", color: "white" }}
         >
           <Link underline="hover" color="inherit" href="/">
             <HomeRoundedIcon fontSize="small" sx={{ verticalAlign: "sub" }} />
@@ -62,12 +64,7 @@ const Conditions = () => {
           <Link underline="hover" color="inherit" href="/game">
             Jeu
           </Link>
-          <Link
-            underline="hover"
-            color="text.primary"
-            href="/game/conditions"
-            aria-current="page"
-          >
+          <Link underline="hover" href="/game/conditions" aria-current="page">
             États préjudiciables
           </Link>
         </Breadcrumbs>

@@ -6,6 +6,8 @@ const Abilities = () => (
   <>
     <HeroSection
       imageSrc="/heroes/capabilities-min.png.webp"
+      buttonText="Lire les règles"
+      buttonLink="/game/rules"
       title="Capacités"
       subtitle="Les Capacités sont assignées à des Voies et ont chacune un Rang de puissance.
       Si la capacité Limitée elle est suivie de (L). Si la capacité est magique, elle est suivi d'une étoile *."

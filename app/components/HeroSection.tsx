@@ -1,8 +1,8 @@
 // components/HeroSection.tsx
+import FeedIcon from "@mui/icons-material/Feed";
 import { Box, Button, Typography } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
-
 interface HeroSectionProps {
   imageSrc: string;
   title: string;
@@ -54,7 +54,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         {subtitle && (
           <Typography
             variant="body2"
-            sx={{ fontFamily: "roboto", fontWeight: 300 }}
+            sx={{ fontFamily: "roboto", fontWeight: 300, mb: 2 }}
             gutterBottom
           >
             {subtitle}
@@ -62,7 +62,23 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         )}
         {buttonText && buttonLink && (
           <Link href={buttonLink} passHref>
-            <Button variant="contained" color="primary">
+            <Button
+              variant="outlined"
+              startIcon={<FeedIcon />}
+              sx={{
+                color: "#ebdec2",
+                border: "1px solid #ebdec2",
+                borderRadius: 0,
+                fontFamily: "roboto",
+                fontWeight: 300,
+                textTransform: "none",
+                bgcolor: "rgba(0,0,0,.5);",
+                ":hover": {
+                  bgcolor: "#ebdec2", // theme.palette.primary.main
+                  color: "#5c2e05",
+                },
+              }}
+            >
               {buttonText}
             </Button>
           </Link>

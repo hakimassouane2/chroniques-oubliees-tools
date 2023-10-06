@@ -88,6 +88,8 @@ const Profiles: React.FC = () => {
     <div>
       <HeroSection
         imageSrc="/heroes/profiles-min.png.webp"
+        buttonText="Lire les règles"
+        buttonLink="/game/rules"
         title="Profils"
         subtitle="Dans Chroniques Oubliées, le « métier », l’occupation principale du personnage, s’appelle un Profil. Cela peut être l'équivalent d'une « Classe » dans d'autres jeux de rôle."
       />
