@@ -34,6 +34,8 @@ const Races = () => {
       <HeroSection
         imageSrc="/heroes/races-min.png.webp"
         title="Races"
+        buttonText="Lire les règles"
+        buttonLink="/game/rules"
         subtitle="Votre personnage peut être humain ou appartenir à une autre des races disponibles. La Race choisie influe sur le caractère du PJ et sur ses rapports avec les autres peuples humanoïdes."
       />
       <Container maxWidth="xl">
@@ -45,8 +47,11 @@ const Races = () => {
           {races.map((race: any, index: any) => (
             <Grid item xs={12} sm={12} md={12} lg={12} key={index}>
               <Card sx={{ borderRadius: 2 }}>
-                <Grid container>
-                  <Grid item xs={8} sm={8} md={8} lg={8}>
+                <Grid
+                  container
+                  sx={{ flexDirection: { xs: "column-reverse", md: "row" } }}
+                >
+                  <Grid item xs={12} sm={12} md={8} lg={8}>
                     <CardContent sx={{ p: 2, height: "16rem" }}>
                       <Typography variant="h5" color={"primary"} gutterBottom>
                         {race?.label}
@@ -88,7 +93,7 @@ const Races = () => {
                       </Link>
                     </CardContent>
                   </Grid>
-                  <Grid item xs={4} sm={4} md={4} lg={4}>
+                  <Grid item xs={12} sm={12} md={4} lg={4}>
                     <Link
                       href={`races/${encodeURIComponent(
                         (race?.slug).toLowerCase()
