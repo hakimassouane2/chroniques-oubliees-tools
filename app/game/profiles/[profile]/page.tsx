@@ -56,6 +56,15 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                   Dé de vie{" "}
                 </Typography>
                 {currentProfile?.hd && <Dice hitDie={currentProfile?.hd} />}
+                {currentProfile?.hasMagicAttackModifier && (
+                  <Typography
+                    variant="body2"
+                    sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                  >
+                    Modificateur de l&apos;attaque magique:{" "}
+                    {currentProfile?.magicAttackModifier}
+                  </Typography>
+                )}
                 <Typography variant="h6" color={"primary"}>
                   Armes et armures
                 </Typography>

@@ -37,7 +37,7 @@ const Rules = () => {
                       fontWeight={300}
                       gutterBottom
                     >
-                      Vous êtes complètement débutant dans l&quot;univers du Jeu
+                      Vous êtes complètement débutant dans l&apos;univers du Jeu
                       de rôle ?
                     </Typography>
                     <Typography
@@ -58,7 +58,7 @@ const Rules = () => {
                       gutterBottom
                     >
                       Nous vous recommandons aussi ces vidéos de la chaîne
-                      Rôle&quot;n Play qui vous permettront notamment de voir à
+                      Rôle&apos;n Play qui vous permettront notamment de voir à
                       quoi peut ressembler une partie de Chroniques Oubliées
                       Fantasy :
                     </Typography>
@@ -68,7 +68,7 @@ const Rules = () => {
                       fontWeight={300}
                       gutterBottom
                     >
-                      Qu&quot;est-ce que Chroniques Oubliées Fantasy ?
+                      Qu&apos;est-ce que Chroniques Oubliées Fantasy ?
                     </Typography>
                     <Typography
                       variant="body2"
@@ -80,7 +80,7 @@ const Rules = () => {
                       d20 system qui a pour origine la version 3.5 de Donjons et
                       Dragons, selon les termes de la licence ludique libre
                       (OGL, Open game licence). Le jeu propose un système
-                      simplifié destiné à l&quot;origine à l&quot;initiation,
+                      simplifié destiné à l&apos;origine à l&apos;initiation,
                       tout en restant largement compatible avec Donjons et
                       Dragons et ses dérivés. Mais elles ne se limitent pas aux
                       débutants, et les versions publiées dans Casus Belli
@@ -103,7 +103,7 @@ const Rules = () => {
                       fontWeight={300}
                       gutterBottom
                     >
-                      Qu&quot;est-ce qu&quot;un DRS ?
+                      Qu&apos;est-ce qu&apos;un DRS ?
                     </Typography>
                     <Typography
                       variant="body2"
@@ -125,8 +125,8 @@ const Rules = () => {
                       gutterBottom
                     >
                       Le DRS rassemble les règles fondamentales d’un jeu,
-                      dépouillées de tout artifice (que l&quot;on peut trouver
-                      dans des campagnes, des descriptions d&quot;univers, des
+                      dépouillées de tout artifice (que l&apos;on peut trouver
+                      dans des campagnes, des descriptions d&apos;univers, des
                       aides de jeu ou des suppléments de règles comme le
                       Compagnon). C’est un concept né avec la version 3 de
                       Dungeons & Dragons au moment où Wizards of The Coast a mis

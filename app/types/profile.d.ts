@@ -5,6 +5,7 @@ export type Profile = {
   label: string;
   description: string;
   hasMagicAttackModifier: boolean;
+  magicAttackModifier: string;
   hd: DiceKey;
   weaponsAndArmor: string;
   startingEquipment: string;
