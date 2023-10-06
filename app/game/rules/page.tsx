@@ -37,8 +37,8 @@ const Rules = () => {
                       fontWeight={300}
                       gutterBottom
                     >
-                      Vous êtes complètement débutant dans lunivers du Jeu de
-                      rôle ?
+                      Vous êtes complètement débutant dans l&quot;univers du Jeu
+                      de rôle ?
                     </Typography>
                     <Typography
                       variant="body2"
@@ -58,9 +58,9 @@ const Rules = () => {
                       gutterBottom
                     >
                       Nous vous recommandons aussi ces vidéos de la chaîne
-                      Rôle'n Play qui vous permettront notamment de voir à quoi
-                      peut ressembler une partie de Chroniques Oubliées Fantasy
-                      :
+                      Rôle&quot;n Play qui vous permettront notamment de voir à
+                      quoi peut ressembler une partie de Chroniques Oubliées
+                      Fantasy :
                     </Typography>
                     <Typography
                       variant="body2"
@@ -68,7 +68,7 @@ const Rules = () => {
                       fontWeight={300}
                       gutterBottom
                     >
-                      Qu'est-ce que Chroniques Oubliées Fantasy ?
+                      Qu&quot;est-ce que Chroniques Oubliées Fantasy ?
                     </Typography>
                     <Typography
                       variant="body2"
@@ -80,12 +80,12 @@ const Rules = () => {
                       d20 system qui a pour origine la version 3.5 de Donjons et
                       Dragons, selon les termes de la licence ludique libre
                       (OGL, Open game licence). Le jeu propose un système
-                      simplifié destiné à l'origine à l'initiation, tout en
-                      restant largement compatible avec Donjons et Dragons et
-                      ses dérivés. Mais elles ne se limitent pas aux débutants,
-                      et les versions publiées dans Casus Belli offrent tout un
-                      ensemble de règles optionnelles qui satisfont les joueurs
-                      habitués.
+                      simplifié destiné à l&quot;origine à l&quot;initiation,
+                      tout en restant largement compatible avec Donjons et
+                      Dragons et ses dérivés. Mais elles ne se limitent pas aux
+                      débutants, et les versions publiées dans Casus Belli
+                      offrent tout un ensemble de règles optionnelles qui
+                      satisfont les joueurs habitués.
                     </Typography>
                     <Typography
                       variant="body2"
@@ -103,7 +103,7 @@ const Rules = () => {
                       fontWeight={300}
                       gutterBottom
                     >
-                      Qu'est-ce qu'un DRS ?
+                      Qu&quot;est-ce qu&quot;un DRS ?
                     </Typography>
                     <Typography
                       variant="body2"
@@ -125,12 +125,12 @@ const Rules = () => {
                       gutterBottom
                     >
                       Le DRS rassemble les règles fondamentales d’un jeu,
-                      dépouillées de tout artifice (que l'on peut trouver dans
-                      des campagnes, des descriptions d'univers, des aides de
-                      jeu ou des suppléments de règles comme le Compagnon).
-                      C’est un concept né avec la version 3 de Dungeons &
-                      Dragons au moment où Wizards of The Coast a mis ses règles
-                      en libre accès.
+                      dépouillées de tout artifice (que l&quot;on peut trouver
+                      dans des campagnes, des descriptions d&quot;univers, des
+                      aides de jeu ou des suppléments de règles comme le
+                      Compagnon). C’est un concept né avec la version 3 de
+                      Dungeons & Dragons au moment où Wizards of The Coast a mis
+                      ses règles en libre accès.
                     </Typography>
                     <Typography
                       variant="body2"
