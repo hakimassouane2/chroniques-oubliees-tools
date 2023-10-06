@@ -8,6 +8,8 @@ export type Race = {
   statistics: string;
   racials: Racial[];
   usualNames: string;
+  typicalMaleNames?: string[];
+  typicalFemaleNames?: string[];
 };
 
 export type Appearance = {
