@@ -9,6 +9,8 @@ interface HeroSectionProps {
   subtitle?: string;
   buttonText?: string;
   buttonLink?: string; // The link that the button will navigate to
+  hasSecondimage?: boolean;
+  secondImageSrc?: string;
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({
@@ -17,6 +19,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({
   subtitle,
   buttonText,
   buttonLink,
+  hasSecondimage = false,
+  secondImageSrc = "",
 }) => {
   return (
     <Box
@@ -39,6 +43,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         }}
       ></Box>
       <Box
+        display="flex"
+        flexDirection="column"
+        alignItems={"center"}
         sx={{
           position: "absolute",
           top: "50%",
@@ -48,6 +55,28 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           color: "white",
         }}
       >
+        {hasSecondimage && (
+          <div
+            style={{
+              borderRadius: "50%",
+              width: "110px" /* You can set this to whatever you prefer */,
+              height:
+                "110px" /* Ensure this matches the width for a perfect circle */,
+              overflow: "hidden",
+              boxShadow: "0 0.5rem 1rem rgba(0,0,0,.15)",
+              border: "3px solid lightgray",
+              backgroundColor: "#bfbfbf",
+              marginBottom: "1rem",
+            }}
+          >
+            <Image
+              src={secondImageSrc}
+              alt="hero second image"
+              height={110}
+              width={110}
+            />
+          </div>
+        )}
         <Typography
           variant="h3"
           component="h1"

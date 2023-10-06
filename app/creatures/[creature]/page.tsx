@@ -32,6 +32,8 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
       <HeroSection
         imageSrc="/heroes/creatures-min.png.webp"
         title={currentCreature?.name[0]?.label}
+        hasSecondimage={true}
+        secondImageSrc={currentCreature?.picture[0]?.creature_token_url}
       />
       <Container maxWidth="xl">
         <Grid
@@ -42,7 +44,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
           lg={12}
           sx={{ position: "relative", mt: -10, mb: 10 }}
         >
-          <Card>
+          <Card sx={{ borderRadius: 0 }}>
             <Grid container>
               <Grid item xs={8} sm={8} md={8} lg={8}>
                 <CardContent sx={{ p: 2 }}>
@@ -61,21 +63,26 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                     Famille de créature:{" "}
                     {currentCreature?.creature_family[0]?.label}
                   </Typography>
-                  <Typography
-                    variant="body2"
-                    fontFamily={"Roboto"}
-                    fontWeight={300}
-                  >
-                    Type de boss: {currentCreature?.boss_type[0]?.label}
-                  </Typography>
-                  <Typography
-                    variant="body2"
-                    fontFamily={"Roboto"}
-                    fontWeight={300}
-                    gutterBottom
-                  >
-                    Rang de boss: {currentCreature?.boss_rank[0]?.value}
-                  </Typography>
+                  {currentCreature?.boss_type[0] && (
+                    <Typography
+                      variant="body2"
+                      fontFamily={"Roboto"}
+                      fontWeight={300}
+                    >
+                      Type de boss: {currentCreature?.boss_type[0]?.label}
+                    </Typography>
+                  )}
+                  {currentCreature?.boss_rank[0] &&
+                    currentCreature?.boss_rank[0].value > 0 && (
+                      <Typography
+                        variant="body2"
+                        fontFamily={"Roboto"}
+                        fontWeight={300}
+                        gutterBottom
+                      >
+                        Rang de boss: {currentCreature?.boss_rank[0]?.value}
+                      </Typography>
+                    )}
                   <Typography
                     variant="body2"
                     fontFamily={"Roboto"}
@@ -92,15 +99,17 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                   >
                     {currentCreature?.description[0]?.value}
                   </Typography>
-                  <Typography
-                    variant="body2"
-                    fontFamily={"Roboto"}
-                    fontWeight={300}
-                    gutterBottom
-                  >
-                    Réduction des dommages:{" "}
-                    {currentCreature?.dmg_reduction[0]?.value}
-                  </Typography>
+                  {currentCreature?.dmg_reduction[0] && (
+                    <Typography
+                      variant="body2"
+                      fontFamily={"Roboto"}
+                      fontWeight={300}
+                      gutterBottom
+                    >
+                      Réduction des dommages:{" "}
+                      {currentCreature?.dmg_reduction[0]?.value}
+                    </Typography>
+                  )}
                   <Typography variant="h5" color={"primary"} gutterBottom>
                     Attaques
                   </Typography>
