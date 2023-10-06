@@ -27,7 +27,7 @@ export async function GET() {
         label: 1,
         type: 1,
         additionalDescription: 1,
-        "linkedProfiles.name": 1, // Only include the name field from linkedProfiles
+        "linkedProfiles.label": 1, // Only include the name field from linkedProfiles
         "abilities.label": 1, // Only include the name field from abilities
       },
     },

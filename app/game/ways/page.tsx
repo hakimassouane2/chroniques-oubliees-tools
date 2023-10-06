@@ -25,6 +25,8 @@ const Ways = () => {
     <div>
       <HeroSection
         imageSrc="/heroes/co_paths-min.png.webp"
+        buttonText="Lire les règles"
+        buttonLink="/game/rules"
         title="Voies"
         subtitle="Chaque Profil donne accès à des Capacités. Réparties entre 5 voies, elles s’échelonnent sur 5 Rangs de puissance, de 1 (faible) à 5 (très puissant)."
       />
@@ -62,10 +64,10 @@ const Ways = () => {
                         Profil(s) lié(s):{" "}
                         <Link
                           href={`profiles/${encodeURIComponent(
-                            (way?.linkedProfiles[0].name).toLowerCase()
+                            way?.linkedProfiles[0]?.slug
                           )}`}
                         >
-                          {way?.linkedProfiles[0]?.name}
+                          {way?.linkedProfiles[0]?.label}
                         </Link>
                       </Typography>
                     </CardContent>
