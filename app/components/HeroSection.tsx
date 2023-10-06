@@ -48,13 +48,22 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           color: "white",
         }}
       >
-        <Typography variant="h3" component="h1" sx={{ mb: 3 }}>
+        <Typography
+          variant="h3"
+          component="h1"
+          sx={{ mb: 3, textShadow: "1px 1px 5px #000" }}
+        >
           {title}
         </Typography>
         {subtitle && (
           <Typography
             variant="body2"
-            sx={{ fontFamily: "roboto", fontWeight: 300, mb: 2 }}
+            sx={{
+              fontFamily: "roboto",
+              fontWeight: 300,
+              mb: 2,
+              textShadow: "1px 1px 5px #000",
+            }}
             gutterBottom
           >
             {subtitle}
