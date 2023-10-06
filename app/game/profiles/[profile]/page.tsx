@@ -4,18 +4,59 @@ import HeroSection from "@/components/HeroSection";
 import { Profile } from "@/types/profile";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
+  AccordionSummaryProps,
   Card,
   CardContent,
   Container,
   Grid,
   Typography,
+  styled,
 } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import { useLoading } from "../../../contexts/LoadingContext";
+
+import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
+
+import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
+
+import MuiAccordionSummary from "@mui/material/AccordionSummary";
+
+import MuiAccordionDetails from "@mui/material/AccordionDetails";
+
+const Accordion = styled((props: AccordionProps) => (
+  <MuiAccordion disableGutters elevation={0} square {...props} />
+))(({ theme }) => ({
+  border: `1px solid ${theme.palette.divider}`,
+  borderRadius: 10,
+  "&:before": {
+    display: "none",
+  },
+}));
+
+const AccordionSummary = styled((props: AccordionSummaryProps) => (
+  <MuiAccordionSummary
+    expandIcon={<ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />}
+    {...props}
+  />
+))(({ theme }) => ({
+  backgroundColor:
+    theme.palette.mode === "dark" ? "rgba(255, 255, 255, .05)" : "white",
+  flexDirection: "row",
+  borderRadius: 10,
+  "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
+    transform: "rotate(-180deg)",
+  },
+  "& .MuiAccordionSummary-content": {
+    marginLeft: theme.spacing(1),
+  },
+}));
+
+const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
+  padding: theme.spacing(2),
+  paddingTop: 0,
+  borderTop: "1px solid rgba(0, 0, 0, .125)",
+}));
 
 const ProfileDetail = ({ params }: { params: { profile: string } }) => {
   const [currentProfile, setCurrentProfile] = React.useState<Profile | null>(
@@ -84,11 +125,16 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                   {currentProfile?.startingEquipment}
                 </Typography>
                 {currentProfile?.ways?.map((way: any, index: any) => (
-                  <Accordion sx={{ mt: 2 }} key={way.name}>
+                  <Accordion
+                    sx={{
+                      mt: 2,
+                    }}
+                    key={way.name}
+                  >
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon />}
                       aria-controls="panel1a-content"
-                      id="panel1a-header"
+                      className="MainAccordion"
                       sx={{ mb: 0, pb: 0 }}
                     >
                       <Typography
@@ -121,7 +167,11 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                           <AccordionDetails>
                             <Typography
                               variant="body2"
-                              sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                              sx={{
+                                fontFamily: "roboto",
+                                fontWeight: 300,
+                                mt: 2,
+                              }}
                             >
                               {ability.description}
                             </Typography>
