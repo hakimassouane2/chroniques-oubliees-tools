@@ -12,6 +12,7 @@ import {
   CardMedia,
   Container,
   Grid,
+  Link,
   Table,
   TableBody,
   TableCell,
@@ -63,11 +64,6 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
   const [currentCreature, setCurrentCreature] = React.useState<any>(null);
   const { setIsLoading } = useLoading();
 
-  function stripHtmlTags(input: any) {
-    if (input === undefined || input === null || input === "") return;
-    return input.replace(/<\/?[^>]+(>|$)/g, "");
-  }
-
   React.useEffect(() => {
     async function fetchData() {
       setIsLoading(true);
@@ -79,6 +75,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
 
     fetchData();
   }, []);
+
+  function isSuperior(ability: string) {
+    return currentCreature?.sup_abilities?.some(
+      (supAbility: any) => supAbility.value === ability
+    );
+  }
 
   return (
     <div>
@@ -99,7 +101,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
         >
           <Card sx={{ borderRadius: 0 }}>
             <Grid container>
-              <Grid item xs={8} sm={8} md={8} lg={8}>
+              <Grid item xs={12} sm={12} md={9} lg={9}>
                 <CardContent sx={{ p: 2 }}>
                   <Typography
                     variant="body2"
@@ -141,17 +143,19 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                     fontFamily={"Roboto"}
                     fontWeight={300}
                     gutterBottom
-                  >
-                    {stripHtmlTags(currentCreature?.appearance[0]?.value)}
-                  </Typography>
+                    dangerouslySetInnerHTML={{
+                      __html: currentCreature?.appearance[0]?.value,
+                    }}
+                  ></Typography>
                   <Typography
                     variant="body2"
                     fontFamily={"Roboto"}
                     fontWeight={300}
                     gutterBottom
-                  >
-                    {stripHtmlTags(currentCreature?.description[0]?.value)}
-                  </Typography>
+                    dangerouslySetInnerHTML={{
+                      __html: currentCreature?.description[0]?.value,
+                    }}
+                  ></Typography>
                   {currentCreature?.dmg_reduction[0] && (
                     <Typography
                       variant="body2"
@@ -177,7 +181,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                           DEF{" "}
                           <SecurityIcon
                             fontSize="small"
-                            sx={{ color: "#256eff" }}
+                            sx={{ color: "#256eff", mb: -0.5 }}
                           />
                           {currentCreature?.defense[0]?.value}
                         </TableCell>
@@ -192,7 +196,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                           PV{" "}
                           <FavoriteIcon
                             fontSize="small"
-                            sx={{ color: "#fc440f" }}
+                            sx={{ color: "#fc440f", mb: -0.5 }}
                           />{" "}
                           {currentCreature?.health_point[0]?.value}
                         </TableCell>
@@ -207,7 +211,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                           Init{" "}
                           <DirectionsRunIcon
                             fontSize="small"
-                            sx={{ color: "#06a77d" }}
+                            sx={{ color: "#06a77d", mb: -0.5 }}
                           />
                           {currentCreature?.init[0]?.value}
                         </TableCell>
@@ -220,7 +224,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                             py: 1,
                           }}
                         >
-                          FOR +{currentCreature?.str_mod[0]?.value}
+                          FOR{" "}
+                          {parseInt(currentCreature?.str_mod[0]?.value) >= 0
+                            ? "+"
+                            : ""}
+                          {currentCreature?.str_mod[0]?.value}
+                          {isSuperior("str") && "*"}
                         </TableCell>
                         <TableCell
                           sx={{
@@ -229,7 +238,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                             py: 1,
                           }}
                         >
-                          DEX +{currentCreature?.dex_mod[0]?.value}
+                          DEX{" "}
+                          {parseInt(currentCreature?.dex_mod[0]?.value) >= 0
+                            ? "+"
+                            : ""}
+                          {currentCreature?.dex_mod[0]?.value}
+                          {isSuperior("dex") && "*"}
                         </TableCell>
                         <TableCell
                           sx={{
@@ -238,7 +252,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                             py: 1,
                           }}
                         >
-                          CON +{currentCreature?.con_mod[0]?.value}
+                          CON{" "}
+                          {parseInt(currentCreature?.con_mod[0]?.value) >= 0
+                            ? "+"
+                            : ""}
+                          {currentCreature?.con_mod[0]?.value}
+                          {isSuperior("con") && "*"}
                         </TableCell>
                       </TableRow>
                       <TableRow>
@@ -249,7 +268,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                             py: 1,
                           }}
                         >
-                          INT +{currentCreature?.int_mod[0]?.value}
+                          INT{" "}
+                          {parseInt(currentCreature?.int_mod[0]?.value) >= 0
+                            ? "+"
+                            : ""}
+                          {currentCreature?.int_mod[0]?.value}
+                          {isSuperior("int") && "*"}
                         </TableCell>
                         <TableCell
                           sx={{
@@ -258,7 +282,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                             py: 1,
                           }}
                         >
-                          SAG +{currentCreature?.wis_mod[0]?.value}
+                          SAG{" "}
+                          {parseInt(currentCreature?.wis_mod[0]?.value) >= 0
+                            ? "+"
+                            : ""}
+                          {currentCreature?.wis_mod[0]?.value}
+                          {isSuperior("wis") && "*"}
                         </TableCell>
                         <TableCell
                           sx={{
@@ -267,7 +296,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                             py: 1,
                           }}
                         >
-                          CHA +{currentCreature?.cha_mod[0]?.value}
+                          CHA{" "}
+                          {parseInt(currentCreature?.cha_mod[0]?.value) >= 0
+                            ? "+"
+                            : ""}
+                          {currentCreature?.cha_mod[0]?.value}
+                          {isSuperior("cha") && "*"}
                         </TableCell>
                       </TableRow>
                     </TableBody>
@@ -275,18 +309,15 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                   <Typography variant="h5" color={"primary"} gutterBottom>
                     Attaques
                   </Typography>
-                  {currentCreature?.attacks[0]?.data?.map((attack: any) => (
-                    <Typography
-                      variant="body2"
-                      fontFamily={"Roboto"}
-                      fontWeight={300}
-                      key={attack.name}
-                      gutterBottom
-                    >
-                      {attack.name} {attack.test} DM {attack.dm}{" "}
-                      {attack.special}
-                    </Typography>
-                  ))}
+                  <Typography
+                    variant="body2"
+                    fontFamily={"Roboto"}
+                    fontWeight={300}
+                    dangerouslySetInnerHTML={{
+                      __html: currentCreature?.attacks[0].value,
+                    }}
+                    gutterBottom
+                  ></Typography>
                   {currentCreature?.special_capabilities[0].value && (
                     <>
                       <Typography variant="h5" color={"primary"} gutterBottom>
@@ -297,10 +328,41 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                         fontFamily={"Roboto"}
                         fontWeight={300}
                         gutterBottom
+                        dangerouslySetInnerHTML={{
+                          __html:
+                            currentCreature?.special_capabilities[0].value,
+                        }}
+                      ></Typography>
+                    </>
+                  )}
+                  {currentCreature?.profile[0]?.label && (
+                    <>
+                      <Typography variant="h5" color={"primary"} gutterBottom>
+                        Profil
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        fontFamily={"Roboto"}
+                        fontWeight={300}
+                        gutterBottom
                       >
-                        {stripHtmlTags(
-                          currentCreature?.special_capabilities[0].value
-                        )}
+                        Profil:{" "}
+                        <Link
+                          href={`/game/profiles/${encodeURIComponent(
+                            currentCreature?.profile[0]?.label
+                          ).toLowerCase()}`}
+                        >
+                          {currentCreature?.profile[0]?.label}
+                        </Link>
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        fontFamily={"Roboto"}
+                        fontWeight={300}
+                        gutterBottom
+                      >
+                        Niveau de profil:{" "}
+                        {currentCreature?.profile_level[0]?.value}
                       </Typography>
                     </>
                   )}
@@ -314,12 +376,13 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                         fontFamily={"Roboto"}
                         fontWeight={300}
                         gutterBottom
-                      >
-                        {stripHtmlTags(currentCreature?.paths[0].value)}
-                      </Typography>
+                        dangerouslySetInnerHTML={{
+                          __html: currentCreature?.paths[0]?.value,
+                        }}
+                      ></Typography>
                     </>
                   )}
-                  {currentCreature?.capabilities && (
+                  {currentCreature?.capabilities.length > 0 && (
                     <>
                       <Typography variant="h5" color={"primary"} gutterBottom>
                         Capacité(s)
@@ -372,7 +435,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                   )}
                 </CardContent>
               </Grid>
-              <Grid item xs={4} sm={4} md={4} lg={4}>
+              <Grid item xs={12} sm={12} md={3} lg={3}>
                 <CardMedia
                   component="img"
                   alt={"image"}
