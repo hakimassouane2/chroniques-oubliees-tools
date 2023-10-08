@@ -24,7 +24,7 @@ import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import React from "react";
-import { useLoading } from "../../contexts/LoadingContext";
+import { useLoading } from "../../../contexts/LoadingContext";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />

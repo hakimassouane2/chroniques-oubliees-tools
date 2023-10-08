@@ -148,7 +148,7 @@ const Creatures = () => {
               <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
                 <Card sx={{ borderRadius: 2 }}>
                   <Link
-                    href={`/creatures/${encodeURIComponent(
+                    href={`creatures/${encodeURIComponent(
                       monster?.name[0]?.value
                     )}`}
                   >

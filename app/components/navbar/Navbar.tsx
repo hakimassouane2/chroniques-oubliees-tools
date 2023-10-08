@@ -1,5 +1,4 @@
 "use client";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import {
   Button,
@@ -9,8 +8,6 @@ import {
   List,
   ListItem,
   ListItemText,
-  Menu,
-  MenuItem,
 } from "@mui/material";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -56,7 +53,7 @@ function Navbar() {
     { label: "Capacités", url: "/game/abilities" },
     { label: "Équipements", url: "/game/equipments" },
     { label: "États préjudiciables", url: "/game/conditions" },
-    { label: "Bestiaire", url: "/creatures" },
+    { label: "Bestiaire", url: "/bestiary" },
     { label: "Ressources", url: "/ressources" },
   ];
 
@@ -89,11 +86,11 @@ function Navbar() {
                     textTransform: "none",
                     fontSize: "1.7rem",
                   }}
-                  endIcon={<KeyboardArrowDownIcon />}
+                  // endIcon={<KeyboardArrowDownIcon />}
                 >
                   Jeu
                 </Button>
-                <Menu
+                {/*                 <Menu
                   id="basic-menu"
                   anchorEl={anchorEl}
                   open={open}
@@ -186,7 +183,7 @@ function Navbar() {
                   >
                     États préjudiciables
                   </MenuItem>
-                </Menu>
+                </Menu> */}
               </div>
               <Button
                 id="basic-button"
@@ -194,7 +191,7 @@ function Navbar() {
                 aria-haspopup="true"
                 aria-expanded={open ? "true" : undefined}
                 onClick={() => {
-                  navigateToUrl("/creatures");
+                  navigateToUrl("/bestiary");
                 }}
                 sx={{
                   color: "white",
