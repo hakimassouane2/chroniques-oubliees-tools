@@ -7,6 +7,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import SecurityIcon from "@mui/icons-material/Security";
 import {
   AccordionSummaryProps,
+  Button,
   Card,
   CardContent,
   CardMedia,
@@ -25,6 +26,7 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import React from "react";
 import { useLoading } from "../../../contexts/LoadingContext";
+import { stat } from "fs";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -81,6 +83,102 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
       (supAbility: any) => supAbility.value === ability
     );
   }
+
+  const getStrString = () => {
+    return parseInt(currentCreature?.str_mod[0]?.value) >= 0
+      ? `+${currentCreature?.str_mod[0]?.value}`
+      : currentCreature?.str_mod[0]?.value;
+  };
+
+  const getDexString = () => {
+    return parseInt(currentCreature?.dex_mod[0]?.value) >= 0
+      ? `+${currentCreature?.dex_mod[0]?.value}`
+      : currentCreature?.dex_mod[0]?.value;
+  };
+
+  const getConString = () => {
+    return parseInt(currentCreature?.con_mod[0]?.value) >= 0
+      ? `+${currentCreature?.con_mod[0]?.value}`
+      : currentCreature?.con_mod[0]?.value;
+  };
+
+  const getIntString = () => {
+    return parseInt(currentCreature?.int_mod[0]?.value) >= 0
+      ? `+${currentCreature?.int_mod[0]?.value}`
+      : currentCreature?.int_mod[0]?.value;
+  };
+
+  const getWisString = () => {
+    return parseInt(currentCreature?.wis_mod[0]?.value) >= 0
+      ? `+${currentCreature?.wis_mod[0]?.value}`
+      : currentCreature?.wis_mod[0]?.value;
+  };
+
+  const getChaString = () => {
+    return parseInt(currentCreature?.cha_mod[0]?.value) >= 0
+      ? `+${currentCreature?.cha_mod[0]?.value}`
+      : currentCreature?.cha_mod[0]?.value;
+  };
+
+  function convertHtmlToMarkdown(input: string): string {
+    const tagsToKeep = ["strong", "em"];
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(input, "text/html");
+
+    function processNode(node: Node): string {
+      if (node.nodeType === Node.TEXT_NODE) {
+        return node.textContent || "";
+      }
+
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        const element = node as HTMLElement;
+
+        if (tagsToKeep.includes(element.tagName.toLowerCase())) {
+          if (element.tagName.toLowerCase() === "strong") {
+            return `**${processNodes(element)}**`;
+          } else if (element.tagName.toLowerCase() === "em") {
+            return `_${processNodes(element)}_`;
+          }
+        }
+
+        return processNodes(element);
+      }
+
+      return "";
+    }
+
+    function processNodes(parentNode: Node): string {
+      let result = "";
+
+      for (let node of parentNode.childNodes) {
+        result += processNode(node);
+      }
+
+      return result;
+    }
+
+    return processNodes(doc.body);
+  }
+
+  const copyForLK = (e: any) => {
+    const creatureStats = `
+**${currentCreature?.name[0]?.label}** | NC ${currentCreature?.level[0]?.value}
+| DEF                                    | PV                                           | VIT               | FOR${
+      isSuperior("str") ? "*" : ""
+    } | DEX${isSuperior("dex") ? "*" : ""} | CON${
+      isSuperior("con") ? "*" : ""
+    } | INT${isSuperior("int") ? "*" : ""} | SAG${
+      isSuperior("wis") ? "*" : ""
+    } | CHA${isSuperior("cha") ? "*" : ""} |
+|----------------------------------------|----------------------------------------------|-------------------|-----|-----|-----|-----|-----|-----|
+| ${currentCreature?.defense[0]?.value}  | ${
+      currentCreature?.health_point[0]?.value
+    }   | 30ft. (6 cases)   | ${getStrString()}   | ${getDexString()}    |  ${getConString()}   | ${getIntString()}    | ${getWisString()}    |  ${getChaString()}   |
+
+${convertHtmlToMarkdown(currentCreature?.attacks[0].value)}
+    `;
+    navigator.clipboard.writeText(creatureStats);
+  };
 
   return (
     <div>
@@ -442,6 +540,18 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
                   image={currentCreature?.picture[0]?.creature_token_url}
                   sx={{ backgroundColor: "white" }}
                 />
+                <Button
+                  variant="contained"
+                  color="info"
+                  onClick={copyForLK}
+                  sx={{
+                    fontFamily: "roboto",
+                    fontWeight: 300,
+                    textAlign: "center",
+                  }}
+                >
+                  Copy for LK
+                </Button>
               </Grid>
             </Grid>
           </Card>
