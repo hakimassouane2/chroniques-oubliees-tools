@@ -219,6 +219,7 @@ const Creatures = () => {
                     <Typography
                       variant="h5"
                       color={"primary"}
+                      title={monster?.name[0]?.label}
                       sx={{
                         whiteSpace: "nowrap",
                         overflow: "hidden",
