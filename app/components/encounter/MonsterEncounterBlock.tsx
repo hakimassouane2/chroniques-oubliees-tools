@@ -55,7 +55,15 @@ function MonsterEncounterBlock(props: any) {
       </Grid>
       <Grid item xs={6} sm={9} md={6} lg={8} sx={{ pl: "0px !important" }}>
         <Box display={"flex"} justifyContent={"space-between"}>
-          <Typography variant="h6">
+          <Typography
+            variant="h6"
+            title={props?.monster?.name[0]?.label}
+            sx={{
+              whiteSpace: "nowrap",
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+            }}
+          >
             {currentHP <= 0 && (
               <CancelIcon fontSize="small" sx={{ color: "red" }} />
             )}
