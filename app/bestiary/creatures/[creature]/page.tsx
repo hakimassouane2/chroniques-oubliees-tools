@@ -7,6 +7,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import SecurityIcon from "@mui/icons-material/Security";
 import {
   AccordionSummaryProps,
+  Box,
   Button,
   Card,
   CardContent,
@@ -557,18 +558,21 @@ ${convertHtmlToMarkdown(
                   image={currentCreature?.picture[0]?.creature_token_url}
                   sx={{ backgroundColor: "white" }}
                 />
-                <Button
-                  variant="contained"
-                  color="info"
-                  onClick={copyForLK}
-                  sx={{
-                    fontFamily: "roboto",
-                    fontWeight: 300,
-                    textAlign: "center",
-                  }}
-                >
-                  Copy for LK
-                </Button>
+                <Box textAlign="center">
+                  <Button
+                    variant="contained"
+                    color="info"
+                    onClick={copyForLK}
+                    sx={{
+                      fontFamily: "roboto",
+                      fontWeight: 300,
+                      textAlign: "center",
+                      m: 2,
+                    }}
+                  >
+                    Copy for LK
+                  </Button>
+                </Box>
               </Grid>
             </Grid>
           </Card>
