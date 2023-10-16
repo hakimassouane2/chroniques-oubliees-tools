@@ -6,10 +6,12 @@ import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import SecurityIcon from "@mui/icons-material/Security";
 import {
+  Box,
   Card,
   CardContent,
   CardMedia,
   Container,
+  FormHelperText,
   Grid,
   Typography,
 } from "@mui/material";
@@ -30,6 +32,8 @@ import * as React from "react";
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
+  fontFamily: "Roboto !important",
+  fontWeight: 300,
   border: `1px solid ${theme.palette.divider}`,
   "&:not(:last-child)": {
     borderBottom: 0,
@@ -45,6 +49,8 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
     {...props}
   />
 ))(({ theme }) => ({
+  fontFamily: "Roboto !important",
+  fontWeight: 300,
   backgroundColor:
     theme.palette.mode === "dark"
       ? "rgba(255, 255, 255, .05)"
@@ -61,12 +67,14 @@ const AccordionSummary = styled((props: AccordionSummaryProps) => (
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
   borderTop: "1px solid rgba(0, 0, 0, .125)",
+  fontFamily: "Roboto !important",
+  fontWeight: 300,
 }));
 
 const Creatures = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
   const [searchTerm, setSearchTerm] = React.useState<string>("");
-  const [sortType, setSortType] = React.useState("");
+  const [sortType, setSortType] = React.useState(1);
   const [creatures, setCreatures] = React.useState([]);
   const { setIsLoading } = useLoading();
 
@@ -82,14 +90,38 @@ const Creatures = () => {
     fetchData();
   }, []);
 
+  React.useEffect(() => {
+    // Sort creatures based on sortType
+    let sortedCreatures = [...creatures]; // Create a copy of creatures array
+
+    switch (sortType) {
+      case 1: // A - Z
+        sortedCreatures.sort((a, b) =>
+          a.name[0].label.localeCompare(b.name[0].label)
+        );
+        break;
+      case 2: // Z - A
+        sortedCreatures.sort((a, b) =>
+          b.name[0].label.localeCompare(a.name[0].label)
+        );
+        break;
+      case 3: // NC le plus bas
+        sortedCreatures.sort((a, b) => a.level[0].value - b.level[0].value);
+        break;
+      case 4: // NC le plus haut
+        sortedCreatures.sort((a, b) => b.level[0].value - a.level[0].value);
+        break;
+      default:
+        break;
+    }
+
+    setCreatures(sortedCreatures);
+  }, [sortType]); // Add sortType as a dependency so it triggers the sorting when it changes
+
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
       setExpanded(newExpanded ? panel : false);
     };
-
-  const handleAgeChange = (event: SelectChangeEvent) => {
-    setSortType(event.target.value as string);
-  };
 
   return (
     <>
@@ -108,39 +140,55 @@ const Creatures = () => {
           sx={{ mt: 2 }}
         >
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-            <Typography>Filtres</Typography>
+            <Typography sx={{ fontFamily: "roboto", fontWeight: 300 }}>
+              Filtres
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <TextField
-              id="outlined-basic"
-              label="Nom de la créature"
-              variant="outlined"
-              onChange={(e: any) => {
-                setSearchTerm(e.target.value);
-              }}
-            />
-            <FormControl>
-              <InputLabel id="demo-simple-select-label">Trier par</InputLabel>
-
+            <Box display={"flex"} flexDirection={"row"} gap={5}>
+              <TextField
+                id="outlined-basic"
+                label="Nom de la créature"
+                variant="standard"
+                inputProps={{
+                  style: { fontFamily: "roboto", fontWeight: 3000 },
+                }} // font size of input text
+                InputLabelProps={{
+                  shrink: true,
+                  style: { fontFamily: "roboto", fontWeight: 300 },
+                }} // font size of input label
+                onChange={(e: any) => {
+                  setSearchTerm(e.target.value);
+                }}
+              />
               <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
+                labelId="demo-simple-select-helper-label"
+                id="demo-simple-select-helper"
                 value={sortType}
-                label="Trier par"
-                onChange={handleAgeChange}
+                label="Nom de la créature"
+                variant="standard"
+                autoWidth
+                sx={{ fontFamily: "roboto", fontWeight: 3000 }}
+                onChange={(e: any) => {
+                  setSortType(e.target.value);
+                }}
               >
                 <MenuItem value={1}>A - Z</MenuItem>
                 <MenuItem value={2}>Z - A</MenuItem>
                 <MenuItem value={3}>NC le plus bas</MenuItem>
                 <MenuItem value={4}>NC le plus haut</MenuItem>
               </Select>
-            </FormControl>
+            </Box>
           </AccordionDetails>
         </Accordion>
         <Grid container spacing={3} sx={{ mt: 1, mb: 10 }}>
           {creatures
             .filter((monster: any) => {
-              if (monster?.name[0]?.label.toLowerCase().match(searchTerm)) {
+              if (
+                monster?.name[0]?.label
+                  .toLowerCase()
+                  .match(searchTerm.toLowerCase().trim())
+              ) {
                 return monster;
               }
             })
@@ -161,7 +209,15 @@ const Creatures = () => {
                     />
                   </Link>
                   <CardContent sx={{ p: 2 }}>
-                    <Typography variant="h5" color={"primary"}>
+                    <Typography
+                      variant="h5"
+                      color={"primary"}
+                      sx={{
+                        whiteSpace: "nowrap",
+                        overflow: "hidden",
+                        textOverflow: "ellipsis",
+                      }}
+                    >
                       {monster?.name[0]?.label}
                     </Typography>
                     {/* Archétype */}
@@ -224,9 +280,15 @@ const Creatures = () => {
                         justifyContent: "space-between",
                       }}
                     >
-                      <b>FOR</b>+{monster?.str_mod[0]?.value}
-                      <b>DEX</b>+{monster?.dex_mod[0]?.value}
-                      <b>CON</b>+{monster?.con_mod[0]?.value}
+                      <b>FOR</b>
+                      {monster?.str_mod[0]?.value > 0 ? "+" : ""}
+                      {monster?.str_mod[0]?.value}
+                      <b>DEX</b>
+                      {monster?.dex_mod[0]?.value > 0 ? "+" : ""}
+                      {monster?.dex_mod[0]?.value}
+                      <b>CON</b>
+                      {monster?.con_mod[0]?.value > 0 ? "+" : ""}
+                      {monster?.con_mod[0]?.value}
                     </Typography>
                     <Typography
                       variant="body2"
@@ -239,9 +301,14 @@ const Creatures = () => {
                       }}
                     >
                       <b>INT</b>
-                      <span>+{monster?.int_mod[0]?.value}</span>
-                      <b>SAG</b>+{monster?.wis_mod[0]?.value}
-                      <b>CHA</b>+{monster?.cha_mod[0]?.value}
+                      {monster?.int_mod[0]?.value > 0 ? "+" : ""}
+                      {monster?.int_mod[0]?.value}
+                      <b>SAG</b>
+                      {monster?.wis_mod[0]?.value > 0 ? "+" : ""}
+                      {monster?.wis_mod[0]?.value}
+                      <b>CHA</b>
+                      {monster?.cha_mod[0]?.value > 0 ? "+" : ""}
+                      {monster?.cha_mod[0]?.value}
                     </Typography>
                   </CardContent>
                 </Card>

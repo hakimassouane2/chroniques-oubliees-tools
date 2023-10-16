@@ -120,6 +120,16 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
       : currentCreature?.cha_mod[0]?.value;
   };
 
+  const getCapabilities = () => {
+    let result: any = [];
+
+    currentCreature?.capabilities.forEach((capability: any) => {
+      result.push(`**${capability.label}** ${capability.description}`);
+    });
+
+    return result.join("\n");
+  };
+
   function convertHtmlToMarkdown(input: string): string {
     const tagsToKeep = ["strong", "em"];
     const parser = new DOMParser();
@@ -175,8 +185,12 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
       currentCreature?.health_point[0]?.value
     }   | 30ft. (6 cases)   | ${getStrString()}   | ${getDexString()}    |  ${getConString()}   | ${getIntString()}    | ${getWisString()}    |  ${getChaString()}   |
 
-${convertHtmlToMarkdown(currentCreature?.attacks[0].value)}
-    `;
+${convertHtmlToMarkdown(
+  currentCreature?.attacks[0].value
+)}\n${convertHtmlToMarkdown(
+      currentCreature?.special_capabilities[0].value
+    )}\n${getCapabilities()}`;
+
     navigator.clipboard.writeText(creatureStats);
   };
 
