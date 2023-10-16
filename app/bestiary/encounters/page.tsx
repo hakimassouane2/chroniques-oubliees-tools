@@ -3,7 +3,17 @@ import HeroSection from "@/components/HeroSection";
 import MonsterEncounterBlock from "@/components/encounter/MonsterEncounterBlock";
 import { useLoading } from "@/contexts/LoadingContext";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
-import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
+import {
+  Autocomplete,
+  Box,
+  Button,
+  Card,
+  CardContent,
+  Container,
+  Divider,
+  Grid,
+  Typography,
+} from "@mui/material";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary, {
@@ -904,18 +914,74 @@ const monsters = [
 
 const Encounters = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
-  const [searchTerm, setSearchTerm] = React.useState<string>("");
-  const [sortType, setSortType] = React.useState("");
   const [encounterMonsters, setEncounterMonsters] = React.useState([]);
+  const [creatures, setCreatures] = React.useState([]);
+  const [selectedCreature, setSelectedCreature] = React.useState(null);
+  const [creatureCounters, setCreatureCounters] = React.useState({});
+  const [quantity, setQuantity] = React.useState(1);
   const { setIsLoading } = useLoading();
+
+  React.useEffect(() => {
+    async function fetchData() {
+      setIsLoading(true);
+      const response = await fetch("/api/creatures");
+      const data = await response.json();
+      setCreatures(data);
+      setIsLoading(false);
+    }
+
+    fetchData();
+  }, []);
 
   const handleChange =
     (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
       setExpanded(newExpanded ? panel : false);
     };
 
-  const handleAgeChange = (event: SelectChangeEvent) => {
-    setSortType(event.target.value as string);
+  const handleAddCreature = () => {
+    if (selectedCreature) {
+      const numCreatures = quantity;
+
+      const existingCreatureNames = new Set(
+        // @ts-ignore
+        encounterMonsters.map((monster) => monster.name[0].label)
+      );
+
+      // @ts-ignore
+      const baseName = selectedCreature.name[0].label;
+      // @ts-ignore
+      const existingCount = creatureCounters[baseName] || 0;
+
+      const newMonsters = Array.from({ length: numCreatures }, (_, index) => {
+        const newName =
+          existingCount > 0
+            ? `${baseName} ${existingCount + index + 1}`
+            : `${baseName} ${index + 1}`;
+
+        let counter = 1;
+        let suffix = "";
+        while (existingCreatureNames.has(newName + suffix)) {
+          counter++;
+          suffix = ` ${counter}`;
+        }
+
+        const finalName = counter > 1 ? `${newName} ${counter}` : newName;
+
+        setCreatureCounters((prevCounters) => ({
+          ...prevCounters,
+          [baseName]: existingCount + numCreatures,
+        }));
+
+        return {
+          // @ts-ignore
+          ...selectedCreature,
+          name: [{ value: finalName, label: finalName }],
+        };
+      });
+
+      // @ts-ignore
+      setEncounterMonsters([...encounterMonsters, ...newMonsters]);
+    }
   };
 
   return (
@@ -944,20 +1010,44 @@ const Encounters = () => {
                 </Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <TextField
-                  id="outlined-basic"
-                  label="Créature"
-                  variant="outlined"
-                  style={{ fontFamily: "Roboto !important", fontWeight: 300 }}
-                  onChange={(e: any) => {
-                    setSearchTerm(e.target.value);
-                  }}
-                />
+                <Box display={"flex"} flexDirection={"row"} gap={2}>
+                  <Autocomplete
+                    options={creatures}
+                    // @ts-ignore
+                    getOptionLabel={(option) => option?.name[0]?.label}
+                    sx={{ width: 300, fontFamily: "roboto", fontWeight: 300 }}
+                    renderInput={(params) => (
+                      <TextField {...params} label="Créature" />
+                    )}
+                    onChange={(event, value) => setSelectedCreature(value)} // Update selectedCreature state
+                  />
+                  <TextField
+                    type="number"
+                    inputProps={{
+                      inputMode: "numeric",
+                      pattern: "[0-9]*",
+                      min: 1,
+                    }}
+                    value={quantity} // Bind the value of the input field to the state
+                    onChange={(e) => setQuantity(parseInt(e.target.value))} // Update the state when the input changes
+                  />
+                  <Button
+                    variant="contained"
+                    onClick={handleAddCreature}
+                    sx={{
+                      fontFamily: "Roboto",
+                      fontWeight: 300,
+                      color: "white",
+                    }}
+                  >
+                    Ajouter
+                  </Button>
+                </Box>
               </AccordionDetails>
             </Accordion>
 
             <Grid container spacing={2} sx={{ mt: 2 }}>
-              {monsters.map((monster: any, index: any) => (
+              {encounterMonsters.map((monster: any, index: any) => (
                 <Grid item xs={12} sm={12} md={4} lg={4} key={index}>
                   <MonsterEncounterBlock
                     monster={monster}
@@ -965,6 +1055,23 @@ const Encounters = () => {
                 </Grid>
               ))}
             </Grid>
+            <Divider />
+            <Button
+              variant="contained"
+              color="error"
+              sx={{
+                mt: 2,
+                fontFamily: "Roboto",
+                fontWeight: 300,
+                textTransform: "capitalize",
+              }}
+              onClick={() => {
+                setEncounterMonsters([]);
+                setCreatureCounters({});
+              }}
+            >
+              Tout supprimer
+            </Button>
           </CardContent>
         </Card>
       </Container>
