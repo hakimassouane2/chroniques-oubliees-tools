@@ -36,6 +36,9 @@ const Accordion = styled((props: AccordionProps) => (
   "&:before": {
     display: "none",
   },
+  "&.Mui-expanded:first-of-type": {
+    marginTop: 16,
+  },
 }));
 
 const AccordionSummary = styled((props: AccordionSummaryProps) => (
