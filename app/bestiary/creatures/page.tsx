@@ -97,18 +97,22 @@ const Creatures = () => {
     switch (sortType) {
       case 1: // A - Z
         sortedCreatures.sort((a, b) =>
+          // @ts-ignore
           a.name[0].label.localeCompare(b.name[0].label)
         );
         break;
       case 2: // Z - A
         sortedCreatures.sort((a, b) =>
+          // @ts-ignore
           b.name[0].label.localeCompare(a.name[0].label)
         );
         break;
       case 3: // NC le plus bas
+        // @ts-ignore
         sortedCreatures.sort((a, b) => a.level[0].value - b.level[0].value);
         break;
       case 4: // NC le plus haut
+        // @ts-ignore
         sortedCreatures.sort((a, b) => b.level[0].value - a.level[0].value);
         break;
       default:
