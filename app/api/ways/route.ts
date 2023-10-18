@@ -24,6 +24,7 @@ export async function GET() {
     {
       $project: {
         slug: 1,
+        name: 1,
         label: 1,
         type: 1,
         additionalDescription: 1,
