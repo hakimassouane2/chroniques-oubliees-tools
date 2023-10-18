@@ -386,5 +386,41 @@
       }
     ],
     "statistics": "L'humain n'a ni bonus ni malus aux caractéristiques"
+  },
+  {
+    "label": "Âme-forgée",
+    "slug": "ame-forgee",
+    "mainDescription": "Les âmes-forgées constituent un peuple créé il y a bien longtemps dans un seul et unique but : faire la guerre. Ce sont des créatures mécaniques, nées de la fusion du métal et d’une magie désormais perdue",
+    "secondDescription": "L’Elfe sylvain est issu d’une culture différente de celle des Hauts-elfes. Légèrement plus petits, ils vivent au plus profond des forêts, s’abritant dans les arbres et vivant simplement de la chasse et de la cueillette. Moins arrogants que leurs cousins Hauts-elfes, ils sont cependant beaucoup plus méfiants. Ils maitrisent particulièrement l’art du camouflage et l’utilisation de l’arc.",
+    "imageUrl": "/races/images/elf_wood.png.webp",
+    "appearance": {
+      "description": "Les âmes-forgées ont été fabriquées à partir de la plupart des métaux existants : acier, bronze, cuivre, argent, airain, etc. Leurs yeux de pierre sont généralement de couleurs claires (vert, bleu, gris…). On en trouve de toutes les tailles, celle-ci dépendant du rôle que l’on souhaitait les voir remplir au cours d’un conflit, du colosse de métal au petit automate dédié à l’infiltration",
+      "startingAge": "0 à 5ans. Les âmes-forgées sont déjà adultes lorsque leur vie commence.",
+      "lifeSpan": "150",
+      "minHeight": "1.30",
+      "minWeight": "100.00",
+      "maxHeight": "2.10",
+      "maxWeight": "300.00"
+    },
+    "statistics": "+2 CON, -2 CHA",
+    "racials": [
+      {
+        "name": "Créature artificielle",
+        "description": "Une âme-forgée n’a pas besoin de boire ni de se nourrir, ni même de respirer ! Elle a toutefois besoin de rêver quatre heures par jour (sans quoi elle subit un malus de -2 à ses tests de SAG, ce malus est cumulatif). Elle est naturellement immunisée aux poisons et aux maladies. Les âmes-forgées sont incapables de nager mais elles peuvent marcher au fond de l’eau (considéré comme un terrain difficile)."
+      },
+      {
+        "name": "Créature de métal",
+        "description": "Les parties métalliques d’une âme-forgée lui offrent une protection naturelle qui lui accorde un bonus de +1 en DEF. De plus, l’âme-forgée retranche 5 points (RD 5) à tous les DM de feu, de froid et aux drains de vie (pouvoir de vampire par exemple). Enfin, elle est immunisée aux effets de saignement."
+      },
+      {
+        "name": "Porteur de mort (Optionelle)",
+        "description": "Une fois arrivé à 5 PV ou moins, un vieil ordre inscrit dans la mémoire de l’âme-forgée se déclenche. Elle doit réussir un jet de SAG, difficulté 15 ou attaquer tous les humanoïdes à sa portée pendant 1d4 tours. Ses yeux deviennent alors totalement rouges, un indice que ses compagnons peuvent apercevoir"
+      },
+      {
+        "name": "Vie artificielle",
+        "description": "L’âme-forgée possède une âme et une essence qui lui permettent de bénéficier de la magie des soins, mais son corps artificiel en réduit l’efficacité. Elle divise par 2 tous les PV récupérés par des soins magiques (sorts, potions, etc.). En revanche, un forgesort capable de réparer un golem peut réparer une âme-forgée, bien que deux fois plus lentement."
+      }
+    ],
+    "usualNames": "Les noms des âmes-forgées sont très simples. Ils sont en général « baptisés » par la première personne qui les rencontre. Il s’agit généralement de noms unisexes. Abattoir, Blocus, Burin, Claym, Durandal, Enclume, Équarisseur, Étincelle, Ferraille, Fléau, Grendel, Griffe, Guillotine, Havoc, Mangeclous, Nexus, Ravage, Rouille, Serpe, Talos, Vorpale, Vouge, etc"
   }
 ]

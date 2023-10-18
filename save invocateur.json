@@ -1,0 +1,139 @@
+{
+  "slug": "",
+  "label": "Invocateur",
+  "description": "L’invocateur est un lanceur de sort qui s’est dévoué exclusivement à un aspect spécifique de la magie profane : l’étude de la structure du multivers. Cette connaissance occulte lui permet de comprendre les règles qui lient les différents plans d’existence, d’invoquer à son service des créatures venues d’autres plans ou encore de créer des portails de voyage. ",
+  "hasMagicAttackModifier": true,
+  "magicAttackModifier": "CHA",
+  "hd": "1d6",
+  "weaponsAndArmor": "L’invocateur sait manier la dague, le bâton et l’arbalète légère. Il peut seulement porter une armure de cuir simple et ne peut pas manier de bouclier.",
+  "startingEquipment": "L’invocateur sait manier la dague, le bâton et l’arbalète légère. Il peut seulement porter une armure de cuir simple et ne peut pas manier de bouclier.",
+  "imageUrl": "/profiles/images/invocateur/invocateur.jpg",
+  "imageUrlCropped": "/profiles/images/invocateur/invocateur.jpg",
+  "ways": [
+    {
+      "name": "Voie de la conjuration",
+      "abilities": [
+        {
+          "name": "Conjuration de prédateur (L)",
+          "description": "Une fois par combat, l’invocateur peut conjurer un animal qui combat pour lui pendant [5 + Mod. de CHA] tours. Le type d’animal conjuré dépend du niveau de l’invocateur (voir marge p. 25). L’animal apparaît au contact de l’invocateur et peut s’éloigner jusqu’à une distance de 50 mètres"
+        },
+        {
+          "name": "Conjuration renforcée",
+          "description": "L’invocateur ajoute à son niveau le rang atteint dans la Voie pour déterminer le niveau des prédateurs conjurés. (Exemple : un invocateur de niveau 3 avec 2 rangs dans la Voie conjure un loup alpha NC 2, comme s’il était de niveau 5 (3+2))"
+        },
+        {
+          "name": "Conjuration d’armée (L)*",
+          "description": "Une fois par jour, l’invocateur peut conjurer une petite armée pour une durée maximum de [5 + Mod. de CHA] heures. Le sort ne peut être utilisé qu’en rase campagne ou dans un espace clos d’au minimum 20 × 20 mètres. Les créatures apparaissent dans une zone carrée de 20 mètres de coté, centrée sur l’invocateur. Elles peuvent ensuite se déplacer en formation, en occupant la même surface (elles n’entrent pas dans des couloirs ou des bâtiments exigus), jusqu’à une portée de 200 mètres. Les créatures attaquent les adversaires que l’invocateur leur désigne (déplacement de 20 mètres par tour, 3 km/h). L’armée inflige automatiquement 1d6 DM par tour (1d10 DM au rang 4 et 2d6 DM au rang 5) à chaque cible dans la zone. Une cible peut choisir de combattre l’armée par une action limitée : cela lui permet de ne subir que la moitié des DM prévus et d’infliger à son tour à l’armée des DM égaux à son niveau plus 1 (NC + 1, pour une créature). Lorsque l’armée a subi un montant total de DM égal au niveau de l’invocateur multiplié par 10, le sort prend fin.\n\nLe nombre de créatures dépend du niveau de l’invocateur et leur apparence est en rapport avec le rang atteint dans la Voie. Au rang 3, ce sont des fantassins légers ou des gobelins, au rang 4 ce sont des fantassins lourds ou des hobgobelins et au rang 5 ce sont des chevaliers en armure ou des gobelours. Toutefois, à la discrétion du joueur et en accord avec le MJ, ces créatures humanoïdes peuvent être remplacées par d’autres créatures de niveau et de puissance équivalents. Cela ne changera pas les effets de la capacité, le MJ devra donc veiller à ne pas autoriser des créatures dont les capacités particulières entrent en contradiction avec la logique du sort."
+        },
+        {
+          "name": "Conjuration de prédateur étrange",
+          "description": " Lorsqu’il convoque un prédateur (rang 1 de cette Voie), l’invocateur peut, au choix, ajouter à la créature une mutation protectrice ou une adaptation motrice issue de la Voie des mutations (il n’a pas besoin d’avoir accès à ces capacités). Si l’invocateur opte pour Cuirasse, cela apporte un bonus de +3 en DEF à la créature."
+        },
+        {
+          "name": "Meute de prédateurs",
+          "description": "Lorsqu’il utilise le sort de conjuration de prédateur, l’invocateur peut invoquer 1d4 prédateurs d’une catégorie en-dessous de son niveau maximum ou 2d6 prédateurs de deux catégories en-dessous."
+        }
+      ]
+    },
+    {
+      "name": "Voie de l’entité",
+      "abilities": [
+        {
+          "name": " Invocation d’une entité (L)*",
+          "description": "L’invocateur appelle une créature d’un autre plan qui entre alors à son service. Personne d’autre que l’invocateur ne peut renvoyer l’entité sur son plan d’origine. Lorsque l’entité est réduite à 0 PV, elle disparaît immédiatement. Dans ce cas, ou si l’invocateur la renvoie (par une action de mouvement), l’invocateur devra attendre 12 heures avant de pouvoir la convoquer de nouveau. L’entité revient en jeu avec ses PV au maximum et débarrassée de tout effet préjudiciable dont elle pouvait être victime au moment de sa disparition. En dehors de son plan, l’entité ne guérit pas naturellement, mais elle peut bénéficier de sorts de soins. L’entité est totalement dévouée à son invocateur, elle agit au mieux pour respecter les ordres quilui sont donnés, en fonction de son Mod. d’INT. Elle parle la langue de l’invocateur. L’apparence physique de l’entité est déterminée lors de sa première invocation (un animal, une créature fantastique ou une créature humanoïde), mais elle doit s’inspirer des Mod. de Carac. choisis par le joueur. Elle ne peut pas imiter précisément l’apparence d’un personnage ou d’une créature en particulier. Une fois que le joueur a déterminé son apparence, la créature la conserve pour toujours. L’entité arbore quelque part sur son corps une rune lumineuse qui la maintient sur le plan de l’invocateur.\n\nCréer son entité : Le joueur doit répartir 4 points entre les Mod. de FOR et de DEX, puis 2 points entre INT, SAG et CHA (minimum +0). Enfin, le Mod. de CON est égal à +2. La DEF de l’entité est égale à 12 (+ Mod. de DEX), son score d’attaque est égal au niveau de l’invocateur (+ Mod. de FOR ou de DEX de l’entité) et ses DM sont égaux à [1d6 + Mod. de FOR]. Ses PV sont égaux à cinq fois le niveau de l’invocateur. "
+        },
+        {
+          "name": "Lien magique",
+          "description": "L’invocateur peut communiquer par télépathie avec son entité, quelle que soit la distance qui les sépare. Lorsque l’entité subit des DM, l’invocateur peut choisir de sacrifier ses propres PV pour protéger son entité. Inversement, si l’invocateur subit des DM, il peut les transférer à son entité, mais dans ce cas, les DM subis par celle-ci sont doublés. Enfin, grâce au lien avec l’invocateur, la créature peut toucher et attaquer des cibles protégées normalement du contact des créatures invoquées."
+        },
+        {
+          "name": "Amélioration",
+          "description": " L’invocateur siphonne l’énergie des plans pour améliorer les capacités de son entité. Il doit choisir une option parmi les suivantes :\n- Armes puissantes (griffes, crocs, arme) : +1d6 aux DM au contact\n- Armure : +4 en DEF\n- Grande taille : +10 PV et +1 Mod. de FOR\n- Pouvoir d’attaque à distance : portée 20 m, 2d6 DM (attaque = niveau de l’invocateur + Mod. de DEX de l’entité)\n- Puissant : +2 Mod. de FOR\n- Résistant : +2 au Mod. de CON, +10 PV et résistance à un élément au choix (1/2 DM). -- Supériorité : +2 Mod. d’INT, SAG et CHA\n- Vif : +2 Mod. de DEX\n- Vol : l’entité obtient un moyen de se déplacer dans les airs (généralement des ailes)\n\nLe joueur peut choisir une option de plus lorsque son personnage atteint les niveaux 8, 13 et 17. Chaque option peut être choisie jusqu’à trois fois et cumulée.\n"
+        },
+        {
+          "name": "Protecteur",
+          "description": "Quand un allié se trouve au contact de l’entité, il obtient un bonus de +2 en DEF. Si l’allié est l’invocateur, ce bonus passe à +4. De plus, une fois par tour, l’entité peut subir une attaque à la place d’un allié à son contact."
+        },
+        {
+          "name": "Lien magique amélioré",
+          "description": "Le lien entre l’invocateur et l’entité est tel qu’ils peuvent se téléporter ou échanger leurs places. Au prix d’une action de mouvement, l’invocateur peut utiliser une action de son choix : téléporter son entité à son contact, se téléporter au contact de son entité ou enfin, échanger sa place avec son entité."
+        }
+      ]
+    },
+    {
+      "name": "Voie du familier",
+      "abilities": [
+        {
+          "name": "Familier",
+          "description": "L’invocateur choisit un petit animal (corbeau, chat, furet, serpent…). Il peut utiliser les sens de son familier et communiquer avec lui à distance illimitée. Il gagne +2 en Initiative lorsque son familier est en vue. Familier : DEF [= invocateur], Init. [= invocateur], PV [il les partage avec ceux de son maître], ils forment une cible unique pour les attaques de zone. FOR -4, DEX +3, CON 0, INT -2, SAG +1, CHA -2. Lorsque le familier subit des DM, l’invocateur peut choisir de ne pas les subir, dans ce cas, le familier est détruit et il ne pourra pas à nouveau être convoqué avant 24 heures."
+        },
+        {
+          "name": "Résistance",
+          "description": "Le familier obtient une réduction des DM (RD) de 1 point par rang atteint dans la Voie face à tous les types de DM."
+        },
+        {
+          "name": "Sens développés",
+          "description": "Capable de percevoir avec les sens de son familier, l’invocateur améliore grandement sa vigilance. Il obtient un bonus de +5 à tous les tests de perception (SAG) et peut voir dans le noir comme s’il était dans la pénombre jusqu’à une distance de 20 m. S’il possède déjà cette capacité, la distance est doublée."
+        },
+        {
+          "name": "Rappel",
+          "description": "L’invocateur peut rappeler son familier à son contact par magie. Le familier est téléporté sur son maître au prix d’une action de mouvement s’il est en vue ou par une action limitée dans tous les autres cas."
+        },
+        {
+          "name": " Lilliputien (L)*",
+          "description": " L’invocateur rapetisse jusqu’à devenir plus petit que son familier (entre 10 et 30 cm, minuscule ou très petit). La transformation dans un sens ou dans l’autre demande 1 tour complet. Sa durée est illimitée. Sous cette forme, l’invocateur obtient la même réduction aux DM que le familier (RD 5), il gagne un bonus de +10 aux tests de discrétion et peut passer dans des espaces très réduits. En revanche, ses DM sont ré - duits à 1 point par attaque réussie et ses sorts n’affectent aucune créature de taille supérieure à très petite. Ses déplacements sont réduits à 10 m par action de mouvement, sauf s’il chevauche son familier. Le familier est très endurant et lui permet de couvrir une distance de 5 km par heure pendant un maximum de 10 heures par jour (pour un total de 50 km/jour) quel que soit le terrain. Cette distance est doublée si le familier est une créa - ture volante (100 km/jour)."
+        }
+      ]
+    },
+    {
+      "name": "Voie des mutations",
+      "abilities": [
+        {
+          "name": "Mutation offensive (L)*",
+          "description": "L’invocateur échange une partie de son corps avec celle d’une créature monstrueuse d’un autre plan pendant [5 + Mod. de CHA] tours. Il obtient ainsi un appendice monstrueux de son choix : une gueule démesurée, un bras monstrueux doté de griffes ou de pinces, une queue munie d’un formidable piquant, etc. Il lui faut une action limitée pour attaquer avec cet appendice et il reçoit un bonus de +3 au Mod. de FOR sur cette attaque. L’attaque inflige [1d6+ Mod. de FOR] DM (2d6 au niveau 10). À partir du rang 4, l’invocateur apprend à mieux maîtriser le membre étranger et il lui suffit d’une action d’attaque pour attaquer.\n\nNote : les mutations issues de différentes capacités peuvent être cumulées, mais les mutations issues de la même capacité ne le peuvent pas"
+        },
+        {
+          "name": "Mutation protectrice (L)*",
+          "description": "L’invocateur obtient les caracté - ristiques d’une créature d’un autre monde, adaptée à la survie dans un environnement dangereux, pendant [5 + Mod. de CHA] minutes. À chaque utilisation du sort, il choisit une mutation de son choix dans la liste suivante. Il est impossible de bénéficier de deux mutations protectrices en même temps.\n- Cuirasse : +1 en DEF par rang\n- Écailles rouges : DM de feu ou d’acide divisés par 2"
+        },
+        {
+          "name": "Surpuissance physique (L)* ",
+          "description": "L’invocateur obtient une des mutations suivantes au choix pendant [5 + Mod. de CHA] minutes. Il est impossible de bénéficier de deux effets de surpuissance en même temps.\n- Muscles hypertrophiés : +2 au Mod. de FOR\n- Silhouette filiforme : +4 au Mod. de DEX\n- Silhouette massive : + 5 aux tests de CON et réduction des DM de 3 points (RD 3).\n- Fourrure violette : DM de froid ou de foudre divisés par 2\n- Ouïes : respiration aquatique\n- Sang noir : immunisé au poison ou aux maladies"
+        },
+        {
+          "name": "Adaptation motrice (L)*",
+          "description": "L’invocateur obtient une des mutations suivantes au choix pendant [5 + Mod. de CHA] minutes. Il est impossible de bénéficier de deux effets d’adaptation en même temps.\n- Ailes : vol à sa vitesse normale de déplacement\n- Pattes démesurées : se déplace de 30 mètres par action de mouvement\n- Queue de poisson : nage de 30 mètres par action de mouvement."
+        },
+        {
+          "name": "Mutation régénératrice",
+          "description": "À chaque fois qu’il retrouve sa forme normale après avoir utilisé un sort de la Voie des mutations, l’invocateur récupère 1d6 PV. Désormais, lorsqu’un test de CON lui est demandé, il lance deux d20 et conserve le meilleur des deux résultats. Si vous n’utilisez pas de règle optionnelle de points de Mana, les PV sont régénérés seulement s’ils ont été perdus pendant la durée du sort. "
+        }
+      ]
+    },
+    {
+      "name": "Voie des portes",
+      "abilities": [
+        {
+          "name": "Raccourci (L)*",
+          "description": "L’invocateur emprunte une porte magique qui apparaît à son contact et il ressort par une autre en vue et à moins de 10 mètres de distance par rang atteint dans la Voie. Les deux portes disparaissent immédiatement après son passage."
+        },
+        {
+          "name": "Porte artificielle (L)*",
+          "description": "L’invocateur invoque une porte venant d’un autre monde dans une surface maçonnée non magique de moins d’un mètre d’épaisseur (par exemple le mur d’une maison). Pendant [5 + Mod. de CHA] tours, cette porte peut être ouverte et refermée normalement et elle donne de l’autre coté du mur, de façon tout à fait ordinaire."
+        },
+        {
+          "name": "Manoir d’outre-monde (L)*",
+          "description": "L’invocateur enchante une porte ordinaire existante (pas une porte artificielle) et, pendant jusqu’à 1 heure par niveau, elle s’ouvre sur un manoir magique au lieu de l’endroit habituel. La porte garde ses caractéristiques originelles (solidité, serrure, etc.), mais elle ne peut pas être bloquée par magie. Le manoir possède jusqu’à 1 pièce par niveau de l’invocateur, pour une surface totale atteignant jusqu’à 50 m² par niveau de l’invocateur. Il est meublé selon le style choisi par l’invocateur, un taudis lugubre ou un palais luxueux rempli de victuailles et de vaisselle d’or (aucun objet magique). Les pièces n’ont pas de fenêtre et les objets disparaissent s’ils sortent du manoir. La nourriture qui peut y être trouvée possède des qualités gustatives à la discrétion de l’invocateur. Tous ces aliments désaltèrent ou procurent un effet normal de satiété, mais ils n’hydratent ni ne nourrissent pas réellement. Si l’invocateur utilise à nouveau ce sort alors qu’un autre manoir était encore actif, le premier disparaît immédiatement. Si la porte d’entrée est détruite, le sort prend fin. Toutes les créatures à l’intérieur du manoir au moment où il disparaît sont éjectées devant la porte et subissent 1d6 DM."
+        },
+        {
+          "name": " Enkystement lointain (L)*",
+          "description": "Une fois par combat, l’invocateur désigne d’un mouvement de la main une cible à moins de 20 mètres, et un tourbillon de lumière multicolore emporte la victime en un lieu lointain. En cas de succès d’un test d’attaque magique opposé (attaque au contact dans le cas où la créature n’en possède pas), la cible est instantanément téléportée dans une direction aléatoire (à peu près horizontalement et dans un milieu adapté à sa survie). Les créatures de niveau inférieur à la moitié du niveau de l’invocateur sont téléportées à une distance de 1d20 × 100 kilomètres, celles de niveau inférieur au sien à 1d20 kilomètres et celles de niveau supérieur ou égal à 1d20 × 10 mètres. Une créature ne peut pas être victime de ce sort plus d’une fois par jour."
+        },
+        {
+          "name": "Porte dimensionnelle (L)*",
+          "description": "L’invocateur fait apparaître une porte lumineuse pour une durée maximum de [5 + Mod. de CHA] minutes, bien qu’il puisse mettre fin au sort à tout moment. Cette porte apparaît simultanément dans un autre lieu choisi par l’invocateur, soit à portée de vue, soit à un endroit parfaitement connu de l’invocateur, à une portée maximum de 200 mètres. Tant qu’elle est active, la porte magique peut être empruntée dans un sens ou dans un autre par toute créature de taille grande ou inférieure. Si l’invocateur utilise à nouveau ce sort alors qu’une autre porte était encore active, la première disparaît immédiatement."
+        }
+      ]
+    }
+  ]
+}

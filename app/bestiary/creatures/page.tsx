@@ -175,7 +175,7 @@ const Creatures = () => {
                 label="Nom de la créature"
                 variant="standard"
                 autoWidth
-                sx={{ fontFamily: "roboto", fontWeight: 3000 }}
+                sx={{ fontFamily: "roboto", fontWeight: 300 }}
                 onChange={(e: any) => {
                   setSortType(e.target.value);
                 }}
