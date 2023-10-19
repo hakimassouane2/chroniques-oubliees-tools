@@ -60,17 +60,26 @@ function Navbar() {
   return (
     <>
       <AppBar color="primary" position="fixed" sx={{ zIndex: 500 }}>
-        <Container maxWidth={false}>
-          <Toolbar disableGutters>
-            <Link href="/">
-              <Image src="/logo.webp" alt="logo" width="75" height="75" />
+        <Container
+          maxWidth={false}
+          style={{ paddingRight: "6rem", paddingLeft: "6rem" }}
+        >
+          <Toolbar disableGutters sx={{ minHeight: "75px !important" }}>
+            <Link href="/" position={"absolute"}>
+              <Image
+                src="/logo-hd-min.webp"
+                alt="logo"
+                width="128"
+                height="128"
+                style={{ position: "inherit", top: "-2rem" }}
+              />
             </Link>
             {/* Pages menu */}
             <Box
               sx={{
                 flexGrow: 1,
                 display: { xs: "none", md: "flex" },
-                justifyContent: "center",
+                justifyContent: "end",
               }}
             >
               <div>
