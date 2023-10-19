@@ -186,14 +186,16 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                 ))}
               </Grid>
               <Grid item xs={12} sm={12} md={4} lg={4}>
-                <Image
-                  src={currentProfile?.imageUrl || ""}
-                  alt={currentProfile?.slug || ""}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: "100%", height: "auto" }} // optional
-                />
+                {currentProfile?.imageUrl && (
+                  <Image
+                    src={currentProfile.imageUrl}
+                    alt={currentProfile.slug || ""}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                  />
+                )}
               </Grid>
             </CardContent>
           </Card>

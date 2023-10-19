@@ -1,7 +1,14 @@
 "use client";
 import HeroSection from "@/components/HeroSection";
 import { useLoading } from "@/contexts/LoadingContext";
-import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  Container,
+  Grid,
+  Typography,
+  capitalize,
+} from "@mui/material";
 import Link from "next/link";
 import * as React from "react";
 
@@ -40,38 +47,57 @@ const Ways = () => {
             <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
               <Card sx={{ borderRadius: 2 }}>
                 <CardContent sx={{ p: 2 }}>
-                  {/* <Link
-                        href={`ways/${encodeURIComponent(
-                          (way?.slug).toLowerCase()
-                        )}`}
-                      > */}
-                  <Typography variant="h5" color={"primary"}>
-                    {way?.name || way?.label}
-                  </Typography>
-                  {/* </Link> */}
+                  <Link
+                    href={`ways/${encodeURIComponent(
+                      (way?.slug).toLowerCase()
+                    )}`}
+                    style={{
+                      color: "primary.main",
+                      textDecoration: "none",
+                    }}
+                  >
+                    <Typography variant="h5" color={"primary"}>
+                      {way?.label}
+                    </Typography>
+                  </Link>
                   <Typography
                     variant="body2"
                     fontFamily={"Roboto"}
                     fontWeight={300}
-                    textTransform={"capitalize"}
+                    textTransform={"none"}
                   >
-                    Type de voie: {way?.type}
+                    Type de voie: {capitalize(way?.type)}
                   </Typography>
-                  <Typography
-                    variant="body2"
-                    fontFamily={"Roboto"}
-                    fontWeight={300}
-                    textTransform={"capitalize"}
-                  >
-                    Profil(s) lié(s):{" "}
-                    <Link
-                      href={`profiles/${encodeURIComponent(
-                        way?.linkedProfiles[0]?.slug
-                      )}`}
+                  {way?.linkedProfiles?.length > 0 && (
+                    <Typography
+                      variant="body2"
+                      fontFamily={"Roboto"}
+                      fontWeight={300}
+                      textTransform={"none"}
                     >
-                      {way?.linkedProfiles[0]?.label}
-                    </Link>
-                  </Typography>
+                      Profils liés:{" "}
+                      {way?.linkedProfiles?.map(
+                        (profile: string, index: any) => (
+                          <Link
+                            href={`profiles/${encodeURIComponent(
+                              profile.toLowerCase()
+                            )}`}
+                            style={{
+                              color: "#783d07",
+                              textDecoration: "none",
+                            }}
+                            key={index}
+                          >
+                            {`${capitalize(profile)}${
+                              index < way?.linkedProfiles?.length - 1
+                                ? ", "
+                                : ""
+                            }`}
+                          </Link>
+                        )
+                      )}
+                    </Typography>
+                  )}
                 </CardContent>
               </Card>
             </Grid>

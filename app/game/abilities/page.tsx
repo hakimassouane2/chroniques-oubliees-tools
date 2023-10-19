@@ -48,15 +48,15 @@ const Abilities = () => {
             <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
               <Card sx={{ borderRadius: 2, height: "21rem" }}>
                 <CardContent sx={{ p: 2 }}>
-                  {/* <Link
-                        href={`ways/${encodeURIComponent(
-                          (ability?.slug).toLowerCase()
-                        )}`}
-                      > */}
-                  <Typography variant="h5" color={"primary"}>
-                    {ability?.name || ability?.label}
-                  </Typography>
-                  {/* </Link> */}
+                  <Link
+                    href={`ways/${encodeURIComponent(
+                      (ability?.slug).toLowerCase()
+                    )}`}
+                  >
+                    <Typography variant="h5" color={"primary"}>
+                      {ability?.label}
+                    </Typography>
+                  </Link>
                   <Typography
                     variant="body2"
                     fontFamily={"Roboto"}

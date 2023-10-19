@@ -16,17 +16,23 @@ import {
   Typography,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import slugify from "../../../tools/slguify";
-import { MagicAttackModifier } from "@/types/enums/MagicAttackModifier";
+import slugify from "../../../utils/slguify";
 
 interface Ability {
-  name: string;
+  label: string;
+  slug: string;
   description: string;
+  isLimited: boolean;
+  isSpell: boolean;
 }
 
 interface Way {
-  name: string;
+  label: string;
   abilities: Ability[];
+  slug: string;
+  type: string;
+  additionalDescription?: string;
+  linkedProfiles?: string[];
 }
 
 interface FormData {
@@ -57,127 +63,217 @@ const ProfileForm: React.FC = () => {
     imageUrlCropped: "",
     ways: [
       {
-        name: "",
+        label: "",
+        slug: "",
+        type: "character",
+        linkedProfiles: [],
         abilities: [
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
         ],
       },
       {
-        name: "",
+        label: "",
+        slug: "",
+        type: "character",
+        linkedProfiles: [],
         abilities: [
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
         ],
       },
       {
-        name: "",
+        label: "",
+        slug: "",
+        type: "character",
+        linkedProfiles: [],
         abilities: [
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
         ],
       },
       {
-        name: "",
+        label: "",
+        slug: "",
+        type: "character",
+        linkedProfiles: [],
         abilities: [
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
         ],
       },
       {
-        name: "",
+        label: "",
+        slug: "",
+        type: "character",
+        linkedProfiles: [],
         abilities: [
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
           {
-            name: "",
+            label: "",
             description: "",
+            slug: "",
+            isSpell: false,
+            isLimited: false,
           },
         ],
       },
@@ -209,13 +305,13 @@ const ProfileForm: React.FC = () => {
     wayIndex: number,
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
+    const { value } = e.target;
 
     // Create a copy of the formData
     const updatedFormData = { ...formData };
 
     // Update the name of the specified way
-    updatedFormData.ways[wayIndex].name = value;
+    updatedFormData.ways[wayIndex].label = value;
 
     // Update the state with the new formData
     setFormData(updatedFormData);
@@ -226,13 +322,13 @@ const ProfileForm: React.FC = () => {
     abilityIndex: number,
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
+    const { value } = e.target;
 
     // Create a copy of the formData
     const updatedFormData = { ...formData };
 
     // Update the name of the specified way
-    updatedFormData.ways[wayIndex].abilities[abilityIndex].name = value;
+    updatedFormData.ways[wayIndex].abilities[abilityIndex].label = value;
 
     // Update the state with the new formData
     setFormData(updatedFormData);
@@ -243,7 +339,7 @@ const ProfileForm: React.FC = () => {
     abilityIndex: number,
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
-    const { name, value } = e.target;
+    const { value } = e.target;
 
     // Create a copy of the formData
     const updatedFormData = { ...formData };
@@ -258,6 +354,12 @@ const ProfileForm: React.FC = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     formData.slug = slugify(formData.label);
+    formData.ways.forEach((way) => {
+      way.slug = slugify(way.label);
+      way.abilities.forEach((ability) => {
+        ability.slug = slugify(ability.label);
+      });
+    });
     console.log("formData", formData);
 
     try {
@@ -531,11 +633,11 @@ const ProfileForm: React.FC = () => {
             </AccordionSummary>
             <AccordionDetails>
               <TextField
-                name={`ways[${wayIndex}].name`}
+                name={`ways[${wayIndex}].label`}
                 label="Nom de la voie"
                 variant="outlined"
                 fullWidth
-                value={way.name}
+                value={way.label}
                 onChange={(e) => handleWayChange(wayIndex, e)}
                 inputProps={{
                   style: { fontFamily: "roboto", fontWeight: 300 },
@@ -550,11 +652,11 @@ const ProfileForm: React.FC = () => {
               {way.abilities.map((ability, abilityIndex) => (
                 <div key={abilityIndex}>
                   <TextField
-                    name={`ways[${wayIndex}].abilities[${abilityIndex}].name`}
+                    name={`ways[${wayIndex}].abilities[${abilityIndex}].label`}
                     label={`Nom de la capacité ${abilityIndex + 1}`}
                     variant="outlined"
                     fullWidth
-                    value={ability.name}
+                    value={ability.label}
                     onChange={(e) =>
                       handleAbilityChangeName(wayIndex, abilityIndex, e)
                     }

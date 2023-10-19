@@ -14,21 +14,12 @@ export async function GET() {
   const ways = database.collection("ways");
   const pipeline = [
     {
-      $lookup: {
-        from: "profiles", // Assuming your profiles collection is named 'profiles'
-        localField: "linkedProfiles",
-        foreignField: "_id",
-        as: "linkedProfiles",
-      },
-    },
-    {
       $project: {
         slug: 1,
-        name: 1,
         label: 1,
         type: 1,
         additionalDescription: 1,
-        "linkedProfiles.label": 1, // Only include the name field from linkedProfiles
+        linkedProfiles: 1, // Only include the name field from linkedProfiles
         "abilities.label": 1, // Only include the name field from abilities
       },
     },
