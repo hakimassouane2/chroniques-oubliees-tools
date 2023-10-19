@@ -34,6 +34,24 @@ export default function RootLayout({
     typography: {
       fontFamily: ["Blackmoor", "Lato", "sans-serif"].join(","),
       fontSize: 20,
+      h3: {
+        fontSize: "1.7rem", // Set default font size for h3 on mobile
+        "@media (min-width:600px)": {
+          fontSize: "5rem", // Set font size for h3 on desktop
+        },
+      },
+      h5: {
+        fontSize: "1.5rem", // Set default font size for h3 on mobile
+        "@media (min-width:600px)": {
+          fontSize: "2.5rem", // Set font size for h3 on desktop
+        },
+      },
+      body2: {
+        fontSize: "0.9rem", // Set default font size for h3 on mobile
+        "@media (min-width:600px)": {
+          fontSize: "1.3rem", // Set font size for h3 on desktop
+        },
+      },
     },
   });
 

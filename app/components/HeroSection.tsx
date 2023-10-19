@@ -53,6 +53,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           transform: "translate(-50%, -50%)",
           textAlign: "center",
           color: "white",
+          width: "90%",
         }}
       >
         {hasSecondimage && (
@@ -80,7 +81,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         <Typography
           variant="h3"
           component="h1"
-          sx={{ mb: 3, textShadow: "1px 1px 5px #000" }}
+          sx={{ textShadow: "2px 2px 15px black" }}
+          gutterBottom
         >
           {title}
         </Typography>
@@ -91,7 +93,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
               fontFamily: "roboto",
               fontWeight: 300,
               mb: 2,
-              textShadow: "1px 1px 5px #000",
+              textShadow: "2px 2px 1px black",
             }}
             gutterBottom
           >

@@ -137,8 +137,7 @@ const Creatures = () => {
         buttonText="En savoir plus"
         buttonLink="/game/rules"
         title="Créatures"
-        subtitle="Retrouvez l'ensemble des créatures du bestiaire public de Chroniques Oubliées Fantasy !
-        Vous pouvez les cloner dans votre bestiaire privé et/ou les ajouter au générateur de rencontres."
+        subtitle="Retrouvez l'ensemble des créatures du bestiaire public de Chroniques Oubliées Fantasy !"
       />
       <Container maxWidth="xl">
         <Accordion
