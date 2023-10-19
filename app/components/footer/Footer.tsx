@@ -16,10 +16,19 @@ const Footer = () => {
           backgroundColor: "rgba(0,0,0,.75)",
           fontFamily: "Roboto",
           color: "white",
+          paddingLeft: "0 !important",
+          paddingRight: "0 !important",
         }}
       >
-        <Grid container spacing={3}>
-          <Grid item xs={12} md={6} lg={3}>
+        <Grid
+          container
+          spacing={3}
+          alignItems={"center"}
+          sx={{
+            flexDirection: { xs: "column", sm: "column", md: "row" },
+          }}
+        >
+          <Grid item xs={12} md={6} lg={3} sx={{ flex: "1 !important" }}>
             <Link href="/">
               <Image src="/logo.webp" alt="logo" width="305" height="305" />
             </Link>
@@ -28,7 +37,7 @@ const Footer = () => {
             item
             xs={12}
             md={6}
-            sx={{ display: "flex" }}
+            sx={{ display: "flex", flex: "1 !important" }}
             flexDirection={"column"}
             alignItems={"center"}
           >
@@ -70,13 +79,20 @@ const Footer = () => {
               fontFamily={"Roboto"}
               fontWeight={300}
               align="center"
+              sx={{ width: "90%" }}
               gutterBottom
             >
               Veuillez noter que ces réseaux sociaux ne nous appartiennent pas,
               mais nous y sommes actifs.
             </Typography>
           </Grid>
-          <Grid item xs={12} lg={3} mb={{ xs: 5, md: 3, lg: 0 }}>
+          <Grid
+            item
+            xs={12}
+            lg={3}
+            mb={{ xs: 5, md: 3, lg: 0 }}
+            sx={{ textAlign: "center", flex: "1 !important" }}
+          >
             {/* Replace the content inside this Grid item with your navigation links */}
             <Typography
               variant="body2"
