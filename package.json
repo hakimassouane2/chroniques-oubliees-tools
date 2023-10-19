@@ -21,19 +21,24 @@
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "@uidotdev/usehooks": "^2.4.1-experimental.0",
     "axios": "^1.4.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "fortawesome": "^0.0.1-security",
     "mongodb": "^6.1.0",
     "next": "13.4.16",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^0.0.0-experimental-9617d39ec-20231018",
+    "react-beforeunload": "^2.6.0",
+    "react-dom": "^0.0.0-experimental-9617d39ec-20231018",
     "react-loading-skeleton": "^3.3.1",
     "react-promise-tracker": "^2.1.1",
     "react-router-dom": "^6.15.0",
     "swr": "^2.2.1",
     "ttf-loader": "^1.0.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/react-beforeunload": "^2.1.3"
   }
 }

@@ -1,4 +1,11 @@
-import { Box, Button, LinearProgress, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Input,
+  LinearProgress,
+  TextField,
+  Typography,
+} from "@mui/material";
 import React from "react";
 
 interface LifeBarProps {
@@ -42,20 +49,45 @@ const LifeBar: React.FC<LifeBarProps> = ({
       <Box flexGrow={1} position="relative">
         <Box
           position="absolute"
-          top={0}
-          left="45%"
-          sx={{ zIndex: 50, color: "white" }}
+          sx={{
+            zIndex: 50,
+            color: "white",
+            width: "100%",
+          }}
+          display={"flex"}
+          flexDirection={"row"}
+          justifyContent={"center"}
         >
+          <input
+            value={`${currentHP}`}
+            style={{
+              fontFamily: "roboto",
+              fontWeight: 300,
+              color: "white",
+              textAlign: "end",
+              backgroundColor: "transparent",
+              width: "45%",
+              border: "none",
+              marginRight: 5,
+              fontSize: 20,
+              outline: "none", // Add this line
+            }}
+            onChange={(e) => {
+              const value = parseInt(e.target.value, 10) || 0;
+              setCurrentHP(value);
+            }}
+            onBlur={() => setCurrentHP(currentHP > maxHP ? maxHP : currentHP)}
+          ></input>
           <Typography
             variant="subtitle2"
-            sx={{ fontFamily: "Roboto", fontWeight: 300 }}
+            sx={{ fontFamily: "Roboto", fontWeight: 300, width: "50%" }}
           >
-            {currentHP} / {maxHP}
+            {` / ${maxHP}`}
           </Typography>
         </Box>
         <LinearProgress
           variant="determinate"
-          value={hpPercentage}
+          value={hpPercentage > 100 ? 100 : hpPercentage}
           sx={{
             height: 30,
             borderRadius: 0,

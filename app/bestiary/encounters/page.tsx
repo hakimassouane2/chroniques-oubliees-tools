@@ -19,7 +19,6 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import MuiAccordionSummary, {
   AccordionSummaryProps,
 } from "@mui/material/AccordionSummary";
-import { SelectChangeEvent } from "@mui/material/Select";
 import TextField from "@mui/material/TextField";
 import { styled } from "@mui/material/styles";
 import * as React from "react";
@@ -184,15 +183,21 @@ const Encounters = () => {
                     options={creatures}
                     // @ts-ignore
                     getOptionLabel={(option) => option?.name[0]?.label}
-                    sx={{ width: 300, fontFamily: "roboto", fontWeight: 300 }}
+                    sx={{
+                      width: { xs: "100%", md: "30%", lg: "25%" },
+                    }}
                     renderInput={(params) => (
                       <TextField {...params} label="Créature" />
                     )}
                     fullWidth
                     componentsProps={{
-                      popper: { style: { width: "fit-content" } },
+                      popper: {
+                        style: {
+                          width: "fit-content",
+                        },
+                      },
                     }}
-                    onChange={(event, value) => setSelectedCreature(value)} // Update selectedCreature state
+                    onChange={(_, value) => setSelectedCreature(value)} // Update selectedCreature state
                   />
                   <TextField
                     type="number"
@@ -200,6 +205,9 @@ const Encounters = () => {
                       inputMode: "numeric",
                       pattern: "[0-9]*",
                       min: 1,
+                    }}
+                    sx={{
+                      width: { xs: "100%", md: "10%", lg: "10%" },
                     }}
                     value={quantity} // Bind the value of the input field to the state
                     onChange={(e) => setQuantity(parseInt(e.target.value))} // Update the state when the input changes
@@ -211,6 +219,7 @@ const Encounters = () => {
                       fontFamily: "Roboto",
                       fontWeight: 300,
                       color: "white",
+                      textTransform: "none",
                     }}
                   >
                     Ajouter
