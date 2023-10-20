@@ -185,17 +185,17 @@ const Encounters = () => {
                     getOptionLabel={(option) => option?.name[0]?.label}
                     sx={{
                       width: { xs: "100%", md: "30%", lg: "25%" },
+                      "& .MuiAutocomplete-input, & .MuiInputLabel-root": {
+                        fontFamily: "Roboto",
+                        fontWeight: 300,
+                      },
                     }}
                     renderInput={(params) => (
                       <TextField {...params} label="Créature" />
                     )}
                     fullWidth
-                    componentsProps={{
-                      popper: {
-                        style: {
-                          width: "fit-content",
-                        },
-                      },
+                    ListboxProps={{
+                      sx: { fontFamily: "Roboto", fontWeight: 300 },
                     }}
                     onChange={(_, value) => setSelectedCreature(value)} // Update selectedCreature state
                   />
@@ -208,6 +208,12 @@ const Encounters = () => {
                     }}
                     sx={{
                       width: { xs: "100%", md: "10%", lg: "10%" },
+                    }}
+                    InputProps={{
+                      sx: {
+                        fontFamily: "Roboto",
+                        fontWeight: 300,
+                      },
                     }}
                     value={quantity} // Bind the value of the input field to the state
                     onChange={(e) => setQuantity(parseInt(e.target.value))} // Update the state when the input changes
