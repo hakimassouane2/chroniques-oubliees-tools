@@ -12,6 +12,6 @@ export async function GET() {
   await client.connect();
   const database = client.db(dbName);
   const abilities = database.collection("abilities");
-  const allAbilities = await abilities.find({}).toArray();
+  const allAbilities = await abilities.find({}).sort({ slug: 1 }).toArray();
   return NextResponse.json(allAbilities);
 }

@@ -14,6 +14,6 @@ export async function GET() {
   await client.connect();
   const database = client.db(dbName);
   const races = database.collection("races");
-  const allRaces = await races.find({}).toArray();
+  const allRaces = await races.find({}).sort({ slug: 1 }).toArray();
   return NextResponse.json(allRaces);
 }

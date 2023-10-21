@@ -14,6 +14,6 @@ export async function GET() {
   await client.connect();
   const database = client.db(dbName);
   const conditions = database.collection("conditions");
-  const allConditions = await conditions.find({}).toArray();
+  const allConditions = await conditions.find({}).sort({ name: 1 }).toArray();
   return NextResponse.json(allConditions);
 }

@@ -12,18 +12,6 @@ export async function GET() {
   await client.connect();
   const database = client.db(dbName);
   const ways = database.collection("ways");
-  const pipeline = [
-    {
-      $project: {
-        slug: 1,
-        label: 1,
-        type: 1,
-        additionalDescription: 1,
-        linkedProfiles: 1, // Only include the name field from linkedProfiles
-        "abilities.label": 1, // Only include the name field from abilities
-      },
-    },
-  ];
-  const allWays = await ways.aggregate(pipeline).toArray();
+  const allWays = await ways.find({}).sort({ slug: 1 }).toArray();
   return NextResponse.json(allWays);
 }
