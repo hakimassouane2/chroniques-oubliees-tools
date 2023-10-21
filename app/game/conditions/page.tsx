@@ -54,20 +54,6 @@ const Conditions = () => {
         subtitle="Un état préjudiciable est un ensemble de pénalités infligées à un personnage."
       />
       <Container maxWidth="xl" sx={{ position: "relative", mt: -10, mb: 10 }}>
-        <Breadcrumbs
-          aria-label="breadcrumb"
-          sx={{ fontFamily: "Roboto", color: "white" }}
-        >
-          <Link underline="hover" color="inherit" href="/">
-            <HomeRoundedIcon fontSize="small" sx={{ verticalAlign: "sub" }} />
-          </Link>
-          <Link underline="hover" color="inherit" href="/game">
-            Jeu
-          </Link>
-          <Link underline="hover" href="/game/conditions" aria-current="page">
-            États préjudiciables
-          </Link>
-        </Breadcrumbs>
         <TableContainer component={Paper} sx={{ mb: 10 }}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>

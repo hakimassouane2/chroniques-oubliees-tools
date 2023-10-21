@@ -236,7 +236,7 @@ const Encounters = () => {
 
             <Grid container spacing={2} sx={{ mt: 2 }}>
               {encounterMonsters.map((monster: any, index: any) => (
-                <Grid item xs={12} sm={12} md={4} lg={4} key={index}>
+                <Grid item xs={12} sm={12} md={6} lg={4} key={index}>
                   <MonsterEncounterBlock
                     monster={monster}
                   ></MonsterEncounterBlock>
