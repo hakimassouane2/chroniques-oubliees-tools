@@ -158,7 +158,7 @@ const Encounters = () => {
         <Card sx={{ borderRadius: 0, position: "relative", mt: -10, mb: 10 }}>
           <CardContent>
             <Accordion
-              defaultExpanded={false}
+              defaultExpanded={true}
               onChange={handleChange("panel1")}
               sx={{ mt: 2 }}
             >
@@ -181,8 +181,12 @@ const Encounters = () => {
                 >
                   <Autocomplete
                     options={creatures}
+                    fullWidth
                     // @ts-ignore
-                    getOptionLabel={(option) => option?.name[0]?.label}
+                    getOptionLabel={(option) =>
+                      // @ts-ignore
+                      `${option?.name[0]?.label} - NC ${option?.level[0]?.value}`
+                    }
                     sx={{
                       width: { xs: "100%", md: "30%", lg: "25%" },
                       "& .MuiAutocomplete-input, & .MuiInputLabel-root": {
@@ -193,9 +197,11 @@ const Encounters = () => {
                     renderInput={(params) => (
                       <TextField {...params} label="Créature" />
                     )}
-                    fullWidth
                     ListboxProps={{
-                      sx: { fontFamily: "Roboto", fontWeight: 300 },
+                      sx: {
+                        fontFamily: "Roboto",
+                        fontWeight: 300,
+                      },
                     }}
                     onChange={(_, value) => setSelectedCreature(value)} // Update selectedCreature state
                   />
@@ -236,7 +242,14 @@ const Encounters = () => {
 
             <Grid container spacing={2} sx={{ mt: 2 }}>
               {encounterMonsters.map((monster: any, index: any) => (
-                <Grid item xs={12} sm={12} md={6} lg={4} key={index}>
+                <Grid
+                  item
+                  xs={12}
+                  sm={12}
+                  md={6}
+                  lg={4}
+                  key={monster.name[0].label}
+                >
                   <MonsterEncounterBlock
                     monster={monster}
                   ></MonsterEncounterBlock>

@@ -1,4 +1,16 @@
-import { Box, Grid, IconButton, Typography } from "@mui/material";
+import {
+  Box,
+  Divider,
+  Grid,
+  IconButton,
+  List,
+  ListItemIcon,
+  ListItemText,
+  MenuItem,
+  MenuList,
+  Popover,
+  Typography,
+} from "@mui/material";
 
 import CancelIcon from "@mui/icons-material/Cancel";
 import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
@@ -7,8 +19,13 @@ import SecurityIcon from "@mui/icons-material/Security";
 import Image from "next/image";
 import { useState } from "react";
 import LifeBar from "./LifeBar";
+import ModeEditIcon from "@mui/icons-material/ModeEdit";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import DeleteIcon from "@mui/icons-material/Delete";
+import FileCopyIcon from "@mui/icons-material/FileCopy";
 
 function MonsterEncounterBlock(props: any) {
+  const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
   const [currentHP, setCurrentHP] = useState<number>(
     props?.monster?.health_point[0]?.value
   );
@@ -20,9 +37,20 @@ function MonsterEncounterBlock(props: any) {
   else if (hpPercentage <= 50 && hpPercentage >= 25) color = "rgb(255, 136, 0)";
   else color = "rgb(252, 68, 15)";
 
+  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
+
   return (
     <Grid container spacing={2}>
-      <Grid item xs={6} sm={3} md={6} lg={4}>
+      <Grid item xs={5} sm={3} md={4} lg={4}>
         <Box
           style={{
             borderRadius: "50%",
@@ -53,7 +81,7 @@ function MonsterEncounterBlock(props: any) {
           />
         </Box>
       </Grid>
-      <Grid item xs={6} sm={9} md={6} lg={8} sx={{ pl: "0px !important" }}>
+      <Grid item xs={7} sm={9} md={8} lg={8} sx={{ pl: "0px !important" }}>
         <Box display={"flex"} justifyContent={"space-between"}>
           <Typography
             variant="h6"
@@ -69,9 +97,80 @@ function MonsterEncounterBlock(props: any) {
             )}
             {props?.monster?.name[0]?.label}
           </Typography>
-          <IconButton aria-label="more">
+          <IconButton aria-label="more" onClick={handleClick}>
             <MoreHorizIcon />
           </IconButton>
+          <Popover
+            id={id}
+            open={open}
+            anchorEl={anchorEl}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: "bottom",
+              horizontal: "left",
+            }}
+            transformOrigin={{
+              vertical: "top",
+              horizontal: "center",
+            }}
+          >
+            <MenuList sx={{ fontFamily: "roboto" }}>
+              <MenuItem>
+                <ListItemIcon>
+                  <ModeEditIcon fontSize="small" />
+                </ListItemIcon>
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontFamily: "Roboto",
+                    fontSize: "1rem",
+                  }}
+                >
+                  Renommer
+                </ListItemText>
+              </MenuItem>
+              <MenuItem>
+                <ListItemIcon>
+                  <FavoriteIcon fontSize="small" />
+                </ListItemIcon>
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontFamily: "Roboto",
+                    fontSize: "1rem",
+                  }}
+                >
+                  Modifier les PV max
+                </ListItemText>
+              </MenuItem>
+              <MenuItem>
+                <ListItemIcon>
+                  <FileCopyIcon fontSize="small" />
+                </ListItemIcon>
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontFamily: "Roboto",
+                    fontSize: "1rem",
+                  }}
+                >
+                  Dupliquer
+                </ListItemText>
+              </MenuItem>
+              <Divider />
+              <MenuItem>
+                <ListItemIcon>
+                  <DeleteIcon fontSize="small" color="error"></DeleteIcon>
+                </ListItemIcon>
+                <ListItemText
+                  primaryTypographyProps={{
+                    fontFamily: "Roboto",
+                    fontSize: "1rem",
+                    color: "red",
+                  }}
+                >
+                  Supprimer
+                </ListItemText>
+              </MenuItem>
+            </MenuList>
+          </Popover>
         </Box>
 
         <LifeBar
