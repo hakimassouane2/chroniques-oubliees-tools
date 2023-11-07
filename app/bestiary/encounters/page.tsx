@@ -56,25 +56,11 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 const Encounters = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
-  const [encounterMonsters, setEncounterMonsters] = React.useState([]);
   const [creatures, setCreatures] = React.useState([]);
   const [selectedCreature, setSelectedCreature] = React.useState(null);
   const [creatureCounters, setCreatureCounters] = React.useState({});
   const [quantity, setQuantity] = React.useState(1);
   const { setIsLoading } = useLoading();
-
-  // Load encounter data from localStorage on component mount
-  React.useEffect(() => {
-    const savedEncounter = localStorage.getItem("encounter");
-    if (savedEncounter) {
-      setEncounterMonsters(JSON.parse(savedEncounter));
-    }
-  }, []);
-
-  // Save encounter data to localStorage whenever it changes
-  React.useEffect(() => {
-    localStorage.setItem("encounter", JSON.stringify(encounterMonsters));
-  }, [encounterMonsters]);
 
   React.useEffect(() => {
     async function fetchData() {
@@ -95,53 +81,30 @@ const Encounters = () => {
 
   const handleAddCreature = () => {
     if (selectedCreature) {
-      const numCreatures = quantity;
-
-      const existingCreatureNames = new Set(
+      const newMonsters: any[] = [];
+      for (let i = 0; i < quantity; i++) {
+        newMonsters.push(selectedCreature);
+      }
+      setCreatureCounters((prev: any) => ({
+        ...prev,
         // @ts-ignore
-        encounterMonsters.map((monster) => monster.name[0].label)
-      );
+        [selectedCreature._id]: quantity,
+      }));
 
-      // @ts-ignore
-      const baseName = selectedCreature.name[0].label;
-      // @ts-ignore
-      const existingCount = creatureCounters[baseName] || 0;
-
-      const newMonsters = Array.from({ length: numCreatures }, (_, index) => {
-        const newName =
-          existingCount > 0
-            ? `${baseName} ${existingCount + index + 1}`
-            : `${baseName} ${index + 1}`;
-
-        let counter = 1;
-        let suffix = "";
-        while (existingCreatureNames.has(newName + suffix)) {
-          counter++;
-          suffix = ` ${counter}`;
-        }
-
-        const finalName = counter > 1 ? `${newName} ${counter}` : newName;
-
-        setCreatureCounters((prevCounters) => ({
-          ...prevCounters,
-          [baseName]: existingCount + numCreatures,
-        }));
-
-        return {
-          // @ts-ignore
-          ...selectedCreature,
-          name: [{ value: finalName, label: finalName }],
-        };
-      });
-
-      // @ts-ignore
-      setEncounterMonsters([...encounterMonsters, ...newMonsters]);
+      const currentEncounter = localStorage.getItem("encounter");
+      if (!currentEncounter) {
+        localStorage.setItem("encounter", JSON.stringify(newMonsters));
+      } else {
+        localStorage.setItem(
+          "encounter",
+          JSON.stringify([...JSON.parse(currentEncounter), ...newMonsters])
+        );
+      }
     }
   };
 
   const handleDeleteAll = () => {
     // Clear encounter data from state
-    setEncounterMonsters([]);
     setCreatureCounters({});
 
     // Clear encounter data from localStorage
@@ -241,20 +204,21 @@ const Encounters = () => {
             </Accordion>
 
             <Grid container spacing={2} sx={{ mt: 2 }}>
-              {encounterMonsters.map((monster: any, index: any) => (
-                <Grid
-                  item
-                  xs={12}
-                  sm={12}
-                  md={6}
-                  lg={4}
-                  key={monster.name[0].label}
-                >
-                  <MonsterEncounterBlock
-                    monster={monster}
-                  ></MonsterEncounterBlock>
-                </Grid>
-              ))}
+              {localStorage.getItem("encounter") &&
+                JSON.parse(localStorage.getItem("encounter")!).map(
+                  (monster: any, index: number) => (
+                    <Grid
+                      item
+                      xs={12}
+                      sm={12}
+                      md={6}
+                      lg={4}
+                      key={monster.name[0].label}
+                    >
+                      <MonsterEncounterBlock monster={monster} />
+                    </Grid>
+                  )
+                )}
             </Grid>
             <Divider />
             <Button

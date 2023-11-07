@@ -13,6 +13,7 @@ interface LifeBarProps {
   currentHP: number;
   color: string;
   setCurrentHP: any;
+  monster: any;
 }
 
 const LifeBar: React.FC<LifeBarProps> = ({
@@ -20,8 +21,22 @@ const LifeBar: React.FC<LifeBarProps> = ({
   currentHP,
   color,
   setCurrentHP,
+  monster,
 }) => {
   const hpPercentage: number = (currentHP / maxHP) * 100;
+
+  React.useEffect(() => {
+    const encounterString = localStorage.getItem("encounter");
+    if (!encounterString) return;
+    const encounter = JSON.parse(encounterString);
+    const encounterMonsterFound = encounter.find(
+      (encounterMonster: any) => encounterMonster._id === monster._id
+    );
+    if (!encounterMonsterFound) return;
+    encounterMonsterFound.currentHP = currentHP;
+    console.log("encounterMonsterFound == > ", encounterMonsterFound);
+    localStorage.setItem("encounter", JSON.stringify(encounter));
+  }, [currentHP]);
 
   return (
     <Box display="flex" alignItems="center">

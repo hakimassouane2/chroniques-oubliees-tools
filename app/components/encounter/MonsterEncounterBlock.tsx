@@ -27,7 +27,7 @@ import FileCopyIcon from "@mui/icons-material/FileCopy";
 function MonsterEncounterBlock(props: any) {
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
   const [currentHP, setCurrentHP] = useState<number>(
-    props?.monster?.health_point[0]?.value
+    props?.monster?.currentHP || props?.monster?.health_point[0]?.value
   );
   const hpPercentage: number =
     (currentHP / props?.monster?.health_point[0]?.value) * 100;
@@ -178,7 +178,9 @@ function MonsterEncounterBlock(props: any) {
           currentHP={currentHP}
           setCurrentHP={setCurrentHP}
           color={color}
+          monster={props?.monster}
         />
+
         <Box display={"flex"} gap={2}>
           <Typography
             sx={{

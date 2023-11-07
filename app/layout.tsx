@@ -49,7 +49,7 @@ export default function RootLayout({
       body2: {
         fontSize: "0.9rem", // Set default font size for h3 on mobile
         "@media (min-width:600px)": {
-          fontSize: "1.3rem", // Set font size for h3 on desktop
+          fontSize: "1.2rem", // Set font size for h3 on desktop
         },
       },
     },

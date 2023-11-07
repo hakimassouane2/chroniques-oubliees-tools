@@ -4,6 +4,7 @@ import { Way } from "@/types/way";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
   Accordion,
+  AccordionDetails,
   AccordionSummary,
   Card,
   CardContent,
@@ -37,8 +38,8 @@ const WayDetail = ({ params }: { params: { way: string } }) => {
         title={currentWay?.label || ""}
         subtitle={currentWay?.additionalDescription || ""}
       />
-      <Container maxWidth="xl">
-        <Grid container sx={{ mt: 10, mb: 10 }}>
+      <Container maxWidth={false}>
+        <Grid container>
           <Card>
             <CardContent
               sx={{
@@ -46,10 +47,8 @@ const WayDetail = ({ params }: { params: { way: string } }) => {
                 flexDirection: { xs: "column", md: "row" },
               }}
             >
-              <Grid item xs={12} sm={12} md={8} lg={8}>
-                <Typography variant="subtitle1" color={"primary"}>
-                  Dé de vie{" "}
-                </Typography>
+              <Grid item xs={12} sm={12} md={12} lg={12}>
+                <Typography variant="body2">Dé de vie </Typography>
                 {currentWay?.abilities?.map((ability: any, index: any) => (
                   <Accordion sx={{ mt: 2 }} key={ability.name}>
                     <AccordionSummary
@@ -62,6 +61,18 @@ const WayDetail = ({ params }: { params: { way: string } }) => {
                         {ability.name}
                       </Typography>
                     </AccordionSummary>
+                    <AccordionDetails>
+                      <Typography
+                        variant="body2"
+                        sx={{
+                          fontFamily: "roboto",
+                          fontWeight: 300,
+                          mt: 2,
+                        }}
+                      >
+                        {ability.description}
+                      </Typography>
+                    </AccordionDetails>
                   </Accordion>
                 ))}
               </Grid>

@@ -1,4 +1,4 @@
-import { MongoClient } from "mongodb";
+import { MongoClient, ObjectId } from "mongodb";
 import { NextResponse } from "next/server";
 
 const uri =
@@ -15,5 +15,17 @@ export async function GET(request: any, { params }: any) {
   const matchingWay = await ways.findOne({
     slug: params.way,
   });
+
+  if (matchingWay && matchingWay.abilities) {
+    const abilityIds = matchingWay.abilities.map(
+      (abilityId: ObjectId) => new ObjectId(abilityId)
+    );
+    const abilities = await database
+      .collection("abilities")
+      .find({ _id: { $in: abilityIds } })
+      .toArray();
+
+    matchingWay.abilities = abilities;
+  }
   return NextResponse.json(matchingWay);
 }
