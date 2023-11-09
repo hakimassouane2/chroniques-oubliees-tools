@@ -80,7 +80,7 @@ const Encounters = () => {
     };
 
   const handleAddCreature = () => {
-    if (selectedCreature) {
+    if (selectedCreature && typeof window !== "undefined") {
       const newMonsters: any[] = [];
       for (let i = 0; i < quantity; i++) {
         newMonsters.push(selectedCreature);
@@ -104,11 +104,13 @@ const Encounters = () => {
   };
 
   const handleDeleteAll = () => {
-    // Clear encounter data from state
-    setCreatureCounters({});
+    if (typeof window !== "undefined") {
+      // Clear encounter data from state
+      setCreatureCounters({});
 
-    // Clear encounter data from localStorage
-    localStorage.removeItem("encounter");
+      // Clear encounter data from localStorage
+      localStorage.removeItem("encounter");
+    }
   };
 
   return (
@@ -204,7 +206,8 @@ const Encounters = () => {
             </Accordion>
 
             <Grid container spacing={2} sx={{ mt: 2 }}>
-              {localStorage.getItem("encounter") &&
+              {typeof window !== "undefined" &&
+                localStorage.getItem("encounter") &&
                 JSON.parse(localStorage.getItem("encounter")!).map(
                   (monster: any, index: number) => (
                     <Grid
