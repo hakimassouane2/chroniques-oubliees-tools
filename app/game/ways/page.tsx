@@ -208,7 +208,7 @@ const Ways = () => {
             gutterBottom
             sx={{ fontFamily: "roboto", fontWeight: 300 }}
           >
-            Type de voie: {specificWay?.type as string}
+            Type de voie: {specificWay?.type}
           </Typography>
           <Typography
             gutterBottom
