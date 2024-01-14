@@ -187,7 +187,7 @@ const CreatureDetail = ({ params }: { params: { creature: string } }) => {
 |----------------------------------------|----------------------------------------------|-------------------|-----|-----|-----|-----|-----|-----|
 | ${currentCreature?.defense[0]?.value}  | ${
       currentCreature?.health_point[0]?.value
-    }   | 30ft. (6 cases)   | ${getStrString()}   | ${getDexString()}    |  ${getConString()}   | ${getIntString()}    | ${getWisString()}    |  ${getChaString()}   |
+    }   | 6   | ${getStrString()}   | ${getDexString()}    |  ${getConString()}   | ${getIntString()}    | ${getWisString()}    |  ${getChaString()}   |
 
 ${convertHtmlToMarkdown(
   currentCreature?.attacks[0].value
