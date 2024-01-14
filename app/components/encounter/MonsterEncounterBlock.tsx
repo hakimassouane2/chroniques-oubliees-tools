@@ -51,6 +51,10 @@ function MonsterEncounterBlock(props: {
   else if (hpPercentage <= 50 && hpPercentage >= 25) color = "rgb(255, 136, 0)";
   else color = "rgb(252, 68, 15)";
 
+  const imageStyle = {
+    filter: hpPercentage <= 0 ? "grayscale(100%)" : "none",
+  };
+
   const openOptionMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
@@ -243,6 +247,7 @@ function MonsterEncounterBlock(props: {
           <Image
             src={props?.monster?.picture[0]?.creature_token_url}
             alt="hero second image"
+            style={imageStyle}
             height={110}
             width={110}
           />
@@ -260,7 +265,10 @@ function MonsterEncounterBlock(props: {
             }}
           >
             {props?.monster?.currentHP <= 0 && (
-              <CancelIcon fontSize="small" sx={{ color: "red" }} />
+              <CancelIcon
+                fontSize="small"
+                sx={{ color: "red", verticalAlign: "middle" }}
+              />
             )}
             {props?.monster?.name[0]?.label}
           </Typography>
