@@ -35,6 +35,7 @@ function MonsterEncounterBlock(props: {
   onDeleteMonster: any;
   onRenameMonster: any;
   onModifyMaxHp: any;
+  onDuplicateMonster: any;
   targetReRender: any;
 }) {
   const [openRenameDialog, setOpenRenameDialog] = React.useState(false);
@@ -96,6 +97,11 @@ function MonsterEncounterBlock(props: {
 
   const handleClickCloseModifyMaxHpDialog = () => {
     setOpenModifyMaxHpDialog(false);
+  };
+
+  const handleDuplicateMonster = () => {
+    closeOptionMenu();
+    props.onDuplicateMonster(props?.monster?.randomEncounterId);
   };
 
   return (
@@ -302,7 +308,7 @@ function MonsterEncounterBlock(props: {
                   Modifier les PV max
                 </ListItemText>
               </MenuItem>
-              <MenuItem>
+              <MenuItem onClick={handleDuplicateMonster}>
                 <ListItemIcon>
                   <FileCopyIcon fontSize="small" />
                 </ListItemIcon>

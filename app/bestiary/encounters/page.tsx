@@ -252,6 +252,39 @@ const Encounters = () => {
     }
   };
 
+  const handleDuplicateMonster = (monsterRamdomEncounterId: string) => {
+    if (typeof window !== "undefined") {
+      const currentEncounter = localStorage.getItem("encounter");
+      if (currentEncounter) {
+        const monsterToDuplicate = JSON.parse(currentEncounter).find(
+          (monster: any) =>
+            monster.randomEncounterId === monsterRamdomEncounterId
+        );
+        if (monsterToDuplicate) {
+          const newMonster = {
+            ...monsterToDuplicate,
+            randomEncounterId: crypto.randomBytes(16).toString("hex"),
+            name: [
+              {
+                value: monsterToDuplicate.name[0].value,
+                label:
+                  monsterToDuplicate.name[0].label +
+                  " " +
+                  (JSON.parse(currentEncounter).length + 1).toString(),
+              },
+            ],
+          };
+          localStorage.removeItem("encounter");
+          localStorage.setItem(
+            "encounter",
+            JSON.stringify([...JSON.parse(currentEncounter), newMonster])
+          );
+          setTriggerRerender((prev) => !prev);
+        }
+      }
+    }
+  };
+
   const targetReRender = () => {
     setTriggerRerender((prev) => !prev);
   };
@@ -366,6 +399,7 @@ const Encounters = () => {
                         onDeleteMonster={handleDeleteMonster}
                         onRenameMonster={handleRenameMonster}
                         onModifyMaxHp={handleModifyMaxHp}
+                        onDuplicateMonster={handleDuplicateMonster}
                         targetReRender={targetReRender}
                       />
                     </Grid>
