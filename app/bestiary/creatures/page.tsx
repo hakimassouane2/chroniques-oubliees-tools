@@ -151,39 +151,66 @@ const Creatures = () => {
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Box display={"flex"} flexDirection={"row"} gap={5}>
+            <Box display={"flex"} flexDirection={"row"} gap={2}>
               <TextField
                 id="outlined-basic"
                 label="Nom de la créature"
-                variant="standard"
+                variant="outlined"
                 inputProps={{
                   style: { fontFamily: "roboto", fontWeight: 300 },
-                }} // font size of input text
+                }}
                 InputLabelProps={{
                   shrink: true,
                   style: { fontFamily: "roboto", fontWeight: 300 },
-                }} // font size of input label
+                }}
                 onChange={(e: any) => {
                   setSearchTerm(e.target.value);
                 }}
               />
-              <Select
-                labelId="demo-simple-select-helper-label"
-                id="demo-simple-select-helper"
-                value={sortType}
-                label="Nom de la créature"
-                variant="standard"
-                autoWidth
-                sx={{ fontFamily: "roboto", fontWeight: 300 }}
-                onChange={(e: any) => {
-                  setSortType(e.target.value);
-                }}
-              >
-                <MenuItem value={1}>A - Z</MenuItem>
-                <MenuItem value={2}>Z - A</MenuItem>
-                <MenuItem value={3}>NC le plus bas</MenuItem>
-                <MenuItem value={4}>NC le plus haut</MenuItem>
-              </Select>
+              <FormControl fullWidth>
+                <InputLabel
+                  id="sort-type-label"
+                  sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                >
+                  Tri
+                </InputLabel>
+                <Select
+                  labelId="sort-type-label"
+                  id="sort-type"
+                  value={sortType}
+                  label="Age"
+                  variant="outlined"
+                  sx={{ fontFamily: "roboto", fontWeight: 300, width: 200 }}
+                  onChange={(e: any) => {
+                    setSortType(e.target.value);
+                  }}
+                >
+                  <MenuItem
+                    value={1}
+                    sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                  >
+                    A - Z
+                  </MenuItem>
+                  <MenuItem
+                    value={2}
+                    sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                  >
+                    Z - A
+                  </MenuItem>
+                  <MenuItem
+                    value={3}
+                    sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                  >
+                    NC le plus bas
+                  </MenuItem>
+                  <MenuItem
+                    value={4}
+                    sx={{ fontFamily: "roboto", fontWeight: 300 }}
+                  >
+                    NC le plus haut
+                  </MenuItem>
+                </Select>
+              </FormControl>
             </Box>
           </AccordionDetails>
         </Accordion>
