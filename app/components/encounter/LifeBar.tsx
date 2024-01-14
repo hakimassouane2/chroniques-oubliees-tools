@@ -25,21 +25,6 @@ const LifeBar: React.FC<LifeBarProps> = ({
 }) => {
   const hpPercentage: number = (currentHP / maxHP) * 100;
 
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      const encounterString = localStorage.getItem("encounter");
-      if (!encounterString) return;
-      const encounter = JSON.parse(encounterString);
-      const encounterMonsterFound = encounter.find(
-        (encounterMonster: any) => encounterMonster._id === monster._id
-      );
-      if (!encounterMonsterFound) return;
-      encounterMonsterFound.currentHP = currentHP;
-      console.log("encounterMonsterFound == > ", encounterMonsterFound);
-      localStorage.setItem("encounter", JSON.stringify(encounter));
-    }
-  }, [currentHP]);
-
   return (
     <Box display="flex" alignItems="center">
       <Button
@@ -59,7 +44,7 @@ const LifeBar: React.FC<LifeBarProps> = ({
           fontFamily: "Roboto",
           fontWeight: 300,
         }}
-        onClick={() => setCurrentHP((prev: any) => Math.max(0, prev - 1))}
+        onClick={() => setCurrentHP(currentHP - 1, monster.randomEncounterId)}
       >
         -
       </Button>
@@ -91,9 +76,14 @@ const LifeBar: React.FC<LifeBarProps> = ({
             }}
             onChange={(e) => {
               const value = parseInt(e.target.value, 10) || 0;
-              setCurrentHP(value);
+              setCurrentHP(value, monster.randomEncounterId);
             }}
-            onBlur={() => setCurrentHP(currentHP > maxHP ? maxHP : currentHP)}
+            onBlur={() =>
+              setCurrentHP(
+                currentHP > maxHP ? maxHP : currentHP,
+                monster.randomEncounterId
+              )
+            }
           ></input>
           <Typography
             variant="subtitle2"
@@ -132,7 +122,7 @@ const LifeBar: React.FC<LifeBarProps> = ({
           fontFamily: "Roboto",
           fontWeight: 300,
         }}
-        onClick={() => setCurrentHP((prev: any) => Math.min(maxHP, prev + 1))}
+        onClick={() => setCurrentHP(currentHP + 1, monster.randomEncounterId)}
       >
         +
       </Button>

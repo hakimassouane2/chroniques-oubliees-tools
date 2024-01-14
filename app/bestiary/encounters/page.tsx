@@ -21,7 +21,10 @@ import MuiAccordionSummary, {
 } from "@mui/material/AccordionSummary";
 import TextField from "@mui/material/TextField";
 import { styled } from "@mui/material/styles";
+import { cloneDeep } from "lodash";
 import * as React from "react";
+import * as crypto from "crypto";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
@@ -56,11 +59,22 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 const Encounters = () => {
   const [expanded, setExpanded] = React.useState<string | false>("panel1");
+  const [triggerRerender, setTriggerRerender] = React.useState(false);
   const [creatures, setCreatures] = React.useState([]);
   const [selectedCreature, setSelectedCreature] = React.useState(null);
-  const [creatureCounters, setCreatureCounters] = React.useState({});
   const [quantity, setQuantity] = React.useState(1);
   const { setIsLoading } = useLoading();
+
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const monstersQuerryParams = searchParams.get("monsters");
+  const quantitiesQuerryParams = searchParams.get("quantities");
+
+  const handleExpand =
+    (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
+      setExpanded(newExpanded ? panel : false);
+    };
 
   React.useEffect(() => {
     async function fetchData() {
@@ -68,29 +82,88 @@ const Encounters = () => {
       const response = await fetch("/api/creatures");
       const data = await response.json();
       setCreatures(data);
+      if (monstersQuerryParams && quantitiesQuerryParams) {
+        const monsters = monstersQuerryParams.split(",");
+        const quantities = quantitiesQuerryParams.split(",");
+        monsters.forEach((monster, index) => {
+          const monsterToAdd = data.find(
+            // @ts-ignore
+            (creature) => creature.name[0].value === monster
+          );
+          if (monsterToAdd) {
+            for (let i = 0; i < parseInt(quantities[index]); i++) {
+              const currentEncounter = localStorage.getItem("encounter");
+              if (!currentEncounter) {
+                localStorage.setItem(
+                  "encounter",
+                  JSON.stringify([
+                    {
+                      ...monsterToAdd,
+                      randomEncounterId: crypto.randomBytes(16).toString("hex"),
+                      currentHP: parseInt(monsterToAdd.health_point[0].value),
+                      name: [
+                        {
+                          value: monsterToAdd.name[0].value,
+                          label:
+                            monsterToAdd.name[0].label +
+                            " " +
+                            (i + 1).toString(),
+                        },
+                      ],
+                    },
+                  ])
+                );
+              } else {
+                localStorage.setItem(
+                  "encounter",
+                  JSON.stringify([
+                    ...JSON.parse(currentEncounter),
+                    {
+                      ...monsterToAdd,
+                      randomEncounterId: crypto.randomBytes(16).toString("hex"),
+                      currentHP: parseInt(monsterToAdd.health_point[0].value),
+                      name: [
+                        {
+                          value: monsterToAdd.name[0].value,
+                          label:
+                            monsterToAdd.name[0].label +
+                            " " +
+                            (i + 1).toString(),
+                        },
+                      ],
+                    },
+                  ])
+                );
+              }
+            }
+            router.replace(pathname);
+          }
+        });
+      }
       setIsLoading(false);
     }
 
     fetchData();
   }, []);
 
-  const handleChange =
-    (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
-      setExpanded(newExpanded ? panel : false);
-    };
-
   const handleAddCreature = () => {
     if (selectedCreature && typeof window !== "undefined") {
       const newMonsters: any[] = [];
       for (let i = 0; i < quantity; i++) {
-        newMonsters.push(selectedCreature);
+        // use lodash cloneDeep to avoid mutating the original object
+        const selectedCreatureCopy: any = cloneDeep(selectedCreature);
+        newMonsters.push({
+          ...selectedCreatureCopy,
+          randomEncounterId: crypto.randomBytes(16).toString("hex"),
+          name: [
+            {
+              value: selectedCreatureCopy.name[0].value,
+              label: selectedCreatureCopy.name[0].label + " " + (i + 1),
+            },
+          ],
+          currentHP: parseInt(selectedCreatureCopy.health_point[0].value),
+        });
       }
-      setCreatureCounters((prev: any) => ({
-        ...prev,
-        // @ts-ignore
-        [selectedCreature._id]: quantity,
-      }));
-
       const currentEncounter = localStorage.getItem("encounter");
       if (!currentEncounter) {
         localStorage.setItem("encounter", JSON.stringify(newMonsters));
@@ -100,17 +173,34 @@ const Encounters = () => {
           JSON.stringify([...JSON.parse(currentEncounter), ...newMonsters])
         );
       }
+      setTriggerRerender((prev) => !prev);
     }
   };
 
   const handleDeleteAll = () => {
     if (typeof window !== "undefined") {
-      // Clear encounter data from state
-      setCreatureCounters({});
-
-      // Clear encounter data from localStorage
       localStorage.removeItem("encounter");
+      setTriggerRerender((prev) => !prev);
     }
+  };
+
+  const handleDeleteMonster = (monsterRamdomEncounterId: string) => {
+    if (typeof window !== "undefined") {
+      const currentEncounter = localStorage.getItem("encounter");
+      if (currentEncounter) {
+        const newEncounter = JSON.parse(currentEncounter).filter(
+          (monster: any) =>
+            monster.randomEncounterId !== monsterRamdomEncounterId
+        );
+        localStorage.removeItem("encounter");
+        localStorage.setItem("encounter", JSON.stringify(newEncounter));
+        setTriggerRerender((prev) => !prev);
+      }
+    }
+  };
+
+  const targetReRender = () => {
+    setTriggerRerender((prev) => !prev);
   };
 
   return (
@@ -124,7 +214,7 @@ const Encounters = () => {
           <CardContent>
             <Accordion
               defaultExpanded={true}
-              onChange={handleChange("panel1")}
+              onChange={handleExpand("panel1")}
               sx={{ mt: 2 }}
             >
               <AccordionSummary
@@ -216,9 +306,13 @@ const Encounters = () => {
                       sm={12}
                       md={6}
                       lg={4}
-                      key={monster.name[0].label}
+                      key={monster.randomEncounterId}
                     >
-                      <MonsterEncounterBlock monster={monster} />
+                      <MonsterEncounterBlock
+                        monster={monster}
+                        onDeleteMonster={handleDeleteMonster}
+                        targetReRender={targetReRender}
+                      />
                     </Grid>
                   )
                 )}

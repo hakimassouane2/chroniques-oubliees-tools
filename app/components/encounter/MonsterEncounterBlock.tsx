@@ -24,29 +24,50 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import DeleteIcon from "@mui/icons-material/Delete";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
 
-function MonsterEncounterBlock(props: any) {
+function MonsterEncounterBlock(props: {
+  monster: any;
+  onDeleteMonster: any;
+  targetReRender: any;
+}) {
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
-  const [currentHP, setCurrentHP] = useState<number>(
-    props?.monster?.currentHP || props?.monster?.health_point[0]?.value
-  );
+  const open = Boolean(anchorEl);
+  const id = open ? "simple-popover" : undefined;
   const hpPercentage: number =
-    (currentHP / props?.monster?.health_point[0]?.value) * 100;
-
+    (props?.monster?.currentHP / props?.monster?.health_point[0]?.value) * 100;
   let color: string;
   if (hpPercentage > 50) color = "rgb(6, 167, 125)";
   else if (hpPercentage <= 50 && hpPercentage >= 25) color = "rgb(255, 136, 0)";
   else color = "rgb(252, 68, 15)";
 
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+  const openOptionMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const closeOptionMenu = () => {
     setAnchorEl(null);
   };
 
-  const open = Boolean(anchorEl);
-  const id = open ? "simple-popover" : undefined;
+  const handleDeleteMonster = () => {
+    props.onDeleteMonster(props?.monster?.randomEncounterId);
+  };
+
+  const setCurrentHP = (value: number, monsterRandomEncounterId: string) => {
+    if (value < 0) value = 0;
+    const getEncounter = localStorage.getItem("encounter");
+    if (!getEncounter) return;
+    const encounter = JSON.parse(getEncounter);
+    const encounterMonsterFound = encounter.find(
+      (encounterMonster: any) =>
+        encounterMonster.randomEncounterId === monsterRandomEncounterId
+    );
+    if (!encounterMonsterFound) return;
+    encounterMonsterFound.currentHP =
+      value > encounterMonsterFound.health_point[0]?.value
+        ? encounterMonsterFound.health_point[0]?.value
+        : value;
+    localStorage.setItem("encounter", JSON.stringify(encounter));
+    props.targetReRender();
+  };
 
   return (
     <Grid container spacing={2}>
@@ -59,12 +80,12 @@ function MonsterEncounterBlock(props: any) {
               "110px" /* Ensure this matches the width for a perfect circle */,
             overflow: "hidden",
             WebkitBoxShadow: `${
-              currentHP > 0
+              props?.monster?.currentHP > 0
                 ? `0px 0px 19px 2px ${color}`
                 : `0px 0px 19px 2px gray`
             }  `,
             boxShadow: `${
-              currentHP > 0
+              props?.monster?.currentHP > 0
                 ? `0px 0px 19px 2px ${color}`
                 : `0px 0px 19px 2px gray`
             }  `,
@@ -92,19 +113,19 @@ function MonsterEncounterBlock(props: any) {
               textOverflow: "ellipsis",
             }}
           >
-            {currentHP <= 0 && (
+            {props?.monster?.currentHP <= 0 && (
               <CancelIcon fontSize="small" sx={{ color: "red" }} />
             )}
             {props?.monster?.name[0]?.label}
           </Typography>
-          <IconButton aria-label="more" onClick={handleClick}>
+          <IconButton aria-label="more" onClick={openOptionMenu}>
             <MoreHorizIcon />
           </IconButton>
           <Popover
             id={id}
             open={open}
             anchorEl={anchorEl}
-            onClose={handleClose}
+            onClose={closeOptionMenu}
             anchorOrigin={{
               vertical: "bottom",
               horizontal: "left",
@@ -155,7 +176,7 @@ function MonsterEncounterBlock(props: any) {
                 </ListItemText>
               </MenuItem>
               <Divider />
-              <MenuItem>
+              <MenuItem onClick={handleDeleteMonster}>
                 <ListItemIcon>
                   <DeleteIcon fontSize="small" color="error"></DeleteIcon>
                 </ListItemIcon>
@@ -175,7 +196,7 @@ function MonsterEncounterBlock(props: any) {
 
         <LifeBar
           maxHP={props?.monster?.health_point[0]?.value}
-          currentHP={currentHP}
+          currentHP={props?.monster?.currentHP}
           setCurrentHP={setCurrentHP}
           color={color}
           monster={props?.monster}
