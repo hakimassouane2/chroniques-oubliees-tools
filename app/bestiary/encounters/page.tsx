@@ -226,6 +226,32 @@ const Encounters = () => {
     }
   };
 
+  const handleModifyMaxHp = (
+    monsterRamdomEncounterId: string,
+    newMaxHp: number
+  ) => {
+    if (typeof window !== "undefined") {
+      const currentEncounter = localStorage.getItem("encounter");
+      if (currentEncounter) {
+        const newEncounter = JSON.parse(currentEncounter).map(
+          (monster: any) => {
+            if (monster.randomEncounterId === monsterRamdomEncounterId) {
+              if (newMaxHp <= 0) newMaxHp = 1;
+              monster.health_point[0].value = newMaxHp;
+              if (monster.currentHP > newMaxHp) {
+                monster.currentHP = newMaxHp;
+              }
+            }
+            return monster;
+          }
+        );
+        localStorage.removeItem("encounter");
+        localStorage.setItem("encounter", JSON.stringify(newEncounter));
+        setTriggerRerender((prev) => !prev);
+      }
+    }
+  };
+
   const targetReRender = () => {
     setTriggerRerender((prev) => !prev);
   };
@@ -339,6 +365,7 @@ const Encounters = () => {
                         monster={monster}
                         onDeleteMonster={handleDeleteMonster}
                         onRenameMonster={handleRenameMonster}
+                        onModifyMaxHp={handleModifyMaxHp}
                         targetReRender={targetReRender}
                       />
                     </Grid>

@@ -34,9 +34,12 @@ function MonsterEncounterBlock(props: {
   monster: any;
   onDeleteMonster: any;
   onRenameMonster: any;
+  onModifyMaxHp: any;
   targetReRender: any;
 }) {
   const [openRenameDialog, setOpenRenameDialog] = React.useState(false);
+  const [openModifyMaxHpDialog, setOpenModifyMaxHpDialog] =
+    React.useState(false);
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
@@ -84,6 +87,15 @@ function MonsterEncounterBlock(props: {
 
   const handleCloseRenameDialog = () => {
     setOpenRenameDialog(false);
+  };
+
+  const handleClickOpenModifyMaxHpDialog = () => {
+    closeOptionMenu();
+    setOpenModifyMaxHpDialog(true);
+  };
+
+  const handleClickCloseModifyMaxHpDialog = () => {
+    setOpenModifyMaxHpDialog(false);
   };
 
   return (
@@ -141,6 +153,61 @@ function MonsterEncounterBlock(props: {
             }}
           >
             Renommer
+          </Button>
+        </DialogActions>
+      </Dialog>
+      <Dialog
+        open={openModifyMaxHpDialog}
+        onClose={handleClickCloseModifyMaxHpDialog}
+        PaperProps={{
+          component: "form",
+          onSubmit: (event: React.FormEvent<HTMLFormElement>) => {
+            event.preventDefault();
+            const formData = new FormData(event.currentTarget);
+            const formJson = Object.fromEntries((formData as any).entries());
+            const newMaxHp = formJson.maxhp;
+            props.onModifyMaxHp(props?.monster?.randomEncounterId, newMaxHp);
+            handleClickCloseModifyMaxHpDialog();
+          },
+        }}
+      >
+        <DialogContent sx={{ py: 0 }}>
+          <TextField
+            autoFocus
+            margin="dense"
+            id="maxhp"
+            name="maxhp"
+            label="PV Max"
+            type="number"
+            fullWidth
+            variant="standard"
+            InputLabelProps={{
+              sx: {
+                fontFamily: "Roboto",
+                fontWeight: 300,
+              },
+            }}
+            InputProps={{
+              sx: {
+                fontFamily: "Roboto",
+                fontWeight: 300,
+              },
+            }}
+          />
+        </DialogContent>
+        <DialogActions sx={{ justifyContent: "center" }}>
+          <Button
+            type="submit"
+            variant="contained"
+            sx={{
+              fontFamily: "roboto",
+              fontWeight: 300,
+              color: "white",
+              textTransform: "none",
+              textAlign: "center",
+            }}
+          >
+            Modifier les PV Max
           </Button>
         </DialogActions>
       </Dialog>
@@ -222,7 +289,7 @@ function MonsterEncounterBlock(props: {
                   Renommer
                 </ListItemText>
               </MenuItem>
-              <MenuItem>
+              <MenuItem onClick={handleClickOpenModifyMaxHpDialog}>
                 <ListItemIcon>
                   <FavoriteIcon fontSize="small" />
                 </ListItemIcon>
