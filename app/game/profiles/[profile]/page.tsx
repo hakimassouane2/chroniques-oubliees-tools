@@ -132,7 +132,7 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                     sx={{
                       mt: 2,
                     }}
-                    key={way.name}
+                    key={way?.name}
                   >
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon />}
@@ -145,11 +145,11 @@ const ProfileDetail = ({ params }: { params: { profile: string } }) => {
                         color={"primary"}
                         sx={{ mb: 0, pb: 0 }}
                       >
-                        {way.name}
+                        {way?.name}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                      {way.abilities.map((ability: any, index: any) => (
+                      {way?.abilities?.map((ability: any, index: any) => (
                         <Accordion sx={{ mt: 2 }} key={ability.name}>
                           <AccordionSummary
                             expandIcon={<ExpandMoreIcon />}
