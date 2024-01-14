@@ -199,6 +199,33 @@ const Encounters = () => {
     }
   };
 
+  const handleRenameMonster = (
+    monsterRamdomEncounterId: string,
+    newName: string
+  ) => {
+    if (typeof window !== "undefined") {
+      const currentEncounter = localStorage.getItem("encounter");
+      if (currentEncounter) {
+        const newEncounter = JSON.parse(currentEncounter).map(
+          (monster: any) => {
+            if (monster.randomEncounterId === monsterRamdomEncounterId) {
+              monster.name = [
+                {
+                  value: monster.name[0].value,
+                  label: newName,
+                },
+              ];
+            }
+            return monster;
+          }
+        );
+        localStorage.removeItem("encounter");
+        localStorage.setItem("encounter", JSON.stringify(newEncounter));
+        setTriggerRerender((prev) => !prev);
+      }
+    }
+  };
+
   const targetReRender = () => {
     setTriggerRerender((prev) => !prev);
   };
@@ -311,6 +338,7 @@ const Encounters = () => {
                       <MonsterEncounterBlock
                         monster={monster}
                         onDeleteMonster={handleDeleteMonster}
+                        onRenameMonster={handleRenameMonster}
                         targetReRender={targetReRender}
                       />
                     </Grid>

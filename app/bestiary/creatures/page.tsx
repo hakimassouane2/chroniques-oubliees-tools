@@ -157,7 +157,7 @@ const Creatures = () => {
                 label="Nom de la créature"
                 variant="standard"
                 inputProps={{
-                  style: { fontFamily: "roboto", fontWeight: 3000 },
+                  style: { fontFamily: "roboto", fontWeight: 300 },
                 }} // font size of input text
                 InputLabelProps={{
                   shrink: true,

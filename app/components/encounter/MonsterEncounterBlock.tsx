@@ -1,5 +1,9 @@
 import {
   Box,
+  Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
   Divider,
   Grid,
   IconButton,
@@ -9,6 +13,7 @@ import {
   MenuItem,
   MenuList,
   Popover,
+  TextField,
   Typography,
 } from "@mui/material";
 
@@ -23,12 +28,15 @@ import ModeEditIcon from "@mui/icons-material/ModeEdit";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import DeleteIcon from "@mui/icons-material/Delete";
 import FileCopyIcon from "@mui/icons-material/FileCopy";
+import React from "react";
 
 function MonsterEncounterBlock(props: {
   monster: any;
   onDeleteMonster: any;
+  onRenameMonster: any;
   targetReRender: any;
 }) {
+  const [openRenameDialog, setOpenRenameDialog] = React.useState(false);
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
@@ -69,8 +77,73 @@ function MonsterEncounterBlock(props: {
     props.targetReRender();
   };
 
+  const handleClickOpenRenameDialog = () => {
+    closeOptionMenu();
+    setOpenRenameDialog(true);
+  };
+
+  const handleCloseRenameDialog = () => {
+    setOpenRenameDialog(false);
+  };
+
   return (
     <Grid container spacing={2}>
+      <Dialog
+        open={openRenameDialog}
+        onClose={handleCloseRenameDialog}
+        PaperProps={{
+          component: "form",
+          onSubmit: (event: React.FormEvent<HTMLFormElement>) => {
+            event.preventDefault();
+            const formData = new FormData(event.currentTarget);
+            const formJson = Object.fromEntries((formData as any).entries());
+            const newName = formJson.name;
+            console.log(newName);
+            props.onRenameMonster(props?.monster?.randomEncounterId, newName);
+            handleCloseRenameDialog();
+          },
+        }}
+      >
+        <DialogContent sx={{ py: 0 }}>
+          <TextField
+            autoFocus
+            margin="dense"
+            id="name"
+            name="name"
+            label="Nom"
+            type="text"
+            fullWidth
+            variant="standard"
+            InputLabelProps={{
+              sx: {
+                fontFamily: "Roboto",
+                fontWeight: 300,
+              },
+            }}
+            InputProps={{
+              sx: {
+                fontFamily: "Roboto",
+                fontWeight: 300,
+              },
+            }}
+          />
+        </DialogContent>
+        <DialogActions sx={{ justifyContent: "center" }}>
+          <Button
+            type="submit"
+            variant="contained"
+            sx={{
+              fontFamily: "roboto",
+              fontWeight: 300,
+              color: "white",
+              textTransform: "none",
+              textAlign: "center",
+            }}
+          >
+            Renommer
+          </Button>
+        </DialogActions>
+      </Dialog>
       <Grid item xs={5} sm={3} md={4} lg={4}>
         <Box
           style={{
@@ -136,7 +209,7 @@ function MonsterEncounterBlock(props: {
             }}
           >
             <MenuList sx={{ fontFamily: "roboto" }}>
-              <MenuItem>
+              <MenuItem onClick={handleClickOpenRenameDialog}>
                 <ListItemIcon>
                   <ModeEditIcon fontSize="small" />
                 </ListItemIcon>
