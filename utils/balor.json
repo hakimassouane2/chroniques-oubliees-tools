@@ -1,0 +1,310 @@
+[{
+  "_id": {
+    "$oid": "651c79ffead01fa697d76fa7"
+  },
+  "name": [
+    {
+      "value": "balor",
+      "label": "Balor"
+    }
+  ],
+  "appearance": [
+    {
+      "value": "<p>Ces seigneurs du feu de près de 3 mètres possèdent d’immenses ailes de chauve-souris. Ils manient un fouet ardent d’une main et une immense épée enflammée de l’autre.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "description": [
+    {
+      "value": "<p>Les Balors sont les plus célèbres et les plus puissants des démons. Le Balrog de la Moria est un exemple illustre de balor qui apparaît dans le Seigneur des anneaux. Ce sont des créatures d’une puissance démesurée dont la rencontre est à réserver aux héros les plus puissants.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "creature_family": [
+    {
+      "target_id": "9",
+      "label": "Démons et Diables"
+    }
+  ],
+  "environment": [
+    {
+      "value": "special",
+      "label": "Spécial"
+    }
+  ],
+  "archetype": [
+    {
+      "value": "fast",
+      "label": "Rapide"
+    }
+  ],
+  "boss_type": [
+    {
+      "value": "standard",
+      "label": "Standard"
+    }
+  ],
+  "boss_rank": [
+    {
+      "value": "4"
+    }
+  ],
+  "level": [
+    {
+      "value": "16"
+    }
+  ],
+  "category": [
+    {
+      "value": "humanoid",
+      "label": "Humanoïde"
+    }
+  ],
+  "size": [
+    {
+      "value": "huge",
+      "label": "Énorme"
+    }
+  ],
+  "str_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "str_comment": [],
+  "dex_mod": [
+    {
+      "value": "3"
+    }
+  ],
+  "dex_comment": [],
+  "con_mod": [
+    {
+      "value": "9"
+    }
+  ],
+  "con_comment": [],
+  "int_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "int_comment": [],
+  "wis_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "wis_comment": [],
+  "cha_mod": [
+    {
+      "value": "6"
+    }
+  ],
+  "cha_comment": [],
+  "sup_abilities": [
+    {
+      "value": "dex",
+      "label": "DEX"
+    },
+    {
+      "value": "con",
+      "label": "CON"
+    }
+  ],
+  "defense": [
+    {
+      "value": "28"
+    }
+  ],
+  "health_point": [
+    {
+      "value": "150"
+    }
+  ],
+  "dmg_reduction": [
+    {
+      "value": "15 / armes saintes"
+    }
+  ],
+  "init": [
+    {
+      "value": "17"
+    }
+  ],
+  "attacks": [
+    {
+      "value": "<p><strong>Épée enflammée</strong> +21 <strong>DM</strong> 3d6+9 + 2d6 feu<br />\r\n<strong>Fouet ardent&nbsp;</strong>(10 mètres) +21<strong>DM</strong> 2d6 de feu + enchevêtrement</p>\r\n",
+      "format": "simple_html",
+      "data": [
+        {
+          "name": "Épée enflammée",
+          "test": "+21",
+          "dm": "3d6+9",
+          "special": "+ 2d6 feu",
+          "reach": null
+        },
+        {
+          "name": "Fouet ardent (10 mètres)",
+          "test": "+21",
+          "dm": null,
+          "special": null,
+          "reach": "10"
+        }
+      ]
+    }
+  ],
+  "profile": [],
+  "profile_level": [],
+  "paths": [
+    {
+      "value": "<p><strong>Voie des créatures élémentaires</strong> rang 3<br />\r\n<strong>Voie des créatures magiques</strong> rang 3</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "special_capabilities": [
+    {
+      "value": "<p><em>Domination (L) :</em> le Balor doit gagner un test opposé de SAG contre sa cible pour la dominer (portée 20 mètres) pendant [1d6 + 7 tours]. En cas de succès, le démon peut contrôler les faits et gestes de sa cible comme s’il s’agissait d’un simple pantin ou lui donner des ordres qu’elle est obligée d’exécuter. Les créatures de niveau 10 et plus sont immunisées à ce pouvoir de même que les créatures dépourvues d’esprit comme les créatures mécaniques ou certains mort-vivants.</p>\r\n\r\n<p><em>Enchevêtrement :</em> lorsqu’un Balor réussit une attaque de fouet, la victime doit faire un test de FOR ou de DEX au choix difficulté 15 ou être <em>immobilisée</em> par le fouet pour un tour et subir 4d6 DM de feu au lieu de 2d6. Le Balor peut attirer à son contact une victime immobilisée en réussissant un test de FOR opposé. Attaquer avec son épée et son fouet au même tour demande au Balor une action limitée.</p>\r\n\r\n<p><em>Épée de feu vorpale :</em> lorsqu’il attaque avec son épée de feu, le Balor obtient des critiques sur 18-20 et en cas de critique la victime doit réussir un test de CON difficulté 15 ou être décapitée ! Elle est morte…</p>\r\n\r\n<p><em>Vol :</em> un Balor peut se déplacer en vol de 30 m par action de mouvement.</p>\r\n",
+      "format": "simple_html"
+    }
+  ],
+  "comments": [
+    {
+      "value": null,
+      "format": null
+    }
+  ],
+  "structured_capabilities": {
+    "89": {
+      "id": "89",
+      "name": "Voie des créatures magiques",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "408",
+          "label": "Réduction des DM",
+          "rank": "1",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n"
+        },
+        "2": {
+          "target_id": "409",
+          "label": "Vitalité surnaturelle",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n"
+        },
+        "3": {
+          "target_id": "410",
+          "label": "Immortel",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle tombe à 0 PV, la créature n’est pas définitivement détruite, elle est juste chassée et pourra se reconstituer en 24 heures. Parfois elle est simplement bannie dans un autre plan (démon ou élémentaire), d’autre fois, elle s’enfuit sous la forme d’un nuage de ténèbres (vampire). Il faut généralement un rituel spécial pour venir à bout de la créature.\r\n"
+        }
+      },
+      "rank": 3
+    },
+    "90": {
+      "id": "90",
+      "name": "Voie des créatures élémentaire [du feu]",
+      "type": "creature",
+      "capabilities": {
+        "1": {
+          "target_id": "411",
+          "label": "Souffle enflammé",
+          "rank": "1",
+          "is_limited": "1",
+          "is_magical": "0",
+          "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n"
+        },
+        "2": {
+          "target_id": "412",
+          "label": "Corps enflammé",
+          "rank": "2",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "La créature est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle inflige +1d6 DM de feu par attaque de contact réussie. Une créature qui l’attaque au contact subit 1d6 DM pour chaque attaque réussie. Si une victime est saisie ou agrippée par la créature, elle subit à chaque tour +1d6 de feu supplémentaire. Lorsqu’elle est au contact d’une source de feu importante, la créature régénère 5 PV par tour.\r\n"
+        },
+        "3": {
+          "target_id": "413",
+          "label": "Explosion finale",
+          "rank": "3",
+          "is_limited": "0",
+          "is_magical": "0",
+          "description": "Lorsqu’elle trépasse, la créature explose violemment en infligeant [NC] d6 DM de feu dans un rayon qui dépend de sa taille. Petite : 3 m, moyenne 5 m, grande 10 m, énorme 20 m, colossale 30 m. Un test de DEX difficulté 13 permet de diviser les DM par 2. La difficulté passe à 18 pour les créatures en combat au contact au moment de l’explosion. La capacité Corps enflammé inflige désormais 2d6 DM (au lieu de 1d6).\r\n"
+        }
+      },
+      "rank": 3
+    }
+  },
+  "capabilities": [
+    {
+      "target_id": "411",
+      "label": "Souffle enflammé",
+      "rank": "1",
+      "is_limited": "1",
+      "is_magical": "0",
+      "description": "Le souffle est une attaque de zone affectant toutes les créatures dans un cône de 10 m de long sur 5 m de large pour une créature moyenne ou grande (énorme 20 x 10 m et colossale 30 x 15 m). L’attaque inflige automatiquement (pas de test d’attaque) [(NC+2) x 1d6] DM (par exemple 6d6 pour NC 4). Les DM sont divisés par 2 si la victime réussit un test de DEX difficulté 13. La créature doit attendre 1d4 tours avant d’utiliser à nouveau son souffle après chaque utilisation. Pour plus de simplicité, lorsque les DM dépassent 6d6 chaque d6 supplémentaire est remplacé par un bonus de +3. Ainsi un dragon NC 14 aura un souffle infligeant [6d6 + 30] DM.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "412",
+      "label": "Corps enflammé",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est nimbée d’une aura de feu ou peut la faire surgir à volonté. Elle inflige +1d6 DM de feu par attaque de contact réussie. Une créature qui l’attaque au contact subit 1d6 DM pour chaque attaque réussie. Si une victime est saisie ou agrippée par la créature, elle subit à chaque tour +1d6 de feu supplémentaire. Lorsqu’elle est au contact d’une source de feu importante, la créature régénère 5 PV par tour.\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "413",
+      "label": "Explosion finale",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle trépasse, la créature explose violemment en infligeant [NC] d6 DM de feu dans un rayon qui dépend de sa taille. Petite : 3 m, moyenne 5 m, grande 10 m, énorme 20 m, colossale 30 m. Un test de DEX difficulté 13 permet de diviser les DM par 2. La difficulté passe à 18 pour les créatures en combat au contact au moment de l’explosion. La capacité Corps enflammé inflige désormais 2d6 DM (au lieu de 1d6).\r\n",
+      "paths": "Voie des créatures élémentaire [du feu]"
+    },
+    {
+      "target_id": "408",
+      "label": "Réduction des DM",
+      "rank": "1",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature est peu sensible aux DM provoqués par les armes, le métal rebondi sur elle comme un vulgaire morceau de bois ou alors la créature guérit immédiatement. Elle obtient une réduction des DM (RD) de 5, ce score est retranché à tous les DM subits. Choisissez un type d’arme qui ignore cette réduction : un certain métal ou un certain type d’armes ou encore la magie (armes et sorts). Par exemple les masses sur un squelette ou les armes en argent sur un lycanthrope. Vous pouvez augmenter cette réduction des DM à 10 au rang 2 et à 15 au rang 3.\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "409",
+      "label": "Vitalité surnaturelle",
+      "rank": "2",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "La créature guérit à un rythme fantastique, elle récupère 5 PV à la fin de chaque tour. Il existe parfois une source de DM qui permet d’empêcher cette régénération (le feu pour les trolls par exemple). Alternativement remplacez simplement la régénération par une vitalité extraordinaire (c’est souvent le cas des mort-vivants ou des créatures artificielles) : doublez ses PV ou ajoutez +20 PV (si ces PV de base sont inférieurs à 20).\r\n",
+      "paths": "Voie des créatures magiques"
+    },
+    {
+      "target_id": "410",
+      "label": "Immortel",
+      "rank": "3",
+      "is_limited": "0",
+      "is_magical": "0",
+      "description": "Lorsqu’elle tombe à 0 PV, la créature n’est pas définitivement détruite, elle est juste chassée et pourra se reconstituer en 24 heures. Parfois elle est simplement bannie dans un autre plan (démon ou élémentaire), d’autre fois, elle s’enfuit sous la forme d’un nuage de ténèbres (vampire). Il faut généralement un rituel spécial pour venir à bout de la créature.\r\n",
+      "paths": "Voie des créatures magiques"
+    }
+  ],
+  "picture": [
+    {
+      "target_id": "933",
+      "alt": "Balor",
+      "title": "",
+      "width": "1024",
+      "height": "1024",
+      "label": "balor-modified.png",
+      "creature_token_url": "/creatures/images/balor.png"
+    }
+  ]
+}]
